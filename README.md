@@ -2,6 +2,8 @@
 
 Multi-market transformer trading POC. Hand-designed state vectors, agent-driven data scraping, walk-forward backtests with realistic execution costs.
 
+> **Read first**: [`LIMITATIONS.md`](LIMITATIONS.md) — honest documentation of what the flagship-B results actually show, what the model is and isn't doing, and the specific work needed to validate the methodology as a real trading edge. This is a proof-of-concept artifact, not a validated strategy.
+
 ## What this is
 
 For each candidate market (Kalshi, Polymarket, Betfair Exchange, Hyperliquid, ...) we:
@@ -73,6 +75,8 @@ Every pipeline stage has a test. The label-shuffle sanity check in `tests/test_b
 
 ## Documentation
 
+- [`LIMITATIONS.md`](LIMITATIONS.md): **read first** — what the flagship results actually show, what's real vs overclaimed, and what work remains
 - `ARCHITECTURE.md`: pipeline diagram, state-vector design, why each stage exists
 - `ONBOARDING.md`: walk a fresh agent through reproducing the leaderboard
 - `markets/<slug>.yaml`: per-market thesis in the `notes` field
+- `research/per-market/earnings-flagship.md`: full flagship-B writeup with sweep + ablation results

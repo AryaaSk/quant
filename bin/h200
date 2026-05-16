@@ -112,10 +112,13 @@ case "$cmd" in
 
   pull)
     [[ $# -ge 1 ]] || { echo "usage: h200 pull <remote-path-relative-to-quant>" >&2; exit 1; }
+    # Strip trailing slash so rsync keeps the source dirname (rsync semantics:
+    # `srcdir/` copies contents, `srcdir` copies the dir itself with its name).
+    src="${1%/}"
     mkdir -p "$REPO_ROOT/runs"
-    echo ">> rsync $H200_USER@$H200_HOST:$H200_REMOTE_DIR/$1 → $REPO_ROOT/runs/"
+    echo ">> rsync $H200_USER@$H200_HOST:$H200_REMOTE_DIR/$src → $REPO_ROOT/runs/"
     rsync -avz -e "$RSYNC_SSH" \
-      "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/$1" "$REPO_ROOT/runs/"
+      "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/$src" "$REPO_ROOT/runs/"
     ;;
 
   nvidia)
