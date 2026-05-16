@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "RIOT",
+  "queries": [
+    "RIOT earnings preview 2022 Qq",
+    "RIOT earnings preview 2022 Qq",
+    "RIOT earnings preview 2022 Qq",
+    "RIOT earnings preview 2022 Qq",
+    "RIOT earnings preview 2023 Qq",
+    "RIOT earnings preview 2023 Qq",
+    "RIOT earnings preview 2023 Qq",
+    "RIOT earnings preview 2023 Qq",
+    "RIOT earnings preview 2024 Qq",
+    "RIOT earnings preview 2024 Qq",
+    "RIOT earnings preview 2024 Qq",
+    "RIOT earnings preview 2024 Qq",
+    "RIOT stock news preview",
+    "RIOT guidance outlook quarterly results",
+    "RIOT analyst expectations",
+    "RIOT retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/RIOT",
+  "max_articles": 80
+}

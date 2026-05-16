@@ -1,0 +1,9 @@
+{
+  "url": "https://www.prnewswire.com/news-releases/cleanspark-provides-update-on-hurricane-helene-302263020.html",
+  "title": "CleanSpark Provides Update on Hurricane Helene Impact",
+  "published_at": "2024-09-28T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "CleanSpark shut down 365 megawatts (MW) of its mining capacity in Southeast Georgia in preparation for Hurricane Helene. The goal was to relieve strain on the local power grid and ensure the safety of its employees. CleanSpark reported no material damage to any site infrastructure and is not aware of any material losses related to their mining servers. Despite the shutdown, the company demonstrated strong resilience: CleanSpark's geographically diverse portfolio of sites allowed it to maintain approximately 10.5 EH/s at sites in Northwest Georgia, Mississippi, and Tennessee throughout the storm. Within 24 hours, the company was able to bring hashrate back to over 17.5 EH/s. Approximately 200 MW was brought back online with the remaining 165 MW expected to be brought online in the coming week. CleanSpark's hashrate was at approximately 22 EH/s, with the company expecting to reach standard operations at approximately 28 EH/s when sites are fully reenergized.",
+  "topic": "CLSK",
+  "source_type": "news_scraper.CLSK"
+}

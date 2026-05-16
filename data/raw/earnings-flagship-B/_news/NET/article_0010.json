@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cloudflare.com/press/press-releases/2024/cloudflare-acquires-bastionzero-to-add-zero-trust-infrastructure-access/",
+  "title": "Cloudflare Acquires BastionZero to Add Zero Trust Infrastructure Access Controls for Cloudflare One",
+  "published_at": "2024-05-30T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Cloudflare announced the acquisition of BastionZero, a Zero Trust infrastructure access platform, to strengthen remote access to core IT systems for customers of Cloudflare One. Combined with existing Cloudflare One capabilities, the acquisition gives IT and security teams Zero Trust controls for infrastructure like servers, Kubernetes clusters, and databases. This expands the scope of Cloudflare's VPN replacement solution beyond apps and networks to infrastructure resources, allowing security teams to centralize management of their hybrid IT environment while using standard Zero Trust practices. The BastionZero acquisition represents the most significant 2024 announcement regarding Cloudflare's zero trust network access, expanding the platform's capabilities to cover infrastructure access in addition to application and network access.",
+  "topic": "NET",
+  "source_type": "news_scraper.NET"
+}

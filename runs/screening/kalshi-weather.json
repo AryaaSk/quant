@@ -1,0 +1,21 @@
+{
+  "slug": "kalshi-weather",
+  "display_name": "Kalshi weather outcomes",
+  "platform": "kalshi",
+  "notes": "Hurricane landfall, temperature records, snowfall totals. Information edge: NOAA and\nECMWF ensemble forecast disagreement signals model uncertainty that retail bettors\nignore. The transformer learns to weight ensemble members against historical accuracy.\n",
+  "model": "transformer",
+  "state_dim": 512,
+  "data_sources": [
+    "kalshi_contracts",
+    "fred"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "kalshi_contracts": "not_implemented: adapter 'Kalshi' is not implemented yet.\n  Source role: Kalshi event contract closing prices via https://trading-api.readme.io/reference/getmarkets (env KALSHI_EMAIL/PASSWORD) or third-party predictiondata.dev archive.\n  Implement quant/adapters/kalshi.py with class signature `fetch(market, source_params) -> DataFrame`.",
+    "fred": "error: FRED_API_KEY is not set. Get a free key at https://fred.stlouisfed.org/docs/api/api_key.html and add to .env."
+  },
+  "events_per_year": null,
+  "score": 68.3,
+  "verdict": "kill: 2/2 sources unimplemented",
+  "advance": false
+}

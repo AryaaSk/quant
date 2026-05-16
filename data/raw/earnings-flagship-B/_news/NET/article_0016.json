@@ -1,0 +1,9 @@
+{
+  "url": "https://www.tom-hardware/tech-industry/cloudflare-cuts-20-of-its-jobs-due-to-ai-and-its-stock-takes-a-19-spill/",
+  "title": "Cloudflare cuts 20% of its jobs due to AI, and its stock takes a 19% spill",
+  "published_at": "2026-05-08T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Cloudflare announced a 20% workforce reduction equivalent to 1,100 jobs disappearing as the company increased usage of AI sixfold over recent months. The company reported record quarterly revenue of $639.8 million, up 34% year-over-year, even as shares declined approximately 19% following the announcement of the restructuring and slightly below-expected guidance. CEO Matthew Prince cited AI-driven productivity gains as the rationale for the reduction, stating that the company experienced a fundamental shift in how work is accomplished. The company's internal AI usage surged over 600% in just three months, with autonomous AI agents now reviewing 100% of deployed code. Research and development staff extensively utilize Cloudflare's Workers platform with AI coding features. The market reacted negatively to the combination of strong revenue results, modest guidance, and significant headcount reduction, interpreting it as evidence of slowing growth despite management's assertions that the cuts represent a structural transformation rather than cost reduction.",
+  "topic": "NET",
+  "source_type": "news_scraper.NET"
+}

@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "oscars-best-supporting-actor",
+  "queries": [
+    "oscars-best-supporting-actor predictions analysis",
+    "oscars-best-supporting-actor oddsmaker pick analysis",
+    "oscars-best-supporting-actor critic commentary preview",
+    "oscars-best-supporting-actor expert forecast roundup",
+    "oscars-best-supporting-actor variety deadline hollywood reporter",
+    "oscars-best-supporting-actor indiewire commentary",
+    "oscars-best-supporting-actor rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/oscars-best-supporting-actor",
+  "max_articles": 25
+}

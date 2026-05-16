@@ -1,0 +1,58 @@
+slug: betfair-brazil-serieb
+display_name: Betfair Brazilian Serie B match outcomes
+platform: betfair
+notes: |
+  Brazilian Serie B has £15k-£80k per match matched volume on Betfair Exchange but is
+  ignored by Western sharp syndicates. Information edge: Portuguese-language press,
+  regional injury reports, long-travel fatigue (Brazilian distances), referee tendencies.
+time_grain: daily
+held_out_months: 6
+sequence_length: 32
+model: transformer
+data_sources:
+  - name: football_data
+    kind: numeric
+    params:
+      leagues: [BRA2]
+  - name: sofascore
+    kind: text
+    params:
+      leagues: [BRA-Serie-B]
+label:
+  kind: binary
+  target_event: home_win
+state_vector:
+  dim: 512
+  blocks:
+    - name: form_numeric
+      slots: "0:192"
+      builder: numeric
+      params:
+        series: [home_xg_5, away_xg_5, home_xga_5, away_xga_5, home_form_pts, away_form_pts, home_rest_days, away_rest_days, home_travel_km, ref_yellow_per_match]
+    - name: market_state
+      slots: "192:288"
+      builder: market_state
+      params:
+        series: [home_decimal_odds, away_decimal_odds, draw_decimal_odds]
+        velocity_lags: [1, 3]
+    - name: text_features
+      slots: "288:496"
+      builder: text
+      params:
+        mode: handcrafted
+        window_days: 7
+        entity_keywords: [lesionado, suspenso, escalação, desfalque, técnico, contundido]
+    - name: calendar
+      slots: "496:512"
+      builder: calendar
+      params: {}
+transformer:
+  layers: 8
+  model_dim: 384
+  heads: 8
+backtest:
+  commission_bps: 500   # Betfair 5% commission on profit (encoded approximately)
+  base_slippage_bps: 50
+  safety_margin_bps: 150
+  kelly_fraction: 0.25
+  kelly_cap: 0.02

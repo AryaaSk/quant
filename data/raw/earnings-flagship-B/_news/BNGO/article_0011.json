@@ -1,0 +1,9 @@
+{
+  "url": "https://www.stocktitan.net/news/BNGO/bionano-announces-upgrades-to-its-software-and-compute-platforms-to-kqn5g80x8spv.html",
+  "title": "Bionano's New AI Software Doubles Cancer Sample Analysis Speed, Transforms Genomic Testing Workflow",
+  "published_at": "2025-08-05T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Bionano Genomics (NASDAQ: BNGO) announced significant enhancements to its genomic analysis tools on August 5, 2025. VIA 7.2 introduces AI-powered workflow transformation for constitutional genetic disorders and enables the software to learn from historical lab data, accelerating interpretation speed. It extends SAP (significance associated with phenotype) scoring to optical genome mapping data for the first time. Solve 3.8.3 expands the structural variants control database by 18%, enhancing detection capabilities for genetic variations. The upgraded Stratys Compute server, which utilizes GPU technology, now enables labs to double the number of cancer samples that can be analyzed per week and includes analysis pipelines previously limited to CPU-based systems. These updates will initially reach 20 early access users, with broader commercial availability anticipated in Q4 2025. On the announcement date, BNGO stock gained 0.99%, indicating modest positive investor sentiment toward the developments. A scaled Stratus workflow can process up to 10,000 cancer samples per year versus approximately 240 for a similar high-throughput long-read sequencing platform.",
+  "topic": "BNGO",
+  "source_type": "news_scraper.BNGO"
+}

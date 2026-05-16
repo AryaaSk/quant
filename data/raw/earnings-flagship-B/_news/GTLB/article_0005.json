@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/gtlb-q2-deep-dive-market-132104653.html",
+  "title": "GTLB Q2 Deep Dive: Go-to-Market Changes and AI Strategy Shape Outlook",
+  "published_at": "2025-09-04T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "GitLab delivered mixed quarterly results that sparked a negative market reaction despite beating expectations. The company reported revenue of $236 million, representing 29.2% year-over-year growth and surpassing analyst estimates by 4%. Forward guidance disappointed, with Q3 revenue guidance coming in below Wall Street expectations. The DevSecOps platform provider achieved an adjusted EPS of $0.24, significantly exceeding the $0.16 consensus estimate. Management raised full-year EPS guidance to $0.83, reflecting improved operational efficiency with adjusted operating margins expanding to 16.8%. Management emphasized that enterprise expansion combined with targeted new customer acquisition represents the company's primary focus moving forward. The organization is implementing a hybrid sales model combining traditional sales-led and product-led growth approaches to accelerate new business development. The company acknowledged persistent softness in small and medium-sized business segments, citing budget constraints and pricing sensitivity among these customers. Leadership transitions, including CFO departures, signal organizational restructuring aimed at supporting future growth phases.",
+  "topic": "GTLB",
+  "source_type": "news_scraper.GTLB"
+}

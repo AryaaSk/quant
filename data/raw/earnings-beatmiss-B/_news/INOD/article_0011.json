@@ -1,0 +1,9 @@
+{
+  "url": "https://www.investing.com/news/company-news/innodata-to-provide-data-engineering-services-for-palantirs-rodeo-ai-93CH-4473242",
+  "title": "Innodata to Provide Data Engineering Services for Palantir's Rodeo AI",
+  "published_at": "2026-01-29T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "Innodata Inc. (NASDAQ: INOD) has entered into a partnership with Palantir Technologies (NASDAQ: PLTR) to supply training data and data engineering services for AI-enabled rodeo event analysis platforms. The collaboration centers on annotating and processing thousands of hours of rodeo video footage to train computer vision models. These models will identify animals, riders, and skeletal joint positions to automatically calculate performance metrics across bull riding, bronc riding, bareback riding, and barrel racing competitions. Innodata teams will integrate directly into Palantir's development processes, handling video, imagery, documents, and multimodal sensor data. According to Dimitrios Lymperopoulos, Head of Machine Learning at Palantir: Innodata's high-quality training data and data engineering expertise can help us scale capabilities with the precision his customers require. Vinay Malkani, Senior Vice President of Innodata Federal, emphasized that the partnership reinforces Innodata's role as a trusted data engineering partner among leading AI companies. Innodata, valued at $1.78 billion, has achieved 73.57% revenue growth over the past year. The company was recently recognized by Wedbush Securities as one of 30 firms shaping AI's future and currently serves five major tech companies alongside numerous Fortune 1000 enterprises.",
+  "topic": "INOD",
+  "source_type": "news_scraper.INOD"
+}

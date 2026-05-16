@@ -1,0 +1,9 @@
+{
+  "url": "https://seekingalpha.com/news/4503677-power-integrations-surges-as-much-as-24-on-nvidia-data-center-collaboration",
+  "title": "Power Integrations surges as much as 24% on Nvidia data center collaboration",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Power Integrations stock surged significantly following announcement of collaboration with NVIDIA on 800VDC data center power solutions. The partnership represents a major validation of Power Integrations' PowiGaN technology for high-voltage applications. Power Integrations' high-voltage GaN devices are designed for main and auxiliary power supplies in next-generation AI data centers. The 1250V devices exceed 98% efficiency while 1700V devices support 1000 VDC inputs with greater than 90% system efficiency. The collaboration leverages Power Integrations' automotive-grade reliability track record in GaN devices, which has accumulated over a trillion hours of operation with extremely low failure rates. The 800VDC architecture is expected to improve end-to-end efficiency by up to 5%, reduce maintenance costs by up to 70%, and lower cooling expenses. This partnership positions Power Integrations as a key supplier for the AI infrastructure buildout, a market expected to grow significantly over the next several years. The stock market reaction demonstrated strong investor enthusiasm for the growth opportunity.",
+  "topic": "POWI",
+  "source_type": "news_scraper.POWI"
+}

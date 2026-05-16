@@ -1,0 +1,6 @@
+size_name,status,n_params_m,layers,model_dim,heads,dropout,brier_improvement,net_return,n_trades,hit_rate,sharpe,elapsed_s,run_dir
+11M,remote_failed,11.255808,,,,,,,,,,,
+33M,remote_failed,32.80896,,,,,,,,,,,
+4M,remote_failed,3.571712,,,,,,,,,,,
+117M,remote_failed,117.096448,,,,,,,,,,,
+203M,remote_failed,203.030528,,,,,,,,,,,

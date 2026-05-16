@@ -1,0 +1,17 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "INOD",
+  "queries": [
+    "INOD earnings preview 2014 Qq",
+    "INOD earnings preview 2014 Qq",
+    "INOD earnings preview 2014 Qq",
+    "INOD earnings preview 2014 Qq",
+    "INOD earnings preview 2015 Qq",
+    "INOD stock news preview",
+    "INOD guidance outlook quarterly results",
+    "INOD analyst expectations",
+    "INOD retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/INOD",
+  "max_articles": 30
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/aehr-receives-25-1-million-150000803.html",
+  "title": "Aehr Test Systems Receives $25.1 Million Order for FOX-XP Test Systems",
+  "published_at": "2023-01-20T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Aehr Test Systems announced receiving a $25.1 million follow-on order from a major Fortune 500 semiconductor supplier for FOX-XP wafer-level test and burn-in systems. The systems will support production of silicon carbide power devices used in electric vehicles. The customer ordered a significant quantity of FOX-XP systems configured to test 18 silicon carbide wafers simultaneously while evaluating 100% of devices on each wafer. Shipments are scheduled from Aehr's fiscal fourth quarter beginning March 1, 2023 through fiscal second quarter 2024 ending November 30, 2023. CEO Gayn Erickson stated: This single order for our FOX-XP 18-wafer systems represents a significant ramp-up in test capacity for this customer, increasing their capacity for wafer-level burn-in by over 50 percent. The announcement highlighted market growth projections, noting that silicon carbide wafer demand for electric vehicles alone is forecast to expand from 119,000 wafers in 2021 to over 4.1 million by 2030, representing a 48.4% compound annual growth rate.",
+  "topic": "AEHR",
+  "source_type": "news_scraper.AEHR"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://crisprmedicinenews.com/news/beam-therapeutics-reports-clinical-proof-of-concept-data-for-beam-302-in-alpha-1-antitrypsin-deficie/",
+  "title": "BEAM Therapeutics Clinical Proof of Concept for AATD Treatment",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Beam Therapeutics reported clinical proof-of-concept data demonstrating BEAM-302's ability to achieve first-ever clinical genetic correction of disease-causing mutations in alpha-1 antitrypsin deficiency patients. The base editing approach uses CRISPR protein bound to guide RNA leveraging CRISPR's DNA-targeting ability without causing double-stranded breaks, combined with deaminase enzyme for precise targeting and editing of single or multiple base pairs. Approximately 30,000 out of 50,000+ human disease-causing variants are point mutations that could potentially be addressed through base editing technology. BEAM-302 demonstrated robust ability to correct mutated AAT genes in liver cells, with patients achieving functional protein levels exceeding protective thresholds. This represents significant progress in the field of genetic medicine and establishes a new paradigm for treating genetic diseases with single genetic mutations.",
+  "topic": "BEAM",
+  "source_type": "news_scraper.BEAM"
+}

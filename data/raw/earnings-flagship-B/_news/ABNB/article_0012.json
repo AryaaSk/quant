@@ -1,0 +1,9 @@
+{
+  "url": "https://chicagopolicyreview.org/2024/01/31/behind-nycs-tightening-restrictions-on-airbnb-and-short-term-rentals/",
+  "title": "Behind NYC's Tightening Restrictions on Airbnb and Short-Term Rentals",
+  "published_at": "2024-01-31T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "New York City implemented a municipal policy on September 5, 2023, mandating that all hosts offering rentals for less than 30 days register with the city, known as Local Law 18. The law prohibits individuals from renting out residences for less than 30 days unless they are physically present during guests' stay. Hosts found in violation face fines of up to $5,000 for repeat offenses, while platforms like Airbnb are fined up to $1,500 for facilitating illegal rental transactions. The impact has been significant: Data suggests a 77% decrease in Airbnb listings in NYC compared to June 4. In San Francisco, hosts must register with the city and obtain a permit to operate, with fines ranging from $484 to $1,000 per day. Dallas has blocked vacation properties in certain residential neighborhoods, Barcelona outlawed all short-term room rentals in private homes. San Francisco and Seattle limit the number of properties a host can list. Airbnb withholds crucial data about who posts a property, making it nearly impossible for cities to monitor activity.",
+  "topic": "ABNB",
+  "source_type": "news_scraper.ABNB"
+}

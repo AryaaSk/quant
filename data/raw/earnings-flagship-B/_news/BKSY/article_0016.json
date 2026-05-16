@@ -1,0 +1,9 @@
+{
+  "url": "https://thedefensepost.com/2026/05/07/blacksky-international-satellite-service/",
+  "title": "BlackSky Secures $30M Space-Based ISR Subscription Deal",
+  "published_at": "2026-05-07T00:00:00Z",
+  "scraped_at": "2026-05-16T18:00:00Z",
+  "text": "Overview: BlackSky Technology has won a nearly $30 million contract from an international defense customer for space-based intelligence, surveillance, and reconnaissance services. The one-year agreement represents a significant expansion from an earlier trial program that was completed in under six months. Key Details: The contract utilizes BlackSky's Assured service model, which offers prioritized satellite tasking and guaranteed data collection. CEO Brian O'Toole stated that the customer required a true tactical ISR framework capable of matching the sophistication and speed of their day-to-day mission. Technical Capabilities: BlackSky's Gen-3 satellite constellation recently achieved general availability following the deployment of a fourth satellite. The imaging satellites deliver approximately 35-centimeter resolution, enabling detailed ground observation. The company's Spectra platform allows users to task satellites and access daytime, nighttime, and multi-image datasets while incorporating automated analytics to identify vehicles, aircraft, and vessels. Market Context: The award reflects growing momentum for Gen-3 services as defense customers increasingly prioritize rapid, recurring imagery collection with minimal latency. BlackSky operates a low Earth orbit constellation and focuses on near real-time tactical ISR data delivery through subscription-based models.",
+  "topic": "BKSY",
+  "source_type": "news_scraper.BKSY"
+}

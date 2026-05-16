@@ -1,0 +1,25 @@
+{
+  "slug": "kalshi-fda",
+  "display_name": "Kalshi FDA approval outcomes",
+  "platform": "kalshi",
+  "notes": "Highest information asymmetry candidate. Clinical trial results, AdCom briefing\ndocuments, company SEC filings, and biotech-Twitter sentiment all leak ahead of\ndecisions. Low event count (a few dozen approval decisions per year on Kalshi) means\nLightGBM is the right model class, not a transformer.\n",
+  "model": "gbdt",
+  "state_dim": 256,
+  "data_sources": [
+    "kalshi_contracts",
+    "clinicaltrials",
+    "sec_edgar",
+    "news_scraper"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "kalshi_contracts": "not_implemented: adapter 'Kalshi' is not implemented yet.\n  Source role: Kalshi event contract closing prices via https://trading-api.readme.io/reference/getmarkets (env KALSHI_EMAIL/PASSWORD) or third-party predictiondata.dev archive.\n  Implement quant/adapters/kalshi.py with class signature `fetch(market, source_params) -> DataFrame`.",
+    "clinicaltrials": "not_implemented: adapter 'ClinicalTrials.gov' is not implemented yet.\n  Source role: trial registrations + status via https://clinicaltrials.gov/api/. source_params['nct_ids'] optional.\n  Implement quant/adapters/clinicaltrials.gov.py with class signature `fetch(market, source_params) -> DataFrame`.",
+    "sec_edgar": "not_implemented: adapter 'SEC EDGAR' is not implemented yet.\n  Source role: SEC company filings via https://www.sec.gov/edgar.shtml. source_params['ciks'] = list of CIKs.\n  Implement quant/adapters/sec edgar.py with class signature `fetch(market, source_params) -> DataFrame`.",
+    "news_scraper": "not_implemented: adapter 'News scraper' is not implemented yet.\n  Source role: generic article scraper used by agent orchestration (Claude/Codex). source_params['urls'] or ['queries']. Outputs (timestamp, text, source_url) rows.\n  Implement quant/adapters/news scraper.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 54.8,
+  "verdict": "kill: 4/4 sources unimplemented",
+  "advance": false
+}

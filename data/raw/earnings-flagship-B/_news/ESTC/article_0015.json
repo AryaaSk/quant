@@ -1,0 +1,9 @@
+{
+  "url": "https://www.businesswire.com/news/home/20220210005920/en/Elastic-Announces-the-General-Availability-of-Elastic-8.0",
+  "title": "Elastic Announces the General Availability of Elastic 8.0",
+  "published_at": "2022-02-10T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Elastic announced the general availability of Elastic 8.0, introducing significant new capabilities and features. Elasticsearch 8.0 Security Features: The release includes a streamlined security experience and expanded security features across the Elastic platform with new default security settings. Key Product Updates: Native Vector Search—Addition of native NLP support with vector search enables users to perform inference within Elasticsearch, resulting in faster and more relevant search results. Users can now leverage enhanced vector search capabilities, including the general availability of native support for approximate nearest neighbor (ANN) search, to quickly and efficiently perform queries on enormous data sets such as documents, images, audio files, and more. Simplified Data Onboarding: Organizations can use vector search with NLP support to deliver faster, more relevant customer support information, improve customer shopping experiences with unique product alternatives, and enhance search accessibility by providing unique audio and visual search results. Use Cases: The enhancements enable organizations to improve operational efficiency, deliver superior customer experiences, and make faster decisions with security-first data platforms. Elasticsearch 8.0 represents a major step forward in enabling enterprises to solve their biggest business challenges with scalable search technology.",
+  "topic": "ESTC",
+  "source_type": "news_scraper.ESTC"
+}

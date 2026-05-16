@@ -1,0 +1,8 @@
+{
+  "slug": "hyperliquid-midcap",
+  "held_out_start": "2026-04-15T00:00:00",
+  "last_event_observed": "2026-05-15T13:00:00",
+  "locked_at": "2026-05-15T12:42:20.134086",
+  "held_out_months": 1,
+  "note": "This window is locked write-once. Training MUST NOT load events with target_event_time >= held_out_start. The walk-forward backtest evaluates exactly here."
+}

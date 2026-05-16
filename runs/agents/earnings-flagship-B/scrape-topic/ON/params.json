@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "ON",
+  "queries": [
+    "ON earnings preview 2020 Qq",
+    "ON earnings preview 2020 Qq",
+    "ON earnings preview 2021 Qq",
+    "ON earnings preview 2021 Qq",
+    "ON earnings preview 2021 Qq",
+    "ON earnings preview 2021 Qq",
+    "ON earnings preview 2022 Qq",
+    "ON earnings preview 2022 Qq",
+    "ON earnings preview 2022 Qq",
+    "ON earnings preview 2022 Qq",
+    "ON earnings preview 2023 Qq",
+    "ON earnings preview 2023 Qq",
+    "ON earnings preview 2023 Qq",
+    "ON earnings preview 2023 Qq",
+    "ON earnings preview 2024 Qq",
+    "ON earnings preview 2024 Qq",
+    "ON earnings preview 2024 Qq",
+    "ON stock news preview",
+    "ON guidance outlook quarterly results",
+    "ON analyst expectations",
+    "ON retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ON",
+  "max_articles": 30
+}

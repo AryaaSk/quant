@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/sectors/technology/article/meta-stock-sinks-after-q1-earnings-as-company-raises-2026-ai-spending-forecast-to-125-billion-145-billion-160136308.html",
+  "title": "Meta Q1 Earnings and AI Spending Forecast",
+  "published_at": "2026-04-29T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Meta exceeded Wall Street expectations with Q1 2026 earnings per share of $10.44 and revenue of $56.3 billion, surpassing analyst forecasts of $8.15 EPS and $55.5 billion in revenue. Despite beating expectations, stock fell 10% due to upward capex revision. Meta raised 2026 capex forecast to $125-145 billion from $115-135 billion, attributing increase to higher component pricing and data center costs. Daily active users increased 4% to 3.56 billion. Ad impressions rose 19% year-over-year. Cost per advertisement rose 12%. The company announced 10% headcount reduction (8,000 employees) while simultaneously expanding AI infrastructure investments, representing strategic shift toward artificial intelligence capabilities.",
+  "topic": "AI",
+  "source_type": "news_scraper.AI"
+}

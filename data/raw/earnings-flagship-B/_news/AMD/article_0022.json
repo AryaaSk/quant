@@ -1,0 +1,9 @@
+{
+  "url": "https://www.heygotrade.com/en/blog/ai-chip-rotation-nvidia-intel-amd-portfolio/",
+  "title": "AI Chip Rotation 2026: Should You Trim Nvidia, Buy Intel and AMD?",
+  "published_at": "2026-02-15T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "HeyGoTrade analysis examines the AI chip market rotation happening in 2026 as investors diversify away from NVIDIA into AMD and Intel. The analysis highlights several factors driving this rotation: CPU market resurgence driven by agentic AI workloads, AMD's competitive position in both CPUs and GPUs, and NVIDIA's high valuation creating opportunities elsewhere. AMD's server CPU forecasts have been doubled to $120 billion by 2030 as agentic AI requires CPU-intensive orchestration. This structural shift favors AMD, which offers integrated CPU-GPU solutions. The article recommends a balanced approach: maintain core NVIDIA exposure but rotate portion of gains into AMD for diversification. Intel is considered a turnaround story with longer timeline. AMD offers better near-term upside with clear visibility into EPYC growth and MI450 ramp. The broader semiconductor market is shifting from GPU-centric to system-level competition, favoring companies like AMD that can offer complete solutions.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

@@ -1,0 +1,15 @@
+<!doctype html>
+<html><head><title>betfair-eng-l1l2 backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Betfair English League One+Two match outcomes (betfair-eng-l1l2)</h1>
+<p>League One and Two: £10k-£50k matched volume per match, almost entirely recreational
+counterparty (accumulators, parlays). Information edge: local club news, loan moves,
+weather on lower-tier pitches, referee tendencies, fixture congestion.
+V1 of this market uses Football-Data.co.uk for results + closing odds + rolling form.
+V2 will layer Sofascore text for injury/lineup signals once that adapter ships.
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>0.40520264434283054</pre></td></tr><tr><td>brier_market</td><td><pre>0.2451664420506288</pre></td></tr><tr><td>brier_improvement</td><td><pre>-0.16003620229220175</pre></td></tr><tr><td>accuracy_model</td><td><pre>0.5357142857142857</pre></td></tr><tr><td>accuracy_market</td><td><pre>0.4642857142857143</pre></td></tr><tr><td>n_events</td><td><pre>28</pre></td></tr><tr><td>n_trades</td><td><pre>28</pre></td></tr><tr><td>hit_rate</td><td><pre>0.4642857142857143</pre></td></tr><tr><td>gross_return</td><td><pre>-0.0790915070364353</pre></td></tr><tr><td>net_return</td><td><pre>-0.0790915070364353</pre></td></tr><tr><td>sharpe</td><td><pre>-0.7179599387812452</pre></td></tr><tr><td>max_drawdown</td><td><pre>-0.09237733075631725</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.8693147999999998,
+  "elapsed_s": 352.55231380462646,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 349586,
+    "duration_api_ms": 364855,
+    "ttft_ms": 3071,
+    "num_turns": 62,
+    "result": "## \u2705 Scraping Complete\n\nI've successfully gathered **25 high-quality articles** about the 2026 Oscars Best Picture winner and saved them to your data directory. Here's what was collected:\n\n**Coverage includes:**\n- **Predictions & Analysis** \u2014 Pre-ceremony forecasts from Variety, Deadline, Hollywood Reporter, IndieWire, The Ringer, Gold Derby, Boston.com\n- **Expert Picks** \u2014 Scott Feinberg's Forecast, Pete Hammond analysis, Anne Thompson commentary  \n- **Betting & Markets** \u2014 Polymarket, Kalshi, and PrizePicks odds with $100M+ in trading volume\n- **Post-Ceremony Results** \u2014 Victory analysis, acceptance speeches, breakdown of One Battle After Another vs. Sinners performance\n- **Film Rankings** \u2014 Rotten Tomatoes Tomatometer rankings, critical commentary on all 10 nominees\n- **Supporting Coverage** \u2014 NPR, Al Jazeera, Euronews, Yahoo Entertainment ceremony recap\n\n**Key Data Points Captured:**\n- Pre-ceremony odds: One Battle After Another favored at 75-77%, Sinners at 18-22%\n- Precursor awards dominance (PGA, DGA, BAFTA, Golden Globes, Critics Choice)\n- Record 16 nominations for Sinners vs. 13 for One Battle After Another\n- Paul Thomas Anderson's historic first Best Director win after 11 nominations\n- Michael B. Jordan's Best Actor victory for Sinners\n- Final results: One Battle After Another won 6 Oscars, Sinners 4\n\n**Saved to:** `/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/oscars-2026-best-picture-winner/`\n- 25 JSON files (article_0001.json \u2192 article_0025.json)\n- Manifest: `_done` file with count=25 at=2026-05-15T12:00:00Z\n\nAll articles follow your strict schema with proper timestamps, cleaned text, and source attribution.",
+    "stop_reason": "end_turn",
+    "session_id": "b15b94e4-81fe-4f8b-88e2-7486a849558f",
+    "total_cost_usd": 0.8693147999999998,
+    "usage": {
+      "input_tokens": 7461,
+      "cache_creation_input_tokens": 48554,
+      "cache_read_input_tokens": 924853,
+      "output_tokens": 18080,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 48554,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 7,
+          "output_tokens": 760,
+          "cache_read_input_tokens": 77583,
+          "cache_creation_input_tokens": 345,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 345
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 436462,
+        "outputTokens": 29935,
+        "cacheReadInputTokens": 924853,
+        "cacheCreationInputTokens": 48554,
+        "webSearchRequests": 13,
+        "costUSD": 0.8693147999999998,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "a8e4fb2b-ad89-4d6c-9892-731d543c1f18"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":349586,\"duration_api_ms\":364855,\"ttft_ms\":3071,\"num_turns\":62,\"result\":\"## \u2705 Scraping Complete\\n\\nI've successfully gathered **25 high-quality articles** about the 2026 Oscars Best Picture winner and saved them to your data directory. Here's what was collected:\\n\\n**Coverage includes:**\\n- **Predictions & Analysis** \u2014 Pre-ceremony forecasts from Variety, Deadline, Hollywood Reporter, IndieWire, The Ringer, Gold Derby, Boston.com\\n- **Expert Picks** \u2014 Scott Feinberg's Forecast, Pete Hammond analysis, Anne Thompson commentary  \\n- **Betting & Markets** \u2014 Polymarket, Kalshi, and PrizePicks odds with $100M+ in trading volume\\n- **Post-Ceremony Results** \u2014 Victory analysis, acceptance speeches, breakdown of One Battle After Another vs. Sinners performance\\n- **Film Rankings** \u2014 Rotten Tomatoes Tomatometer rankings, critical commentary on all 10 nominees\\n- **Supporting Coverage** \u2014 NPR, Al Jazeera, Euronews, Yahoo Entertainment ceremony recap\\n\\n**Key Data Points Captured:**\\n- Pre-ceremony odds: One Battle After Another favored at 75-77%, Sinners at 18-22%\\n- Precursor awards dominance (PGA, DGA, BAFTA, Golden Globes, Critics Choice)\\n- Record 16 nominations for Sinners vs. 13 for One Battle After Another\\n- Paul Thomas Anderson's historic first Best Director win after 11 nominations\\n- Michael B. Jordan's Best Actor victory for Sinners\\n- Final results: One Battle After Another won 6 Oscars, Sinners 4\\n\\n**Saved to:** `/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/oscars-2026-best-picture-winner/`\\n- 25 JSON files (article_0001.json \u2192 article_0025.json)\\n- Manifest: `_done` file with count=25 at=2026-05-15T12:00:00Z\\n\\nAll articles follow your strict schema with proper timestamps, cleaned text, and source attribution.\",\"stop_reason\":\"end_turn\",\"session_id\":\"b15b94e4-81fe-4f8b-88e2-7486a849558f\",\"total_cost_usd\":0.8693147999999998,\"usage\":{\"input_tokens\":7461,\"cache_creation_input_tokens\":48554,\"cache_read_input_tokens\":924853,\"output_tokens\":18080,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":48554,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":7,\"output_tokens\":760,\"cache_read_input_tokens\":77583,\"cache_creation_input_tokens\":345,\"cache_creation\":{\"ephemeral_5m_input_tokens\":0,\"ephemeral_1h_input_tokens\":345},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":436462,\"outputTokens\":29935,\"cacheReadInputTokens\":924853,\"cacheCreationInputTokens\":48554,\"webSearchRequests\":13,\"costUSD\":0.8693147999999998,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"a8e4fb2b-ad89-4d6c-9892-731d543c1f18\"}\n"
+}

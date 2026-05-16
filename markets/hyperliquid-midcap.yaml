@@ -1,0 +1,63 @@
+slug: hyperliquid-midcap
+display_name: Hyperliquid mid-cap altcoin perps (4h forward return)
+platform: hyperliquid
+notes: |
+  Mid-cap altcoin perpetual futures. Edge thesis: hourly bars + funding rate + log-return
+  dynamics on tokens that institutional quants ignore. v1 uses ONLY structured OHLCV +
+  funding data (no sentiment text), so this is a baseline test: does a transformer on
+  raw price/funding beat a naive 50/50 directional prior after commission+slippage?
+  Survivorship-bias warning: we restrict to currently-listed coins; the universe is
+  curated post-2024 survival, which inflates backtest expectations 30-50% per
+  research/03-backtest-hygiene.md.
+time_grain: hourly
+held_out_months: 1
+sequence_length: 48
+model: transformer
+data_sources:
+  - name: hyperliquid
+    kind: market
+    params:
+      coins: [SOL]
+      interval: 1h
+      lookback_days: 365
+      forward_hours: 4
+label:
+  kind: binary
+  target_event: forward_return_4h_positive
+state_vector:
+  dim: 256
+  blocks:
+    - name: ohlcv_numeric
+      slots: "0:160"
+      builder: numeric
+      params:
+        series: [close, log_return, volume, funding_rate, coin_id]
+        rolling_window: 168
+    - name: market_state
+      slots: "160:240"
+      builder: market_state
+      params:
+        series: [close, funding_rate]
+        velocity_lags: [1, 4, 24]
+    - name: calendar
+      slots: "240:256"
+      builder: calendar
+      params: {}
+transformer:
+  layers: 8
+  model_dim: 256
+  heads: 8
+  ffn_mult: 4
+  dropout: 0.1
+train:
+  batch_size: 64
+  epochs: 12
+  learning_rate: 3e-4
+  weight_decay: 1e-2
+  val_fraction: 0.1
+backtest:
+  commission_bps: 5
+  base_slippage_bps: 25
+  safety_margin_bps: 150
+  kelly_fraction: 0.15
+  kelly_cap: 0.01

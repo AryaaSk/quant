@@ -1,0 +1,26 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "BITF",
+  "queries": [
+    "BITF earnings preview 2021 Qq",
+    "BITF earnings preview 2021 Qq",
+    "BITF earnings preview 2021 Qq",
+    "BITF earnings preview 2021 Qq",
+    "BITF earnings preview 2022 Qq",
+    "BITF earnings preview 2022 Qq",
+    "BITF earnings preview 2022 Qq",
+    "BITF earnings preview 2022 Qq",
+    "BITF earnings preview 2023 Qq",
+    "BITF earnings preview 2023 Qq",
+    "BITF earnings preview 2023 Qq",
+    "BITF earnings preview 2024 Qq",
+    "BITF earnings preview 2024 Qq",
+    "BITF earnings preview 2024 Qq",
+    "BITF stock news preview",
+    "BITF guidance outlook quarterly results",
+    "BITF analyst expectations",
+    "BITF retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/BITF",
+  "max_articles": 30
+}

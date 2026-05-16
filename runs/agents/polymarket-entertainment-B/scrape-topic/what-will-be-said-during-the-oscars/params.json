@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "what-will-be-said-during-the-oscars",
+  "queries": [
+    "what-will-be-said-during-the-oscars predictions analysis",
+    "what-will-be-said-during-the-oscars oddsmaker pick analysis",
+    "what-will-be-said-during-the-oscars critic commentary preview",
+    "what-will-be-said-during-the-oscars expert forecast roundup",
+    "what-will-be-said-during-the-oscars variety deadline hollywood reporter",
+    "what-will-be-said-during-the-oscars indiewire commentary",
+    "what-will-be-said-during-the-oscars rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/what-will-be-said-during-the-oscars",
+  "max_articles": 25
+}

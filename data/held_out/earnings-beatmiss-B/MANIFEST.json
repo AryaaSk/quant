@@ -1,0 +1,8 @@
+{
+  "slug": "earnings-beatmiss-B",
+  "held_out_start": "2024-06-19T00:00:00",
+  "last_event_observed": "2024-12-19T02:48:58",
+  "locked_at": "2026-05-15T19:49:11.722390",
+  "held_out_months": 6,
+  "note": "This window is locked write-once. Training MUST NOT load events with target_event_time >= held_out_start. The walk-forward backtest evaluates exactly here."
+}

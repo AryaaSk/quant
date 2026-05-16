@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "golden-globes-best-screenplay-motion-picture-winner",
+  "queries": [
+    "golden-globes-best-screenplay-motion-picture-winner predictions analysis",
+    "golden-globes-best-screenplay-motion-picture-winner oddsmaker pick analysis",
+    "golden-globes-best-screenplay-motion-picture-winner critic commentary preview",
+    "golden-globes-best-screenplay-motion-picture-winner expert forecast roundup",
+    "golden-globes-best-screenplay-motion-picture-winner variety deadline hollywood reporter",
+    "golden-globes-best-screenplay-motion-picture-winner indiewire commentary",
+    "golden-globes-best-screenplay-motion-picture-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/golden-globes-best-screenplay-motion-picture-winner",
+  "max_articles": 25
+}

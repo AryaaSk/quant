@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "golden-globes-best-television-limited-series-winner",
+  "queries": [
+    "golden-globes-best-television-limited-series-winner predictions analysis",
+    "golden-globes-best-television-limited-series-winner oddsmaker pick analysis",
+    "golden-globes-best-television-limited-series-winner critic commentary preview",
+    "golden-globes-best-television-limited-series-winner expert forecast roundup",
+    "golden-globes-best-television-limited-series-winner variety deadline hollywood reporter",
+    "golden-globes-best-television-limited-series-winner indiewire commentary",
+    "golden-globes-best-television-limited-series-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/golden-globes-best-television-limited-series-winner",
+  "max_articles": 25
+}

@@ -1,0 +1,30 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "NIO",
+  "queries": [
+    "NIO earnings preview 2020 Q2",
+    "NIO earnings preview 2020 Q3",
+    "NIO earnings preview 2020 Q4",
+    "NIO earnings preview 2021 Q1",
+    "NIO earnings preview 2021 Q2",
+    "NIO earnings preview 2021 Q3",
+    "NIO earnings preview 2021 Q4",
+    "NIO earnings preview 2022 Q1",
+    "NIO earnings preview 2022 Q2",
+    "NIO earnings preview 2022 Q3",
+    "NIO earnings preview 2022 Q4",
+    "NIO earnings preview 2023 Q1",
+    "NIO earnings preview 2023 Q2",
+    "NIO earnings preview 2023 Q3",
+    "NIO earnings preview 2023 Q4",
+    "NIO earnings preview 2024 Q1",
+    "NIO earnings preview 2024 Q2",
+    "NIO earnings preview 2024 Q3",
+    "NIO stock news preview",
+    "NIO guidance outlook quarterly results",
+    "NIO analyst expectations",
+    "NIO retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/NIO",
+  "max_articles": 30
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://fortune.com/2026/05/11/ai-memory-chips-semiconductor-stock-boom-price-hikes-dram-shortage-hbm/",
+  "title": "Wall Street thinks memory is AI's golden ticket. Harvard's chip expert warns: 'Curves that just go to the sky with no end…never continue forever'",
+  "published_at": "2026-05-11T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Memory chips have become the most sought-after component in the artificial intelligence sector, with semiconductor stocks surging dramatically. The Philadelphia Stock Exchange Semiconductor Index jumped 60% over six weeks, and memory chipmaker Micron experienced a 38% gain in a single week—its strongest performance since 2008. However, Harvard Business School professor Willy Shih, who has studied semiconductor cycles since the 1980s, cautions against unbridled optimism. He warns that Curves that just go to the sky with no end…never continues forever, arguing this cycle mirrors historical patterns, merely at a larger scale. Key Drivers of Shortage: AI servers require approximately 8-10 times more DRAM than traditional servers and significantly more high-bandwidth memory (HBM). This massive demand has created pricing pressures—DRAM contract prices are projected to rise 58%-63% quarterly in Q2, marking the steepest increase in a decade. Market Consequences: The memory squeeze forces consumer product manufacturers to raise prices. Smartphone shipments may decline 31% year-over-year, entry-level 5G phones in India have risen roughly 30% since October, and PlayStation 5 prices increased up to $150. Shih predicts the inevitable outcome: when new fabrication capacity arrives around 2027-2028, prices will crash—the traditional conclusion of every memory cycle.",
+  "topic": "MU",
+  "source_type": "news_scraper.MU"
+}

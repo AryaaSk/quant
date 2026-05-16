@@ -1,0 +1,10 @@
+{
+  "model": "transformer",
+  "slug": "betfair-eng-l1l2",
+  "device": "cuda",
+  "n_train": 745,
+  "n_val": 131,
+  "n_held_out": 28,
+  "state_dim": 1024,
+  "sequence_length": 32
+}

@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "CGC",
+  "queries": [
+    "CGC earnings preview 2022 Qq",
+    "CGC earnings preview 2022 Qq",
+    "CGC earnings preview 2022 Qq",
+    "CGC earnings preview 2022 Qq",
+    "CGC earnings preview 2023 Qq",
+    "CGC earnings preview 2023 Qq",
+    "CGC earnings preview 2023 Qq",
+    "CGC earnings preview 2023 Qq",
+    "CGC earnings preview 2024 Qq",
+    "CGC earnings preview 2024 Qq",
+    "CGC earnings preview 2024 Qq",
+    "CGC earnings preview 2024 Qq",
+    "CGC stock news preview",
+    "CGC guidance outlook quarterly results",
+    "CGC analyst expectations",
+    "CGC retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/CGC",
+  "max_articles": 80
+}

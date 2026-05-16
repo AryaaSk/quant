@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "POWI",
+  "queries": [
+    "POWI earnings preview 2020 Qq",
+    "POWI earnings preview 2020 Qq",
+    "POWI earnings preview 2021 Qq",
+    "POWI earnings preview 2021 Qq",
+    "POWI earnings preview 2021 Qq",
+    "POWI earnings preview 2021 Qq",
+    "POWI earnings preview 2022 Qq",
+    "POWI earnings preview 2022 Qq",
+    "POWI earnings preview 2022 Qq",
+    "POWI earnings preview 2022 Qq",
+    "POWI earnings preview 2023 Qq",
+    "POWI earnings preview 2023 Qq",
+    "POWI earnings preview 2023 Qq",
+    "POWI earnings preview 2023 Qq",
+    "POWI earnings preview 2024 Qq",
+    "POWI earnings preview 2024 Qq",
+    "POWI earnings preview 2024 Qq",
+    "POWI stock news preview",
+    "POWI guidance outlook quarterly results",
+    "POWI analyst expectations",
+    "POWI retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/POWI",
+  "max_articles": 30
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/gamestop-corp-gme-reports-narrowed-224622965.html",
+  "title": "GameStop Corp (GME) Q3 2023 Earnings Summary",
+  "published_at": "2023-12-06T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "GameStop reported improved profitability metrics in Q3 2023 despite declining revenues. The company's net loss narrowed significantly to $3.1 million from $94.7 million year-over-year, while net sales decreased to $1.078 billion from $1.186 billion. The gaming retailer demonstrated substantial cost management, with SG&A expenses reduced to $296.5 million or 27.5% of net sales, down from $387.9 million or 32.7%. This reduction in selling, general, and administrative expenses represents a key achievement in the company's operational restructuring. GameStop maintains a solid financial position with cash, cash equivalents, and marketable securities standing strong at $1.210 billion at the end of the quarter. The company carries minimal long-term debt, limited to a low-interest French government COVID-relief loan. Gross profit declined modestly to $281.8 million from $291.6 million. The operating loss improved substantially to $14.7 million from $96.3 million in the prior-year quarter, reflecting the company's cost-cutting initiatives. Results indicate a company focused on cost reduction and operational efficiency while navigating industry challenges. The narrowed losses and robust cash reserves suggest stabilization, though declining sales reflect ongoing challenges in the competitive video game retail sector.",
+  "topic": "GME",
+  "source_type": "news_scraper.GME"
+}

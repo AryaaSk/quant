@@ -1,0 +1,9 @@
+{
+  "url": "https://siliconanalysts.com/analysis/nvidia-ai-accelerator-market-share-2024-2026",
+  "title": "NVIDIA AI GPU Market Share 2026: ~80% of AI Accelerators",
+  "published_at": "2026-05-01T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "NVIDIA maintains a dominant position with approximately 80% of the AI accelerator market in 2026, though this represents a slight decline from earlier years as AMD and other competitors gain market share. Despite NVIDIA's overwhelming market dominance, AMD's entry into the high-performance AI accelerator market with MI300 and MI450 series has carved out meaningful share. AMD's strategic focus on enterprise customers and sovereign AI deployments offers growth pathways that may not directly cannibalize NVIDIA's hyperscaler business. The market dynamics are shifting as companies increasingly seek diversified sourcing and alternative architectures. AMD's competitive advantages in CPU-GPU co-design and Helios rack-level systems position it well to capture a growing portion of the data center AI infrastructure market. However, NVIDIA's massive revenue base, software ecosystem, and customer relationships remain formidable competitive moats. Analysts expect NVIDIA's AI accelerator revenue could exceed $150 billion in 2026, making the overall market much larger with room for multiple significant competitors.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

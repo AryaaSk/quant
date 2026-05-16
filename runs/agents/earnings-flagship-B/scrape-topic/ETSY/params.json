@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "ETSY",
+  "queries": [
+    "ETSY earnings preview 2020 Qq",
+    "ETSY earnings preview 2020 Qq",
+    "ETSY earnings preview 2021 Qq",
+    "ETSY earnings preview 2021 Qq",
+    "ETSY earnings preview 2021 Qq",
+    "ETSY earnings preview 2021 Qq",
+    "ETSY earnings preview 2022 Qq",
+    "ETSY earnings preview 2022 Qq",
+    "ETSY earnings preview 2022 Qq",
+    "ETSY earnings preview 2022 Qq",
+    "ETSY earnings preview 2023 Qq",
+    "ETSY earnings preview 2023 Qq",
+    "ETSY earnings preview 2023 Qq",
+    "ETSY earnings preview 2023 Qq",
+    "ETSY earnings preview 2024 Qq",
+    "ETSY earnings preview 2024 Qq",
+    "ETSY earnings preview 2024 Qq",
+    "ETSY stock news preview",
+    "ETSY guidance outlook quarterly results",
+    "ETSY analyst expectations",
+    "ETSY retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ETSY",
+  "max_articles": 30
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/riot-platforms-inc-riot-q3-110158729.html",
+  "title": "Riot Platforms Inc (RIOT) Q3 2024 Earnings Call Highlights: Surging Revenue Amidst Rising Losses",
+  "published_at": "2024-10-30T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Riot Platforms reported mixed results for Q3 2024. The company achieved substantial revenue growth, with total revenues reaching $84.8 million, representing a 65% increase year over year from $51.9 million in Q3 2023. Bitcoin mining specifically drove growth, generating $67.5 million, which was a 116% increase from $31.2 million in Q3 2023. However, profitability declined significantly. The firm posted a net loss of $154.4 million for the third quarter of 2024, compared to a net loss of $80 million in the same period in 2023. Gross profit contracted to $24.3 million from $37.7 million year-over-year. On the mining side, Riot maintained consistent output of 1,104 Bitcoin, similar to 1,106 Bitcoin in Q3 2023. The company increased its holdings substantially to 10,427 Bitcoin, a 42% increase compared to the end of the third quarter of 2023. Hash rate deployment improved dramatically, with installed hash rate reaching 28 X hash, a 159% increase from Q3 2023. The company aims to reach 35 exahash by year-end but revised its 2025 forecast downward to 46.7 exahash from an earlier 56 exahash target. Mining economics showed strain with cost to produce one Bitcoin at $35,376 per Bitcoin, with power costs at $26,673 per Bitcoin. Despite challenges, Riot maintained competitive electricity expenses at $0.031 per kilowatt hour.",
+  "topic": "RIOT",
+  "source_type": "news_scraper.RIOT"
+}

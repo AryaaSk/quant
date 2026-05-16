@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fool.com/investing/2026/04/13/space-stock-build-partnership-nvidia-ai-map/",
+  "title": "This Space Stock Is Building on Its Partnership With Nvidia and Is Using AI to Map Planet Earth in Real Time",
+  "published_at": "2026-04-13T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "Planet Labs announced a transformative partnership with NVIDIA to develop a GPU-native AI engine for satellite imagery processing. The collaboration leverages NVIDIA's Blackwell and IGX Thor platforms to dramatically accelerate the analysis of satellite data, reducing processing times from hours to seconds. This breakthrough technology addresses a critical bottleneck in Earth observation and geospatial intelligence.\n\nThe partnership focuses on three key areas: ground processing acceleration using NVIDIA GPUs for compositing and atmospheric compensation, generative AI super-resolution to unlock new levels of detail in imagery, and in-orbit AI processing directly on Planet's Pelican satellites. The in-orbit approach is particularly innovative, with Pelican-4 successfully running NVIDIA-powered AI inference in space for the first time, achieving approximately 80% accuracy on object detection tasks.\n\nThis technological advancement comes as Planet Labs achieves its first full year of non-GAAP profitability in fiscal 2026, with record revenue of $307.7 million and a $900 million backlog. The company's Defense & Intelligence segment grew over 50% year-over-year, driven by government contracts and enhanced AI-enabled solutions. The partnership positions Planet Labs as a leader in next-generation satellite intelligence capabilities.",
+  "topic": "PL",
+  "source_type": "news_scraper.PL"
+}

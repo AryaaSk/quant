@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fool.com/investing/2026/05/14/after-amds-blowout-earnings-report-is-this-ai-stoc/",
+  "title": "AMD Q1 2026 Earnings: Strong AI-Driven Growth",
+  "published_at": "2026-05-14T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AMD delivered Q1 2026 results with revenue of $10.25 billion (38% YoY), adjusted EPS jumped 43% to $1.37. Data center revenue surged 57% driven by robust demand for Epyc server processors and Instinct GPUs. Meta plans to deploy up to 6 gigawatts AMD Instinct GPUs, lead customer for sixth-generation Epyc CPUs. Amazon, Google, Microsoft, Tencent increasing cloud instances powered by AMD Epyc processors for inference and agentic AI. AMD controls 36% server CPU market (up from 27% YoY). Management doubled server CPU market growth estimate to 35% annually with segment generating $120 billion by 2030. AMD projects 70% YoY server CPU revenue growth current quarter, targeting 80%+ long-term annual growth data center AI business. Current $731 billion market cap with accelerating trajectory suggests $1 trillion valuation possible.",
+  "topic": "AI",
+  "source_type": "news_scraper.AI"
+}

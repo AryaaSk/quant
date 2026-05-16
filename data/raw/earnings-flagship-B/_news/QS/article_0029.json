@@ -1,0 +1,9 @@
+{
+  "url": "https://electrek.co/guides/quantumscape/",
+  "title": "QuantumScape: The Complete Guide to Solid-State Battery Leadership",
+  "published_at": "2026-05-12T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "QuantumScape represents one of the most advanced solid-state battery companies in development, with years of research culminating in near-commercialization timelines. The company's QSE-5 battery design features anode-free lithium-metal chemistry, enabling superior energy density compared to conventional lithium-ion cells. The Cobra separator manufacturing process represents a breakthrough in production scalability, reducing heat treatment time by 25x compared to prior generation equipment. The Eagle Line pilot production facility in San Jose demonstrates the company's commitment to scaling manufacturing for eventual customer launches. The company's partnership strategy leverages leading automotive manufacturers and equipment providers to accelerate commercialization and de-risk technology adoption. Volkswagen Group's PowerCo subsidiary is the anchor customer and licensing partner, with additional joint development agreements with major global automotive manufacturers providing revenue and validation. The company's recent expansion into AI data centers and defense sectors broadens the addressable market and provides alternative commercialization pathways if automotive adoption proceeds more slowly than anticipated.",
+  "topic": "QS",
+  "source_type": "news_scraper.QS"
+}

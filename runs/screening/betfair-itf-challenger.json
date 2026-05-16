@@ -1,0 +1,19 @@
+{
+  "slug": "betfair-itf-challenger",
+  "display_name": "Betfair ITF + Challenger tennis match outcomes",
+  "platform": "betfair",
+  "notes": "Independently confirmed market inefficiency (Tennisnerd, smart-betting-club content):\nsportsbooks under-model ITF and lower Challenger tier. Edge: head-to-head sparse,\nsurface adjustments, scheduling fatigue, coach changes, weather on outdoor clay.\n",
+  "model": "gbdt",
+  "state_dim": 192,
+  "data_sources": [
+    "tennis_data"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "tennis_data": "not_implemented: adapter 'Tennis-Data' is not implemented yet.\n  Source role: historical ATP/WTA/ITF match results + odds from http://www.tennis-data.co.uk/ or Jeff Sackmann's tennis-data repos (https://github.com/JeffSackmann).\n  Implement quant/adapters/tennis-data.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 47.5,
+  "verdict": "kill: 1/1 sources unimplemented",
+  "advance": false
+}

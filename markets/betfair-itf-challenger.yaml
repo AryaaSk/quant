@@ -1,0 +1,48 @@
+slug: betfair-itf-challenger
+display_name: Betfair tennis match outcomes (ATP main draw, v1 proxy for ITF Challenger)
+platform: betfair
+notes: |
+  Original spec targeted ITF Challenger tour, where independent commentary confirms
+  sportsbook under-modeling. tennis-data.co.uk does not cover ITF Challenger; we use ATP
+  main draw as the v1 substitute (also has soft counterparty in Series 250 / outer rounds).
+  Future iteration should wire Jeff Sackmann's tennis_atp_challenger CSVs + an odds source
+  (oddsportal scrape) for true ITF coverage.
+  Edge thesis (ATP main): surface specialism, scheduling fatigue, ranking momentum.
+time_grain: daily
+held_out_months: 6
+sequence_length: 16
+model: gbdt
+data_sources:
+  - name: tennis_data
+    kind: numeric
+    params:
+      tours: [ATP]
+      years: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
+label:
+  kind: binary
+  target_event: player_a_wins
+state_vector:
+  dim: 192
+  blocks:
+    - name: form_numeric
+      slots: "0:128"
+      builder: numeric
+      params:
+        series: [a_rank, b_rank, rank_diff, a_form_10, b_form_10, a_rest_days, b_rest_days, a_odds_inv, b_odds_inv]
+        rolling_window: 60
+    - name: market_state
+      slots: "128:176"
+      builder: market_state
+      params:
+        series: [a_odds_inv, b_odds_inv]
+        velocity_lags: [1, 3]
+    - name: calendar
+      slots: "176:192"
+      builder: calendar
+      params: {}
+backtest:
+  commission_bps: 500
+  base_slippage_bps: 80
+  safety_margin_bps: 200
+  kelly_fraction: 0.20
+  kelly_cap: 0.015

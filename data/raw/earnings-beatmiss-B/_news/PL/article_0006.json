@@ -1,0 +1,9 @@
+{
+  "url": "https://www.investing.com/news/company-news/planet-labs-releases-images-from-three-new-pelican-satellites-93CH-4688691",
+  "title": "Planet Labs releases images from three new Pelican satellites",
+  "published_at": "2026-05-03T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "Planet Labs released first-light images from three newly launched Pelican satellites on May 3, 2026, reaching nine spacecraft in its next-generation constellation. The company is building toward a 32-satellite fleet capable of imaging any location on Earth up to 30 times daily at 30-centimeter resolution. Each Pelican satellite carries NVIDIA's Jetson AI platform for onboard data processing, enabling analysis before transmission to ground stations.\n\nThe launch milestone comes as Planet Labs achieved profitability in late 2025, becoming the first New Space venture to reach positive EBITDA and free cash flow. The company reported fiscal 2026 revenue of $307.7 million, up 26% year-over-year, with record quarterly revenue of $86.8 million in Q4, representing 41% growth. The company maintained a $900 million contract backlog, predominantly from defense and government customers.\n\nMajor contracts include a €240 million multi-year German government agreement and a multi-year agreement with Sweden's Armed Forces. The earth observation market was valued at approximately $7 billion in 2025 and is projected to reach $14.5 billion by 2034, representing significant growth opportunity for Planet Labs' expanding satellite constellation.",
+  "topic": "PL",
+  "source_type": "news_scraper.PL"
+}

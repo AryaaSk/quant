@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Stage B entry point. Invokes codex schema-proposer agent for a given market slug.
+set -euo pipefail
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+exec "${PYTHON:-python3}" "$REPO_ROOT/scripts/06_propose_schema.py" "$@"

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1783879&type=10-Q&dateb=&owner=exclude&count=100",
+  "title": "Robinhood Markets Q1 2026 10-Q Filing Analysis",
+  "published_at": "2026-04-28T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Analysis of Robinhood Markets Q1 2026 SEC filing (Form 10-Q) containing detailed financial and operational information. Q1 2026 Financial Data: Total net revenues $1.07 billion, up 15% year-over-year. Transaction-based revenues $623M, up 7% year-over-year. Net interest revenues increased 24%. Operating income declined year-over-year due to elevated expenses. Key Business Segments: Equities: Solid growth with revenues up 46% year-over-year. Options: Continued strength with volumes growing despite market volatility. Cryptocurrencies: Significant weakness with revenues down 47% year-over-year to $134M. Prediction Markets: Strong new revenue stream with 320% year-over-year growth. Balance Sheet: Strong cash position with minimal debt. Equity base expanding from customer deposits. Risk Factors: Regulatory risks around options and crypto trading. Competition from other retail brokers. Customer concentration risk. Market volatility impact on trading volumes. Operations: Funded customers at record levels exceeding 25M. Average assets per customer increasing. Gold subscriber growth continuing. Forward Guidance: Management updated 2026 operating expense guidance. Expected operating expense range adjusted for scale and initiatives.",
+  "topic": "HOOD",
+  "source_type": "news_scraper.HOOD"
+}

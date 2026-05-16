@@ -1,0 +1,116 @@
+slug: earnings-beatmiss-B
+display_name: Quarterly earnings beat/miss (Model B — numerical + agent-scraped Voyage text)
+platform: stock_earnings
+notes: |
+  Model B for the dual A vs B PoC. Same data, same model class as earnings-beatmiss-A,
+  PLUS: claude-sonnet news_scraper agents scrape news for each ticker around its
+  earnings dates (per_entity_mode); per-event news text is Voyage-embedded into a
+  256-slot text block alongside the numerical features.
+
+  The A vs B comparison isolates the text-feature contribution. If B beats A on Brier
+  improvement + net return, the agent-army + Voyage methodology generalizes.
+time_grain: daily
+held_out_months: 6
+sequence_length: 8
+model: gbdt
+data_sources:
+  - name: stock_earnings
+    kind: numeric
+    params:
+      tickers:
+        - BBAI
+        - SOUN
+        - INOD
+        - RIVN
+        - LCID
+        - MULN
+        - GOEV
+        - NKLA
+        - CLSK
+        - RIOT
+        - MARA
+        - HUT
+        - IREN
+        - SOFI
+        - UPST
+        - AFRM
+        - OPEN
+        - ROOT
+        - GME
+        - AMC
+        - BB
+        - KOSS
+        - TLRY
+        - CGC
+        - SNDL
+        - RKLB
+        - ASTR
+        - PL
+        - WKHS
+        - MMAT
+      start_date: 2022-01-01
+      end_date: 2025-01-01
+  - name: news_scraper
+    kind: text
+    params:
+      per_entity_mode: true
+      event_source: stock_earnings
+      entity_column: ticker
+      window_days: 30
+      articles_per_entity: 80
+      concurrency: 5
+label:
+  kind: binary
+  target_event: earnings_beat
+state_vector:
+  dim: 384
+  blocks:
+    - name: numeric_features
+      slots: "0:96"
+      builder: numeric
+      params:
+        series:
+          - eps_estimate
+          - avg_surprise_4q
+          - beat_rate_prior_4q
+          - days_since_last_earnings
+          - realized_vol_30d
+          - return_7d
+          - return_30d
+          - return_60d
+          - return_90d
+          - return_180d
+          - sector_return_30d
+          - sector_return_90d
+        rolling_window: 60
+    - name: news_count_numeric
+      slots: "96:112"
+      builder: numeric
+      params:
+        series: [news_article_count]
+        rolling_window: 12
+    - name: market_state
+      slots: "112:128"
+      builder: market_state
+      params:
+        series: [beat_rate_prior_4q]
+        velocity_lags: [1, 4]
+    - name: text_news
+      slots: "128:368"
+      builder: text
+      params:
+        text_column: text__news
+        mode: voyage
+        window_days: 30
+        encoder_name: voyage-3-large
+        voyage_cache_dir: data/raw/earnings-beatmiss-B/_voyage_cache
+    - name: calendar
+      slots: "368:384"
+      builder: calendar
+      params: {}
+backtest:
+  commission_bps: 20
+  base_slippage_bps: 30
+  safety_margin_bps: 150
+  kelly_fraction: 0.20
+  kelly_cap: 0.02

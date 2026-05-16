@@ -1,0 +1,9 @@
+{
+  "url": "https://www.stocktitan.net/news/NTLA/intellia-phase-3-clinical-trial-crispr-based-gene-therapy-enrolls-first-patient/",
+  "title": "Intellia's Phase 3 Clinical Trial for CRISPR-Based Gene Therapy Enrolls First Patient",
+  "published_at": "2025-11-20T12:00:00Z",
+  "scraped_at": "2026-05-16T15:30:00Z",
+  "text": "Intellia Therapeutics advanced its CRISPR-based gene therapy program as enrollment progressed in its Phase 3 clinical trials. The company is developing in vivo CRISPR/Cas9-based gene editing therapies for serious diseases. Intellia's lead program, lonvo-z, is the first investigational CRISPR therapy to be administered systemically to edit genes inside the human body. The treatment is made of CRISPR components encased in lipid nanoparticle (LNPs) and is delivered in a single dose by IV with the LNPs accumulating in the liver. For hereditary angioedema (HAE), lonvo-z showed the ability to reduce attacks by 87% versus placebo in the Phase 3 HAELO trial. For transthyretin (ATTR) amyloidosis, nex-z (formerly NTLA-2001) showed the ability to reduce TTR by more than 85% to 90% after a single dose in Phase 1 data.",
+  "topic": "NTLA",
+  "source_type": "news_scraper.NTLA"
+}

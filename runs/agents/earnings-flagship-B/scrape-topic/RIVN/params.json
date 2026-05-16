@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "RIVN",
+  "queries": [
+    "RIVN earnings preview 2021 Qq",
+    "RIVN earnings preview 2022 Qq",
+    "RIVN earnings preview 2022 Qq",
+    "RIVN earnings preview 2022 Qq",
+    "RIVN earnings preview 2022 Qq",
+    "RIVN earnings preview 2023 Qq",
+    "RIVN earnings preview 2023 Qq",
+    "RIVN earnings preview 2023 Qq",
+    "RIVN earnings preview 2023 Qq",
+    "RIVN earnings preview 2024 Qq",
+    "RIVN earnings preview 2024 Qq",
+    "RIVN earnings preview 2024 Qq",
+    "RIVN stock news preview",
+    "RIVN guidance outlook quarterly results",
+    "RIVN analyst expectations",
+    "RIVN retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/RIVN",
+  "max_articles": 30
+}

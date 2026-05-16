@@ -1,0 +1,9 @@
+{
+  "url": "https://techcrunch.com/2025/11/03/microsoft-inks-9-7bil-deal-with-australias-iren-for-ai-cloud-capacity/",
+  "title": "Microsoft Signs $9.7B Deal with IREN for AI Cloud Capacity",
+  "published_at": "2025-11-03T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "Microsoft has secured a five-year agreement worth $9.7 billion with Australia-based IREN to expand its AI computing infrastructure. The partnership will provide Microsoft with access to systems built using Nvidia's GB300 GPUs, which will be rolled out in phases through 2026 at IREN's Childress, Texas facility. The infrastructure is designed to support 750 megawatts of capacity. IREN is simultaneously purchasing approximately $5.8 billion in GPUs and related equipment from Dell to support this expansion. According to IREN's CEO Daniel Roberts, the Microsoft deal will take up only 10% of the company's total capacity and generate about $1.94 billion in annualized revenue. This agreement represents Microsoft's continued effort to secure sufficient computing power for meeting customer demand for AI services. The announcement follows Microsoft's October launch of its first production cluster featuring Nvidia's GB300 NVL72 systems on Azure. IREN, which transitioned from cryptocurrency mining to focus on AI workloads, joins other companies like CoreWeave in capitalizing on the shift toward AI infrastructure.",
+  "topic": "IREN",
+  "source_type": "news_scraper.IREN"
+}

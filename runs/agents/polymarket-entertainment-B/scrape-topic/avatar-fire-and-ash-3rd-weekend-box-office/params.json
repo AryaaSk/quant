@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "avatar-fire-and-ash-3rd-weekend-box-office",
+  "queries": [
+    "avatar-fire-and-ash-3rd-weekend-box-office predictions analysis",
+    "avatar-fire-and-ash-3rd-weekend-box-office oddsmaker pick analysis",
+    "avatar-fire-and-ash-3rd-weekend-box-office critic commentary preview",
+    "avatar-fire-and-ash-3rd-weekend-box-office expert forecast roundup",
+    "avatar-fire-and-ash-3rd-weekend-box-office variety deadline hollywood reporter",
+    "avatar-fire-and-ash-3rd-weekend-box-office indiewire commentary",
+    "avatar-fire-and-ash-3rd-weekend-box-office rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/avatar-fire-and-ash-3rd-weekend-box-office",
+  "max_articles": 40
+}

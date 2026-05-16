@@ -1,0 +1,8 @@
+{
+  "slug": "_synthetic",
+  "held_out_start": "2024-05-18T00:00:00",
+  "last_event_observed": "2024-08-18T00:00:00",
+  "locked_at": "2026-05-15T11:38:05.308242",
+  "held_out_months": 3,
+  "note": "This window is locked write-once. Training MUST NOT load events with target_event_time >= held_out_start. The walk-forward backtest evaluates exactly here."
+}

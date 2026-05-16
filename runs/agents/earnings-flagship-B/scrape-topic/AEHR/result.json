@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.9999035999999997,
+  "elapsed_s": 303.4316420555115,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 297892,
+    "duration_api_ms": 358057,
+    "ttft_ms": 5839,
+    "num_turns": 80,
+    "result": "**Complete!** I've successfully gathered 30 quality articles about AEHR (Aehr Test Systems) and saved them to the required directory.\n\n## Summary\n\n**Articles collected:** 30  \n**Directory:** `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/AEHR/`  \n**Manifest:** `_done` file with `count=30 at=2026-05-16T18:00:00Z`\n\n### Article coverage includes:\n\n- **Earnings Reports & Previews:** Q1-Q4 results across fiscal years 2023-2026, with historical data back to 2021\n- **Major Orders & Contracts:** $25.1M silicon carbide orders, $41M hyperscaler AI processor contract, $12.7M EV-related orders\n- **Analyst Sentiment:** Upgrades from Craig-Hallum, William Blair, Lake Street; mixed views on valuation\n- **Growth Drivers:** \n  - AI processor and data center testing (71% FY2027 revenue growth expected)\n  - Silicon carbide semiconductor growth for EVs (48% CAGR through 2030)\n  - Emerging silicon photonics applications\n- **Financial Metrics:** Backlog progression, bookings trends, profitability trajectory\n- **Stock Performance:** 327-379% YTD returns, 1,004% 52-week gains in 2026\n\nAll articles include timestamped content (published_at and scraped_at), strict JSON schema compliance, and deduplicated text to minimize noise.",
+    "stop_reason": "end_turn",
+    "session_id": "4a9fbe20-667c-4fae-85c2-9efa94b1a048",
+    "total_cost_usd": 0.9999035999999997,
+    "usage": {
+      "input_tokens": 6879,
+      "cache_creation_input_tokens": 143250,
+      "cache_read_input_tokens": 814981,
+      "output_tokens": 24438,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 143250,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 8,
+          "output_tokens": 620,
+          "cache_read_input_tokens": 86637,
+          "cache_creation_input_tokens": 266,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 266
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 383488,
+        "outputTokens": 35171,
+        "cacheReadInputTokens": 814981,
+        "cacheCreationInputTokens": 143250,
+        "webSearchRequests": 18,
+        "costUSD": 0.9999035999999997,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "434da0b9-a28c-428f-b9fa-6c960479b7ee"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":297892,\"duration_api_ms\":358057,\"ttft_ms\":5839,\"num_turns\":80,\"result\":\"**Complete!** I've successfully gathered 30 quality articles about AEHR (Aehr Test Systems) and saved them to the required directory.\\n\\n## Summary\\n\\n**Articles collected:** 30  \\n**Directory:** `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/AEHR/`  \\n**Manifest:** `_done` file with `count=30 at=2026-05-16T18:00:00Z`\\n\\n### Article coverage includes:\\n\\n- **Earnings Reports & Previews:** Q1-Q4 results across fiscal years 2023-2026, with historical data back to 2021\\n- **Major Orders & Contracts:** $25.1M silicon carbide orders, $41M hyperscaler AI processor contract, $12.7M EV-related orders\\n- **Analyst Sentiment:** Upgrades from Craig-Hallum, William Blair, Lake Street; mixed views on valuation\\n- **Growth Drivers:** \\n  - AI processor and data center testing (71% FY2027 revenue growth expected)\\n  - Silicon carbide semiconductor growth for EVs (48% CAGR through 2030)\\n  - Emerging silicon photonics applications\\n- **Financial Metrics:** Backlog progression, bookings trends, profitability trajectory\\n- **Stock Performance:** 327-379% YTD returns, 1,004% 52-week gains in 2026\\n\\nAll articles include timestamped content (published_at and scraped_at), strict JSON schema compliance, and deduplicated text to minimize noise.\",\"stop_reason\":\"end_turn\",\"session_id\":\"4a9fbe20-667c-4fae-85c2-9efa94b1a048\",\"total_cost_usd\":0.9999035999999997,\"usage\":{\"input_tokens\":6879,\"cache_creation_input_tokens\":143250,\"cache_read_input_tokens\":814981,\"output_tokens\":24438,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":143250,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":8,\"output_tokens\":620,\"cache_read_input_tokens\":86637,\"cache_creation_input_tokens\":266,\"cache_creation\":{\"ephemeral_5m_input_tokens\":0,\"ephemeral_1h_input_tokens\":266},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":383488,\"outputTokens\":35171,\"cacheReadInputTokens\":814981,\"cacheCreationInputTokens\":143250,\"webSearchRequests\":18,\"costUSD\":0.9999035999999997,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"434da0b9-a28c-428f-b9fa-6c960479b7ee\"}\n"
+}

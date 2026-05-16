@@ -1,0 +1,52 @@
+slug: polymarket-emmys
+display_name: Polymarket Emmy category outcomes
+platform: polymarket
+notes: |
+  Same scraping pipeline as Oscars but applied to television. Smaller liquidity per
+  category but fewer professional handicappers; the edge thesis is even stronger.
+time_grain: daily
+held_out_months: 6
+sequence_length: 32
+model: gbdt
+data_sources:
+  - name: polymarket_contracts
+    kind: market
+    params: {events: [emmys-2024, emmys-2025, emmys-2026]}
+  - name: news_scraper
+    kind: text
+    params:
+      queries: [Emmy predictions, drama series race, comedy series race]
+label:
+  kind: binary
+  target_event: emmy_category_outcome
+state_vector:
+  dim: 384
+  blocks:
+    - name: critic_numeric
+      slots: "0:128"
+      builder: numeric
+      params:
+        series: [rt_critic_score, rt_audience_score, mc_score, episode_count, prior_nominations]
+    - name: market_state
+      slots: "128:208"
+      builder: market_state
+      params:
+        series: [contract_yesno_price]
+        velocity_lags: [1, 7, 30]
+    - name: text_features
+      slots: "208:368"
+      builder: text
+      params:
+        mode: handcrafted
+        window_days: 14
+        entity_keywords: [frontrunner, surprise, snub, dark horse]
+    - name: calendar
+      slots: "368:384"
+      builder: calendar
+      params: {}
+backtest:
+  commission_bps: 75
+  base_slippage_bps: 50
+  safety_margin_bps: 200
+  kelly_fraction: 0.20
+  kelly_cap: 0.02

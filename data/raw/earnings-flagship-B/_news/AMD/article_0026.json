@@ -1,0 +1,9 @@
+{
+  "url": "https://uk.investing.com/news/stock-market-news/evercore-positive-on-amd-and-arm-citing-market-share-report-93CH-4675435",
+  "title": "Evercore Positive on AMD and ARM Citing Market Share Report",
+  "published_at": "2026-04-20T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Evercore ISI research highlights positive momentum for AMD based on server CPU market share gains and AI infrastructure growth. The firm cites data showing AMD's server CPU unit share rising 220 basis points quarter-over-quarter, outpacing Intel's market share losses. Evercore maintains a positive stance on AMD, viewing the company as a primary beneficiary of AI infrastructure investment and CPU resurgence. The research emphasizes AMD's competitive strengths: established relationships with hyperscalers, superior EPYC processor roadmap, successful MI300 GPU launch, and upcoming MI450 products. The report projects continued share gains in server CPUs, driven by EPYC adoption among cloud providers. Evercore's price target and rating reflect confidence in AMD's ability to expand its data center business and leverage agentic AI tailwinds. The firm sees limited downside risk given strong customer engagement and order visibility.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

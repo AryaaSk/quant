@@ -1,0 +1,21 @@
+{
+  "slug": "hyperliquid-midcap",
+  "display_name": "Hyperliquid mid-cap altcoin perps",
+  "platform": "hyperliquid",
+  "notes": "Mid-cap altcoin perpetual futures. Edge: Discord/Telegram sentiment + GitHub commit\nvelocity + on-chain whale flows feed the model. Survivorship bias warning: we restrict\nto currently-listed tokens and apply a 30-50% expected-return discount per\nresearch/03-backtest-hygiene.md.\n",
+  "model": "transformer",
+  "state_dim": 512,
+  "data_sources": [
+    "hyperliquid",
+    "news_scraper"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "hyperliquid": "not_implemented: adapter 'Hyperliquid' is not implemented yet.\n  Source role: perpetual futures ticks + funding via https://api.hyperliquid.xyz/info (public; rate-limited). source_params['coins'] = list of symbols.\n  Implement quant/adapters/hyperliquid.py with class signature `fetch(market, source_params) -> DataFrame`.",
+    "news_scraper": "not_implemented: adapter 'News scraper' is not implemented yet.\n  Source role: generic article scraper used by agent orchestration (Claude/Codex). source_params['urls'] or ['queries']. Outputs (timestamp, text, source_url) rows.\n  Implement quant/adapters/news scraper.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 69.0,
+  "verdict": "kill: 2/2 sources unimplemented",
+  "advance": false
+}

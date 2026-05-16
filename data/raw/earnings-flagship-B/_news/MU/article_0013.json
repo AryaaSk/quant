@@ -1,0 +1,9 @@
+{
+  "url": "https://www.tomshardware.com/pc-components/dram/micron-enters-high-volume-production-of-hbm4-for-nvidia-vera-rubin",
+  "title": "Micron enters high-volume production of HBM4 for Nvidia Vera Rubin - 2.3x bandwidth improvement and 20% boost in power efficiency",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Micron has begun mass-producing HBM4 memory specifically designed for Nvidia's Vera Rubin AI accelerator platform. The new memory technology delivers significant performance gains, offering 2.3x bandwidth improvement compared to previous generations while simultaneously achieving a 20% boost in power efficiency. This development is particularly significant given the ongoing high-demand environment for AI accelerators and specialized memory solutions. The article appears in Tom's Hardware's DRAM section, indicating the importance of this memory advancement to the broader semiconductor industry. The timing coincides with growing industry focus on Nvidia's Vera Rubin architecture, which represents the company's next-generation AI computing platform following Blackwell.",
+  "topic": "MU",
+  "source_type": "news_scraper.MU"
+}

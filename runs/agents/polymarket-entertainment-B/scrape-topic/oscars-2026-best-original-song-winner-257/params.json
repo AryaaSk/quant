@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "oscars-2026-best-original-song-winner-257",
+  "queries": [
+    "oscars-2026-best-original-song-winner-257 predictions analysis",
+    "oscars-2026-best-original-song-winner-257 oddsmaker pick analysis",
+    "oscars-2026-best-original-song-winner-257 critic commentary preview",
+    "oscars-2026-best-original-song-winner-257 expert forecast roundup",
+    "oscars-2026-best-original-song-winner-257 variety deadline hollywood reporter",
+    "oscars-2026-best-original-song-winner-257 indiewire commentary",
+    "oscars-2026-best-original-song-winner-257 rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/oscars-2026-best-original-song-winner-257",
+  "max_articles": 25
+}

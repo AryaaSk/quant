@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/enphases-battery-storage-penetrates-major-143000388.html",
+  "title": "Enphase Battery Storage Penetrates Major European Markets",
+  "published_at": "2025-07-16T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Enphase Energy introduced its IQ Battery 5P with FlexPhase across seven European markets including Spain, Portugal, France, Sweden, Denmark, Belgium, and the Netherlands. The battery system has a base storage capacity of 5 kilowatt-hours with configurable capacity up to 70 kWh and comes with a 15-year warranty. The all-in-one AC-coupled solution provides consistent backup power and supports single-phase and three-phase applications. When paired with the IQ System Controller 3 INT, the system can temporarily discharge up to twice the maximum continuous power for three seconds. A Solar Power Europe report from May 2025 projects European battery storage capacity will expand by 50% in 2025, surpassing 90 gigawatt-hours, with a 45% CAGR through 2029, reaching approximately 400 GWh. Enphase had previously introduced this battery model to Poland, Luxembourg, Germany, Austria, and Switzerland earlier in 2025. Competitors including SolarEdge Technologies and Canadian Solar are similarly expanding European operations with complementary energy storage solutions.",
+  "topic": "ENPH",
+  "source_type": "news_scraper.ENPH"
+}

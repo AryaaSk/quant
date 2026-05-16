@@ -1,0 +1,58 @@
+slug: oil-prices
+display_name: Oil price direction (agent-swarm demo)
+platform: synthetic
+notes: |
+  Demo market that exercises the agent-swarm pipeline end-to-end. Stage A: news_scraper
+  spawns one claude scraper agent per topic (oil_transport, saudi_arabia, opec). Stage B:
+  `bin/propose-schema oil-prices` invokes codex to read the raw dump and propose this
+  yaml's full schema.
+
+  This yaml is a SCAFFOLD: Stage B will overwrite it with a complete schema once Stage A
+  has populated `data/raw/oil-prices/_news/<topic>/`. To run Stage A, set
+  QUANT_ENABLE_AGENTS=1 and `bin/run-market oil-prices` (it will spend ~$3 of claude budget
+  across 3 topics).
+
+  The minimal scaffold below has a placeholder calendar-only state schema that lets the
+  pipeline parse before Stage B fills in the real one.
+time_grain: daily
+held_out_months: 1
+sequence_length: 8
+model: gbdt
+data_sources:
+  - name: news_scraper
+    kind: text
+    params:
+      topics:
+        - name: oil_transport
+          queries:
+            - global oil tanker shipping rates
+            - Suez Canal oil traffic disruption
+            - Strait of Hormuz tanker incident
+        - name: saudi_arabia
+          queries:
+            - Saudi Arabia oil production policy
+            - MBS OPEC plus statement
+            - Aramco supply quota
+        - name: opec
+          queries:
+            - OPEC plus meeting outcome
+            - OPEC production cut announcement
+            - oil quota compliance
+      concurrency: 3
+      max_articles_per_topic: 25
+label:
+  kind: binary
+  target_event: oil_price_up_5d
+state_vector:
+  dim: 64
+  blocks:
+    - name: calendar
+      slots: "0:64"
+      builder: calendar
+      params: {}
+backtest:
+  commission_bps: 30
+  base_slippage_bps: 50
+  safety_margin_bps: 150
+  kelly_fraction: 0.20
+  kelly_cap: 0.02

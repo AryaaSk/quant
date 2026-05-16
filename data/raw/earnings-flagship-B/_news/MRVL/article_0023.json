@@ -1,0 +1,9 @@
+{
+  "url": "https://www.nasdaq.com/articles/marvells-custom-silicon-business-scales-whats-ahead",
+  "title": "Marvell's Custom Silicon Business Scales: What's Ahead?",
+  "published_at": "2026-03-15T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Marvell Technology expects its custom silicon business to roughly contribute to one-fourth of its overall data center revenues and grow at least 20% next year. The custom chip business expects at least 20% growth next year, backed by purchase orders for next-generation programs. The company has made significant progress in its XPU business, unveiling 18 XPU and XPU-attach socket design wins, among which many are already in volume production. Additionally, the company reported significant momentum in its custom silicon business, increasing its design win pipeline to over 50 new opportunities representing an estimated $75 billion in lifetime revenue. Custom silicon (XPUs and XPU-attached chips) doubled to $1.5 billion in fiscal 2026 and is projected to at least double again by fiscal 2028. The company's fiscal 2028 outlook calls for custom XPU business expected to at least double year over year. Strong diversification across top U.S. hyperscalers reduces customer concentration risk.",
+  "topic": "MRVL",
+  "source_type": "news_scraper.MRVL"
+}

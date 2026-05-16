@@ -1,0 +1,26 @@
+<!doctype html>
+<html><head><title>earnings-flagship-A backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Earnings beat/miss flagship (Model A — numerical only at scale) (earnings-flagship-A)</h1>
+<p>Flagship PoC Model A baseline. 145 mid/small-cap retail-narrative tickers × ~10 years
+(2014-2024) → expected ~5,000-8,000 events. Pure numerical features:
+
+Per (ticker, earnings_date):
+- EPS estimate, prior-4q surprise avg, prior-4q beat rate, days since last earnings
+- Realized vol 30d + 5d, trailing returns 7/30/60/90/180d, sector ETF returns
+- IV-rank proxy (current 30d vol percentile vs trailing year)
+- Volume shock (recent 5d vol / 60d baseline)
+- Momentum diff (7d vs 90d return)
+- Reddit + StockTwits aggregates (mention count, comment count, bullish/bearish ratio)
+
+Model: GBDT. Held-out: last 18 months (~600-1000 events).
+
+Compare to earnings-flagship-B (same data + Voyage-embedded SEC + transcripts + news text).
+The A-vs-B Brier improvement at this scale is the actual flagship test of the
+agent-army + text-feature thesis.
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>0.35109697220084424</pre></td></tr><tr><td>brier_market</td><td><pre>0.21981100963977676</pre></td></tr><tr><td>brier_improvement</td><td><pre>-0.13128596256106748</pre></td></tr><tr><td>accuracy_model</td><td><pre>0.5570776255707762</pre></td></tr><tr><td>accuracy_market</td><td><pre>0.680365296803653</pre></td></tr><tr><td>n_events</td><td><pre>219</pre></td></tr><tr><td>n_trades</td><td><pre>204</pre></td></tr><tr><td>hit_rate</td><td><pre>0.4803921568627451</pre></td></tr><tr><td>gross_return</td><td><pre>0.7958532794428621</pre></td></tr><tr><td>net_return</td><td><pre>0.7958532794428621</pre></td></tr><tr><td>sharpe</td><td><pre>1.049911602970012</pre></td></tr><tr><td>max_drawdown</td><td><pre>-0.24077884818014741</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

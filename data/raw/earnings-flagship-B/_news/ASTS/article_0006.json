@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/sectors/technology/articles/ast-spacemobile-wins-fcc-approval-144815759.html",
+  "title": "AST SpaceMobile Wins FCC Approval to Challenge Starlink Mobile",
+  "published_at": "2026-04-22T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AST SpaceMobile secured Federal Communications Commission authorization to deploy its full constellation of 248 satellites and provide satellite-to-smartphone connectivity across the U.S. and internationally. The FCC's approval allows the company to dramatically improve services in the United States and globally by delivering connectivity to standard mobile devices in areas lacking cellular coverage. The company will leverage radio spectrum from partners AT&T and Verizon across lower-frequency bands. AST currently has six BlueBird satellites operational, along with its earlier BlueWalker 3 test satellite. The company estimates needing 45-60 satellites in orbit by end-of-2026 for reliable U.S. coverage. BlueBird satellites feature large antenna arrays functioning as space-based cell towers, enabling voice, data, and video services without requiring modified handsets. The network operates at approximately 530-kilometer altitudes. This FCC approval intensifies competition with SpaceX's Starlink Mobile and Amazon's planned satellite connectivity services.",
+  "topic": "ASTS",
+  "source_type": "news_scraper.ASTS"
+}

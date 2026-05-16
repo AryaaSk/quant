@@ -1,0 +1,9 @@
+{
+  "url": "https://www.benzinga.com/quote/MDB/earnings",
+  "title": "MongoDB Earnings Estimates and Analysis from Benzinga",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Benzinga provides comprehensive MongoDB earnings analysis including consensus estimates and analyst commentary. Current consensus estimates project FY2027 revenue of $2.86-$2.90 billion representing 16-18% growth, with non-GAAP EPS of $5.75-$5.93. Q1 FY2027 estimates suggest revenue of $600-605 million and EPS of $0.89. Analyst commentary highlights key themes: robust Atlas adoption, expanding enterprise customer base, and improving profitability. However, analysts remain cautious on growth deceleration and competitive threats from hyperscalers. Earnings estimate revisions have trended downward since March 2026 guidance miss, indicating analyst adjustment to more conservative growth assumptions. Street estimates now reflect consensus expectation that MongoDB will grow in 15-20% range rather than historical 30-40% growth rates. This normalization reflects both market maturation and macro prudence.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

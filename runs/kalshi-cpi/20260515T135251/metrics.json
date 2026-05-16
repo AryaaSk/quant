@@ -1,0 +1,67 @@
+{
+  "brier_model": 1e-08,
+  "brier_market": 0.0001,
+  "brier_improvement": 9.999000000000001e-05,
+  "accuracy_model": 1.0,
+  "accuracy_market": 1.0,
+  "n_events": 2,
+  "n_trades": 0,
+  "hit_rate": 0.0,
+  "gross_return": 0.0,
+  "net_return": 0.0,
+  "sharpe": 0.0,
+  "max_drawdown": 0.0,
+  "calibration_bins": [
+    [
+      0.05,
+      0.0,
+      2
+    ],
+    [
+      0.15000000000000002,
+      NaN,
+      0
+    ],
+    [
+      0.25,
+      NaN,
+      0
+    ],
+    [
+      0.35000000000000003,
+      NaN,
+      0
+    ],
+    [
+      0.45,
+      NaN,
+      0
+    ],
+    [
+      0.55,
+      NaN,
+      0
+    ],
+    [
+      0.6500000000000001,
+      NaN,
+      0
+    ],
+    [
+      0.75,
+      NaN,
+      0
+    ],
+    [
+      0.8500000000000001,
+      NaN,
+      0
+    ],
+    [
+      0.95,
+      NaN,
+      0
+    ]
+  ],
+  "label_shuffle_brier_improvement": null
+}

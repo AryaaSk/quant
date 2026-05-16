@@ -1,0 +1,22 @@
+{
+  "slug": "betfair-corners-cards",
+  "display_name": "Betfair corners + cards exotic markets",
+  "platform": "betfair",
+  "notes": "Within any of the tier-B leagues, exotic markets (corners, cards, total fouls) attract\neven less sharp money than main markets. Lower per-event liquidity (\u00a33k-\u00a315k) but\nwider mispricing relative to true.\n",
+  "model": "gbdt",
+  "state_dim": 192,
+  "data_sources": [
+    "football_data",
+    "sofascore"
+  ],
+  "sources_reachable": {
+    "football_data": 11096
+  },
+  "sources_error": {
+    "sofascore": "not_implemented: adapter 'Sofascore' is not implemented yet.\n  Source role: Sofascore match details (lineups, stats, injuries) via the public web API. Be polite: rate-limit + cache. Source: https://www.sofascore.com/api/v1/.\n  Implement quant/adapters/sofascore.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 47.5,
+  "verdict": "kill: 1/2 sources unimplemented",
+  "advance": false
+}

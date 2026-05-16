@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "MARA",
+  "queries": [
+    "MARA earnings preview 2022 Qq",
+    "MARA earnings preview 2022 Qq",
+    "MARA earnings preview 2022 Qq",
+    "MARA earnings preview 2022 Qq",
+    "MARA earnings preview 2023 Qq",
+    "MARA earnings preview 2023 Qq",
+    "MARA earnings preview 2023 Qq",
+    "MARA earnings preview 2023 Qq",
+    "MARA earnings preview 2024 Qq",
+    "MARA earnings preview 2024 Qq",
+    "MARA earnings preview 2024 Qq",
+    "MARA earnings preview 2024 Qq",
+    "MARA stock news preview",
+    "MARA guidance outlook quarterly results",
+    "MARA analyst expectations",
+    "MARA retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/MARA",
+  "max_articles": 80
+}

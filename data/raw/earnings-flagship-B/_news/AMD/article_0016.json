@@ -1,0 +1,9 @@
+{
+  "url": "https://www.digitimes.com/news/a20251118PD235/amd-data-center-revenue-gpu-growth.html",
+  "title": "AMD Eyes $20B Data Center GPU Revenue in 2 Years",
+  "published_at": "2025-11-18T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Advanced Micro Devices is targeting $20 billion in data center GPU revenue within two years, according to company guidance and analyst projections. This aggressive target reflects AMD's confidence in MI450 series ramp and Helios rack-scale AI system adoption among hyperscalers. The ambitious goal, if achieved, would establish AMD as a significant force in the accelerator market currently dominated by NVIDIA. AMD's strategy to bundle MI450 GPUs with EPYC Venice CPUs and Pensando networking in the Helios form factor is designed to compete directly at the system level against NVIDIA's GB200 NVL72 configurations. The company is working with leading AI labs and cloud providers including Meta, OpenAI, and others to drive MI450 adoption. Management indicated that customer engagements around MI450 and Helios rack-level systems are proceeding very well, with leading customer forecasts exceeding initial expectations. Success in achieving this $20B GPU revenue target would represent a dramatic acceleration of AMD's data center AI business and signal a major shift in competitive dynamics.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

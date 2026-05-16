@@ -1,0 +1,18 @@
+<!doctype html>
+<html><head><title>polymarket-entertainment-B backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Polymarket entertainment unified (Model B — numerical + Voyage commentary) (polymarket-entertainment-B)</h1>
+<p>Model B for the dual A vs B PoC. Same data, same model class as polymarket-entertainment-A,
+PLUS: haiku news_scraper agents scrape entertainment commentary per event_slug
+(per_entity_mode keyed by Polymarket event_slug, e.g. "oscars-2024", "emmys-2024",
+"golden-globes-2024", "cannes-2023"). Per-event aggregated commentary is Voyage-embedded
+(voyage-3-large) into a 256-slot text block alongside the numerical features.
+
+The A vs B comparison isolates the contribution of agent-scraped + Voyage-embedded
+commentary. Same train/test split, same model class, only the feature set differs.
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>0.2609444516282313</pre></td></tr><tr><td>brier_market</td><td><pre>0.3712342857142857</pre></td></tr><tr><td>brier_improvement</td><td><pre>0.11028983408605436</pre></td></tr><tr><td>accuracy_model</td><td><pre>0.7142857142857143</pre></td></tr><tr><td>accuracy_market</td><td><pre>0.5714285714285714</pre></td></tr><tr><td>n_events</td><td><pre>35</pre></td></tr><tr><td>n_trades</td><td><pre>24</pre></td></tr><tr><td>hit_rate</td><td><pre>0.5416666666666666</pre></td></tr><tr><td>gross_return</td><td><pre>2688.024426546273</pre></td></tr><tr><td>net_return</td><td><pre>2688.024426546273</pre></td></tr><tr><td>sharpe</td><td><pre>1.6514835020611307</pre></td></tr><tr><td>max_drawdown</td><td><pre>-0.08620578114131966</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

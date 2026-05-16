@@ -1,0 +1,9 @@
+{
+  "url": "https://stockscan.io/stocks/LCID/forecast",
+  "title": "LCID Stock Forecast 2026 - Lucid Price Targets & Predictions",
+  "published_at": "2026-05-15T00:00:00Z",
+  "scraped_at": "2026-05-15T12:00:00Z",
+  "text": "StockScan's analysis projects Lucid stock price scenarios for 2026 based on various execution outcomes. Base case scenario assumes continued Gravity SUV ramp and modest cost reduction, projecting stock price around $8-10 by end 2026. Bull case assumes successful robotaxi revenue ramp and faster profitability timeline, projecting $15-20. Bear case assumes execution failures and need for additional dilutive capital raise, projecting $2-4. The wide range of scenarios reflects significant uncertainty about company execution. Most scenarios assume some form of capital raise before profitability, creating shareholder dilution risk. Probability weighting favors bear and base case scenarios over bull case.",
+  "topic": "LCID",
+  "source_type": "news_scraper.LCID"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.twst.com/news/innodata-artificial-intelligence-software/",
+  "title": "Innodata Inc. (NASDAQ:INOD): Artificial Intelligence Software from Seven Years of R&D Wins Major Contracts",
+  "published_at": "2023-10-02T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Innodata has invested seven years in developing AI software that is now securing significant contracts. CEO Jack Abuhoff highlights the company's focus on generative AI applications across multiple sectors. Banking sector applications: The company is working with major financial institutions to build AI-enabled platforms that dramatically improve efficiency. One example shows processing time reduction from three hours to 45 minutes, with potential to reach ten minutes in later phases. Additionally, Innodata developed a compliance platform helping banks track regulatory changes, valued at $2.4 million-a-year subscription. Big Five technology partnerships: Although bound by non-disclosure agreements, Abuhoff confirms the company works with four of the five largest tech companies (Amazon, Apple, Microsoft, Google, Meta), developing large language model capabilities. Hyperscaler white label deal: Innodata announced a partnership with a major cloud provider to deliver AI data engineering services. This arrangement allows the company to leverage the technology giant's distribution while focusing on execution, overcoming Innodata's current sales and marketing constraints of eight employees.",
+  "topic": "INOD",
+  "source_type": "news_scraper.INOD"
+}

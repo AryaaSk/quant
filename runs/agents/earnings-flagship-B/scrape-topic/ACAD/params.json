@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "ACAD",
+  "queries": [
+    "ACAD earnings preview 2020 Qq",
+    "ACAD earnings preview 2020 Qq",
+    "ACAD earnings preview 2021 Qq",
+    "ACAD earnings preview 2021 Qq",
+    "ACAD earnings preview 2021 Qq",
+    "ACAD earnings preview 2021 Qq",
+    "ACAD earnings preview 2022 Qq",
+    "ACAD earnings preview 2022 Qq",
+    "ACAD earnings preview 2022 Qq",
+    "ACAD earnings preview 2022 Qq",
+    "ACAD earnings preview 2023 Qq",
+    "ACAD earnings preview 2023 Qq",
+    "ACAD earnings preview 2023 Qq",
+    "ACAD earnings preview 2023 Qq",
+    "ACAD earnings preview 2024 Qq",
+    "ACAD earnings preview 2024 Qq",
+    "ACAD earnings preview 2024 Qq",
+    "ACAD stock news preview",
+    "ACAD guidance outlook quarterly results",
+    "ACAD analyst expectations",
+    "ACAD retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ACAD",
+  "max_articles": 30
+}

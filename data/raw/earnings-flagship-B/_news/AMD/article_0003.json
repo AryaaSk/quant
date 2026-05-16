@@ -1,0 +1,9 @@
+{
+  "url": "https://www.shroutresearch.com/blog/2024/5/3/analyzing-the-amd-q1-2024-earnings-and-outlook",
+  "title": "AMD Q1 2024 Earnings Analysis",
+  "published_at": "2024-05-03T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AMD delivered solid Q1 results with $5.5B in revenue and $2.5B in gross profit at a 52% gross margin. However, the company showed a clear delineation between the business divisions that are growing and those that are struggling. The data center segment emerged as the growth engine, with revenue surging 80% year-over-year to $2.3B. This expansion was driven by both EPYC server processors and Instinct GPU accelerators. Notably, the MI300 accelerator family—designed to compete with Nvidia's H100—has already exceeded $1B in revenue since late 2023 launch, prompting AMD to raise full-year projections from $3.5B to $4.0B. The PC segment similarly impressed with an 85% year-over-year revenue increase to $1.4B, driven by Ryzen 8000 series processors featuring integrated AI accelerators. The division turned profitable after previously operating at a loss. Gaming revenue halved to $900M, while the embedded division also declined 50% to $800M, though the company secured new automotive design wins for Xilinx products. AMD projects relatively flat Q2 results at approximately $5.7B revenue, disappointing investors despite anticipated growth in data center and consumer PC segments. Analyst Ryan Shrout remains optimistic about AMD's prospects given upcoming processor launches and expanding AI compute opportunities.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

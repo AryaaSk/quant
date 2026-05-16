@@ -1,0 +1,9 @@
+{
+  "url": "https://www.insightologyresearch.com/p/800v-hvdc-powering-the-next-generation",
+  "title": "800V HVDC: Powering the Next Generation of AI Data Centers",
+  "published_at": "2025-10-28T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "This article explores Nvidia's initiative to transition data center power infrastructure from the current 48V standard to 800V High Voltage Direct Current (HVDC), addressing the escalating power consumption demands of AI servers. Current data center power systems face severe limitations. As GPU power consumption surges—exemplified by Blackwell GPUs requiring 130 DrMOS chips—the existing 48V architecture becomes inefficient. A single 1MW rack requires approximately 200 kg of copper busbars. Scaling this to a 1GW data center (roughly 1,000 racks) would demand an unfeasible 500,000 tons of copper. The new architecture centralizes the AC to 800V DC conversion, sends it to the server rows, and only steps down the voltage near the chips. This approach borrows from electric vehicle charging technology and delivers three main advantages: Enhanced efficiency through reduced current and transmission losses; Cost savings via decreased copper requirements; and Proven technology leveraging established EV infrastructure. Nvidia projects substantial demand: OpenAI's 26GW computing expansion would require approximately 26,000 HVDC power racks. Major cloud providers Meta and Google will need 4,000 and 6,000 racks respectively within two years. Key beneficiaries include Delta Electronics and BizLink, with power whip usage increasing approximately 3.1x per NVL576 unit. The full transition could reduce data center total cost of ownership by 20-30%.",
+  "topic": "NVTS",
+  "source_type": "news_scraper.NVTS"
+}

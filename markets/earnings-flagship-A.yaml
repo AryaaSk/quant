@@ -1,0 +1,94 @@
+slug: earnings-flagship-A
+display_name: Earnings beat/miss flagship (Model A — numerical only at scale)
+platform: stock_earnings
+notes: |
+  Flagship PoC Model A baseline. 145 mid/small-cap retail-narrative tickers × ~10 years
+  (2014-2024) → expected ~5,000-8,000 events. Pure numerical features:
+
+  Per (ticker, earnings_date):
+  - EPS estimate, prior-4q surprise avg, prior-4q beat rate, days since last earnings
+  - Realized vol 30d + 5d, trailing returns 7/30/60/90/180d, sector ETF returns
+  - IV-rank proxy (current 30d vol percentile vs trailing year)
+  - Volume shock (recent 5d vol / 60d baseline)
+  - Momentum diff (7d vs 90d return)
+  - Reddit + StockTwits aggregates (mention count, comment count, bullish/bearish ratio)
+
+  Model: GBDT. Held-out: last 18 months (~600-1000 events).
+
+  Compare to earnings-flagship-B (same data + Voyage-embedded SEC + transcripts + news text).
+  The A-vs-B Brier improvement at this scale is the actual flagship test of the
+  agent-army + text-feature thesis.
+time_grain: daily
+held_out_months: 18
+sequence_length: 8
+model: gbdt
+data_sources:
+  - name: stock_earnings
+    kind: numeric
+    params:
+      start_date: 2014-01-01
+      end_date: 2024-10-01
+  - name: social_sentiment
+    kind: numeric
+    params:
+      event_source: stock_earnings
+      entity_column: ticker
+      reddit_subreddits: [wallstreetbets, stocks, investing, smallstreetbets]
+      window_days_reddit: 30
+      window_days_stocktwits: 7
+label:
+  kind: binary
+  target_event: earnings_beat
+state_vector:
+  dim: 256
+  blocks:
+    - name: numeric_earnings
+      slots: "0:128"
+      builder: numeric
+      params:
+        series:
+          - eps_estimate
+          - avg_surprise_4q
+          - beat_rate_prior_4q
+          - days_since_last_earnings
+          - realized_vol_30d
+          - recent_vol_5d
+          - return_7d
+          - return_30d
+          - return_60d
+          - return_90d
+          - return_180d
+          - sector_return_30d
+          - sector_return_90d
+          - iv_rank_proxy
+          - volume_shock_5_60
+          - momentum_diff_7_90
+        rolling_window: 60
+    - name: numeric_social
+      slots: "128:192"
+      builder: numeric
+      params:
+        series:
+          - reddit_mention_count_30d
+          - reddit_comment_count_30d
+          - reddit_avg_score_30d
+          - social_concentration
+          - stocktwits_msg_count_7d
+          - stocktwits_bullish_ratio
+        rolling_window: 24
+    - name: market_state
+      slots: "192:224"
+      builder: market_state
+      params:
+        series: [beat_rate_prior_4q]
+        velocity_lags: [1, 4]
+    - name: calendar
+      slots: "224:256"
+      builder: calendar
+      params: {}
+backtest:
+  commission_bps: 20
+  base_slippage_bps: 30
+  safety_margin_bps: 150
+  kelly_fraction: 0.20
+  kelly_cap: 0.02

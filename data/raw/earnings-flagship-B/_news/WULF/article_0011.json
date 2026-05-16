@@ -1,0 +1,9 @@
+{
+  "url": "https://www.globenewswire.com/news-release/2023/07/18/2706407/0/en/TeraWulf-Announces-7-9-EH-s-Expansion-Plan-and-Associated-Purchase-of-18-500-S19j-XP-Bitcoin-Miners-from-BITMAIN.html",
+  "title": "TeraWulf Announces 7.9 EH/s Expansion Plan and Associated Purchase of 18,500 S19j XP Bitcoin Miners from BITMAIN",
+  "published_at": "2023-07-18T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "TeraWulf announced plans to purchase 18,500 next-generation Antminer S19j XP mining units from BITMAIN for $75 million (approximately $53.4 million after credits), representing the first large-scale order of S19j XPs from the manufacturer. The expansion will boost self-mining hashrate by approximately 58%, from 5.0 EH/s to 7.9 EH/s. The miners will be deployed at the Lake Mariner facility in New York, specifically in Building 3, with shipments scheduled for equal monthly allotments during October, November, and December 2023. Each S19j XP unit delivers 151 TH/s with 21.5 joules per terahash efficiency. Combined with existing infrastructure, TeraWulf expects to achieve fleet efficiency of 25.7 J/TH. The company leverages 91% zero-carbon energy at 3.5 cents per kilowatt hour, positioning it as one of the sector's most efficient mining operations ahead of the next Bitcoin halving event.",
+  "topic": "WULF",
+  "source_type": "news_scraper.WULF"
+}

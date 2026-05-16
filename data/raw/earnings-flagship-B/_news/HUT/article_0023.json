@@ -1,0 +1,9 @@
+{
+  "url": "https://www.stocktitan.net/news/HUT/hut-8-energizes-vega-data-vr6eeayz6rw9.html",
+  "title": "Hut 8 Shatters Records: New 15 EH/s Bitcoin Mining Mega-Facility Changes Industry Landscape",
+  "published_at": "2024-09-23T00:00:00Z",
+  "scraped_at": "2026-05-16T14:50:00Z",
+  "text": "Hut 8 announced the energization of Vega, believed to be the largest single-building Bitcoin mining facility by nameplate hashrate. The 205-megawatt facility spans 162,000 square feet and will support up to 15 exahash per second (EH/s) of BITMAIN U3S21EXPH servers. Industry Significance: The facility represents nearly 2.0% of current global Bitcoin network hashrate, a significant contribution to the overall network. Facility Specifications: Power usage effectiveness (PUE) of 1.06, capacity to host 17,280 BITMAIN U3S21EXPH servers, and 96 custom-designed cooling modules. Revenue Impact: BITMAIN has committed to the full 15 EH/s deployment under an ASIC colocation agreement expected to generate $110-120 million in annualized revenue upon full energization. Strategic Importance: This facility demonstrates Hut 8's ability to design and build state-of-the-art mining infrastructure and secure major partnerships with hardware manufacturers. The facility also showcases Hut 8's pivot toward infrastructure-as-a-service models.",
+  "topic": "HUT",
+  "source_type": "news_scraper.HUT"
+}

@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "PL",
+  "queries": [
+    "PL earnings preview 2022 Qq",
+    "PL earnings preview 2022 Qq",
+    "PL earnings preview 2022 Qq",
+    "PL earnings preview 2022 Qq",
+    "PL earnings preview 2023 Qq",
+    "PL earnings preview 2023 Qq",
+    "PL earnings preview 2023 Qq",
+    "PL earnings preview 2023 Qq",
+    "PL earnings preview 2024 Qq",
+    "PL earnings preview 2024 Qq",
+    "PL earnings preview 2024 Qq",
+    "PL earnings preview 2024 Qq",
+    "PL stock news preview",
+    "PL guidance outlook quarterly results",
+    "PL analyst expectations",
+    "PL retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/PL",
+  "max_articles": 80
+}

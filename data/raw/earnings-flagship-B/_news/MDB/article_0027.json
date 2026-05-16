@@ -1,0 +1,9 @@
+{
+  "url": "https://public.com/stocks/mdb/forecast-price-target",
+  "title": "MongoDB Inc Stock Forecast Price Target 2026",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Public.com analyst consensus forecast for MongoDB stock sets 12-month price targets averaging $368.67, implying 23% upside from prevailing prices. Forecasts incorporate assumptions about MongoDB's competitive positioning, market share gains, and margin expansion. Price target distribution reflects analyst divergence on growth sustainability and valuation multiples: bull cases project $500+ price targets assuming continued 20%+ revenue growth, while bear cases suggest $260-300 targets anticipating growth deceleration. Key valuation drivers in analyst models include: Atlas revenue growth (targeting 30%+ annually), operating margin expansion (targeting 15%+ by FY2027), and free cash flow improvement. Price targets were significantly reduced from prior consensus after March 2026 guidance miss and management reset on growth expectations. Current consensus price targets of $368-446 range suggest limited upside from valuations reflecting normalized growth and moderate margin expansion assumptions.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

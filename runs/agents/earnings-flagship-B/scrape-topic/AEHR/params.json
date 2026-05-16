@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "AEHR",
+  "queries": [
+    "AEHR earnings preview 2020 Q3",
+    "AEHR earnings preview 2020 Q3",
+    "AEHR earnings preview 2021 Q1",
+    "AEHR earnings preview 2021 Q2",
+    "AEHR earnings preview 2021 Q3",
+    "AEHR earnings preview 2021 Q3",
+    "AEHR earnings preview 2022 Q1",
+    "AEHR earnings preview 2022 Q1",
+    "AEHR earnings preview 2022 Q3",
+    "AEHR earnings preview 2022 Q4",
+    "AEHR earnings preview 2023 Q1",
+    "AEHR earnings preview 2023 Q1",
+    "AEHR earnings preview 2023 Q3",
+    "AEHR earnings preview 2023 Q4",
+    "AEHR earnings preview 2024 Q1",
+    "AEHR earnings preview 2024 Q2",
+    "AEHR earnings preview 2024 Q3",
+    "AEHR stock news preview",
+    "AEHR guidance outlook quarterly results",
+    "AEHR analyst expectations",
+    "AEHR retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/AEHR",
+  "max_articles": 30
+}

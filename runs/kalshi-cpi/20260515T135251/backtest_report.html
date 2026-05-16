@@ -1,0 +1,16 @@
+<!doctype html>
+<html><head><title>kalshi-cpi backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Kalshi CPI YoY threshold markets (kalshi-cpi)</h1>
+<p>Monthly CPI YoY release. Kalshi lists multiple threshold markets per release (e.g.
+"Will CPI YoY exceed 2.3%?", "exceed 2.4%?", ...). Each (event, threshold) is one
+prediction. Edge thesis: combine FRED leading indicators (Truflation, ADP, jobless
+claims, ISM) with Kalshi's market state. The Federal Reserve paper (Kalshi NBER 2026)
+showed Kalshi macro contracts beat Bloomberg consensus on out-of-sample windows.
+Public Kalshi API (api.elections.kalshi.com) returns ~2 years of resolved markets.
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>1e-08</pre></td></tr><tr><td>brier_market</td><td><pre>0.0001</pre></td></tr><tr><td>brier_improvement</td><td><pre>9.999000000000001e-05</pre></td></tr><tr><td>accuracy_model</td><td><pre>1.0</pre></td></tr><tr><td>accuracy_market</td><td><pre>1.0</pre></td></tr><tr><td>n_events</td><td><pre>2</pre></td></tr><tr><td>n_trades</td><td><pre>0</pre></td></tr><tr><td>hit_rate</td><td><pre>0.0</pre></td></tr><tr><td>gross_return</td><td><pre>0.0</pre></td></tr><tr><td>net_return</td><td><pre>0.0</pre></td></tr><tr><td>sharpe</td><td><pre>0.0</pre></td></tr><tr><td>max_drawdown</td><td><pre>0.0</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

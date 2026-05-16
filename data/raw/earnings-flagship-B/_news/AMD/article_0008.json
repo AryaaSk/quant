@@ -1,0 +1,9 @@
+{
+  "url": "https://hothardware.com/news/amd-q1-2026-earnings-surging-ai-data-center-demand",
+  "title": "AMD Q1 2026 Earnings: AI Data Center Boom Drives Record Results",
+  "published_at": "2026-05-05T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AMD reported exceptional first-quarter 2026 financial results, with total revenue reaching $10.25 billion, up 38% year-over-year and beating Wall Street expectations. The company's net income nearly doubled, rising 95% to $1.38 billion. The data center segment emerged as AMD's primary revenue engine, generating $5.8 billion in Q1—up 7% sequentially and 57% annually. This represents an all-time high for the company. AMD CEO Dr. Lisa Su emphasized: 'Data Center now the primary driver of our revenue and earnings growth.' Strong demand for AMD's EPYC processors and Instinct GPUs fueled this performance. Notably, AMD achieved its fourth consecutive quarter of record server CPU revenue, distinguishing itself from competitors focused primarily on accelerators. A significant development involves changing CPU-to-GPU deployment ratios. Su explained that configurations are shifting from traditional 1:4 or 1:8 host-to-accelerator ratios toward 1:1 arrangements. This trend stems from agentic AI workloads requiring substantial computational resources. This shift prompted AMD to double its CPU total addressable market forecast from $60 billion to $120 billion by 2030. AMD's Client and Gaming segment generated $3.6 billion, representing 23% year-over-year growth. Gaming revenue reached $720 million, up 11% annually, driven largely by Radeon 9000 series GPU demand. AMD projects Q2 2026 revenue of approximately $11.2 billion (±$300 million), suggesting continued momentum in enterprise AI infrastructure spending.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

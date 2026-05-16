@@ -1,0 +1,9 @@
+{
+  "url": "https://stockanalysis.com/stocks/mdb/forecast/",
+  "title": "MongoDB Stock Analyst Price Targets and Forecasts",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Wall Street analysts have issued 33 ratings covering MongoDB stock with a consensus rating of Buy and average price target of $368.67, forecasting 23.11% upside. The breakdown includes 23 buy ratings, 3 hold ratings, and 0 sell ratings according to recent consensus data. Price targets range from a high of $500 to a low of $260-$303. Analysts cite stronger Atlas momentum, improving profitability, and confidence in the company's AI positioning. However, MongoDB faces demand weakness, competition from hyperscalers, and risks from generative AI advancements. Recent analyst commentary highlights favorable prospects for MongoDB's cloud database business and artificial intelligence capabilities. The average analyst price target clusters in the $405 to $500 range, reflecting optimism about the company's future growth trajectory. Key positive factors include record operating margins, strong customer growth, and successful Atlas adoption across enterprise customers.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

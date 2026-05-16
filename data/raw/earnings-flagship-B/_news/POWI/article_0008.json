@@ -1,0 +1,9 @@
+{
+  "url": "https://www.stocktitan.net/news/POWI/power-integrations-targets-800-v-automotive-applications-with-new-1lqror8zgysb.html",
+  "title": "Power Integrations Targets 800 V Automotive Applications with New Wide-Creepage Switcher IC",
+  "published_at": "2024-12-18T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Power Integrations unveiled a wide-creepage package option for its InnoSwitch 3-AQ flyback switcher IC designed for automotive applications. The new 1700 V-rated device features a 5.1 mm drain-to-source-pin creepage distance that eliminates the need for conformal coating and meets the IEC60664-1 isolation standard for 800 V vehicles. According to the company, these highly integrated ICs can reduce components by as much as 50 percent. The devices incorporate a silicon carbide primary switch capable of delivering up to 80 watts of output power and include features like synchronous rectification and multi-mode valley switching for greater than 90 percent efficiency. Startup occurs with as little as 30 volts on the drain without external circuitry. The new InnoSwitch3-AQ family targets automotive applications including battery management systems, µDC-DC converters, control circuits, and emergency power supplies in traction inverters. The increased primary-to-primary creepage and clearance distance provides support for the next generation of EV bus voltages. Pricing starts at $6 per unit for 10,000-unit quantities, with samples available immediately and full production expected in Q1 2025.",
+  "topic": "POWI",
+  "source_type": "news_scraper.POWI"
+}

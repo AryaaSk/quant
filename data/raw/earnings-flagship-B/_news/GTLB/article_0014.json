@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/gitlab-inc-gtlb-q3-2026-070029063.html",
+  "title": "GitLab Inc (GTLB) Q3 2026 Earnings Call Highlights: Strong Revenue Growth and Strategic Shifts",
+  "published_at": "2025-12-02T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "GitLab Inc reported Q3 2026 financial results. Revenue reached $244 million, representing a 25% increase year over year. Non-GAAP operating margin improved to 18%, exceeding guidance by 5 percentage points. Non-GAAP gross margin maintained at 89%. High-value customers with $100,000+ ARR grew 23% year-over-year to 1,405. Dollar-based net retention rate stood at 119%. Total RPO expanded 27% to $1 billion. SaaS revenue comprising roughly 31% of total revenue grew 36% annually. The company was recognized as leader in 2025 Gartner Magic Quadrant for DevOps platforms for the third consecutive year. GitLab is transitioning to a hybrid seat plus usage-based business model with the Duo agent platform. The company continues to face weakness in US public sector and SMB segments.",
+  "topic": "GTLB",
+  "source_type": "news_scraper.GTLB"
+}

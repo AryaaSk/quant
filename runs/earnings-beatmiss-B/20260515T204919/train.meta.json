@@ -1,0 +1,10 @@
+{
+  "model": "gbdt",
+  "slug": "earnings-beatmiss-B",
+  "device": "auto",
+  "n_train": 125,
+  "n_val": 22,
+  "n_held_out": 32,
+  "state_dim": 384,
+  "sequence_length": 8
+}

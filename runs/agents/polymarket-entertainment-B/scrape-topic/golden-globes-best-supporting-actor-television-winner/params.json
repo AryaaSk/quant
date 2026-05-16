@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "golden-globes-best-supporting-actor-television-winner",
+  "queries": [
+    "golden-globes-best-supporting-actor-television-winner predictions analysis",
+    "golden-globes-best-supporting-actor-television-winner oddsmaker pick analysis",
+    "golden-globes-best-supporting-actor-television-winner critic commentary preview",
+    "golden-globes-best-supporting-actor-television-winner expert forecast roundup",
+    "golden-globes-best-supporting-actor-television-winner variety deadline hollywood reporter",
+    "golden-globes-best-supporting-actor-television-winner indiewire commentary",
+    "golden-globes-best-supporting-actor-television-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/golden-globes-best-supporting-actor-television-winner",
+  "max_articles": 25
+}

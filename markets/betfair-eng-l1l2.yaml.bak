@@ -1,0 +1,168 @@
+slug: betfair-eng-l1l2
+display_name: Betfair English League One+Two (v3 transformer + agent-scraped text)
+platform: betfair
+notes: |
+  V3: v2's same football_data features PLUS agent-scraped text features for lineups,
+  injuries, and manager press conferences. The thesis is that closing-line-only features
+  hit a ceiling (v1 GBDT: -7.91% net, Brier -0.16; v2 transformer same features: -10.79%
+  net, Brier -0.04) and text adds genuinely new information.
+
+  Stage A: news_scraper spawns 3 claude scrapers (one per topic, ~$1 each). Articles
+  saved under data/raw/betfair-eng-l1l2/_news/<topic>/ with date metadata.
+
+  Stage B: text blocks use MPNet (frozen sentence encoder, ~110M params) to embed the
+  past N days of text per topic into the corresponding slot range. If v3 shows Brier
+  improvement > +0.02, next iteration upgrades to Qwen3-Embedding-8B on H200.
+
+  V3 transformer: 10 layers, model_dim 384, ~25M params total. Safe regime at ~36
+  events/param given ~900 training events.
+time_grain: daily
+held_out_months: 6
+sequence_length: 32
+model: transformer
+data_sources:
+  - name: football_data
+    kind: numeric
+    params:
+      leagues: [E2, E3]
+  - name: news_scraper
+    kind: text
+    params:
+      topics:
+        - name: lineups
+          queries:
+            - English League One starting lineup confirmed
+            - EFL League Two team news pre match
+            - EFL injury report lineup announcement
+        - name: injuries
+          queries:
+            - English League One injury list ruled out
+            - EFL League Two player injury hamstring
+            - Championship loan move January window
+        - name: manager
+          queries:
+            - English League One manager press conference
+            - EFL manager interview tactics formation
+            - English Football League sacking appointment
+      concurrency: 3
+      max_articles_per_topic: 80
+  - name: agent_feature_extractor
+    kind: numeric
+    params:
+      articles_source: news_scraper
+      event_source: football_data
+      window_days: 10
+      batch_size: 20
+      concurrency: 3
+      default_value: 0.0
+      feature_schema:
+        - {name: home_injuries_severity,  description: "Severity of key-player absences for home team (-1 none, +1 many)", range: [-1, 1]}
+        - {name: away_injuries_severity,  description: "Same for away team",                                              range: [-1, 1]}
+        - {name: home_form_narrative,     description: "Media narrative of home form (-1 dire, +1 in-form)",              range: [-1, 1]}
+        - {name: away_form_narrative,     description: "Same for away",                                                   range: [-1, 1]}
+        - {name: home_manager_pressure,   description: "Sacking-rumors / board-confidence (0 calm, +1 hot seat)",         range: [0, 1]}
+        - {name: away_manager_pressure,   description: "Same for away",                                                   range: [0, 1]}
+        - {name: home_motivation_context, description: "Promotion push / relegation battle / dead rubber (-1, +1)",       range: [-1, 1]}
+        - {name: away_motivation_context, description: "Same for away",                                                   range: [-1, 1]}
+        - {name: weather_disruption,      description: "Forecast disruption (0 none, +1 major)",                          range: [0, 1]}
+        - {name: refereeing_strictness,   description: "Appointed ref card tendency vs league avg (-1 lenient, +1 strict)", range: [-1, 1]}
+label:
+  kind: binary
+  target_event: home_win
+state_vector:
+  dim: 1024
+  blocks:
+    - name: form_numeric
+      slots: "0:192"
+      builder: numeric
+      params:
+        series:
+          - home_form_5
+          - away_form_5
+          - home_gs_5
+          - away_gs_5
+          - home_gc_5
+          - away_gc_5
+          - home_shots_5
+          - away_shots_5
+          - home_sot_5
+          - away_sot_5
+          - home_corners_5
+          - away_corners_5
+          - home_yellows_5
+          - away_yellows_5
+          - home_clean_sheets_5
+          - away_clean_sheets_5
+          - home_rest_days
+          - away_rest_days
+          - home_points_std
+          - away_points_std
+          - home_played_std
+          - away_played_std
+          - home_reds_std
+          - away_reds_std
+          - close_home_inv
+          - close_draw_inv
+          - close_away_inv
+        rolling_window: 60
+    - name: market_state
+      slots: "192:320"
+      builder: market_state
+      params:
+        series: [close_home_inv, close_draw_inv, close_away_inv]
+        velocity_lags: [1, 3, 7]
+    - name: agent_extracted_numeric
+      slots: "320:448"
+      builder: numeric
+      params:
+        series: [home_injuries_severity, away_injuries_severity, home_form_narrative, away_form_narrative, home_manager_pressure, away_manager_pressure, home_motivation_context, away_motivation_context, weather_disruption, refereeing_strictness]
+        rolling_window: 30
+    - name: text_lineups
+      slots: "448:640"
+      builder: text
+      params:
+        text_column: text__lineups
+        mode: voyage
+        window_days: 4
+        encoder_name: voyage-3-large
+        voyage_cache_dir: data/raw/betfair-eng-l1l2/_voyage_cache
+    - name: text_injuries
+      slots: "640:832"
+      builder: text
+      params:
+        text_column: text__injuries
+        mode: voyage
+        window_days: 7
+        encoder_name: voyage-3-large
+        voyage_cache_dir: data/raw/betfair-eng-l1l2/_voyage_cache
+    - name: text_manager
+      slots: "832:1008"
+      builder: text
+      params:
+        text_column: text__manager
+        mode: voyage
+        window_days: 7
+        encoder_name: voyage-3-large
+        voyage_cache_dir: data/raw/betfair-eng-l1l2/_voyage_cache
+    - name: calendar
+      slots: "1008:1024"
+      builder: calendar
+      params: {}
+transformer:
+  layers: 10
+  model_dim: 384
+  heads: 8
+  ffn_mult: 4
+  dropout: 0.1
+train:
+  batch_size: 32
+  epochs: 40
+  learning_rate: 2e-4
+  weight_decay: 1e-2
+  val_fraction: 0.15
+backtest:
+  commission_bps: 500
+  base_slippage_bps: 50
+  safety_margin_bps: 150
+  kelly_fraction: 0.25
+  kelly_cap: 0.02

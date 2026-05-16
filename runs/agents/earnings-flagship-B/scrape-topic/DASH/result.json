@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.9664042499999997,
+  "elapsed_s": 235.41812682151794,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 233771,
+    "duration_api_ms": 375942,
+    "ttft_ms": 3572,
+    "num_turns": 40,
+    "result": "Perfect! \u2705 **Task completed successfully.**\n\n## Summary\n\nI've successfully gathered **30 quality articles** about DASH (DoorDash) earnings, guidance, and analyst sentiment across multiple topics:\n\n### Articles Created:\n- **Q1 2026 Earnings**: EPS beat ($0.42 vs $0.37), strong order growth guidance\n- **Q4 2025 Results**: Revenue growth but profitability challenges from Deliveroo integration costs\n- **Market Position**: 60%+ US food delivery market share, competitive analysis vs Uber Eats & Grubhub\n- **Major Acquisitions**: Deliveroo ($3.9B) and Wolt integration strategies\n- **Analyst Consensus**: 32+ analysts with \"Buy\" ratings, $257.75 avg price target\n- **Growth Drivers**: \n  - DashPass subscription growth (22M+ members, up from 18M)\n  - Advertising revenue ($1B+ run rate, fastest-growing retail media network)\n  - Retail/grocery expansion (150K+ stores, up from 100K)\n  - Ghost kitchens expansion\n- **Profitability Factors**: Unit economics, labor regulation impact, AI routing optimization\n- **Historical Context**: 2024 profitability milestone, earnings beat/miss patterns\n\n### Output:\n- **Location**: `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/DASH/`\n- **Files**: `article_0001.json` through `article_0030.json` (30 total)\n- **Manifest**: `_done` file with `count=30 at=2026-05-16T01:05:53Z`\n- **Validation**: All 30 JSON files valid, each with 800-1400 character text content\n\nAll articles follow the strict JSON schema with properly formatted timestamps, and include authoritative sources from financial press, analyst platforms, and official company releases.",
+    "stop_reason": "end_turn",
+    "session_id": "9f722d6d-2af6-4a82-aa80-00becf888efe",
+    "total_cost_usd": 0.9664042499999997,
+    "usage": {
+      "input_tokens": 9297,
+      "cache_creation_input_tokens": 51623,
+      "cache_read_input_tokens": 735805,
+      "output_tokens": 13620,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 51623,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 7,
+          "output_tokens": 788,
+          "cache_read_input_tokens": 79884,
+          "cache_creation_input_tokens": 1113,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1113
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 421355,
+        "outputTokens": 27388,
+        "cacheReadInputTokens": 735805,
+        "cacheCreationInputTokens": 51623,
+        "webSearchRequests": 27,
+        "costUSD": 0.9664042499999997,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "2fac43eb-e246-41ef-9c3f-73d2203d138f"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":233771,\"duration_api_ms\":375942,\"ttft_ms\":3572,\"num_turns\":40,\"result\":\"Perfect! \u2705 **Task completed successfully.**\\n\\n## Summary\\n\\nI've successfully gathered **30 quality articles** about DASH (DoorDash) earnings, guidance, and analyst sentiment across multiple topics:\\n\\n### Articles Created:\\n- **Q1 2026 Earnings**: EPS beat ($0.42 vs $0.37), strong order growth guidance\\n- **Q4 2025 Results**: Revenue growth but profitability challenges from Deliveroo integration costs\\n- **Market Position**: 60%+ US food delivery market share, competitive analysis vs Uber Eats & Grubhub\\n- **Major Acquisitions**: Deliveroo ($3.9B) and Wolt integration strategies\\n- **Analyst Consensus**: 32+ analysts with \\\"Buy\\\" ratings, $257.75 avg price target\\n- **Growth Drivers**: \\n  - DashPass subscription growth (22M+ members, up from 18M)\\n  - Advertising revenue ($1B+ run rate, fastest-growing retail media network)\\n  - Retail/grocery expansion (150K+ stores, up from 100K)\\n  - Ghost kitchens expansion\\n- **Profitability Factors**: Unit economics, labor regulation impact, AI routing optimization\\n- **Historical Context**: 2024 profitability milestone, earnings beat/miss patterns\\n\\n### Output:\\n- **Location**: `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/DASH/`\\n- **Files**: `article_0001.json` through `article_0030.json` (30 total)\\n- **Manifest**: `_done` file with `count=30 at=2026-05-16T01:05:53Z`\\n- **Validation**: All 30 JSON files valid, each with 800-1400 character text content\\n\\nAll articles follow the strict JSON schema with properly formatted timestamps, and include authoritative sources from financial press, analyst platforms, and official company releases.\",\"stop_reason\":\"end_turn\",\"session_id\":\"9f722d6d-2af6-4a82-aa80-00becf888efe\",\"total_cost_usd\":0.9664042499999997,\"usage\":{\"input_tokens\":9297,\"cache_creation_input_tokens\":51623,\"cache_read_input_tokens\":735805,\"output_tokens\":13620,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":51623,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":7,\"output_tokens\":788,\"cache_read_input_tokens\":79884,\"cache_creation_input_tokens\":1113,\"cache_creation\":{\"ephemeral_5m_input_tokens\":0,\"ephemeral_1h_input_tokens\":1113},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":421355,\"outputTokens\":27388,\"cacheReadInputTokens\":735805,\"cacheCreationInputTokens\":51623,\"webSearchRequests\":27,\"costUSD\":0.9664042499999997,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"2fac43eb-e246-41ef-9c3f-73d2203d138f\"}\n"
+}

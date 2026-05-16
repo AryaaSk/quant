@@ -1,0 +1,28 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "ROOT",
+  "queries": [
+    "ROOT earnings preview 2020 Qq",
+    "ROOT earnings preview 2021 Qq",
+    "ROOT earnings preview 2021 Qq",
+    "ROOT earnings preview 2021 Qq",
+    "ROOT earnings preview 2021 Qq",
+    "ROOT earnings preview 2022 Qq",
+    "ROOT earnings preview 2022 Qq",
+    "ROOT earnings preview 2022 Qq",
+    "ROOT earnings preview 2022 Qq",
+    "ROOT earnings preview 2023 Qq",
+    "ROOT earnings preview 2023 Qq",
+    "ROOT earnings preview 2023 Qq",
+    "ROOT earnings preview 2023 Qq",
+    "ROOT earnings preview 2024 Qq",
+    "ROOT earnings preview 2024 Qq",
+    "ROOT earnings preview 2024 Qq",
+    "ROOT stock news preview",
+    "ROOT guidance outlook quarterly results",
+    "ROOT analyst expectations",
+    "ROOT retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ROOT",
+  "max_articles": 30
+}

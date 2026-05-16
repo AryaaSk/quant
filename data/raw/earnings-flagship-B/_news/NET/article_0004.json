@@ -1,0 +1,9 @@
+{
+  "url": "https://blog.cloudflare.com/cloudflare-acquires-kivera/",
+  "title": "Cloudflare Acquires Kivera for Preventive Cloud Security",
+  "published_at": "2024-06-01T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Cloudflare acquired Kivera, a cloud security and compliance company, to strengthen its SASE platform with preventive cloud infrastructure controls. The integration expands Cloudflare One beyond application security to include proactive configuration management of cloud services. Kivera brings a prevention-first approach that blocks errors before deployment by inspecting cloud API traffic, allowing organizations to establish boundaries around their cloud resources and tenants to ensure sensitive data stays within the organization. The solution includes configuration enforcement, data protection rules to prevent unauthorized data exfiltration, compliance automation against regulatory frameworks, and shadow infrastructure reduction. According to the article, cloud misconfigurations pose significant risks, with CrowdStrike reporting a 288% jump in cases involving threat actors directly targeting the cloud between 2021-2022. A Thales study found that 44% of respondents reported experiencing a data breach, with misconfigurations and human error identified as the leading cause, accounting for 31% of incidents. Common vulnerabilities include exposed access keys, excessive permissions, improper public access configurations, and unrestricted cloud tenant access. The Kivera product will integrate directly into Cloudflare One rather than function as a separate add-on, with the company seeking early access testers through 2024 and into 2025 for integration feedback.",
+  "topic": "NET",
+  "source_type": "news_scraper.NET"
+}

@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "oscars-best-actress",
+  "queries": [
+    "oscars-best-actress predictions analysis",
+    "oscars-best-actress oddsmaker pick analysis",
+    "oscars-best-actress critic commentary preview",
+    "oscars-best-actress expert forecast roundup",
+    "oscars-best-actress variety deadline hollywood reporter",
+    "oscars-best-actress indiewire commentary",
+    "oscars-best-actress rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/oscars-best-actress",
+  "max_articles": 25
+}

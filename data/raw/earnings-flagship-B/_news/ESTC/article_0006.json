@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/elastic-nv-estc-posts-revenue-224608470.html",
+  "title": "Elastic NV (ESTC) Q2 FY2024 Earnings Summary",
+  "published_at": "2023-12-14T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Elastic NV achieved total Q2 FY2024 revenue of $311 million, representing a 17% increase compared to the same period last year. The cloud division was particularly strong, with Elastic Cloud revenue climbing to $135 million, up 31% year-over-year. Profitability Metrics: The company reported non-GAAP operating income of $41 million with a 13% operating margin. However, GAAP results showed an operating loss of $22 million and a net loss of $0.25 per share on a GAAP basis. Customer Expansion: Subscription customers grew to approximately 20,700, while high-value accounts (ACV exceeding $100,000) surpassed 1,220. The Net Expansion Rate reached roughly 110%, indicating strong expansion within the existing customer base. Strategic Developments: The company acquired Opster and established a new strategic partnership with Amazon Web Services. Product innovations included general availability of Elastic Learned Sparse EncodeR (ELSER) and introduction of Elasticsearch Query Language (ES|QL). Future Outlook: Management projects Q3 revenue between $319-$321 million with full-year FY2024 revenue guidance of $1.247-$1.253 billion, maintaining non-GAAP operating margins between 10.25% and 10.75%.",
+  "topic": "ESTC",
+  "source_type": "news_scraper.ESTC"
+}

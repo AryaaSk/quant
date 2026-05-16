@@ -1,0 +1,56 @@
+slug: betfair-wsl-nwsl
+display_name: Betfair WSL + NWSL women's football
+platform: betfair
+notes: |
+  Growing markets with widening liquidity (£5k-£40k) and minimal pro modeling. Edge:
+  fragmented team news across social/club channels; tactical adjustment patterns less
+  documented than men's game.
+time_grain: daily
+held_out_months: 6
+sequence_length: 32
+model: transformer
+data_sources:
+  - name: football_data
+    kind: numeric
+    params:
+      leagues: [WSL, NWSL]
+  - name: sofascore
+    kind: text
+    params: {leagues: [ENG-WSL, USA-NWSL]}
+label:
+  kind: binary
+  target_event: home_win
+state_vector:
+  dim: 384
+  blocks:
+    - name: form_numeric
+      slots: "0:144"
+      builder: numeric
+      params:
+        series: [home_xg, away_xg, home_xga, away_xga, home_form, away_form, home_rest_days, away_rest_days]
+    - name: market_state
+      slots: "144:240"
+      builder: market_state
+      params:
+        series: [home_decimal_odds, away_decimal_odds, draw_decimal_odds]
+        velocity_lags: [1, 3]
+    - name: text_features
+      slots: "240:368"
+      builder: text
+      params:
+        mode: handcrafted
+        window_days: 7
+        entity_keywords: [injury, captain, manager, international, allocation, hamstring]
+    - name: calendar
+      slots: "368:384"
+      builder: calendar
+      params: {}
+transformer:
+  layers: 6
+  model_dim: 256
+backtest:
+  commission_bps: 500
+  base_slippage_bps: 70
+  safety_margin_bps: 150
+  kelly_fraction: 0.20
+  kelly_cap: 0.02

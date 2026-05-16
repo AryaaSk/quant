@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fool.com/earnings/call-transcripts/2023/09/01/mongodb-mdb-q2-2024-earnings-call-transcript/",
+  "title": "MongoDB Q2 FY2024 Earnings Call Transcript",
+  "published_at": "2023-09-01T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "MongoDB Q2 FY2024 generated total revenue of $423.8 million, up 40% year-over-year. Atlas revenue grew 38% YoY, representing 63% of total revenue. Non-GAAP operating margin reached 19%, a record high. Customer count exceeded 45,000, up from approximately 37,000 YoY. Direct sales customers exceeded 6,800, up from approximately 5,400 YoY. Net ARR expansion rate remained above 120%. Customers with $100K+ ARR: 1,855, up from 1,462. Non-GAAP operating income: $79.1 million. Net income: $76.7 million with $0.93 per share. Gross margin: 78%, up from 73% YoY. Q3 2024 guidance: Revenue $400-404 million, Non-GAAP operating income $41-44 million. Full Year FY2024 guidance: Revenue $1.596-1.608 billion, Non-GAAP operating income $189-197 million, Operating margin approximately 12% at midpoint. CEO Dev Ittycheria emphasized momentum in new workload acquisition and product innovation, including Atlas Stream Processing, Relational Migrator GA, and Atlas Vector Search. Management highlighted strong positioning for AI applications and the success of their run-anywhere deployment strategy.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

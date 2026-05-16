@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "REAL",
+  "queries": [
+    "REAL earnings preview 2020 Qq",
+    "REAL earnings preview 2020 Qq",
+    "REAL earnings preview 2021 Qq",
+    "REAL earnings preview 2021 Qq",
+    "REAL earnings preview 2021 Qq",
+    "REAL earnings preview 2021 Qq",
+    "REAL earnings preview 2022 Qq",
+    "REAL earnings preview 2022 Qq",
+    "REAL earnings preview 2022 Qq",
+    "REAL earnings preview 2022 Qq",
+    "REAL earnings preview 2023 Qq",
+    "REAL earnings preview 2023 Qq",
+    "REAL earnings preview 2023 Qq",
+    "REAL earnings preview 2023 Qq",
+    "REAL earnings preview 2024 Qq",
+    "REAL earnings preview 2024 Qq",
+    "REAL earnings preview 2024 Qq",
+    "REAL stock news preview",
+    "REAL guidance outlook quarterly results",
+    "REAL analyst expectations",
+    "REAL retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/REAL",
+  "max_articles": 30
+}

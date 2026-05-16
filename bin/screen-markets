@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Phase 1 entry point. Spawns an agent per market yaml and writes runs/screening/leaderboard.md.
+set -euo pipefail
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+exec "${PYTHON:-python3}" "$REPO_ROOT/scripts/01_screen_markets.py" "$@"

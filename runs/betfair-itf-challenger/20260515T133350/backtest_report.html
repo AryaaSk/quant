@@ -1,0 +1,16 @@
+<!doctype html>
+<html><head><title>betfair-itf-challenger backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Betfair tennis match outcomes (ATP main draw, v1 proxy for ITF Challenger) (betfair-itf-challenger)</h1>
+<p>Original spec targeted ITF Challenger tour, where independent commentary confirms
+sportsbook under-modeling. tennis-data.co.uk does not cover ITF Challenger; we use ATP
+main draw as the v1 substitute (also has soft counterparty in Series 250 / outer rounds).
+Future iteration should wire Jeff Sackmann's tennis_atp_challenger CSVs + an odds source
+(oddsportal scrape) for true ITF coverage.
+Edge thesis (ATP main): surface specialism, scheduling fatigue, ranking momentum.
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>0.32423285192897666</pre></td></tr><tr><td>brier_market</td><td><pre>0.19901070295544693</pre></td></tr><tr><td>brier_improvement</td><td><pre>-0.12522214897352973</pre></td></tr><tr><td>accuracy_model</td><td><pre>0.50920245398773</pre></td></tr><tr><td>accuracy_market</td><td><pre>0.6871165644171779</pre></td></tr><tr><td>n_events</td><td><pre>163</pre></td></tr><tr><td>n_trades</td><td><pre>134</pre></td></tr><tr><td>hit_rate</td><td><pre>0.3880597014925373</pre></td></tr><tr><td>gross_return</td><td><pre>-0.26684323842353197</pre></td></tr><tr><td>net_return</td><td><pre>-0.26684323842353197</pre></td></tr><tr><td>sharpe</td><td><pre>-1.247334205530707</pre></td></tr><tr><td>max_drawdown</td><td><pre>-0.29191321131930986</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

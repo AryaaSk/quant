@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.9472049999999999,
+  "elapsed_s": 298.8850920200348,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 297221,
+    "duration_api_ms": 332216,
+    "ttft_ms": 7562,
+    "num_turns": 63,
+    "result": "**Stage A Scraper Complete** \u2713\n\nSuccessfully gathered **30 quality articles** about ENPH earnings previews, guidance, and outlook:\n\n**Articles Saved:**\n- 11 newly scraped articles covering Q1 2024 \u2013 Q1 2026 earnings calls and previews\n- 19 previously gathered articles (from concurrent runs)\n- **Total: 30 articles**\n\n**Coverage includes:**\n- Quarterly earnings results and guidance (Q1 2024 through Q1 2026)\n- Analyst ratings and price target consensus ($23.49\u2013$101 range)\n- Product launches: IQ9 commercial microinverter, IQ Battery 5P with FlexPhase\n- European battery storage expansion strategy\n- Competitive positioning and market share analysis\n- Revenue and EPS forecasts (2026\u20132027)\n- Financial metrics: margins, free cash flow, cash position\n\n**Data Quality:**\n- All timestamps extracted and verified (no guesses; null where unknown)\n- Boilerplate stripped from article text\n- Syndication duplicates deduplicated\n- Articles span authoritative sources (Yahoo Finance, Motley Fool, Simply Wall St, Benzinga, etc.)\n\n**Manifest:** `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ENPH/_done`\n```\ncount=30 at=2026-05-16T02:10:00Z\n```\n\nReady for downstream temporal-leak prevention and feature engineering pipelines.",
+    "stop_reason": "end_turn",
+    "session_id": "daaa90bd-68f2-43e2-a2ef-3692458b8298",
+    "total_cost_usd": 0.9472049999999999,
+    "usage": {
+      "input_tokens": 5657,
+      "cache_creation_input_tokens": 51020,
+      "cache_read_input_tokens": 782160,
+      "output_tokens": 15153,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 51020,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 7,
+          "output_tokens": 616,
+          "cache_read_input_tokens": 79899,
+          "cache_creation_input_tokens": 495,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 495
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 462289,
+        "outputTokens": 28585,
+        "cacheReadInputTokens": 782160,
+        "cacheCreationInputTokens": 51020,
+        "webSearchRequests": 20,
+        "costUSD": 0.9472049999999999,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "d7870fd0-279c-4712-89d0-d21f45cb6d4e"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":297221,\"duration_api_ms\":332216,\"ttft_ms\":7562,\"num_turns\":63,\"result\":\"**Stage A Scraper Complete** \u2713\\n\\nSuccessfully gathered **30 quality articles** about ENPH earnings previews, guidance, and outlook:\\n\\n**Articles Saved:**\\n- 11 newly scraped articles covering Q1 2024 \u2013 Q1 2026 earnings calls and previews\\n- 19 previously gathered articles (from concurrent runs)\\n- **Total: 30 articles**\\n\\n**Coverage includes:**\\n- Quarterly earnings results and guidance (Q1 2024 through Q1 2026)\\n- Analyst ratings and price target consensus ($23.49\u2013$101 range)\\n- Product launches: IQ9 commercial microinverter, IQ Battery 5P with FlexPhase\\n- European battery storage expansion strategy\\n- Competitive positioning and market share analysis\\n- Revenue and EPS forecasts (2026\u20132027)\\n- Financial metrics: margins, free cash flow, cash position\\n\\n**Data Quality:**\\n- All timestamps extracted and verified (no guesses; null where unknown)\\n- Boilerplate stripped from article text\\n- Syndication duplicates deduplicated\\n- Articles span authoritative sources (Yahoo Finance, Motley Fool, Simply Wall St, Benzinga, etc.)\\n\\n**Manifest:** `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ENPH/_done`\\n```\\ncount=30 at=2026-05-16T02:10:00Z\\n```\\n\\nReady for downstream temporal-leak prevention and feature engineering pipelines.\",\"stop_reason\":\"end_turn\",\"session_id\":\"daaa90bd-68f2-43e2-a2ef-3692458b8298\",\"total_cost_usd\":0.9472049999999999,\"usage\":{\"input_tokens\":5657,\"cache_creation_input_tokens\":51020,\"cache_read_input_tokens\":782160,\"output_tokens\":15153,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":51020,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":7,\"output_tokens\":616,\"cache_read_input_tokens\":79899,\"cache_creation_input_tokens\":495,\"cache_creation\":{\"ephemeral_5m_input_tokens\":0,\"ephemeral_1h_input_tokens\":495},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":462289,\"outputTokens\":28585,\"cacheReadInputTokens\":782160,\"cacheCreationInputTokens\":51020,\"webSearchRequests\":20,\"costUSD\":0.9472049999999999,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"d7870fd0-279c-4712-89d0-d21f45cb6d4e\"}\n"
+}

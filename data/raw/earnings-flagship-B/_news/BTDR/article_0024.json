@@ -1,0 +1,9 @@
+{
+  "url": "https://news.bitcoin.com/norways-largest-ai-data-center-bitdeer-targets-180-mw-tydal-facility-by-2026/",
+  "title": "Norway's Largest AI Data Center: Bitdeer Targets 180 MW Tydal Facility",
+  "published_at": "2026-03-30T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Bitdeer Technologies announced plans to develop Tydal, a 180 MW AI data center facility in Norway targeting completion by December 2026, which would become Norway's largest operational AI data center. The facility is strategically positioned to support enterprise AI computing workloads, particularly the latest Nvidia Vera Rubin AI technology. The Tydal facility represents Bitdeer's major pivot from Bitcoin mining infrastructure provider to large-scale AI data center operator. The company engaged Data Center Installations AS (DCI), a specialized Norwegian contractor, to develop and construct the facility. The project plan includes utilizing excess heat for food production on neighboring property, demonstrating sustainable infrastructure design. Expected benefits include positioning Bitdeer to capitalize on accelerating AI computing demand in Europe. The facility is designed from the ground up for AI workloads and is expected to command premium pricing from enterprise customers requiring cutting-edge GPU infrastructure. Bitdeer's Tydal project directly competes for major AI tenant commitments with other data center developers across Europe.",
+  "topic": "BTDR",
+  "source_type": "news_scraper.BTDR"
+}

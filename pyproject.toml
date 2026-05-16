@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quant"
+version = "0.1.0"
+description = "Multi-market transformer trading POC: state-vector design, agent-driven scraping, walk-forward backtest."
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "pyarrow>=14.0",
+    "pydantic>=2.5",
+    "pyyaml>=6.0",
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "scikit-learn>=1.3",
+    "lightgbm>=4.0",
+    "matplotlib>=3.7",
+    "tqdm>=4.66",
+    "python-dateutil>=2.8",
+    "sentence-transformers>=2.7",
+    "tenacity>=8.2",
+    "openpyxl>=3.1",
+    "xlrd>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-xdist>=3.5",
+    "hypothesis>=6.92",
+    "ruff>=0.1",
+]
+openai = [
+    "openai>=1.30",
+]
+anthropic = [
+    "anthropic>=0.30",
+]
+scrape = [
+    "playwright>=1.40",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["quant*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"

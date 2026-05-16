@@ -1,0 +1,9 @@
+{
+  "url": "https://www.investing.com/news/earnings/amd-stock-rises-after-hours-as-quarterly-results-guidance-beat-estimates-4660754",
+  "title": "AMD Earnings Beat Estimates, Stock Surges 19%",
+  "published_at": "2026-05-05T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AMD delivered strong quarterly results that exceeded analyst expectations, driving a significant stock rally. The company reported adjusted earnings per share of $1.37 on revenue of $10.25 billion for Q1 2026, surpassing analyst forecasts of $1.27 EPS and $9.85 billion in revenue. The chip designer projected Q2 revenue of approximately $11.2 billion (plus or minus $300 million), substantially above the expected $10.50 billion. This guidance implies year-over-year growth of 50.6% and quarter-over-quarter expansion of 9.1%. CEO Lisa Su highlighted exceptional momentum in server and data center operations. She noted that 'data centers now represented AMD's primary revenue driver' and predicted server revenue would 'surge over 70% year-on-year in the current quarter.' AMD's data center division generated $5.78 billion in Q1 revenue, reflecting 57% year-over-year growth. The client and gaming segment contributed $3.61 billion, up 23% annually. The company's EPYC processors and Instinct GPUs continue driving cloud computing and AI workload adoption. Multiple analysts raised their ratings following the results. Bernstein analyst upgraded the stock to Outperform with a $525 price target, citing the company's credible expansion narrative. Goldman Sachs similarly improved its recommendation. AMD shares have climbed 65.9% year-to-date, substantially outpacing NVIDIA's 5.4% gain and the S&P 500's 6.1% advance.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

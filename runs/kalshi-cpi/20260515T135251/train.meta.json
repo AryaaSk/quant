@@ -1,0 +1,10 @@
+{
+  "model": "gbdt",
+  "slug": "kalshi-cpi",
+  "device": "auto",
+  "n_train": 3,
+  "n_val": 1,
+  "n_held_out": 2,
+  "state_dim": 128,
+  "sequence_length": 8
+}

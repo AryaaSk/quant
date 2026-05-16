@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "28-years-later-bone-temple-opening-weekend-box-office",
+  "queries": [
+    "28-years-later-bone-temple-opening-weekend-box-office predictions analysis",
+    "28-years-later-bone-temple-opening-weekend-box-office oddsmaker pick analysis",
+    "28-years-later-bone-temple-opening-weekend-box-office critic commentary preview",
+    "28-years-later-bone-temple-opening-weekend-box-office expert forecast roundup",
+    "28-years-later-bone-temple-opening-weekend-box-office variety deadline hollywood reporter",
+    "28-years-later-bone-temple-opening-weekend-box-office indiewire commentary",
+    "28-years-later-bone-temple-opening-weekend-box-office rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/28-years-later-bone-temple-opening-weekend-box-office",
+  "max_articles": 40
+}

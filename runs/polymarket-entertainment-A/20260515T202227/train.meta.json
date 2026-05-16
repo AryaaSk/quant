@@ -1,0 +1,10 @@
+{
+  "model": "gbdt",
+  "slug": "polymarket-entertainment-A",
+  "device": "auto",
+  "n_train": 62,
+  "n_val": 10,
+  "n_held_out": 35,
+  "state_dim": 128,
+  "sequence_length": 8
+}

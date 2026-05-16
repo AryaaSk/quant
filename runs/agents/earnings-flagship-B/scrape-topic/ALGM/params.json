@@ -1,0 +1,27 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "ALGM",
+  "queries": [
+    "ALGM earnings preview 2021 Qq",
+    "ALGM earnings preview 2021 Qq",
+    "ALGM earnings preview 2021 Qq",
+    "ALGM earnings preview 2021 Qq",
+    "ALGM earnings preview 2022 Qq",
+    "ALGM earnings preview 2022 Qq",
+    "ALGM earnings preview 2022 Qq",
+    "ALGM earnings preview 2022 Qq",
+    "ALGM earnings preview 2023 Qq",
+    "ALGM earnings preview 2023 Qq",
+    "ALGM earnings preview 2023 Qq",
+    "ALGM earnings preview 2023 Qq",
+    "ALGM earnings preview 2024 Qq",
+    "ALGM earnings preview 2024 Qq",
+    "ALGM earnings preview 2024 Qq",
+    "ALGM stock news preview",
+    "ALGM guidance outlook quarterly results",
+    "ALGM analyst expectations",
+    "ALGM retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ALGM",
+  "max_articles": 30
+}

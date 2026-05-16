@@ -1,0 +1,15 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "HUT",
+  "queries": [
+    "HUT earnings preview 2024 Qq",
+    "HUT earnings preview 2024 Qq",
+    "HUT earnings preview 2024 Qq",
+    "HUT stock news preview",
+    "HUT guidance outlook quarterly results",
+    "HUT analyst expectations",
+    "HUT retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/HUT",
+  "max_articles": 80
+}

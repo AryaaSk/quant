@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "oscars-2026-best-actor-nominations",
+  "queries": [
+    "oscars-2026-best-actor-nominations predictions analysis",
+    "oscars-2026-best-actor-nominations oddsmaker pick analysis",
+    "oscars-2026-best-actor-nominations critic commentary preview",
+    "oscars-2026-best-actor-nominations expert forecast roundup",
+    "oscars-2026-best-actor-nominations variety deadline hollywood reporter",
+    "oscars-2026-best-actor-nominations indiewire commentary",
+    "oscars-2026-best-actor-nominations rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/oscars-2026-best-actor-nominations",
+  "max_articles": 25
+}

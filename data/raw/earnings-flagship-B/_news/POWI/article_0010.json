@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cryptopolitan.com/power-integrations-joins-nvidia/",
+  "title": "Power Integrations joins Nvidia to power 800V AI data centers with GaN Technology",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Power Integrations has collaborated with NVIDIA to make artificial intelligence data centers operate at higher voltages. The partnership resulted in Power Integrations stock increasing 25.4% in value after partnering with NVIDIA to accelerate the adoption of 800VDC architectures for AI data centers. The companies are collaborating to accelerate the transition to 800VDC power for AI data centers, using high-voltage PowiGaN switches to cut transmission losses, increase energy efficiency, and enable megawatt-scale racks with smaller form factors and improved thermal resilience. Power Integrations supplies 1250V and 1700V PowiGaN devices designed for main and auxiliary power supplies. 1250V devices exceed 98% efficiency and 1700V devices support 1000 VDC inputs with greater than 90% system efficiency in specific configurations. Power Integrations' track record in automotive-grade GaN devices played a key role in securing the partnership with NVIDIA, as the company's chips are already used in electric vehicles and industrial equipment, where long-term reliability and thermal resilience are critical. The new 800VDC architecture is expected to improve end-to-end efficiency by up to 5%, reduce maintenance costs by up to 70%, and lower cooling expenses, enabling sustainable growth and cutting total cost of ownership by up to 30%.",
+  "topic": "POWI",
+  "source_type": "news_scraper.POWI"
+}

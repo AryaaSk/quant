@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "SRPT",
+  "queries": [
+    "SRPT earnings preview 2020 Qq",
+    "SRPT earnings preview 2020 Qq",
+    "SRPT earnings preview 2021 Qq",
+    "SRPT earnings preview 2021 Qq",
+    "SRPT earnings preview 2021 Qq",
+    "SRPT earnings preview 2021 Qq",
+    "SRPT earnings preview 2022 Qq",
+    "SRPT earnings preview 2022 Qq",
+    "SRPT earnings preview 2022 Qq",
+    "SRPT earnings preview 2022 Qq",
+    "SRPT earnings preview 2023 Qq",
+    "SRPT earnings preview 2023 Qq",
+    "SRPT earnings preview 2023 Qq",
+    "SRPT earnings preview 2023 Qq",
+    "SRPT earnings preview 2024 Qq",
+    "SRPT earnings preview 2024 Qq",
+    "SRPT earnings preview 2024 Qq",
+    "SRPT stock news preview",
+    "SRPT guidance outlook quarterly results",
+    "SRPT analyst expectations",
+    "SRPT retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/SRPT",
+  "max_articles": 30
+}

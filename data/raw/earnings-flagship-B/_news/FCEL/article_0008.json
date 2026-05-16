@@ -1,0 +1,9 @@
+{
+  "url": "https://introl.com/blog/fuel-cells-data-center-power-dark-horse-7-billion",
+  "title": "Fuel Cells: AI Data Center Power's $7.65B Dark Horse",
+  "published_at": "2026-02-15T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Between October 2025 and January 2026, fuel cell companies secured $7.65 billion in binding agreements for AI data center deployments. Two major deals: Brookfield committed $5B to Bloom Energy for global AI factory deployments, AEP signed $2.65B agreement for 900 MW capacity at Wyoming's Cheyenne AI Factory. Fundamental catalyst is physics and infrastructure constraints, not environmental ideology. Grid interconnection queues in key US markets stretch 7-10 years, creating bottleneck for data center expansion. AI training clusters requiring 100+ MW campuses cannot wait for traditional grid connections. Solid oxide fuel cells solve this by generating power on-site, deploying within 90 days to 12 months. SOFC technology operates at 550-950°C achieving 53-65% electrical efficiency on natural gas vs lower efficiency in competing technologies. Critical advantage: fuel flexibility. Unlike PEM fuel cells requiring pure hydrogen, SOFCs operate on natural gas today while remaining hardware-ready for hydrogen transition as supply chains mature. FuelCell Energy announced collaboration with Sustainable Development Capital LLP in January 2026 to deploy up to 450 MW globally, combining molten carbonate and SOFC technologies. Company funds projects through $200 million equity program and specific project debt, significantly constraining scale relative to competitors like Bloom Energy. Bloom operates at 1 GW annual capacity but committed doubling to 2 GW by end 2026. Signed deal pipeline already exceeds expanded capacity, creating supply shortages favoring early movers securing manufacturing commitments.",
+  "topic": "FCEL",
+  "source_type": "news_scraper.FCEL"
+}

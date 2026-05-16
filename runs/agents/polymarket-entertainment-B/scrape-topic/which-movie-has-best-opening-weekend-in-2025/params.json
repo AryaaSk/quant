@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "which-movie-has-best-opening-weekend-in-2025",
+  "queries": [
+    "which-movie-has-best-opening-weekend-in-2025 predictions analysis",
+    "which-movie-has-best-opening-weekend-in-2025 oddsmaker pick analysis",
+    "which-movie-has-best-opening-weekend-in-2025 critic commentary preview",
+    "which-movie-has-best-opening-weekend-in-2025 expert forecast roundup",
+    "which-movie-has-best-opening-weekend-in-2025 variety deadline hollywood reporter",
+    "which-movie-has-best-opening-weekend-in-2025 indiewire commentary",
+    "which-movie-has-best-opening-weekend-in-2025 rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/which-movie-has-best-opening-weekend-in-2025",
+  "max_articles": 25
+}

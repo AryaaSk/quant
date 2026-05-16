@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/quote/ALGM/",
+  "title": "ALGM Stock Quote and News Summary",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Yahoo Finance provides comprehensive stock information for Allegro MicroSystems including real-time quotes, news aggregation, and fundamental data. The platform displays current stock price with intraday and historical charts. Key financial metrics are prominently featured including price-to-earnings ratio, market capitalization, and dividend yield. Recent news articles are aggregated from multiple sources providing comprehensive coverage. Earnings dates and upcoming catalyst events are listed. Analyst ratings and price targets are displayed showing consensus views. Historical financial statements are provided including income statements and balance sheets. Industry comparisons allow investors to benchmark ALGM against competitors. Technical analysis tools provide charting and pattern recognition. Community discussions and investor forums provide peer perspectives.",
+  "topic": "ALGM",
+  "source_type": "news_scraper.ALGM"
+}

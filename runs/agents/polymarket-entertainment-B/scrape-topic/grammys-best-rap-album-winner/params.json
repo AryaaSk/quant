@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "grammys-best-rap-album-winner",
+  "queries": [
+    "grammys-best-rap-album-winner predictions analysis",
+    "grammys-best-rap-album-winner oddsmaker pick analysis",
+    "grammys-best-rap-album-winner critic commentary preview",
+    "grammys-best-rap-album-winner expert forecast roundup",
+    "grammys-best-rap-album-winner variety deadline hollywood reporter",
+    "grammys-best-rap-album-winner indiewire commentary",
+    "grammys-best-rap-album-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/grammys-best-rap-album-winner",
+  "max_articles": 25
+}

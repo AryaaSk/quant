@@ -1,0 +1,8 @@
+{
+  "slug": "polymarket-entertainment-A",
+  "held_out_start": "2025-09-30T00:00:00",
+  "last_event_observed": "2026-03-31T00:30:53.837000",
+  "locked_at": "2026-05-15T19:21:50.603143",
+  "held_out_months": 6,
+  "note": "This window is locked write-once. Training MUST NOT load events with target_event_time >= held_out_start. The walk-forward backtest evaluates exactly here."
+}

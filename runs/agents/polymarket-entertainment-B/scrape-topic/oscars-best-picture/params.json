@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "oscars-best-picture",
+  "queries": [
+    "oscars-best-picture predictions analysis",
+    "oscars-best-picture oddsmaker pick analysis",
+    "oscars-best-picture critic commentary preview",
+    "oscars-best-picture expert forecast roundup",
+    "oscars-best-picture variety deadline hollywood reporter",
+    "oscars-best-picture indiewire commentary",
+    "oscars-best-picture rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/oscars-best-picture",
+  "max_articles": 25
+}

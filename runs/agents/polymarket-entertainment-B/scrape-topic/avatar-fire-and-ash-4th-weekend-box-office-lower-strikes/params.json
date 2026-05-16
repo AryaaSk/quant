@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "avatar-fire-and-ash-4th-weekend-box-office-lower-strikes",
+  "queries": [
+    "avatar-fire-and-ash-4th-weekend-box-office-lower-strikes predictions analysis",
+    "avatar-fire-and-ash-4th-weekend-box-office-lower-strikes oddsmaker pick analysis",
+    "avatar-fire-and-ash-4th-weekend-box-office-lower-strikes critic commentary preview",
+    "avatar-fire-and-ash-4th-weekend-box-office-lower-strikes expert forecast roundup",
+    "avatar-fire-and-ash-4th-weekend-box-office-lower-strikes variety deadline hollywood reporter",
+    "avatar-fire-and-ash-4th-weekend-box-office-lower-strikes indiewire commentary",
+    "avatar-fire-and-ash-4th-weekend-box-office-lower-strikes rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/avatar-fire-and-ash-4th-weekend-box-office-lower-strikes",
+  "max_articles": 40
+}

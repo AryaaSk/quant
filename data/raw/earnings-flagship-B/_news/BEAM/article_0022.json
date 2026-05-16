@@ -1,0 +1,9 @@
+{
+  "url": "https://investors.beamtx.com/news-releases/news-release-details/beam-therapeutics-announces-publication-beacon-phase-12-data",
+  "title": "BEAM Therapeutics BEACON Trial Risto-cel Data Publication",
+  "published_at": "2026-04-01T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Beam Therapeutics announced publication of BEACON Phase 1/2 trial data for ristoglogene autogetemcel (risto-cel) in patients with sickle cell disease in The New England Journal of Medicine. Risto-cel is a one-time, ex vivo base editing cell therapy consisting of autologous CD34+ hematopoietic stem and progenitor cells base-edited in promoter regions of HBG1/2 genes. The therapy is designed to inhibit transcriptional repressor BCL11A from binding without disrupting BCL11A expression, leading to increased production of non-sickling and anti-sickling fetal hemoglobin. Patients achieved mean Hemoglobin F levels above 60% maintained for up to 20 months with Hemoglobin S levels consistently reduced below 40%. All treated patients experienced resolution of anemia after elimination of transfused blood. The company expects to submit a Biologics License Application for risto-cel as early as year-end 2026 for sickle cell disease treatment.",
+  "topic": "BEAM",
+  "source_type": "news_scraper.BEAM"
+}

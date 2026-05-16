@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "golden-globes-best-director-winner",
+  "queries": [
+    "golden-globes-best-director-winner predictions analysis",
+    "golden-globes-best-director-winner oddsmaker pick analysis",
+    "golden-globes-best-director-winner critic commentary preview",
+    "golden-globes-best-director-winner expert forecast roundup",
+    "golden-globes-best-director-winner variety deadline hollywood reporter",
+    "golden-globes-best-director-winner indiewire commentary",
+    "golden-globes-best-director-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/golden-globes-best-director-winner",
+  "max_articles": 25
+}

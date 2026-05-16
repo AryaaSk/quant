@@ -1,0 +1,94 @@
+slug: earnings-beatmiss-A
+display_name: Quarterly earnings beat/miss (Model A — numerical only)
+platform: stock_earnings
+notes: |
+  Model A baseline for the dual A vs B PoC. Predicts whether reported EPS exceeds
+  analyst consensus estimate, for 30 small/mid-cap retail-favorite tickers across
+  2022-2024 quarters (~360 events). Uses ONLY numerical features: prior surprises,
+  realized vol, trailing returns at multiple horizons, sector ETF return, days since
+  last earnings, EPS estimate. No text. p_market baseline = the prior 4-quarter beat
+  rate per ticker (defaults to 0.60 sandbagging prior).
+
+  Compare to earnings-beatmiss-B (same data, same model class) which adds Voyage-
+  embedded news_scraper text features.
+time_grain: daily
+held_out_months: 6
+sequence_length: 8
+model: gbdt
+data_sources:
+  - name: stock_earnings
+    kind: numeric
+    params:
+      tickers:
+        - BBAI
+        - SOUN
+        - INOD
+        - RIVN
+        - LCID
+        - MULN
+        - GOEV
+        - NKLA
+        - CLSK
+        - RIOT
+        - MARA
+        - HUT
+        - IREN
+        - SOFI
+        - UPST
+        - AFRM
+        - OPEN
+        - ROOT
+        - GME
+        - AMC
+        - BB
+        - KOSS
+        - TLRY
+        - CGC
+        - SNDL
+        - RKLB
+        - ASTR
+        - PL
+        - WKHS
+        - MMAT
+      start_date: 2022-01-01
+      end_date: 2025-01-01
+label:
+  kind: binary
+  target_event: earnings_beat
+state_vector:
+  dim: 128
+  blocks:
+    - name: numeric_features
+      slots: "0:96"
+      builder: numeric
+      params:
+        series:
+          - eps_estimate
+          - avg_surprise_4q
+          - beat_rate_prior_4q
+          - days_since_last_earnings
+          - realized_vol_30d
+          - return_7d
+          - return_30d
+          - return_60d
+          - return_90d
+          - return_180d
+          - sector_return_30d
+          - sector_return_90d
+        rolling_window: 60
+    - name: market_state
+      slots: "96:112"
+      builder: market_state
+      params:
+        series: [beat_rate_prior_4q]
+        velocity_lags: [1, 4]
+    - name: calendar
+      slots: "112:128"
+      builder: calendar
+      params: {}
+backtest:
+  commission_bps: 20      # tight: predicting an event, not trading the stock directly
+  base_slippage_bps: 30
+  safety_margin_bps: 150
+  kelly_fraction: 0.20
+  kelly_cap: 0.02

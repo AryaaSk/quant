@@ -1,0 +1,9 @@
+{
+  "url": "https://www.satellitetoday.com/launch/2026/04/20/new-glenn-grounded-and-ast-spacemobile-satellite-lost-after-launch-anomaly/",
+  "title": "New Glenn Grounded and AST SpaceMobile Satellite Lost After Launch Anomaly",
+  "published_at": "2026-04-20T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "New Glenn launch failed to properly deploy AST SpaceMobile's BlueBird 7 satellite on April 19, 2026, resulting in the satellite being stranded in an incorrect orbit unsuitable for operations. The New Glenn rocket's upper stage experienced a second-stage thrust anomaly where one of two BE-3U hydrogen engines failed to produce sufficient thrust for proper satellite insertion. The satellite was supposed to reach a circular orbit of 460 km altitude but instead achieved a highly elliptical orbit of 154-494 km, rendering it non-operational. Blue Origin CEO attributed the failure to the second-stage thrust anomaly, and New Glenn was grounded pending investigation. The satellite loss is expected to result in a Q2 2026 asset write-off of $155-160 million, which will be covered by insurance. Despite the setback, AST reaffirmed deployment targets with BlueBird 8, 9, and 10 scheduled for mid-June launch. The incident highlights execution risks in the satellite launch industry and the importance of diversified launch provider relationships.",
+  "topic": "ASTS",
+  "source_type": "news_scraper.ASTS"
+}

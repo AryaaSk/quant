@@ -1,0 +1,164 @@
+slug: earnings-flagship-B
+display_name: Earnings beat/miss flagship (Model B — numerical + 3 Voyage text blocks, transformer)
+platform: stock_earnings
+notes: |
+  Flagship PoC Model B. Same data + numeric features as earnings-flagship-A, PLUS
+  three separate Voyage-embedded text blocks:
+    1. SEC filings (prior 10-Q + 8-Ks in the 90 days before earnings)
+    2. Earnings call transcript (the PRIOR quarter's call — encodes forward guidance)
+    3. News scraper (haiku per-ticker, ~30 articles in the 30 days before each event)
+
+  Each text block is mean-pooled Voyage `voyage-3-large` embeddings (1024-dim) into the
+  block's slot range, so the transformer attention can learn relative weights between
+  filings vs transcripts vs news per event.
+
+  Model: TRANSFORMER (~85M params, 12 layers, d_model 768, seq_len 12 quarterly snapshots,
+  RoPE positional encoding, FlashAttention-2 on H200). At ~5-8k events with 1024-slot
+  total text content, the events-per-slot ratio is 5-8 vs Phase 9's 1.05 — squarely in
+  the safe regime for the text block to actually contribute.
+
+  Decision gate: B Brier improvement > A's by +0.02 AND B net return ≥ A's.
+time_grain: daily
+held_out_months: 18
+sequence_length: 12
+model: transformer
+data_sources:
+  - name: stock_earnings
+    kind: numeric
+    params:
+      start_date: 2014-01-01
+      end_date: 2024-10-01
+  - name: social_sentiment
+    kind: numeric
+    params:
+      event_source: stock_earnings
+      entity_column: ticker
+      window_days_reddit: 30
+      window_days_stocktwits: 7
+  - name: sec_filings
+    kind: text
+    params:
+      event_source: stock_earnings
+      entity_column: ticker
+      filing_types: [10-Q, 8-K]
+      days_before_earnings_8k: 90
+      user_agent: "QuantPoC arya@quant-poc.local"
+  - name: earnings_transcripts
+    kind: text
+    params:
+      event_source: stock_earnings
+      entity_column: ticker
+  - name: news_scraper
+    kind: text
+    params:
+      per_entity_mode: true
+      event_source: stock_earnings
+      entity_column: ticker
+      window_days: 90       # widen to catch more articles per event (raised from 30 because temporal filter dropped too many)
+      articles_per_entity: 30
+      concurrency: 8
+label:
+  kind: binary
+  target_event: earnings_beat
+state_vector:
+  dim: 1664
+  blocks:
+    - name: numeric_earnings
+      slots: "0:128"
+      builder: numeric
+      params:
+        series:
+          - eps_estimate
+          - avg_surprise_4q
+          - beat_rate_prior_4q
+          - days_since_last_earnings
+          - realized_vol_30d
+          - recent_vol_5d
+          - return_7d
+          - return_30d
+          - return_60d
+          - return_90d
+          - return_180d
+          - sector_return_30d
+          - sector_return_90d
+          - iv_rank_proxy
+          - volume_shock_5_60
+          - momentum_diff_7_90
+        rolling_window: 60
+    - name: numeric_social
+      slots: "128:192"
+      builder: numeric
+      params:
+        series:
+          - reddit_mention_count_30d
+          - reddit_comment_count_30d
+          - reddit_avg_score_30d
+          - social_concentration
+          - stocktwits_msg_count_7d
+          - stocktwits_bullish_ratio
+          - sec_filing_count
+          - has_transcript
+        rolling_window: 24
+    - name: market_state
+      slots: "192:224"
+      builder: market_state
+      params:
+        series: [beat_rate_prior_4q]
+        velocity_lags: [1, 4]
+    - name: text_sec
+      slots: "224:736"
+      builder: text
+      params:
+        text_column: text__sec
+        mode: voyage
+        window_days: 90
+        encoder_name: voyage-3-large
+        voyage_cache_dir: data/raw/earnings-flagship-B/_voyage_cache
+        use_pca: true
+        pca_min_samples: 64
+        pca_fit_max_samples: 512
+    - name: text_transcript
+      slots: "736:1216"
+      builder: text
+      params:
+        text_column: text__transcript
+        mode: voyage
+        window_days: 180
+        encoder_name: voyage-3-large
+        voyage_cache_dir: data/raw/earnings-flagship-B/_voyage_cache
+        use_pca: true
+        pca_min_samples: 64
+        pca_fit_max_samples: 512
+    - name: text_news
+      slots: "1216:1632"
+      builder: text
+      params:
+        text_column: text__news
+        mode: voyage
+        window_days: 90
+        encoder_name: voyage-3-large
+        voyage_cache_dir: data/raw/earnings-flagship-B/_voyage_cache
+        use_pca: true
+        pca_min_samples: 64
+        pca_fit_max_samples: 512
+    - name: calendar
+      slots: "1632:1664"
+      builder: calendar
+      params: {}
+transformer:
+  layers: 12
+  model_dim: 896
+  heads: 14
+  ffn_mult: 4
+  dropout: 0.15
+train:
+  batch_size: 32
+  epochs: 40
+  learning_rate: 2e-4
+  val_fraction: 0.15
+backtest:
+  commission_bps: 20
+  base_slippage_bps: 30
+  safety_margin_bps: 150
+  kelly_fraction: 0.20
+  kelly_cap: 0.02

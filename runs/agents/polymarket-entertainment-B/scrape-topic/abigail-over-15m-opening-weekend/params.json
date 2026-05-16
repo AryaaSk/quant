@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "abigail-over-15m-opening-weekend",
+  "queries": [
+    "abigail-over-15m-opening-weekend predictions analysis",
+    "abigail-over-15m-opening-weekend oddsmaker pick analysis",
+    "abigail-over-15m-opening-weekend critic commentary preview",
+    "abigail-over-15m-opening-weekend expert forecast roundup",
+    "abigail-over-15m-opening-weekend variety deadline hollywood reporter",
+    "abigail-over-15m-opening-weekend indiewire commentary",
+    "abigail-over-15m-opening-weekend rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/abigail-over-15m-opening-weekend",
+  "max_articles": 40
+}

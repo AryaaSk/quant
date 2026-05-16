@@ -1,0 +1,9 @@
+{
+  "url": "https://www.constellationr.com/insights/news/amd-sees-ai-interest-amd-instinct-mi300a-and-mi300x-gpus-track",
+  "title": "AMD Sees AI Interest, Instinct MI300A and MI300X GPUs on Track",
+  "published_at": "2024-04-15T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Constellation Research reports on AMD's accelerating AI GPU traction with MI300A and MI300X variants. The MI300A, optimized for training and large language models, has gained strong interest from AI research labs and cloud providers. The MI300X, focused on inference workloads, addresses the growing inference segment of AI deployments. Both variants are shipping in volume and generating strong revenue. The report highlights AMD's strategy to compete across the full AI compute stack: EPYC CPUs for orchestration and inference, MI300 GPUs for training and inference, and soon MI450 for next-generation workloads. This comprehensive offering differentiates AMD from point-solution providers. Key customers including Microsoft, Amazon, Google, and Meta are actively deploying or trialing both EPYC and MI300 products. The report expects MI300 revenue to exceed $4 billion in 2024, a significant milestone. Constellation views AMD's MI300 success as validating the company's ability to compete in premium AI accelerator segments, supporting the bull case for AMD's data center business.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

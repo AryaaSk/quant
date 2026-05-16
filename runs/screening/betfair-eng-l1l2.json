@@ -1,0 +1,19 @@
+{
+  "slug": "betfair-eng-l1l2",
+  "display_name": "Betfair English League One+Two match outcomes",
+  "platform": "betfair",
+  "notes": "League One and Two: \u00a310k-\u00a350k matched volume per match, almost entirely recreational\ncounterparty (accumulators, parlays). Information edge: local club news, loan moves,\nweather on lower-tier pitches, referee tendencies, fixture congestion.\nV1 of this market uses Football-Data.co.uk for results + closing odds + rolling form.\nV2 will layer Sofascore text for injury/lineup signals once that adapter ships.\n",
+  "model": "gbdt",
+  "state_dim": 256,
+  "data_sources": [
+    "football_data"
+  ],
+  "sources_reachable": {
+    "football_data": 11096
+  },
+  "sources_error": {},
+  "events_per_year": null,
+  "score": 77.5,
+  "verdict": "advance: all sources reachable",
+  "advance": true
+}

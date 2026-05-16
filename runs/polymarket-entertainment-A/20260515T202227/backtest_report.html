@@ -1,0 +1,24 @@
+<!doctype html>
+<html><head><title>polymarket-entertainment-A backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Polymarket entertainment unified (Model A — numerical only) (polymarket-entertainment-A)</h1>
+<p>Model A baseline for the dual A vs B PoC on broader entertainment Polymarket markets.
+
+Unifies ALL resolved (closed) entertainment markets across tags: oscars, emmys,
+golden-globes, grammys, baftas, sag-awards, critics-choice-awards, cannes, venice,
+berlin, sundance, box-office, movies, tv, streaming. Each market is one yes/no
+prediction at resolution.
+
+Features: Polymarket closing price (lastTradePrice clipped to [0.02, 0.98]) + market
+volume + market liquidity + days_open. No text. p_market = the Polymarket closing
+implied probability itself, so any edge over the closing line shows up as Brier
+improvement.
+
+Compare to polymarket-entertainment-B (same data, same model class) which adds
+Voyage-embedded haiku-scraped entertainment commentary per event_slug.
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>0.2521903226389547</pre></td></tr><tr><td>brier_market</td><td><pre>0.3712342857142857</pre></td></tr><tr><td>brier_improvement</td><td><pre>0.119043963075331</pre></td></tr><tr><td>accuracy_model</td><td><pre>0.7142857142857143</pre></td></tr><tr><td>accuracy_market</td><td><pre>0.5714285714285714</pre></td></tr><tr><td>n_events</td><td><pre>35</pre></td></tr><tr><td>n_trades</td><td><pre>24</pre></td></tr><tr><td>hit_rate</td><td><pre>0.5833333333333334</pre></td></tr><tr><td>gross_return</td><td><pre>2953.987553346322</pre></td></tr><tr><td>net_return</td><td><pre>2953.987553346322</pre></td></tr><tr><td>sharpe</td><td><pre>1.6646051054358033</pre></td></tr><tr><td>max_drawdown</td><td><pre>-0.07857267191124605</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

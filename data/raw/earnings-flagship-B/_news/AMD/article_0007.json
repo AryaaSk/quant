@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fool.com/investing/2026/05/14/after-amds-blowout-earnings-report-is-this-ai-stoc/",
+  "title": "AMD's Strong AI Performance and Path to $1 Trillion Valuation",
+  "published_at": "2026-05-14T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Advanced Micro Devices delivered impressive first-quarter 2026 results that exceeded Wall Street expectations. The company reported revenue of $10.25 billion, representing a 38% year-over-year increase, while adjusted earnings jumped 43% to $1.37 per share. A critical driver was the data center segment: a 57% jump in AMD's data center revenue helped it crush Wall Street's expectations. This surge reflects robust demand for both Epyc server processors and Instinct GPUs across major cloud operators. AMD secured significant commitments from major hyperscalers. Meta Platforms will deploy up to 6 gigawatts of AMD's Instinct GPUs and serve as a lead customer for sixth-generation Epyc processors. Additionally, Amazon, Google, Microsoft, and Tencent are expanding their deployments of AMD's server CPU technology. AMD's management has dramatically revised growth projections for server CPUs. The company now expects this market to expand at over 35% annually—nearly double previous estimates—reaching $120 billion in annual revenue by 2030. AMD currently holds 36% of the server CPU market, up from 27% a year earlier, with guidance pointing to 70% year-over-year server CPU revenue growth in the current quarter. With a current market capitalization of $731 billion, AMD trades at a forward earnings multiple of 65. Analysts project the company could reach $101 billion in revenue by 2028. At even a conservative 10-times-sales valuation, AMD would easily achieve trillion-dollar status well before that milestone.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

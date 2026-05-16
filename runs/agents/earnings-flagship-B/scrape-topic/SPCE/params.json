@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "SPCE",
+  "queries": [
+    "SPCE earnings preview 2020 Qq",
+    "SPCE earnings preview 2020 Qq",
+    "SPCE earnings preview 2021 Qq",
+    "SPCE earnings preview 2021 Qq",
+    "SPCE earnings preview 2021 Qq",
+    "SPCE earnings preview 2021 Qq",
+    "SPCE earnings preview 2022 Qq",
+    "SPCE earnings preview 2022 Qq",
+    "SPCE earnings preview 2022 Qq",
+    "SPCE earnings preview 2022 Qq",
+    "SPCE earnings preview 2023 Qq",
+    "SPCE earnings preview 2023 Qq",
+    "SPCE earnings preview 2023 Qq",
+    "SPCE earnings preview 2023 Qq",
+    "SPCE earnings preview 2024 Qq",
+    "SPCE earnings preview 2024 Qq",
+    "SPCE earnings preview 2024 Qq",
+    "SPCE stock news preview",
+    "SPCE guidance outlook quarterly results",
+    "SPCE analyst expectations",
+    "SPCE retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/SPCE",
+  "max_articles": 30
+}

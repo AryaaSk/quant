@@ -1,0 +1,9 @@
+{
+  "url": "https://thenextweb.com/news/planet-labs-pelican-satellite-earth-observation",
+  "title": "Planet Labs Launches Three Pelican Satellites Amid $900M Backlog Growth",
+  "published_at": "2026-05-03T00:00:00Z",
+  "scraped_at": "2026-05-16T12:00:00Z",
+  "text": "SpaceX lifted three additional Pelican satellites into orbit from Vandenberg Space Force Base, bringing Planet Labs' high-resolution constellation to nine spacecraft. These newest additions, Pelicans 7, 8, and 9, capture imagery at 50-centimeter resolution across six multispectral bands. The company plans a full constellation of 32 satellites capable of revisiting any Earth location up to 30 times daily at mid-latitudes with improved 30-centimeter resolution by late 2026. Planet achieved profitability in late 2025, becoming the first New Space company to turn profitable on both an annual EBITDA and free cash flow basis. Q3 2026 revenue was $81.3 million with 33% year-over-year growth and FY2027 revenue guidance of $415-440 million. Contract backlog reached $900 million with gross margins of 58% and 90%+ of revenue from recurring subscriptions. Government and military contracts comprise the primary revenue accelerant: Germany €240 million multi-year deal, U.S. National Reconnaissance Office renewed baseline and Pelican framework, National Geospatial-Intelligence Agency $12.8M maritime domain awareness, NATO seven-figure surveillance contract, NASA $13.5M task order. The earth observation market reached approximately $7 billion in 2025, projected to grow to $14.5 billion by 2034. Each Pelican carries Nvidia Jetson AI platform for onboard image processing.",
+  "topic": "PL",
+  "source_type": "news_scraper.PL"
+}

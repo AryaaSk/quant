@@ -1,0 +1,134 @@
+#!/usr/bin/env bash
+#
+# h200 — push the quant project to the GCP H200 and (optionally) run a script.
+#
+# Usage:
+#   bin/h200 sync                       rsync project → ~/Aryaa/quant/ on the box
+#   bin/h200 run <script.py> [args…]    sync, then run script on H200_GPU (default 6)
+#   bin/h200 ssh                        interactive ssh
+#   bin/h200 pull <remote-rel-path>     rsync a path back into runs/
+#   bin/h200 nvidia                     show GPU state on the box
+#   bin/h200 --check                    validate config offline (no SSH)
+#
+# Env overrides:
+#   H200_GPU=6,7        which GPUs to expose. Default 6 (GPU 7 is Zoral).
+#   H200_HOST           override IP. Default 35.230.182.229
+#   H200_USER           default theod
+#   H200_KEY            default ~/.ssh/gcp_zoral_h200_ed25519
+#   H200_REMOTE_DIR     default Aryaa/quant
+#
+set -euo pipefail
+
+H200_HOST="${H200_HOST:-35.230.182.229}"
+H200_USER="${H200_USER:-theod}"
+H200_KEY="${H200_KEY:-$HOME/.ssh/gcp_zoral_h200_ed25519}"
+H200_REMOTE_DIR="${H200_REMOTE_DIR:-Aryaa/quant}"
+H200_GPU="${H200_GPU:-6}"
+# Use existing Aryaa venv if present, else fall back to system python3.
+H200_PYTHON="${H200_PYTHON:-\$HOME/Aryaa/venv/bin/python3}"
+
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+SSH=(ssh -i "$H200_KEY" -o ServerAliveInterval=60 "$H200_USER@$H200_HOST")
+RSYNC_SSH="ssh -i $H200_KEY -o ServerAliveInterval=60"
+
+cmd="${1:-}"
+shift || true
+
+case "$cmd" in
+  --check)
+    echo "h200 config check:"
+    echo "  host:       $H200_HOST"
+    echo "  user:       $H200_USER"
+    echo "  key:        $H200_KEY"
+    echo "  remote dir: $H200_REMOTE_DIR"
+    echo "  GPU:        $H200_GPU"
+    echo "  python:     $H200_PYTHON"
+    if [[ ! -f "$H200_KEY" ]]; then
+      echo "WARNING: key not found at $H200_KEY" >&2
+    fi
+    if [[ ! -f "$REPO_ROOT/pyproject.toml" ]]; then
+      echo "WARNING: not in a quant project (no pyproject.toml at $REPO_ROOT)" >&2
+    fi
+    echo "ok (config validated offline; no SSH attempted)"
+    ;;
+
+  sync)
+    "${SSH[@]}" "mkdir -p $H200_REMOTE_DIR/src $H200_REMOTE_DIR/markets $H200_REMOTE_DIR/scripts $H200_REMOTE_DIR/runs $H200_REMOTE_DIR/data/raw $H200_REMOTE_DIR/data/structured $H200_REMOTE_DIR/data/state $H200_REMOTE_DIR/data/held_out"
+    echo ">> rsync src/ → $H200_USER@$H200_HOST:$H200_REMOTE_DIR/src/"
+    rsync -avz --delete \
+      --exclude '__pycache__' --exclude '*.pyc' --exclude '.pytest_cache' \
+      -e "$RSYNC_SSH" \
+      "$REPO_ROOT/src/" "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/src/"
+    echo ">> rsync markets/ → $H200_USER@$H200_HOST:$H200_REMOTE_DIR/markets/"
+    rsync -avz --delete -e "$RSYNC_SSH" \
+      "$REPO_ROOT/markets/" "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/markets/"
+    echo ">> rsync scripts/ → $H200_USER@$H200_HOST:$H200_REMOTE_DIR/scripts/"
+    rsync -avz --delete -e "$RSYNC_SSH" \
+      "$REPO_ROOT/scripts/" "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/scripts/"
+    echo ">> rsync data/state and data/structured (needed for training)"
+    rsync -avz --delete -e "$RSYNC_SSH" \
+      "$REPO_ROOT/data/state/" "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/data/state/" 2>/dev/null || true
+    rsync -avz --delete -e "$RSYNC_SSH" \
+      "$REPO_ROOT/data/structured/" "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/data/structured/" 2>/dev/null || true
+    rsync -avz --delete -e "$RSYNC_SSH" \
+      "$REPO_ROOT/data/held_out/" "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/data/held_out/" 2>/dev/null || true
+    echo ">> rsync data/raw (excluding heavy caches: _fd_cache, _td_cache, _hl_cache, _fred_cache, _kalshi_cache)"
+    rsync -avz --delete -e "$RSYNC_SSH" \
+      --exclude '_fd_cache' --exclude '_td_cache' --exclude '_hl_cache' --exclude '_fred_cache' --exclude '_kalshi_cache' --exclude '.DS_Store' \
+      "$REPO_ROOT/data/raw/" "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/data/raw/" 2>/dev/null || true
+    echo ">> rsync skills/"
+    rsync -avz --delete -e "$RSYNC_SSH" \
+      "$REPO_ROOT/skills/" "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/skills/" 2>/dev/null || true
+    rsync -avz -e "$RSYNC_SSH" \
+      "$REPO_ROOT/pyproject.toml" "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/pyproject.toml"
+    ;;
+
+  run)
+    [[ $# -ge 1 ]] || { echo "usage: h200 run <script.py> [args…]" >&2; exit 1; }
+    "$0" sync
+    script="$1"; shift
+
+    # Pass through API keys from local .env to the remote process for the lifetime of this command.
+    # Note: grep returns 1 when no match found; under `set -euo pipefail` that would kill the
+    # script before we got a chance to check `[[ -n "$val" ]]`, so we `|| true` to soak that.
+    env_prefix=""
+    for key in ANTHROPIC_API_KEY OPENAI_API_KEY FRED_API_KEY VOYAGE_API_KEY THE_ODDS_API_KEY; do
+      val="${!key:-}"
+      if [[ -z "$val" && -f "$REPO_ROOT/.env" ]]; then
+        val=$(grep -E "^$key=" "$REPO_ROOT/.env" 2>/dev/null | sed "s/^$key=//" | head -1 || true)
+      fi
+      [[ -n "$val" ]] && env_prefix+="$key='$val' "
+    done
+
+    echo ">> CUDA_VISIBLE_DEVICES=$H200_GPU PYTHONPATH=src $H200_PYTHON scripts/$script ${*:-}"
+    echo "----"
+    "${SSH[@]}" "cd $H200_REMOTE_DIR && ${env_prefix}CUDA_VISIBLE_DEVICES=$H200_GPU PYTHONPATH=src $H200_PYTHON scripts/$script $*"
+    ;;
+
+  ssh)
+    exec "${SSH[@]}"
+    ;;
+
+  pull)
+    [[ $# -ge 1 ]] || { echo "usage: h200 pull <remote-path-relative-to-quant>" >&2; exit 1; }
+    mkdir -p "$REPO_ROOT/runs"
+    echo ">> rsync $H200_USER@$H200_HOST:$H200_REMOTE_DIR/$1 → $REPO_ROOT/runs/"
+    rsync -avz -e "$RSYNC_SSH" \
+      "$H200_USER@$H200_HOST:$H200_REMOTE_DIR/$1" "$REPO_ROOT/runs/"
+    ;;
+
+  nvidia)
+    "${SSH[@]}" "nvidia-smi --query-gpu=index,name,memory.used,memory.total,utilization.gpu --format=csv"
+    ;;
+
+  ""|-h|--help|help)
+    sed -n '2,20p' "$0"
+    ;;
+
+  *)
+    echo "unknown command: $cmd" >&2
+    sed -n '2,20p' "$0" >&2
+    exit 1
+    ;;
+esac

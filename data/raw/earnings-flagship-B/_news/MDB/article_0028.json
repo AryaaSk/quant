@@ -1,0 +1,9 @@
+{
+  "url": "https://www.tipranks.com/stocks/mdb/forecast",
+  "title": "MongoDB Stock Forecast and Analyst Ratings from TipRanks",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "TipRanks aggregates MongoDB analyst ratings and price targets from 32+ covering analysts with consensus Buy rating. The platform tracks analyst rating changes and price target revisions to identify shifts in consensus sentiment. Recent analyst activity shows mixed signals: while most analysts maintain Buy/Strong Buy ratings, several have reduced price targets following FY2027 guidance misses. TipRanks data reveals rating distribution of approximately 29 Buy ratings, 1 Sell, and 10 Hold ratings, reflecting broad analyst optimism tempered by near-term growth concerns. Analyst price targets range from $190 (bear case) to $500 (bull case), with consensus midpoint of $446. The wide target distribution reflects significant analyst divergence on MongoDB's growth trajectory and valuation multiples. Top-rated analysts maintain constructive views citing Atlas momentum, AI opportunities, and margin expansion, while cautious analysts cite macro headwinds and slowing enterprise spending.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

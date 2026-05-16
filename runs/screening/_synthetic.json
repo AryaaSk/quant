@@ -1,0 +1,19 @@
+{
+  "slug": "_synthetic",
+  "display_name": "Synthetic smoke-test market",
+  "platform": "synthetic",
+  "notes": "Deterministic synthetic market used by the E2E smoke test. The label is a noisy logistic\nof the first three numeric features. The market price is a noisy estimate of the truth so\nthere is real, recoverable Brier improvement to discover.\n",
+  "model": "gbdt",
+  "state_dim": 64,
+  "data_sources": [
+    "synthetic"
+  ],
+  "sources_reachable": {
+    "synthetic": 800
+  },
+  "sources_error": {},
+  "events_per_year": null,
+  "score": 85.8,
+  "verdict": "advance: all sources reachable",
+  "advance": true
+}

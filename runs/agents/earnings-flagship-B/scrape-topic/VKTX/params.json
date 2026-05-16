@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "VKTX",
+  "queries": [
+    "VKTX earnings preview 2020 Q3",
+    "VKTX earnings preview 2020 Q4",
+    "VKTX earnings preview 2021 Q1",
+    "VKTX earnings preview 2021 Q2",
+    "VKTX earnings preview 2021 Q3",
+    "VKTX earnings preview 2021 Q4",
+    "VKTX earnings preview 2022 Q1",
+    "VKTX earnings preview 2022 Q2",
+    "VKTX earnings preview 2022 Q3",
+    "VKTX earnings preview 2022 Q4",
+    "VKTX earnings preview 2023 Q1",
+    "VKTX earnings preview 2023 Q2",
+    "VKTX earnings preview 2023 Q3",
+    "VKTX earnings preview 2023 Q4",
+    "VKTX earnings preview 2024 Q1",
+    "VKTX earnings preview 2024 Q2",
+    "VKTX earnings preview 2024 Q3",
+    "VKTX stock news preview",
+    "VKTX guidance outlook quarterly results",
+    "VKTX analyst expectations",
+    "VKTX retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/VKTX",
+  "max_articles": 30
+}

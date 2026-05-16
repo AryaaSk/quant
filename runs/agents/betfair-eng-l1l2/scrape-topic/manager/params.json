@@ -1,0 +1,11 @@
+{
+  "market_slug": "betfair-eng-l1l2",
+  "topic": "manager",
+  "queries": [
+    "English League One manager press conference",
+    "EFL manager interview tactics formation",
+    "English Football League sacking appointment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/betfair-eng-l1l2/_news/manager",
+  "max_articles": 80
+}

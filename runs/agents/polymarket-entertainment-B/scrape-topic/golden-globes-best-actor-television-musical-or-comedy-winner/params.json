@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "golden-globes-best-actor-television-musical-or-comedy-winner",
+  "queries": [
+    "golden-globes-best-actor-television-musical-or-comedy-winner predictions analysis",
+    "golden-globes-best-actor-television-musical-or-comedy-winner oddsmaker pick analysis",
+    "golden-globes-best-actor-television-musical-or-comedy-winner critic commentary preview",
+    "golden-globes-best-actor-television-musical-or-comedy-winner expert forecast roundup",
+    "golden-globes-best-actor-television-musical-or-comedy-winner variety deadline hollywood reporter",
+    "golden-globes-best-actor-television-musical-or-comedy-winner indiewire commentary",
+    "golden-globes-best-actor-television-musical-or-comedy-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/golden-globes-best-actor-television-musical-or-comedy-winner",
+  "max_articles": 25
+}

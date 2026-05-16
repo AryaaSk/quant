@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "LMND",
+  "queries": [
+    "LMND earnings preview 2020 Qq",
+    "LMND earnings preview 2020 Qq",
+    "LMND earnings preview 2021 Qq",
+    "LMND earnings preview 2021 Qq",
+    "LMND earnings preview 2021 Qq",
+    "LMND earnings preview 2021 Qq",
+    "LMND earnings preview 2022 Qq",
+    "LMND earnings preview 2022 Qq",
+    "LMND earnings preview 2022 Qq",
+    "LMND earnings preview 2022 Qq",
+    "LMND earnings preview 2023 Qq",
+    "LMND earnings preview 2023 Qq",
+    "LMND earnings preview 2023 Qq",
+    "LMND earnings preview 2023 Qq",
+    "LMND earnings preview 2024 Qq",
+    "LMND earnings preview 2024 Qq",
+    "LMND earnings preview 2024 Qq",
+    "LMND stock news preview",
+    "LMND guidance outlook quarterly results",
+    "LMND analyst expectations",
+    "LMND retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/LMND",
+  "max_articles": 30
+}

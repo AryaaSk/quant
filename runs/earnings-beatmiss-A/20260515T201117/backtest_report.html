@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><title>earnings-beatmiss-A backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Quarterly earnings beat/miss (Model A — numerical only) (earnings-beatmiss-A)</h1>
+<p>Model A baseline for the dual A vs B PoC. Predicts whether reported EPS exceeds
+analyst consensus estimate, for 30 small/mid-cap retail-favorite tickers across
+2022-2024 quarters (~360 events). Uses ONLY numerical features: prior surprises,
+realized vol, trailing returns at multiple horizons, sector ETF return, days since
+last earnings, EPS estimate. No text. p_market baseline = the prior 4-quarter beat
+rate per ticker (defaults to 0.60 sandbagging prior).
+
+Compare to earnings-beatmiss-B (same data, same model class) which adds Voyage-
+embedded news_scraper text features.
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>0.3031639510428366</pre></td></tr><tr><td>brier_market</td><td><pre>0.29562499999999997</pre></td></tr><tr><td>brier_improvement</td><td><pre>-0.007538951042836639</pre></td></tr><tr><td>accuracy_model</td><td><pre>0.5714285714285714</pre></td></tr><tr><td>accuracy_market</td><td><pre>0.6428571428571429</pre></td></tr><tr><td>n_events</td><td><pre>28</pre></td></tr><tr><td>n_trades</td><td><pre>27</pre></td></tr><tr><td>hit_rate</td><td><pre>0.5185185185185185</pre></td></tr><tr><td>gross_return</td><td><pre>1.065965443098015</pre></td></tr><tr><td>net_return</td><td><pre>1.065965443098015</pre></td></tr><tr><td>sharpe</td><td><pre>1.8317568736776448</pre></td></tr><tr><td>max_drawdown</td><td><pre>-0.09115320079030723</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

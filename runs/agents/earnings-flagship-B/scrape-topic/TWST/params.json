@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "TWST",
+  "queries": [
+    "TWST earnings preview 2020 Qq",
+    "TWST earnings preview 2020 Qq",
+    "TWST earnings preview 2021 Qq",
+    "TWST earnings preview 2021 Qq",
+    "TWST earnings preview 2021 Qq",
+    "TWST earnings preview 2021 Qq",
+    "TWST earnings preview 2022 Qq",
+    "TWST earnings preview 2022 Qq",
+    "TWST earnings preview 2022 Qq",
+    "TWST earnings preview 2022 Qq",
+    "TWST earnings preview 2023 Qq",
+    "TWST earnings preview 2023 Qq",
+    "TWST earnings preview 2023 Qq",
+    "TWST earnings preview 2023 Qq",
+    "TWST earnings preview 2024 Qq",
+    "TWST earnings preview 2024 Qq",
+    "TWST earnings preview 2024 Qq",
+    "TWST stock news preview",
+    "TWST guidance outlook quarterly results",
+    "TWST analyst expectations",
+    "TWST retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/TWST",
+  "max_articles": 30
+}

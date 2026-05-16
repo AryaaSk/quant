@@ -1,0 +1,6 @@
+{
+  "market_slug": "betfair-eng-l1l2",
+  "raw_dir": "/Users/aryaask/Desktop/quant/data/raw/betfair-eng-l1l2",
+  "output_path": "/Users/aryaask/Desktop/quant/markets/betfair-eng-l1l2.proposed.yaml",
+  "existing_yamls_dir": "/Users/aryaask/Desktop/quant/markets"
+}

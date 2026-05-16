@@ -1,0 +1,9 @@
+{
+  "url": "https://www.elastic.co/blog/search-ai-lake-elastic-cloud-serverless",
+  "title": "Search AI Lake and Elastic Cloud Serverless",
+  "published_at": "2024-05-15T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Search AI Lake Overview: Search AI Lake is a new architecture that combines the storage capacity of a data lake with the low-latency querying and AI relevance capabilities of Elasticsearch. It decouples compute and storage, scales indexing and querying independently, is optimized for generative AI, and includes powerful query and analytics features, native machine learning, and cross-region capabilities. Key Innovation Features: Decoupled Architecture—CEO Ash Kulkarni stated that they have accomplished complete decoupling of storage, ingestion and querying, which allows them to create a completely flexible serverless architecture where Amazon S3 becomes the primary storage and creates a native style architecture that's effectively infinitely scalable. Generative AI Optimization—A key focus for Search AI Lake is enabling generative AI and vector search use cases, providing native support for dense vector types. Elastic Cloud Serverless: Elastic Cloud Serverless is a fully managed service built on Search AI Lake that simplifies operations by removing the need for cluster management, scaling, and other operational overhead. It offers instant configuration, project-based workflows, guided onboarding, and automatic scaling. The solution became generally available on AWS as of December 2024. Customer Adoption: Elastic has seen strong customer adoption of its platform for generative AI applications, with Elastic adding hundreds of new customers over recent quarters that are using the company's platform for RAG (Retrieval Augmented Generation) use cases.",
+  "topic": "ESTC",
+  "source_type": "news_scraper.ESTC"
+}

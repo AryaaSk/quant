@@ -1,0 +1,9 @@
+{
+  "url": "https://satnews.com/2026/01/25/starlink-vs-ast-spacemobile-will-the-winner-take-it-all/",
+  "title": "Starlink vs AST SpaceMobile: Will the Winner Take All?",
+  "published_at": "2026-01-25T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "The competition between Starlink and AST SpaceMobile in satellite broadband will likely not result in a winner-take-all outcome but rather market segmentation by use case and customer type. Starlink focuses on fixed-site broadband services using large ground terminals and maintains first-mover advantage with thousands of satellites operational and substantial installed customer base. ASTS targets mobile direct-to-phone connectivity with no special hardware, addressing fundamentally different customer needs and use cases. The satellite broadband market is sufficiently large to support multiple operators with different technology approaches. ASTS's carrier partnership model creates stickiness and revenue predictability different from Starlink's consumer-focused approach. Government applications, emergency communications, and developing nation coverage present opportunities for both approaches with different economics. Long-term market success depends on technology execution, cost structure improvements, and geographic deployment coverage. Rather than winner-take-all, the market will likely evolve with Starlink serving fixed-site broadband and ASTS serving mobile supplemental coverage with complementary roles.",
+  "topic": "ASTS",
+  "source_type": "news_scraper.ASTS"
+}

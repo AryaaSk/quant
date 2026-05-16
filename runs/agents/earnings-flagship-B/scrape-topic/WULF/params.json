@@ -1,0 +1,22 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "WULF",
+  "queries": [
+    "WULF earnings preview 2022 Q2",
+    "WULF earnings preview 2022 Q3",
+    "WULF earnings preview 2022 Q4",
+    "WULF earnings preview 2023 Q1",
+    "WULF earnings preview 2023 Q2",
+    "WULF earnings preview 2023 Q3",
+    "WULF earnings preview 2023 Q4",
+    "WULF earnings preview 2024 Q1",
+    "WULF earnings preview 2024 Q2",
+    "WULF earnings preview 2024 Q3",
+    "WULF stock news preview",
+    "WULF guidance outlook quarterly results",
+    "WULF analyst expectations",
+    "WULF retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/WULF",
+  "max_articles": 30
+}

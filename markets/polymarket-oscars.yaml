@@ -1,0 +1,54 @@
+slug: polymarket-oscars
+display_name: Polymarket Oscar category outcomes
+platform: polymarket
+notes: |
+  Award categories with rich critical and sentiment data. The model fuses Rotten Tomatoes,
+  Letterboxd, festival results (Cannes, Venice, Telluride), industry publication tone
+  (Variety, Deadline, IndieWire), and voter-bloc demographic priors. Public benchmark is
+  Ben Zauzmer's model; we measure Brier improvement vs Polymarket closing prices.
+time_grain: daily
+held_out_months: 6
+sequence_length: 32
+model: gbdt
+data_sources:
+  - name: polymarket_contracts
+    kind: market
+    params: {events: [oscars-2024, oscars-2025, oscars-2026]}
+  - name: news_scraper
+    kind: text
+    params:
+      queries: [Oscar predictions, Academy Award race, voting bloc, BAFTA, Golden Globe]
+label:
+  kind: binary
+  target_event: oscar_category_outcome
+state_vector:
+  dim: 384
+  blocks:
+    - name: critic_numeric
+      slots: "0:128"
+      builder: numeric
+      params:
+        series: [rt_critic_score, rt_audience_score, mc_score, letterboxd_avg, festival_wins_total]
+    - name: market_state
+      slots: "128:208"
+      builder: market_state
+      params:
+        series: [contract_yesno_price]
+        velocity_lags: [1, 7, 30]
+    - name: text_features
+      slots: "208:368"
+      builder: text
+      params:
+        mode: handcrafted
+        window_days: 14
+        entity_keywords: [frontrunner, dark horse, BAFTA, SAG, Globes, presumed lock]
+    - name: calendar
+      slots: "368:384"
+      builder: calendar
+      params: {}
+backtest:
+  commission_bps: 75
+  base_slippage_bps: 50
+  safety_margin_bps: 200
+  kelly_fraction: 0.20
+  kelly_cap: 0.02

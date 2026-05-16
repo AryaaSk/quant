@@ -1,0 +1,49 @@
+slug: _synthetic
+display_name: Synthetic smoke-test market
+platform: synthetic
+notes: |
+  Deterministic synthetic market used by the E2E smoke test. The label is a noisy logistic
+  of the first three numeric features. The market price is a noisy estimate of the truth so
+  there is real, recoverable Brier improvement to discover.
+time_grain: daily
+held_out_months: 3
+sequence_length: 16
+model: gbdt
+data_sources:
+  - name: synthetic
+    kind: synthetic
+    params:
+      n_days: 600
+      n_events: 200
+      n_numeric_series: 8
+      noise_level: 0.25
+      seed: 42
+label:
+  kind: binary
+  target_event: synthetic_event
+state_vector:
+  dim: 64
+  blocks:
+    - name: numeric_block
+      slots: "0:48"
+      builder: numeric
+      params:
+        series: [feat_0, feat_1, feat_2, feat_3, feat_4, feat_5, feat_6, feat_7]
+        rolling_window: 60
+    - name: calendar_block
+      slots: "48:64"
+      builder: calendar
+      params: {}
+train:
+  batch_size: 16
+  epochs: 6
+  learning_rate: 1e-3
+  val_fraction: 0.15
+  seed: 42
+backtest:
+  commission_bps: 20
+  base_slippage_bps: 30
+  safety_margin_bps: 150
+  kelly_fraction: 0.25
+  kelly_cap: 0.02
+  starting_bankroll: 1000.0

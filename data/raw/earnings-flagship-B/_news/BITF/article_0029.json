@@ -1,0 +1,9 @@
+{
+  "url": "https://www.benzinga.com/quote/BITF/analyst-ratings",
+  "title": "Bitfarms Analyst Ratings and Price Targets via Benzinga",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Benzinga provides Bitfarms analyst ratings and price targets aggregation platform. The site compiles analyst recommendations from major Wall Street research firms and independent analysts covering Bitcoin mining and cryptocurrency-adjacent equities. Bitfarms analyst consensus shows Buy rating with moderate price target appreciation expectations. Rating breakdown indicates approximately 50% analyst recommendations as Strong Buy, 25% as Buy, 25% as Hold, with minimal Sell recommendations. Price target consensus reflects $4.00 average with upside to $7.00 and downside risk to $4.18, representing 81.82% upside potential from certain reference prices. Analyst commentary addressed company's strategic transformation from Bitcoin mining to energy and compute infrastructure as transformational opportunity. Key analyst themes included: (1) substantial power portfolio positioning for AI infrastructure growth, (2) execution risk on HPC/AI deployment timeline and revenue generation, (3) Bitcoin mining depreciation and potential stranded assets, (4) capital requirements and financing adequacy for growth plans, (5) competitive positioning relative to specialized AI compute providers. Analyst estimates tracked revenue, margin, and EPS projections across multiple fiscal year forecasts. Price target revisions provided signals of analyst sentiment shifts following earnings releases and strategic announcements.",
+  "topic": "BITF",
+  "source_type": "news_scraper.BITF"
+}

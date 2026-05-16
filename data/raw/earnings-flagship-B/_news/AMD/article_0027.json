@@ -1,0 +1,9 @@
+{
+  "url": "https://www.visualcapitalist.com/charted-the-battle-for-ai-data-center-revenue-2021-2025/",
+  "title": "Charted: The Battle for AI Data Center Revenue (2021–2025)",
+  "published_at": "2025-12-20T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Visual Capitalist analysis charts the evolution of AI data center revenue among semiconductor leaders from 2021 to 2025. The data demonstrates NVIDIA's dominant position with 80%+ market share through 2025, but also shows AMD's rapid gain from ~5% in 2021 to ~15% by 2025. Intel's share declined from ~35% in 2021 to ~5% by 2025. The chart reveals a structural shift in competitive dynamics driven by AI adoption. NVIDIA's dominance in GPU accelerators is unquestioned, but AMD's entry into high-performance GPUs and strong server CPU positioning creates opportunities. The data suggests the market is large enough to support multiple significant competitors, with total AI data center revenue exceeding $100 billion by 2025. AMD's growth trajectory from 2023-2025 demonstrates successful market entry in AI. Projections suggest AMD could reach 20%+ market share by 2027 if current growth trajectories continue, though NVIDIA's scale and ecosystem advantages are likely to preserve its leadership position.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

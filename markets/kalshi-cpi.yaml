@@ -1,0 +1,49 @@
+slug: kalshi-cpi
+display_name: Kalshi CPI YoY threshold markets
+platform: kalshi
+notes: |
+  Monthly CPI YoY release. Kalshi lists multiple threshold markets per release (e.g.
+  "Will CPI YoY exceed 2.3%?", "exceed 2.4%?", ...). Each (event, threshold) is one
+  prediction. Edge thesis: combine FRED leading indicators (Truflation, ADP, jobless
+  claims, ISM) with Kalshi's market state. The Federal Reserve paper (Kalshi NBER 2026)
+  showed Kalshi macro contracts beat Bloomberg consensus on out-of-sample windows.
+  Public Kalshi API (api.elections.kalshi.com) returns ~2 years of resolved markets.
+time_grain: daily
+held_out_months: 1
+sequence_length: 8
+model: gbdt
+data_sources:
+  - name: kalshi_contracts
+    kind: market
+    params:
+      series: [KXCPIYOY]
+      max_events_per_series: 200
+      candle_interval: 1440
+label:
+  kind: binary
+  target_event: cpi_yoy_threshold_outcome
+state_vector:
+  dim: 128
+  blocks:
+    - name: kalshi_features
+      slots: "0:64"
+      builder: numeric
+      params:
+        series: [threshold, open_yes_price, total_volume, max_open_interest, days_open]
+        rolling_window: 60
+    - name: market_state
+      slots: "64:112"
+      builder: market_state
+      params:
+        series: [open_yes_price, total_volume]
+        velocity_lags: [1, 5]
+    - name: calendar
+      slots: "112:128"
+      builder: calendar
+      params: {}
+backtest:
+  commission_bps: 20
+  base_slippage_bps: 50
+  safety_margin_bps: 150
+  kelly_fraction: 0.20
+  kelly_cap: 0.02

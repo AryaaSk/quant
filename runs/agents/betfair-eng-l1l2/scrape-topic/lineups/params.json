@@ -1,0 +1,11 @@
+{
+  "market_slug": "betfair-eng-l1l2",
+  "topic": "lineups",
+  "queries": [
+    "English League One starting lineup confirmed",
+    "EFL League Two team news pre match",
+    "EFL injury report lineup announcement"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/betfair-eng-l1l2/_news/lineups",
+  "max_articles": 80
+}

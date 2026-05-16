@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "LCID",
+  "queries": [
+    "LCID earnings preview 2021 Qq",
+    "LCID earnings preview 2022 Qq",
+    "LCID earnings preview 2022 Qq",
+    "LCID earnings preview 2022 Qq",
+    "LCID earnings preview 2022 Qq",
+    "LCID earnings preview 2023 Qq",
+    "LCID earnings preview 2023 Qq",
+    "LCID earnings preview 2023 Qq",
+    "LCID earnings preview 2023 Qq",
+    "LCID earnings preview 2024 Qq",
+    "LCID earnings preview 2024 Qq",
+    "LCID earnings preview 2024 Qq",
+    "LCID stock news preview",
+    "LCID guidance outlook quarterly results",
+    "LCID analyst expectations",
+    "LCID retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/LCID",
+  "max_articles": 30
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/cipher-mining-inc-cifr-surpasses-123833297.html",
+  "title": "Cipher Mining Inc (CIFR) Surpasses Analyst Revenue Forecasts in Q1 2024",
+  "published_at": "2024-05-07T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Cipher Mining announced strong Q1 2024 results with impressive financial performance. The company reported GAAP Net Income of $40 million, dramatically outpacing the $2.62 million estimate, while Non-GAAP Adjusted Earnings reached $63 million. Revenue totaled $48 million for the quarter, slightly underperforming the $50.75 million forecast. However, earnings per share achieved $0.13, significantly exceeding the projected $0.01. The mining operation demonstrated substantial growth, with the self-mining hash rate at approximately 7.7 EH/s and plans to reach 9.3 EH/s by Q3 2024. The company is constructing the Black Pearl data center with an anticipated 300 MW capacity operational by 2025. Cipher's balance sheet strengthened considerably, with total assets climbing to $677.141 million from $566.137 million year-over-year. Management highlighted the company's strong financial position and aggressive expansion strategy positioning it competitively within the Bitcoin mining sector.",
+  "topic": "CIFR",
+  "source_type": "news_scraper.CIFR"
+}

@@ -1,0 +1,80 @@
+[2026-05-16T09:33:05.136886] === OVERNIGHT ORCHESTRATOR for earnings-flagship-B ===
+[2026-05-16T09:33:05.137078]   dry_run=False skip_wait=True
+[2026-05-16T09:33:05.137116] === Stage 2: verify state vectors ===
+[2026-05-16T09:33:05.196878]   shape=(612, 12, 1664) dtype=float32
+[2026-05-16T09:33:05.201464]   non-zero fraction: 1.0000
+[2026-05-16T09:33:05.202390] === Stage 3: size sweep on H200 ===
+[2026-05-16T09:33:05.202457]   $ /Users/aryaask/Desktop/quant/.venv/bin/python scripts/03_train_sweep.py --device cuda
+[2026-05-16T09:37:38.755636]     stdout: ent 181 bytes  received 12 bytes  128.67 bytes/sec
+total size is 13,865  speedup is 71.84
+sending incremental file list
+
+sent 69 bytes  received 12 bytes  32.40 bytes/sec
+total size is 1,228  speedup is 15.16
+>> rsync src/ → theod@35.230.182.229:Aryaa/quant/src/
+sending incremental file list
+
+sent 1,736 bytes  received 21 bytes  702.80 bytes/sec
+total size is 224,803  speedup is 127.95
+>> rsync markets/ → theod@35.230.182.229:Aryaa/quant/markets/
+sending incremental file list
+
+sent 1,192 bytes  received 12 bytes  481.60 bytes/sec
+total size is 79,639  speedup is 66.15
+>> rsync scripts/ → theod@35.230.182.229:Aryaa/quant/scripts/
+sending incremental file list
+
+sent 634 bytes  received 13 bytes  258.80 bytes/sec
+total size is 89,498  speedup is 138.33
+>> rsync data/state and data/structured (needed for training)
+sending incremental file list
+
+sent 1,601 bytes  received 28 bytes  651.60 bytes/sec
+total size is 587,113,223  speedup is 360,413.27
+sending incremental file list
+
+sent 1,297 bytes  received 28 bytes  530.00 bytes/sec
+total size is 246,953,434  speedup is 186,379.95
+sending incremental file list
+
+sent 1,233 bytes  received 28 bytes  840.67 bytes/sec
+total size is 16,084  speedup is 12.75
+>> rsync data/raw (excluding heavy caches: _fd_cache, _td_cache, _hl_cache, _fred_cache, _kalshi_cache)
+sending incremental file list
+
+sent 1,074,644 bytes  received 706 bytes  307,242.86 bytes/sec
+total size is 356,689,336  speedup is 331.70
+>> rsync skills/
+sending incremental file list
+
+sent 181 bytes  received 12 bytes  128.67 bytes/sec
+total size is 13,865  speedup is 71.84
+sending incremental file list
+
+sent 69 bytes  received 12 bytes  32.40 bytes/sec
+total size is 1,228  speedup is 15.16
+  yaml: /Users/aryaask/Desktop/quant/markets/earnings-flagship-B-203M.yaml
+  state vectors: reusing from earnings-flagship-B
+  syncing to H200...
+  training on H200 GPU 6...
+  REMOTE PIPELINE FAILED
+
+=== sweep complete. summary: /Users/aryaask/Desktop/quant/runs/sweep_summary.csv ===
+[2026-05-16T09:37:38.757194]   sweep produced 5 rows
+[2026-05-16T09:37:38.757280]     11M: brier_improvement= net_return=
+[2026-05-16T09:37:38.757333]     117M: brier_improvement= net_return=
+[2026-05-16T09:37:38.757369]     33M: brier_improvement= net_return=
+[2026-05-16T09:37:38.757407]     4M: brier_improvement= net_return=
+[2026-05-16T09:37:38.757443]     203M: brier_improvement= net_return=
+[2026-05-16T09:37:38.757481] === Stage 4: identify winner ===
+[2026-05-16T09:37:38.757514]   no successful runs to choose from
+[2026-05-16T09:37:38.757550] === Stage 6: update leaderboard ===
+[2026-05-16T09:37:38.757592]   $ /Users/aryaask/Desktop/quant/.venv/bin/python scripts/05_compare.py
+[2026-05-16T09:37:38.930530]     stdout: wrote /Users/aryaask/Desktop/quant/runs/LEADERBOARD.md
+[2026-05-16T09:37:38.930724] === Stage 7: write per-market doc ===
+[2026-05-16T09:37:38.931360]   wrote /Users/aryaask/Desktop/quant/research/per-market/earnings-flagship.md
+[2026-05-16T09:37:38.931412] === Stage 8: write methodology doc ===
+[2026-05-16T09:37:38.931800]   wrote /Users/aryaask/Desktop/quant/research/16-flagship-sweep-results.md
+[2026-05-16T09:37:38.931835] === Stage 9: write LinkedIn draft ===
+[2026-05-16T09:37:38.931937]   wrote /Users/aryaask/Desktop/quant/research/linkedin-flagship-draft.md
+[2026-05-16T09:37:38.931965] === OVERNIGHT ORCHESTRATOR COMPLETE ===

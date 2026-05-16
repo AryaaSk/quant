@@ -1,0 +1,27 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "QS",
+  "queries": [
+    "QS earnings preview 2021 Qq",
+    "QS earnings preview 2021 Qq",
+    "QS earnings preview 2021 Qq",
+    "QS earnings preview 2021 Qq",
+    "QS earnings preview 2022 Qq",
+    "QS earnings preview 2022 Qq",
+    "QS earnings preview 2022 Qq",
+    "QS earnings preview 2022 Qq",
+    "QS earnings preview 2023 Qq",
+    "QS earnings preview 2023 Qq",
+    "QS earnings preview 2023 Qq",
+    "QS earnings preview 2023 Qq",
+    "QS earnings preview 2024 Qq",
+    "QS earnings preview 2024 Qq",
+    "QS earnings preview 2024 Qq",
+    "QS stock news preview",
+    "QS guidance outlook quarterly results",
+    "QS analyst expectations",
+    "QS retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/QS",
+  "max_articles": 30
+}

@@ -1,0 +1,55 @@
+slug: polymarket-elections
+display_name: Polymarket down-ballot election races
+platform: polymarket
+notes: |
+  Avoid national races (saturated + insider front-running). Target state/local races where
+  polling is asymmetric and endorsement signals matter. Scrape state-level poll aggregators,
+  local press, and endorsements; transformer fuses with market state.
+time_grain: daily
+held_out_months: 6
+sequence_length: 64
+model: transformer
+data_sources:
+  - name: polymarket_contracts
+    kind: market
+    params: {category: elections-state-local}
+  - name: news_scraper
+    kind: text
+    params:
+      queries: [poll, endorsement, primary, redistricting]
+label:
+  kind: binary
+  target_event: race_outcome
+state_vector:
+  dim: 512
+  blocks:
+    - name: polling_numeric
+      slots: "0:192"
+      builder: numeric
+      params:
+        series: [poll_avg, poll_std, fundraising, ad_spend, incumbent_flag]
+    - name: market_state
+      slots: "192:288"
+      builder: market_state
+      params:
+        series: [contract_yesno_price]
+        velocity_lags: [1, 7, 30]
+    - name: text_features
+      slots: "288:496"
+      builder: text
+      params:
+        mode: handcrafted
+        entity_keywords: [endorse, primary, swing, lean, toss-up]
+    - name: calendar
+      slots: "496:512"
+      builder: calendar
+      params: {}
+transformer:
+  layers: 8
+  model_dim: 384
+backtest:
+  commission_bps: 75
+  base_slippage_bps: 60
+  safety_margin_bps: 200
+  kelly_fraction: 0.20
+  kelly_cap: 0.02

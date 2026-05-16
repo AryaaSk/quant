@@ -1,0 +1,9 @@
+{
+  "url": "https://investors.mongodb.com/news-events/news-releases",
+  "title": "MongoDB Investor Relations News Releases",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "MongoDB's investor relations page provides comprehensive financial information and news releases. Recent announcements include fourth quarter fiscal 2026 results with total revenue of $695.1 million, up 27% year-over-year, and full year fiscal 2026 total revenue of $2.46 billion, up 23% year-over-year. Atlas grew 29% in Q4 and non-Atlas business accelerated to 20%. MongoDB added 2,700 customers in the quarter, with over 65,200 total customers and 60% new customer growth in fiscal 2026. The company announced its first quarter fiscal 2027 earnings call is scheduled for May 28, 2026, at 5:00 p.m. Eastern Time. MongoDB's financial information includes quarterly results, press releases, webcasts, and Form 10-Q filings. Recent company announcements include new capabilities unveiled at MongoDB local London 2026, furthering the vision of delivering a unified data platform with native embeddings generation, persistent agent memory, and real-time operational data.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

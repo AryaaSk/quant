@@ -1,0 +1,9 @@
+{
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+  "title": "NVIDIA and IREN Announce Strategic Partnership to Accelerate Deployment of up to 5 Gigawatts of AI Infrastructure",
+  "published_at": "2026-05-07T00:00:00Z",
+  "scraped_at": "2026-05-16T12:00:00Z",
+  "text": "NVIDIA and IREN Limited announced a collaborative agreement focused on expanding AI computing infrastructure globally. The partnership encompasses three primary components: Infrastructure Deployment - The companies plan to support rollout of up to 5 gigawatts of NVIDIA DSX-aligned AI infrastructure through IREN's worldwide data center operations over time. Collaborative Development - NVIDIA and IREN will work together deploying accelerated computing systems in DSX AI factories, aiming to broaden AI access for emerging companies and established enterprises. Financial Commitment - IREN issued NVIDIA a five-year option to purchase up to 30 million shares at $70 per share, representing a potential $2.1 billion investment contingent upon regulatory approval. Jensen Huang, NVIDIA's founder and CEO, stated: AI factories are becoming foundational infrastructure for the global economy. The partnership emphasizes combining NVIDIA's architectural expertise with IREN's capabilities in power infrastructure, land acquisition, data center operations, and GPU deployment. IREN's Sweetwater campus in Texas, featuring 2 gigawatts of capacity, is expected to serve as an initial flagship deployment site for NVIDIA's DSX architecture.",
+  "topic": "IREN",
+  "source_type": "news_scraper.IREN"
+}

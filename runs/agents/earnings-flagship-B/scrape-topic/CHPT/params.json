@@ -1,0 +1,27 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "CHPT",
+  "queries": [
+    "CHPT earnings preview 2021 Qq",
+    "CHPT earnings preview 2021 Qq",
+    "CHPT earnings preview 2021 Qq",
+    "CHPT earnings preview 2021 Qq",
+    "CHPT earnings preview 2022 Qq",
+    "CHPT earnings preview 2022 Qq",
+    "CHPT earnings preview 2022 Qq",
+    "CHPT earnings preview 2022 Qq",
+    "CHPT earnings preview 2023 Qq",
+    "CHPT earnings preview 2023 Qq",
+    "CHPT earnings preview 2023 Qq",
+    "CHPT earnings preview 2023 Qq",
+    "CHPT earnings preview 2024 Qq",
+    "CHPT earnings preview 2024 Qq",
+    "CHPT earnings preview 2024 Qq",
+    "CHPT stock news preview",
+    "CHPT guidance outlook quarterly results",
+    "CHPT analyst expectations",
+    "CHPT retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/CHPT",
+  "max_articles": 30
+}

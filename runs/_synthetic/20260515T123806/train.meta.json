@@ -1,0 +1,10 @@
+{
+  "model": "gbdt",
+  "slug": "_synthetic",
+  "device": "auto",
+  "n_train": 142,
+  "n_val": 25,
+  "n_held_out": 33,
+  "state_dim": 64,
+  "sequence_length": 16
+}

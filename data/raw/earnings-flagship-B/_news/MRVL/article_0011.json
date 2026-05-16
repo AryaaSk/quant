@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/surging-ai-custom-silicon-demand-042534281.html",
+  "title": "Is Surging AI Custom Silicon Demand Reshaping the Investment Case for Marvell Technology?",
+  "published_at": "2026-03-15T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Marvell Technology is positioning itself as a critical AI infrastructure supplier through its expanding custom silicon business. The company is experiencing strong momentum in AI XPU offerings and custom ASICs, attracting major hyperscaler customers including Alphabet, Amazon, and Microsoft. According to the analysis, Marvell's narrative projects reaching $12.1 billion revenue and $2.9 billion earnings by 2028, requiring substantial annual revenue growth. The company's current trajectory depends heavily on translating hyperscaler demand into sustained revenue streams. The investment case carries significant concentration risk. As noted, custom silicon will contribute a meaningful share of data center revenues, but this success relies on a relatively small set of major cloud computing programs. Any slowdown or shift toward in-house chip development by these key customers could rapidly impact results. Community fair value estimates for Marvell vary dramatically, ranging widely from US$49 to US$155.37, reflecting substantial disagreement about how to value its AI data center opportunity. This wide range suggests investors should carefully evaluate their own assumptions about the company's custom silicon growth trajectory.",
+  "topic": "MRVL",
+  "source_type": "news_scraper.MRVL"
+}

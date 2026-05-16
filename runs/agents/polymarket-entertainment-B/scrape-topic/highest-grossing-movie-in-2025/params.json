@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "highest-grossing-movie-in-2025",
+  "queries": [
+    "highest-grossing-movie-in-2025 predictions analysis",
+    "highest-grossing-movie-in-2025 oddsmaker pick analysis",
+    "highest-grossing-movie-in-2025 critic commentary preview",
+    "highest-grossing-movie-in-2025 expert forecast roundup",
+    "highest-grossing-movie-in-2025 variety deadline hollywood reporter",
+    "highest-grossing-movie-in-2025 indiewire commentary",
+    "highest-grossing-movie-in-2025 rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/highest-grossing-movie-in-2025",
+  "max_articles": 25
+}

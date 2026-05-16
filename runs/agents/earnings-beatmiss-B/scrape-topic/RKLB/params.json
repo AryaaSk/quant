@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "RKLB",
+  "queries": [
+    "RKLB earnings preview 2022 Qq",
+    "RKLB earnings preview 2022 Qq",
+    "RKLB earnings preview 2022 Qq",
+    "RKLB earnings preview 2022 Qq",
+    "RKLB earnings preview 2023 Qq",
+    "RKLB earnings preview 2023 Qq",
+    "RKLB earnings preview 2023 Qq",
+    "RKLB earnings preview 2023 Qq",
+    "RKLB earnings preview 2024 Qq",
+    "RKLB earnings preview 2024 Qq",
+    "RKLB earnings preview 2024 Qq",
+    "RKLB earnings preview 2024 Qq",
+    "RKLB stock news preview",
+    "RKLB guidance outlook quarterly results",
+    "RKLB analyst expectations",
+    "RKLB retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/RKLB",
+  "max_articles": 80
+}

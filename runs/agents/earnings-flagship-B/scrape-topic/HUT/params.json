@@ -1,0 +1,14 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "HUT",
+  "queries": [
+    "HUT earnings preview 2024 Q2",
+    "HUT earnings preview 2024 Q3",
+    "HUT stock news preview",
+    "HUT guidance outlook quarterly results",
+    "HUT analyst expectations",
+    "HUT retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/HUT",
+  "max_articles": 30
+}

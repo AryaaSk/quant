@@ -1,0 +1,9 @@
+{
+  "url": "https://www.biospace.com/press-releases/bionano-announces-upgrades-to-its-software-and-compute-platforms-to-make-analysis-of-ogm-microarray-and-ngs-data-easier-faster-and-more-accurate",
+  "title": "Bionano Announces Upgrades to its Software and Compute Platforms",
+  "published_at": "2025-08-05T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Bionano Genomics announced significant upgrades to its software and compute platforms to make analysis of OGM, microarray and NGS data easier, faster and more accurate. VIA 7.2 software release introduces AI-powered workflow transformation for constitutional genetic disorders. The software can now learn from historical lab data to accelerate interpretation speed. SAP (significance associated with phenotype) scoring has been extended to OGM data for the first time. Solve 3.8.3 expands the structural variants control database by 18%, improving detection sensitivity and specificity for structural variants. Stratys Compute improvements enable laboratories to double the number of cancer samples that can be analyzed per week. The upgrades include analysis pipelines previously available only on CPU versions. A scaled Stratus workflow can process up to 10,000 cancer samples per year compared to approximately 240 for similar high-throughput long-read sequencing platforms. Early access users will receive the updates first, with broader commercial availability expected in Q4 2025.",
+  "topic": "BNGO",
+  "source_type": "news_scraper.BNGO"
+}

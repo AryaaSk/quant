@@ -1,0 +1,10 @@
+{
+  "url": "https://www.elastic.co/generative-ai",
+  "title": "Elastic Generative AI Tools and Capabilities",
+  "published_at": "2024-11-14T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Elastic announced its AI ecosystem to help enterprise developers accelerate building and deploying retrieval augmented generation (RAG) applications. GenAI Adoption Growth: More than 3,000 customers using Elastic solutions for AI use cases. Over 2,700 on Elastic Cloud for vector database workloads. Elastic Cloud customers deploying platform for GenAI use cases, with 330+ committing over $100,000 annually. 15% year-over-year increase in high-value AI customers. Vector Database Performance: Two orders of magnitude less RAM required for vector search through innovations like better binary quantization (BBQ), disk BBQ, and ACON filtering algorithm. Elasticsearch vector search up to eight times faster than OpenSearch. Embedding NVIDIA CUDA Vector Search unlocked 10x faster vector search index builds and 30x faster query performance vs CPU-only solutions. Strategic Partnerships: Elastic AI Ecosystem includes integrations with Alibaba Cloud, Amazon Web Services, Anthropic's Claude, Cohere, Confluent, Google Cloud, Hugging Face, LangChain, LlamaIndex, Microsoft, NVIDIA, OpenAI, and others. Enterprise Wins: U.S.-based automotive leader expanded partnership in multiyear, seven-figure deal for vector database deployment for chatbot and hybrid search applications. Use Cases: Retrieval Augmented Generation (RAG) for enterprise LLM applications. Vector search for semantic search and similarity matching. Enterprise AI application development and deployment."
+  ,
+  "topic": "ESTC",
+  "source_type": "news_scraper.ESTC"
+}

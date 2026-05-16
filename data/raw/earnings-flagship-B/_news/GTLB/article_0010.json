@@ -1,0 +1,9 @@
+{
+  "url": "https://www.investing.com/news/analyst-ratings/gitlab-stock-rating-downgraded-by-cantor-fitzgerald-amid-competition-concerns-93CH-4435414",
+  "title": "GitLab stock rating downgraded by Cantor Fitzgerald amid competition concerns",
+  "published_at": "2026-01-07T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Cantor Fitzgerald analyst Jonathan Ruykhaver reduced GitLab's rating from Overweight to Neutral and slashed the price target significantly from $60 to $40, a 33% reduction. The analyst cited intensifying competition from GitHub and Atlassian, slowing SMB and public sector demand, and declining DBNRR. GitLab's stock has lost approximately 40% of its value over the past year and currently trades at $36.50, near its 52-week low. Despite competitive pressures, the company maintains strong gross profit margins of 88%.",
+  "topic": "GTLB",
+  "source_type": "news_scraper.GTLB"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.globenewswire.com/news-release/2023/06/29/2697467/0/en/index.html",
+  "title": "Bionano Announces the Stratys System for OGM and VIA Software for Hematologic Malignancies",
+  "published_at": "2023-06-29T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Bionano Genomics unveiled two new products designed to enhance genome analysis capabilities. The announcements target high-volume users and expand the utility of optical genome mapping technology. The Stratys instrument represents a significant advancement in throughput capacity. The throughput of the Stratys instrument is up to four times greater than that of Bionano's Saphyr instrument. The system boasts additional advantages including compatibility with the latest G2 chemistry and a potential 3-day sample-to-answer timeframe for hematological samples. The system enables unprecedented laboratory flexibility by supporting up to 12 single-access chips that can be accessed independently as runs complete, eliminating batching requirements. An early access program will make approximately 10 instruments available in the second half of 2023, with full commercial capacity expected by early 2024. VIA replaces the previous NxClinical platform with an integrated solution for visualization and reporting. The software handles multiple data types—optical genome mapping, microarray data, and next-generation sequencing—within a unified workflow. Key capabilities include automated variant calling and annotation. The launch includes a specialized hematologic malignancy workflow with guideline-based resources.",
+  "topic": "BNGO",
+  "source_type": "news_scraper.BNGO"
+}

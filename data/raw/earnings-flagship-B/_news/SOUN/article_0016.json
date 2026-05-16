@@ -1,0 +1,9 @@
+{
+  "url": "https://www.restaurantdive.com/news/jersey-mikes-to-use-soundhounds-phone-ai-in-50-restaurants/705468/",
+  "title": "Jersey Mike's to use SoundHound's phone AI in at least 50 restaurants",
+  "published_at": "2024-01-25T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Jersey Mike's has partnered with SoundHound to deploy voice-activated AI ordering across a 50-location pilot program. The initial rollout began at five or six locations. The system handles phone orders and answers a broad range of menu questions including about specials and promotions, hours, allergens, and parking information. The technology processes 100% of calls at participating locations and manages multiple simultaneous calls. SoundHound trained the AI on Jersey Mike's menu, enabling it to recognize variations in how customers request items. A customer can order using a #55 or a Big Kahuna or a Chicken Cheese steak and the system understands these reference the same sandwich. Jersey Mike's positions the technology as freeing employees to focus on making delicious food and giving great service to in-store customers. This deployment reflects a broader trend toward voice-ordering AI adoption with competitors like Chipotle, Wendy's, Del Taco, and White Castle similarly testing or implementing comparable systems at drive-thrus and phone lines.",
+  "topic": "SOUN",
+  "source_type": "news_scraper.SOUN"
+}

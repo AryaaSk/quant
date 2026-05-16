@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.9747246000000003,
+  "elapsed_s": 301.81481981277466,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 298886,
+    "duration_api_ms": 370318,
+    "ttft_ms": 4660,
+    "num_turns": 71,
+    "result": "Done! I've successfully completed the PATH earnings data scrape:\n\n**Summary:**\n- **30 articles** saved to `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/PATH/`\n- **Coverage:** PATH/UiPath earnings from FY2024 through FY2027 guidance\n- **Sources:** Investor relations, Yahoo Finance, news aggregators, analyst platforms\n- **Dates:** Articles span from March 2024 through May 2026\n- **Manifest:** Written with `count=30 at=2026-05-16T00:00:00Z`\n\n**Key articles captured:**\n- Q4 FY2024, FY2025, FY2026 earnings announcements\n- Quarterly results (Q1-Q3) across fiscal years\n- Analyst ratings and price targets\n- Stock movement analysis and market commentary\n- Agentic AI strategy and product launches\n- Financial guidance and profitability milestones\n\nAll files follow the strict JSON schema with `published_at` null for articles without explicit dates.",
+    "stop_reason": "end_turn",
+    "session_id": "363ea8d7-abda-468c-9dca-5ebc80dffa21",
+    "total_cost_usd": 0.9747246000000003,
+    "usage": {
+      "input_tokens": 9383,
+      "cache_creation_input_tokens": 61556,
+      "cache_read_input_tokens": 1341466,
+      "output_tokens": 19689,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7962,
+        "ephemeral_5m_input_tokens": 53594
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 8,
+          "output_tokens": 492,
+          "cache_read_input_tokens": 100883,
+          "cache_creation_input_tokens": 278,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 278,
+            "ephemeral_1h_input_tokens": 0
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 395988,
+        "outputTokens": 31529,
+        "cacheReadInputTokens": 1341466,
+        "cacheCreationInputTokens": 61556,
+        "webSearchRequests": 21,
+        "costUSD": 0.9747246000000003,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "f1c501d8-fedb-4562-9700-cfbe21458cad"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":298886,\"duration_api_ms\":370318,\"ttft_ms\":4660,\"num_turns\":71,\"result\":\"Done! I've successfully completed the PATH earnings data scrape:\\n\\n**Summary:**\\n- **30 articles** saved to `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/PATH/`\\n- **Coverage:** PATH/UiPath earnings from FY2024 through FY2027 guidance\\n- **Sources:** Investor relations, Yahoo Finance, news aggregators, analyst platforms\\n- **Dates:** Articles span from March 2024 through May 2026\\n- **Manifest:** Written with `count=30 at=2026-05-16T00:00:00Z`\\n\\n**Key articles captured:**\\n- Q4 FY2024, FY2025, FY2026 earnings announcements\\n- Quarterly results (Q1-Q3) across fiscal years\\n- Analyst ratings and price targets\\n- Stock movement analysis and market commentary\\n- Agentic AI strategy and product launches\\n- Financial guidance and profitability milestones\\n\\nAll files follow the strict JSON schema with `published_at` null for articles without explicit dates.\",\"stop_reason\":\"end_turn\",\"session_id\":\"363ea8d7-abda-468c-9dca-5ebc80dffa21\",\"total_cost_usd\":0.9747246000000003,\"usage\":{\"input_tokens\":9383,\"cache_creation_input_tokens\":61556,\"cache_read_input_tokens\":1341466,\"output_tokens\":19689,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":7962,\"ephemeral_5m_input_tokens\":53594},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":8,\"output_tokens\":492,\"cache_read_input_tokens\":100883,\"cache_creation_input_tokens\":278,\"cache_creation\":{\"ephemeral_5m_input_tokens\":278,\"ephemeral_1h_input_tokens\":0},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":395988,\"outputTokens\":31529,\"cacheReadInputTokens\":1341466,\"cacheCreationInputTokens\":61556,\"webSearchRequests\":21,\"costUSD\":0.9747246000000003,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"f1c501d8-fedb-4562-9700-cfbe21458cad\"}\n"
+}

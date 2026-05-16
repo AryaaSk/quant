@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "grammys-producer-of-the-year-winner",
+  "queries": [
+    "grammys-producer-of-the-year-winner predictions analysis",
+    "grammys-producer-of-the-year-winner oddsmaker pick analysis",
+    "grammys-producer-of-the-year-winner critic commentary preview",
+    "grammys-producer-of-the-year-winner expert forecast roundup",
+    "grammys-producer-of-the-year-winner variety deadline hollywood reporter",
+    "grammys-producer-of-the-year-winner indiewire commentary",
+    "grammys-producer-of-the-year-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/grammys-producer-of-the-year-winner",
+  "max_articles": 25
+}

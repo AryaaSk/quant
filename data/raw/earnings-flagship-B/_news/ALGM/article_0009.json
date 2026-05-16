@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/allegro-microsystems-introduces-isolated-gate-110000544.html",
+  "title": "Allegro MicroSystems Launches Power-Thru Isolated Gate Driver",
+  "published_at": "2023-07-11T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Allegro MicroSystems unveiled its AHV85110 Power-Thru isolated gate driver, designed to enhance power conversion efficiency in clean energy and automotive applications. The innovative product combines traditionally separate components into one integrated package. This approach delivers 50% of the design footprint compared to competing solutions while enabling 40% efficiency improvement. The device reduces printed circuit board space requirements by half, decreases bill of materials costs and production expenses, eliminates the need for bootstrap circuits and separate isolated supplies, and minimizes electromagnetic interference pathways. The device addresses growing demands for efficient power management in wide-bandgap semiconductor applications, particularly for silicon-carbide and gallium-nitride field-effect transistors used in electric vehicles and industrial systems. The technology stemmed from Allegro's acquisition of Heyday Integrated Circuits. VP Vijay Mangtani noted the solution enables engineers to build smaller, more-efficient systems while reducing time to market.",
+  "topic": "ALGM",
+  "source_type": "news_scraper.ALGM"
+}

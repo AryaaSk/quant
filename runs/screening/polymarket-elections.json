@@ -1,0 +1,21 @@
+{
+  "slug": "polymarket-elections",
+  "display_name": "Polymarket down-ballot election races",
+  "platform": "polymarket",
+  "notes": "Avoid national races (saturated + insider front-running). Target state/local races where\npolling is asymmetric and endorsement signals matter. Scrape state-level poll aggregators,\nlocal press, and endorsements; transformer fuses with market state.\n",
+  "model": "transformer",
+  "state_dim": 512,
+  "data_sources": [
+    "polymarket_contracts",
+    "news_scraper"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "polymarket_contracts": "not_implemented: adapter 'Polymarket' is not implemented yet.\n  Source role: Polymarket on-chain market history via the Polymarket CLOB API + Subgraph (https://docs.polymarket.com).\n  Implement quant/adapters/polymarket.py with class signature `fetch(market, source_params) -> DataFrame`.",
+    "news_scraper": "not_implemented: adapter 'News scraper' is not implemented yet.\n  Source role: generic article scraper used by agent orchestration (Claude/Codex). source_params['urls'] or ['queries']. Outputs (timestamp, text, source_url) rows.\n  Implement quant/adapters/news scraper.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 65.5,
+  "verdict": "kill: 2/2 sources unimplemented",
+  "advance": false
+}

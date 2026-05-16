@@ -1,0 +1,9 @@
+{
+  "url": "https://rocketbrush.com/blog/unity-cancels-runtime-fee-what-this-means-for-developers",
+  "title": "Unity Cancels Runtime Fee: New Pricing Structure for 2024",
+  "published_at": "2024-01-10T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "What Was the Runtime Fee: Unity proposed charging developers per game installation. The structure included: Unity Personal users: Up to $0.20 per install after hitting $200,000 revenue or 200,000 installs. Unity Pro/Enterprise: $0.125-$0.15 per install once games reached $1 million annual revenue and 1 million lifetime installs. Why Was It Canceled: The gaming community overwhelmingly rejected the proposal. Developers expressed particular concern that the fee would unfairly penalize games that use free-to-play models, which often see multiple installations. Additionally, indie developers feared the retroactive application to already-released games, and many threatened to switch to competing engines like Unreal or Godot. Marc Whitten, Unity's president of Create Solutions, acknowledged Unity cannot pursue this mission in conflict with our community. New 2024 Pricing Structure: For Unity Personal (free tier): Remains free. Revenue cap increased from $100,000 to $200,000. Mandatory splash screen removed (starting with Unity 6). For larger studios: Unity Pro: increased to $2,200 per seat annually (from $2,040). Unity Enterprise: 25% price increase. Developer Response: Relief dominated initial reactions, particularly among indie creators. However, some developers remain cautious about future pricing decisions, viewing this reversal as potentially indicative of broader instability in Unity's strategic direction.",
+  "topic": "U",
+  "source_type": "news_scraper.U"
+}

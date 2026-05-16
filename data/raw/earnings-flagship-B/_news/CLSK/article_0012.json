@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/cleansparks-ceo-just-revealed-why-141605319.html",
+  "title": "CleanSpark's CEO Just Revealed Why Bitcoin Miners Are Secretly Positioned to Win the AI Power War",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "CleanSpark's CEO Matt Schultz recently explained on CNBC how Bitcoin mining operations possess a strategic advantage in the emerging AI infrastructure competition. According to Schultz, the primary bottleneck for AI expansion isn't computing chips—it's access to land and power. Tech giants are investing roughly 60% of their free cash flow into AI infrastructure but face significant constraints in securing adequate electricity and suitable locations for data centers. Bitcoin mining companies hold distinct advantages. CleanSpark can establish a 100-megawatt facility in approximately six months, significantly faster than the three to six-year timeline typical for conventional AI data centers. Schultz noted that this speed advantage allowed CleanSpark to outpace Microsoft in securing 100 MW of capacity in Wyoming. Bitcoin mining operations function as interruptible loads, meaning they can rapidly curtail operations when electricity demand spikes, returning power to the grid. Schultz stated that adding just 100 hours per year of flexibility could solve the vast majority of rolling brownouts and blackouts. CleanSpark maintains a treasury exceeding 13,000 Bitcoin (approximately $1.5 billion) with gross margins above 54%, enabling expansion funding without shareholder dilution. This dual-model approach—combining Bitcoin mining with AI compute services—positions these companies as essential infrastructure providers in the AI race.",
+  "topic": "CLSK",
+  "source_type": "news_scraper.CLSK"
+}

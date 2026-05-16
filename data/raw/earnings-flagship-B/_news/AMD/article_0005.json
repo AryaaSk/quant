@@ -1,0 +1,9 @@
+{
+  "url": "https://public.com/stocks/amd/forecast-price-target",
+  "title": "AMD Analyst Forecast & Price Target",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Consensus Rating: Buy (based on 34 analyst ratings). Analyst Breakdown: Strong Buy 41%, Buy 41%, Hold 18%, Sell 0%, Strong Sell 0%. Price Target: $389.82, reflecting no expected change from current stock price. 2026 Prediction: Financial analysts have established the same $389.82 price target for 2026, indicating no expected change from current levels according to the available forecast data. Bull Case: Analysts expect continued positive performance driven by growth in their server CPUs and recent releases in the AI and gaming markets, with expectations for margin improvement as new products scale. Bear Case: While acknowledging strong server CPU growth from AI demand, bears note that gaming and client may face challenges in the future and warn that the semiconductor industry as a whole is highly cyclical, creating vulnerability to macroeconomic shifts.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

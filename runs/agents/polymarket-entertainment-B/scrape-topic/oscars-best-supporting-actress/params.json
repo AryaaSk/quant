@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "oscars-best-supporting-actress",
+  "queries": [
+    "oscars-best-supporting-actress predictions analysis",
+    "oscars-best-supporting-actress oddsmaker pick analysis",
+    "oscars-best-supporting-actress critic commentary preview",
+    "oscars-best-supporting-actress expert forecast roundup",
+    "oscars-best-supporting-actress variety deadline hollywood reporter",
+    "oscars-best-supporting-actress indiewire commentary",
+    "oscars-best-supporting-actress rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/oscars-best-supporting-actress",
+  "max_articles": 25
+}

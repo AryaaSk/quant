@@ -1,0 +1,11 @@
+{
+  "market_slug": "betfair-eng-l1l2",
+  "topic": "injuries",
+  "queries": [
+    "English League One injury list ruled out",
+    "EFL League Two player injury hamstring",
+    "Championship loan move January window"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/betfair-eng-l1l2/_news/injuries",
+  "max_articles": 80
+}

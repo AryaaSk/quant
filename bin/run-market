@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# End-to-end pipeline for a single market: collect, structure, state, train, backtest, report.
+# Halts before training if the market uses transformer and H200_CONFIRMED!=1.
+set -euo pipefail
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+[[ $# -ge 1 ]] || { echo "usage: bin/run-market <slug>" >&2; exit 1; }
+slug="$1"
+"${PYTHON:-python3}" "$REPO_ROOT/scripts/02_collect.py" "$slug"
+"${PYTHON:-python3}" "$REPO_ROOT/scripts/03_train.py" "$slug"
+"${PYTHON:-python3}" "$REPO_ROOT/scripts/04_backtest.py" "$slug"
+echo "done; see runs/$slug/ for outputs"

@@ -1,0 +1,13 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "NEGG",
+  "queries": [
+    "NEGG earnings preview 2023 Qq",
+    "NEGG stock news preview",
+    "NEGG guidance outlook quarterly results",
+    "NEGG analyst expectations",
+    "NEGG retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/NEGG",
+  "max_articles": 30
+}

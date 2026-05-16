@@ -1,0 +1,9 @@
+{
+  "url": "https://www.nasdaq.com/articles/forecasting-future-17-analyst-projections-mongodb",
+  "title": "17 Analyst Projections for MongoDB Future",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Nasdaq analysts project MongoDB's future performance through multiple dimensions of analysis. Wall Street consensus identifies MongoDB as a strong Buy with analyst ratings indicating confidence in the company's trajectory. The database platform is positioned to benefit from ongoing cloud migration trends and artificial intelligence adoption. Key analyst themes include MongoDB's superior Atlas offering, strong developer community, and competitive advantages in multi-cloud deployments. Analysts highlight the company's improving profitability metrics and record operating margins achieved in recent quarters. Concerns cited include competitive pressures from hyperscalers offering native database solutions, potential macro slowdown impacts on customer spending, and integration risks as the company matures. Despite near-term headwinds, analysts maintain constructive views on MongoDB's medium to long-term growth opportunities driven by cloud infrastructure shifts and AI/ML workload expansion.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

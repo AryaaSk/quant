@@ -1,0 +1,9 @@
+{
+  "url": "https://www.chargerlab.com/navitas-selected-for-nvidias-next-gen-800v-hvdc-data-center-architecture/",
+  "title": "Navitas Selected for NVIDIA's Next-Gen 800V HVDC Data Center Architecture",
+  "published_at": "2025-05-21T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Navitas Semiconductor announced its involvement in developing NVIDIA's next-generation 800V high-voltage direct current architecture for data centers. The company's GaNFast gallium nitride and GeneSiC silicon carbide technologies will power Rubin Ultra and other GPUs within NVIDIA's Kyber rack-level system. The 800V HVDC system addresses limitations of traditional 54V rack-level power distribution. By converting 13.8kV AC directly to 800V HVDC, the architecture enables reduced copper cable diameter by up to 45%, 5% improvement in end-to-end efficiency, 70% reduction in maintenance costs, and direct power connection to IT racks, lowering cooling expenses. Navitas provides comprehensive power solutions across the system, from grid to GPU. Its GaNSafe technology offers short-circuit protection (with a maximum delay of 350ns), 2kV ESD protection on all pins and programmable slew-rate control in a four-pin configuration. Additionally, Navitas' GeneSiC silicon carbide MOSFETs reduce case temperature by 25°C and extend lifespan by three times compared to similar products. Navitas debuted a 12kW AI data center power supply at Computex Taipei in May 2025, following its November 2024 launch of the industry's first 8.5kW AI data center power supply achieving 98% efficiency.",
+  "topic": "NVTS",
+  "source_type": "news_scraper.NVTS"
+}

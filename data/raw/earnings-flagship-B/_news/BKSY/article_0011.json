@@ -1,0 +1,9 @@
+{
+  "url": "https://blacksky.com/press-releases/iarpa-selects-blacksky-spectra-software-platform-as-leading-space-based-ai-approach-for-bringing-speed-and-scalability-to-broad-area-search-mission/",
+  "title": "IARPA Selects BlackSky Spectra Software Platform for Advanced Space-Based Search",
+  "published_at": "2024-01-30T00:00:00Z",
+  "scraped_at": "2026-05-16T18:00:00Z",
+  "text": "Overview: On January 30, 2024, the Intelligence Advanced Research Projects Activity (IARPA) selected BlackSky Technology Inc. to advance to Phase III of the Space-based Machine Automated Recognition Technique (SMART) program. This final phase emphasizes transitioning broad area search technologies to other U.S. government initiatives. Key Capabilities: BlackSky's AI tools have achieved significant operational scale. According to Patrick O'Neil, the company's chief technology officer, the platform was originally designed to manage the analysis of one million square kilometers of land. The system has evolved considerably, now processing over 30 million square kilometers monthly—representing more than 20 percent of Earth's surface. Performance Metrics: The technology demonstrates substantial analytical achievements. Using satellite imagery spanning five years from government and commercial sources, BlackSky's AI has detected and classified more than two million change observations across approximately 120,000 distinct locations with notable accuracy levels. Strategic Impact: The Spectra platform's machine learning operations architecture enables rapid processing and cost-effective scalability. O'Neil noted the approach is using AI to reshape the broad area search mission with industry-leading speed and economics, incorporating lessons from earlier program phases into operational applications. BlackSky, headquartered in Herndon, Virginia, trades on the NYSE under ticker BKSY.",
+  "topic": "BKSY",
+  "source_type": "news_scraper.BKSY"
+}

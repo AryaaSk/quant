@@ -1,0 +1,1 @@
+List the files in /private/var/folders/w1/05h1zfhx40j_qxhyk6pjy1xr0000gn/T/pytest-of-aryaask/pytest-77/test_codex_round_trip_against_0/data/raw/_synthetic using `ls -la` (run it via your shell). Then print one short sentence summarizing what you saw. Do not modify any files.

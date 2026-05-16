@@ -1,0 +1,8 @@
+{
+  "slug": "earnings-flagship-B",
+  "held_out_start": "2023-03-25T00:00:00",
+  "last_event_observed": "2024-09-25T01:23:30",
+  "locked_at": "2026-05-16T00:43:38.181677",
+  "held_out_months": 18,
+  "note": "This window is locked write-once. Training MUST NOT load events with target_event_time >= held_out_start. The walk-forward backtest evaluates exactly here."
+}

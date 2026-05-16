@@ -1,0 +1,21 @@
+{
+  "slug": "betfair-brazil-serieb",
+  "display_name": "Betfair Brazilian Serie B match outcomes",
+  "platform": "betfair",
+  "notes": "Brazilian Serie B has \u00a315k-\u00a380k per match matched volume on Betfair Exchange but is\nignored by Western sharp syndicates. Information edge: Portuguese-language press,\nregional injury reports, long-travel fatigue (Brazilian distances), referee tendencies.\n",
+  "model": "transformer",
+  "state_dim": 512,
+  "data_sources": [
+    "football_data",
+    "sofascore"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "football_data": "error: football_data returned no matches for ['BRA2'] ['1516', '1617', '1718', '1819', '1920', '2021', '2122', '2223', '2324', '2425', '2526']",
+    "sofascore": "not_implemented: adapter 'Sofascore' is not implemented yet.\n  Source role: Sofascore match details (lineups, stats, injuries) via the public web API. Be polite: rate-limit + cache. Source: https://www.sofascore.com/api/v1/.\n  Implement quant/adapters/sofascore.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 60.0,
+  "verdict": "kill: 2/2 sources unimplemented",
+  "advance": false
+}

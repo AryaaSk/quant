@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "ESTC",
+  "queries": [
+    "ESTC earnings preview 2020 Qq",
+    "ESTC earnings preview 2020 Qq",
+    "ESTC earnings preview 2020 Qq",
+    "ESTC earnings preview 2021 Qq",
+    "ESTC earnings preview 2021 Qq",
+    "ESTC earnings preview 2021 Qq",
+    "ESTC earnings preview 2021 Qq",
+    "ESTC earnings preview 2022 Qq",
+    "ESTC earnings preview 2022 Qq",
+    "ESTC earnings preview 2022 Qq",
+    "ESTC earnings preview 2023 Qq",
+    "ESTC earnings preview 2023 Qq",
+    "ESTC earnings preview 2023 Qq",
+    "ESTC earnings preview 2023 Qq",
+    "ESTC earnings preview 2024 Qq",
+    "ESTC earnings preview 2024 Qq",
+    "ESTC earnings preview 2024 Qq",
+    "ESTC stock news preview",
+    "ESTC guidance outlook quarterly results",
+    "ESTC analyst expectations",
+    "ESTC retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ESTC",
+  "max_articles": 30
+}

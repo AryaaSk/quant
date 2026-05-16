@@ -1,0 +1,15 @@
+<!doctype html>
+<html><head><title>betfair-eng-l1l2 backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Betfair English League One+Two (v2 transformer) (betfair-eng-l1l2)</h1>
+<p>V2: same Football-Data.co.uk features as v1, transformer instead of GBDT, trained on
+H200 GPU 6. The point is to test whether model capacity alone (without new features)
+can extract any additional edge. v1 GBDT result: -7.91% net return, Brier -0.16. If
+transformer matches or beats that, capacity matters; if it lags, features are the
+bottleneck (Sofascore next).
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>0.2840000554572215</pre></td></tr><tr><td>brier_market</td><td><pre>0.2451664420506288</pre></td></tr><tr><td>brier_improvement</td><td><pre>-0.03883361340659272</pre></td></tr><tr><td>accuracy_model</td><td><pre>0.4642857142857143</pre></td></tr><tr><td>accuracy_market</td><td><pre>0.4642857142857143</pre></td></tr><tr><td>n_events</td><td><pre>28</pre></td></tr><tr><td>n_trades</td><td><pre>13</pre></td></tr><tr><td>hit_rate</td><td><pre>0.23076923076923078</pre></td></tr><tr><td>gross_return</td><td><pre>-0.1079198141321881</pre></td></tr><tr><td>net_return</td><td><pre>-0.1079198141321881</pre></td></tr><tr><td>sharpe</td><td><pre>-1.3241353940370686</pre></td></tr><tr><td>max_drawdown</td><td><pre>-0.13419575410826304</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

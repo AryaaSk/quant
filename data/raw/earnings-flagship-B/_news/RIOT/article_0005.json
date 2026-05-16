@@ -1,0 +1,9 @@
+{
+  "url": "https://www.prnewswire.com/news-releases/riot-platforms-reports-second-quarter-2024-financial-results-current-operational-and-financial-highlights-302211220.html",
+  "title": "Riot Platforms Reports Second Quarter 2024 Financial Results",
+  "published_at": "2024-07-31T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Riot reported $70.0 million in total revenue for Q2 2024, consisting of $55.8 million from Bitcoin mining and $9.6 million from engineering operations. The company produced 844 Bitcoin during the quarter, representing a 52% decline from the prior year's 1,775 Bitcoin, primarily due to the April 2024 Bitcoin halving event. CEO Jason Les stated: Riot nearly doubled installed hash rate during the quarter, growing to a total capacity of 22 EH/s. The company expanded its Corsicana facility in Texas and acquired Block Mining in Kentucky, immediately adding 1 EH/s of capacity with potential for over 300 MW expansion. The company maintained $481.2 million in cash and held 9,334 unencumbered Bitcoin valued at $585.0 million as of June 30, 2024. However, the company reported a net loss of $84.4 million for the quarter, influenced by a $76.4 million fair value adjustment on Bitcoin holdings and $32.1 million in stock-based compensation expenses. Riot raised its 2024 deployed hash rate guidance to 36 EH/s and increased 2025 guidance to 56 EH/s, with plans to achieve over 2 GW of capacity through its development pipeline.",
+  "topic": "RIOT",
+  "source_type": "news_scraper.RIOT"
+}

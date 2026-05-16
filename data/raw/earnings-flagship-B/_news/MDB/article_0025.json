@@ -1,0 +1,9 @@
+{
+  "url": "https://simplywall.st/stocks/us/software/nasdaq-mdb/mongodb/future",
+  "title": "MongoDB Stock Forecast and Analyst Predictions",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Simply Wall St analyst forecast for MongoDB reflects consensus expectations for continued growth alongside profitability improvement. The platform provides systematic analysis of MongoDB's financial metrics, competitive positioning, and market dynamics. Forecasts incorporate analyst consensus estimates for revenue growth, margin expansion, and earnings trajectory. MongoDB's positioning as a leading cloud database platform supports long-term growth optionality through cloud infrastructure expansion and AI/ML workload proliferation. However, competitive dynamics with hyperscaler database offerings and macro uncertainty create downside risks to growth assumptions. Analyst forecasts typically project 15-20% annual revenue growth for MongoDB through 2026-2027, with operating margin expansion toward 15%+ levels. Customer retention metrics above 120% net revenue retention and strong Atlas momentum support confidence in revenue stability. Risk factors monitored include sales cycle elongation, enterprise spending constraints, and emerging competition from alternative database platforms.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

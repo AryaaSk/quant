@@ -1,0 +1,4 @@
+Reading additional input from stdin...
+2026-05-15T14:20:50.193477Z ERROR codex_core::session: failed to load skill /Users/aryaask/.nvm/versions/node/v24.13.0/lib/node_modules/clawdbot/skills/discord/SKILL.md: invalid YAML: mapping values are not allowed in this context at line 2 column 85
+2026-05-15T14:20:50.193499Z ERROR codex_core::session: failed to load skill /Users/aryaask/.nvm/versions/node/v24.13.0/lib/node_modules/clawdbot/skills/canvas/SKILL.md: missing YAML frontmatter delimited by ---
+2026-05-15T14:20:50.193501Z ERROR codex_core::session: failed to load skill /Users/aryaask/.nvm/versions/node/v24.13.0/lib/node_modules/clawdbot/skills/food-order/SKILL.md: invalid YAML: mapping values are not allowed in this context at line 2 column 125

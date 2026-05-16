@@ -1,0 +1,23 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "BBAI",
+  "queries": [
+    "BBAI earnings preview 2022 Qq",
+    "BBAI earnings preview 2022 Qq",
+    "BBAI earnings preview 2022 Qq",
+    "BBAI earnings preview 2022 Qq",
+    "BBAI earnings preview 2023 Qq",
+    "BBAI earnings preview 2023 Qq",
+    "BBAI earnings preview 2023 Qq",
+    "BBAI earnings preview 2023 Qq",
+    "BBAI earnings preview 2024 Qq",
+    "BBAI earnings preview 2024 Qq",
+    "BBAI earnings preview 2024 Qq",
+    "BBAI stock news preview",
+    "BBAI guidance outlook quarterly results",
+    "BBAI analyst expectations",
+    "BBAI retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/BBAI",
+  "max_articles": 30
+}

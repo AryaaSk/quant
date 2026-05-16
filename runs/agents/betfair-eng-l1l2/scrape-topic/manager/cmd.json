@@ -1,0 +1,15 @@
+[
+  "/Users/aryaask/.local/bin/claude",
+  "-p",
+  "--output-format",
+  "json",
+  "--permission-mode",
+  "bypassPermissions",
+  "--disable-slash-commands",
+  "--allowedTools",
+  "WebSearch,WebFetch,Read,Write,Bash",
+  "--max-budget-usd",
+  "1.0",
+  "--add-dir",
+  "/Users/aryaask/Desktop/quant"
+]

@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.9988478000000001,
+  "elapsed_s": 210.30882573127747,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 205866,
+    "duration_api_ms": 348681,
+    "ttft_ms": 4406,
+    "num_turns": 64,
+    "result": "Perfect! **Collection complete.** I've successfully gathered **30 ABNB earnings and news articles** in the target directory.\n\n## Summary\n\n\u2705 **30 articles saved** to `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ABNB/`\n\n**Content coverage includes:**\n- **Quarterly earnings reports**: Q1-Q4 2024, Q4 2025, Q1 2026\n- **Financial metrics**: Revenue, EPS, free cash flow, adjusted EBITDA, bookings\n- **Analyst notes**: Wells Fargo upgrades, Oppenheimer coverage, price targets\n- **Business metrics**: ADR trends, nights booked, market expansion\n- **Strategic initiatives**: Hotel partnerships, Co-Host Network, Services & Experiences\n- **Market analysis**: Competitive advantages (44% market share), regulatory challenges in NYC/SF/Barcelona\n\n**Manifest file created:**\n- `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ABNB/_done` \u2192 `count=30 at=2026-05-16T00:00:00Z`\n\nAll articles follow the strict JSON schema with timestamps (using `published_at` where available, `null` where unknown) and deduplicated text content.",
+    "stop_reason": "end_turn",
+    "session_id": "ca16a8f3-34df-4d75-a328-7c5bbf5e7ebd",
+    "total_cost_usd": 0.9988478000000001,
+    "usage": {
+      "input_tokens": 5389,
+      "cache_creation_input_tokens": 82302,
+      "cache_read_input_tokens": 1116763,
+      "output_tokens": 14777,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 82302,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 7,
+          "output_tokens": 473,
+          "cache_read_input_tokens": 80605,
+          "cache_creation_input_tokens": 1697,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1697
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 420689,
+        "outputTokens": 28721,
+        "cacheReadInputTokens": 1116763,
+        "cacheCreationInputTokens": 82302,
+        "webSearchRequests": 22,
+        "costUSD": 0.9988478000000001,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "0dc18326-7e35-475a-9e0e-c2d040d5b8a0"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":205866,\"duration_api_ms\":348681,\"ttft_ms\":4406,\"num_turns\":64,\"result\":\"Perfect! **Collection complete.** I've successfully gathered **30 ABNB earnings and news articles** in the target directory.\\n\\n## Summary\\n\\n\u2705 **30 articles saved** to `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ABNB/`\\n\\n**Content coverage includes:**\\n- **Quarterly earnings reports**: Q1-Q4 2024, Q4 2025, Q1 2026\\n- **Financial metrics**: Revenue, EPS, free cash flow, adjusted EBITDA, bookings\\n- **Analyst notes**: Wells Fargo upgrades, Oppenheimer coverage, price targets\\n- **Business metrics**: ADR trends, nights booked, market expansion\\n- **Strategic initiatives**: Hotel partnerships, Co-Host Network, Services & Experiences\\n- **Market analysis**: Competitive advantages (44% market share), regulatory challenges in NYC/SF/Barcelona\\n\\n**Manifest file created:**\\n- `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ABNB/_done` \u2192 `count=30 at=2026-05-16T00:00:00Z`\\n\\nAll articles follow the strict JSON schema with timestamps (using `published_at` where available, `null` where unknown) and deduplicated text content.\",\"stop_reason\":\"end_turn\",\"session_id\":\"ca16a8f3-34df-4d75-a328-7c5bbf5e7ebd\",\"total_cost_usd\":0.9988478000000001,\"usage\":{\"input_tokens\":5389,\"cache_creation_input_tokens\":82302,\"cache_read_input_tokens\":1116763,\"output_tokens\":14777,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":82302,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":7,\"output_tokens\":473,\"cache_read_input_tokens\":80605,\"cache_creation_input_tokens\":1697,\"cache_creation\":{\"ephemeral_5m_input_tokens\":0,\"ephemeral_1h_input_tokens\":1697},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":420689,\"outputTokens\":28721,\"cacheReadInputTokens\":1116763,\"cacheCreationInputTokens\":82302,\"webSearchRequests\":22,\"costUSD\":0.9988478000000001,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"0dc18326-7e35-475a-9e0e-c2d040d5b8a0\"}\n"
+}

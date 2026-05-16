@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/quote/BTDR/",
+  "title": "Bitdeer Technologies Group Stock Overview and News",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Bitdeer Technologies Group (NASDAQ:BTDR) is a publicly traded Bitcoin mining and AI infrastructure company. The company operates a global network of mining data centers and provides self-mining services and cloud mining solutions. Bitdeer has transformed from a pure-play Bitcoin mining company into an integrated technology provider spanning Bitcoin mining, AI cloud services, and data center operations. The company manufactures its own mining hardware through the SEALMINER series, providing vertical integration from chip design to deployed mining operations. Recent developments include the SEALMINER A4 launch achieving 9.45 J/TH efficiency, expansion of AI Cloud services to $69 million ARR, and major infrastructure projects in Norway, Texas, and multiple other locations. Bitdeer's strategic initiatives focus on three pillars: efficient Bitcoin mining with proprietary hardware, high-margin AI cloud services addressing computing demand, and strategic data center development for colocation customers. The company's stock performance reflects investor sentiment on Bitcoin prices, mining profitability, and AI infrastructure demand dynamics. Bitdeer's competitive advantages include vertical integration, proprietary chip technology, and multi-geography power portfolio.",
+  "topic": "BTDR",
+  "source_type": "news_scraper.BTDR"
+}

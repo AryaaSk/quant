@@ -1,0 +1,9 @@
+{
+  "url": "https://www.stocktitan.net/news/GTLB/git-lab-announces-secure-ai-driven-capabilities-to-streamline-55iqypoiyjld.html",
+  "title": "GitLab Announces Secure AI-driven Capabilities to Streamline Software Development",
+  "published_at": "2024-05-16T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "GitLab introduced GitLab Duo Enterprise, described as the only end-to-end AI add-on that operates across every step of the software development lifecycle. The platform combines developer-focused and enterprise-focused AI capabilities to enhance security and streamline workflows. Key AI capabilities include vulnerability management with AI-powered detection and remediation of security vulnerabilities, root cause analysis for automated identification of CI/CD failures and code errors, AI impact dashboard that tracks feature usage and measures return on investment across development metrics, and model personalization that is customizable AI trained on organization-specific project contexts. The announcement included support for self-hosted deployment in air-gapped environments unable to connect to internet services. Additional features announced included a new CI/CD catalog for workflow standardization, Native Secrets Manager, enhanced security testing, product analytics, and observability capabilities designed to unify technical and non-technical teams within a single platform. GTLB stock declined 1.05% on the announcement date.",
+  "topic": "GTLB",
+  "source_type": "news_scraper.GTLB"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/elastic-nv-estc-reports-19-213259466.html",
+  "title": "Elastic NV (ESTC) Q3 FY2024 Earnings Summary",
+  "published_at": "2024-03-07T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Elastic reported total revenue of $328 million in Q3 FY2024, representing 19% year-over-year growth. The company's cloud revenue segment showed particularly strong momentum, reaching $143 million with a 29% increase compared to the prior year. Profitability Metrics: Despite robust revenue growth, the company faced profitability challenges. GAAP operating results showed a $26 million loss with an -8% margin, though non-GAAP operating income improved to $43 million with a 13% margin. Non-GAAP diluted earnings per share reached $0.36. Key Highlights: Operating cash flow $52 million with adjusted free cash flow of $63 million. High-value customer count (over $100,000 ACV) exceeded 1,270. Cash position $1.015 billion in cash and marketable securities. Management Perspective: CEO Ash Kulkarni stated that customer interest in Generative AI, platform consolidation, and stability in cloud consumption patterns continued to drive momentum in the business in Q3. Forward Outlook: Management provided Q4 guidance for total revenue between $328-$330 million with non-GAAP operating margins of 7.4-7.8%, reflecting confidence in sustained growth despite competitive pressures.",
+  "topic": "ESTC",
+  "source_type": "news_scraper.ESTC"
+}

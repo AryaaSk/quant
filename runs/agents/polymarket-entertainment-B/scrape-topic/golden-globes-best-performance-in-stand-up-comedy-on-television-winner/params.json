@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "golden-globes-best-performance-in-stand-up-comedy-on-television-winner",
+  "queries": [
+    "golden-globes-best-performance-in-stand-up-comedy-on-television-winner predictions analysis",
+    "golden-globes-best-performance-in-stand-up-comedy-on-television-winner oddsmaker pick analysis",
+    "golden-globes-best-performance-in-stand-up-comedy-on-television-winner critic commentary preview",
+    "golden-globes-best-performance-in-stand-up-comedy-on-television-winner expert forecast roundup",
+    "golden-globes-best-performance-in-stand-up-comedy-on-television-winner variety deadline hollywood reporter",
+    "golden-globes-best-performance-in-stand-up-comedy-on-television-winner indiewire commentary",
+    "golden-globes-best-performance-in-stand-up-comedy-on-television-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/golden-globes-best-performance-in-stand-up-comedy-on-television-winner",
+  "max_articles": 25
+}

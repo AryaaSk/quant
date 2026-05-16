@@ -1,0 +1,9 @@
+{
+  "url": "https://investor.marvell.com/quarterly-results",
+  "title": "Marvell Technology Quarterly Results and Financial Information",
+  "published_at": "2026-05-16T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Marvell Technology reported fiscal 2026 full-year results with record revenue of $8.195 billion, growing 42% year-over-year, driven by robust AI demand and strong custom silicon execution. Data center revenue surpassed $6 billion in fiscal 2026, growing 46% year-over-year. Operating margins improved to 18.2% from 12.9% year-over-year through disciplined expense management and favorable product mix. For Q4 FY2026, revenue reached $2.22 billion, representing 22.1% year-over-year growth, with adjusted EPS of $0.80. Q1 FY2027 revenue guidance of $2.4 billion ± 5% implies approximately 8% sequential growth at midpoint. Management projects sustained sequential growth throughout fiscal 2027, underpinned by continued hyperscaler capital expenditure on AI infrastructure. Custom silicon business doubled year-over-year and is projected to at least double again by fiscal 2028. The company's optical interconnect business is advancing with 800G and 1.6T products experiencing substantial growth.",
+  "topic": "MRVL",
+  "source_type": "news_scraper.MRVL"
+}

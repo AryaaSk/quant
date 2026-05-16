@@ -1,0 +1,9 @@
+{
+  "url": "https://www.stocktitan.net/news/CLSK/clean-spark-releases-december-2024-bitcoin-mining-0huytrbz8pt4.html",
+  "title": "CleanSpark Hits Record 39.1 EH/s Mining Power After Strong 2024",
+  "published_at": "2024-12-31T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "CleanSpark released its December 2024 bitcoin mining update, reporting 668 bitcoin mined in December and a total of 7,024 bitcoin produced in 2024, achieving significant growth with a 287.9% hashrate increase and 33.3% efficiency improvement year over year, reaching 39.1 EH/s operating hashrate by year-end. CleanSpark reached an impressive 39.1 EH/s and enhanced fleet efficiency to under 17.6 J/Th ahead of schedule. This represents substantial improvement, as efficiency is measured in Joules per Terahash (J/Th), with lower values indicating better energy efficiency. For comparison, earlier in 2024, the company had deployed 152,505 miners with an efficiency of 22.31 J/Th, a metric that reflects the energy consumption per terahash, which impacts operational costs significantly. Throughout December 2024, the company's average hashrate was 35.52 EH/s and average fleet efficiency was 18.06 J/Th, resulting in an average of 21.56 bitcoin mined daily. CleanSpark strategically expanded into three new states—Mississippi, Tennessee, and Wyoming—while completing multiple site expansions. The full 75 MW is on track for completion in Q1 2025 and is expected to contribute a total of 5 EH/s of CleanSpark's most efficient hashrate.",
+  "topic": "CLSK",
+  "source_type": "news_scraper.CLSK"
+}

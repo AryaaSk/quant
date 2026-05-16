@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "golden-globes-best-television-series-comedy-or-musical-winner",
+  "queries": [
+    "golden-globes-best-television-series-comedy-or-musical-winner predictions analysis",
+    "golden-globes-best-television-series-comedy-or-musical-winner oddsmaker pick analysis",
+    "golden-globes-best-television-series-comedy-or-musical-winner critic commentary preview",
+    "golden-globes-best-television-series-comedy-or-musical-winner expert forecast roundup",
+    "golden-globes-best-television-series-comedy-or-musical-winner variety deadline hollywood reporter",
+    "golden-globes-best-television-series-comedy-or-musical-winner indiewire commentary",
+    "golden-globes-best-television-series-comedy-or-musical-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/golden-globes-best-television-series-comedy-or-musical-winner",
+  "max_articles": 25
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.businesswire.com/news/home/20250429765484/en/Elastic-Launches-Automatic-Migration-to-Simplify-SIEM-Migration",
+  "title": "Elastic Launches Automatic Migration to Simplify SIEM Migration",
+  "published_at": "2025-04-29T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "In April 2025, Elastic announced Automatic Migration, a feature that simplifies the transition from an incumbent SIEM to Elastic Security. The feature maps existing SIEM detection rules to equivalent Elastic-built rules using semantic search and translates unmapped rules into new Elastic queries using generative AI. Key Competitive Wins: Elastic is winning deals against legacy SIEM providers, OpenSearch deployments, and purpose-built vector database competitors simultaneously. A specific example demonstrates this advantage: Elasticsearch vector search is up to eight times faster than OpenSearch, which led to a seven-figure deal with a global heavy equipment manufacturer. The manufacturer sought to modernize their security operations by replacing a legacy SIEM solution plagued by slow query speeds, inefficient data retention, and rigid SOC workflows. They consolidated data into a single cyber data lake with integrated AI-powered SIEM workflows powered by Elastic. Government Channel Success: Elastic's SIEM-as-a-service partnership with CISA continues to grow, with additional agencies coming on board. This is expected to drive multiple agencies to that service over the next several quarters, providing a significant growth vector.",
+  "topic": "ESTC",
+  "source_type": "news_scraper.ESTC"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/quote/PATH/",
+  "title": "UiPath Inc. (PATH) Stock Price, News, Quote & History - Yahoo Finance",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "UiPath Inc. (NYSE: PATH) stock information on Yahoo Finance. Real-time stock quotes, historical data, news, and analysis. UiPath stock trading data includes current price at $9.47 after a 1-day share price return that declined 5.39% and a 1-year total shareholder return that declined 28.31%. Financial metrics show quarterly revenue of approximately $481.1M and net income of $104.5M, turning prior losses into clean profit. EBITDA of roughly $101.5M and free cash flow near $179.3M demonstrate UiPath is not a cash-burning story. Strong gross margin above 80% and low debt give PATH financial flexibility despite ongoing volatility. Latest quarterly earnings report expected on May 28. Analysts expecting earnings per share of 13 cents and revenue estimates at $397.47 million.",
+  "topic": "PATH",
+  "source_type": "news_scraper.PATH"
+}

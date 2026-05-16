@@ -1,0 +1,9 @@
+{
+  "url": "https://longbridge.com/en/topics/27660163",
+  "title": "AST SpaceMobile vs. Starlink: In-depth Comparison of Consumer Market Competitiveness",
+  "published_at": "2026-01-15T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AST SpaceMobile and Starlink employ fundamentally different business models in satellite broadband. AST SpaceMobile partners with carriers like AT&T and Vodafone through a B2B2C model, selling satellite network access to mobile network operators who then offer coverage to their existing subscriber base. In contrast, Starlink started with a mission to bypass traditional providers and deliver broadband from space, controlling manufacturing, launching via SpaceX rockets, network operations, and customer relationships. Technology-wise, Starlink requires a large number of satellites to form a dense constellation for continuous coverage, while AST achieves broad coverage with fewer but more powerful satellites. AST is the only company to achieve true direct-to-device broadband connectivity without any special antenna, with Block 2 BlueBird satellites being approximately 2,400 square feet compared to approximately 65 square feet for Starlink's current V2 satellites—a size difference of 35-40x. ASTS's B2B2C model partners with over 50 mobile network operators, enabling immediate access to 6 billion subscribers and zero customer acquisition costs. AST SpaceMobile shows greater incremental potential in the consumer market with differentiated advantages, leveraging the existing base of billions of mobile users.",
+  "topic": "ASTS",
+  "source_type": "news_scraper.ASTS"
+}

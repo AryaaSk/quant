@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "oscars-2026-best-original-screenplay-winner",
+  "queries": [
+    "oscars-2026-best-original-screenplay-winner predictions analysis",
+    "oscars-2026-best-original-screenplay-winner oddsmaker pick analysis",
+    "oscars-2026-best-original-screenplay-winner critic commentary preview",
+    "oscars-2026-best-original-screenplay-winner expert forecast roundup",
+    "oscars-2026-best-original-screenplay-winner variety deadline hollywood reporter",
+    "oscars-2026-best-original-screenplay-winner indiewire commentary",
+    "oscars-2026-best-original-screenplay-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/oscars-2026-best-original-screenplay-winner",
+  "max_articles": 25
+}

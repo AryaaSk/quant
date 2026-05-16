@@ -1,0 +1,23 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "CLSK",
+  "queries": [
+    "CLSK earnings preview 2022 Qq",
+    "CLSK earnings preview 2022 Qq",
+    "CLSK earnings preview 2022 Qq",
+    "CLSK earnings preview 2022 Qq",
+    "CLSK earnings preview 2023 Qq",
+    "CLSK earnings preview 2023 Qq",
+    "CLSK earnings preview 2023 Qq",
+    "CLSK earnings preview 2023 Qq",
+    "CLSK earnings preview 2024 Qq",
+    "CLSK earnings preview 2024 Qq",
+    "CLSK earnings preview 2024 Qq",
+    "CLSK stock news preview",
+    "CLSK guidance outlook quarterly results",
+    "CLSK analyst expectations",
+    "CLSK retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/CLSK",
+  "max_articles": 80
+}

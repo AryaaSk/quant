@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "who-will-perform-at-the-2026-grammys",
+  "queries": [
+    "who-will-perform-at-the-2026-grammys predictions analysis",
+    "who-will-perform-at-the-2026-grammys oddsmaker pick analysis",
+    "who-will-perform-at-the-2026-grammys critic commentary preview",
+    "who-will-perform-at-the-2026-grammys expert forecast roundup",
+    "who-will-perform-at-the-2026-grammys variety deadline hollywood reporter",
+    "who-will-perform-at-the-2026-grammys indiewire commentary",
+    "who-will-perform-at-the-2026-grammys rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/who-will-perform-at-the-2026-grammys",
+  "max_articles": 25
+}

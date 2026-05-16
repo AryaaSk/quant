@@ -1,0 +1,10 @@
+{
+  "model": "gbdt",
+  "slug": "betfair-itf-challenger",
+  "device": "auto",
+  "n_train": 2413,
+  "n_val": 425,
+  "n_held_out": 163,
+  "state_dim": 192,
+  "sequence_length": 16
+}

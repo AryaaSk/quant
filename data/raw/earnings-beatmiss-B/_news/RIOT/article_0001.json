@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/riot-platforms-inc-riot-reports-104259628.html",
+  "title": "Riot Platforms Inc (RIOT) Reports Q3 2023 Earnings: Power Strategy Drives Record Hash Rate and Revenue Growth",
+  "published_at": "2023-10-27T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "Riot Platforms reported $51.9 million in total Q3 2023 revenue across three segments: Bitcoin Mining ($31.2 million), Data Center Hosting ($5.1 million), and Engineering ($15.5 million). Despite operational progress, the company posted a net loss of $45.3 million, or $0.25 per share, primarily due to non-cash expenses such as stock-based compensation, depreciation, amortization, and impairment of Bitcoin. The mining operation reached a new all-time record hash rate capacity of 10.9 EH/s with expectations to reach 12.5 EH/s by Q4 2023. Management also expanded its equipment orders, targeting 20.2 EH/s capacity by mid-2024. The company strengthened its balance sheet significantly with approximately $500 million in combined liquidity, comprising $290 million in cash alongside 7,327 Bitcoin holdings. Power curtailment credits worth $49.6 million helped offset expenses. The strategic focus on power management contributed to reducing Bitcoin mining's average production costs, positioning Riot as a competitive low-cost producer.",
+  "topic": "RIOT",
+  "source_type": "news_scraper.RIOT"
+}

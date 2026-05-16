@@ -1,0 +1,31 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "ACB",
+  "queries": [
+    "ACB earnings preview 2020 Qq",
+    "ACB earnings preview 2020 Qq",
+    "ACB earnings preview 2020 Qq",
+    "ACB earnings preview 2020 Qq",
+    "ACB earnings preview 2021 Qq",
+    "ACB earnings preview 2021 Qq",
+    "ACB earnings preview 2021 Qq",
+    "ACB earnings preview 2021 Qq",
+    "ACB earnings preview 2022 Qq",
+    "ACB earnings preview 2022 Qq",
+    "ACB earnings preview 2022 Qq",
+    "ACB earnings preview 2022 Qq",
+    "ACB earnings preview 2023 Qq",
+    "ACB earnings preview 2023 Qq",
+    "ACB earnings preview 2023 Qq",
+    "ACB earnings preview 2023 Qq",
+    "ACB earnings preview 2024 Qq",
+    "ACB earnings preview 2024 Qq",
+    "ACB earnings preview 2024 Qq",
+    "ACB stock news preview",
+    "ACB guidance outlook quarterly results",
+    "ACB analyst expectations",
+    "ACB retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ACB",
+  "max_articles": 30
+}

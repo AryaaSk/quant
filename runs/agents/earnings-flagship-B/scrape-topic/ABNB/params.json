@@ -1,0 +1,27 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "ABNB",
+  "queries": [
+    "ABNB earnings preview 2021 Qq",
+    "ABNB earnings preview 2021 Qq",
+    "ABNB earnings preview 2021 Qq",
+    "ABNB earnings preview 2021 Qq",
+    "ABNB earnings preview 2022 Qq",
+    "ABNB earnings preview 2022 Qq",
+    "ABNB earnings preview 2022 Qq",
+    "ABNB earnings preview 2022 Qq",
+    "ABNB earnings preview 2023 Qq",
+    "ABNB earnings preview 2023 Qq",
+    "ABNB earnings preview 2023 Qq",
+    "ABNB earnings preview 2023 Qq",
+    "ABNB earnings preview 2024 Qq",
+    "ABNB earnings preview 2024 Qq",
+    "ABNB earnings preview 2024 Qq",
+    "ABNB stock news preview",
+    "ABNB guidance outlook quarterly results",
+    "ABNB analyst expectations",
+    "ABNB retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ABNB",
+  "max_articles": 30
+}

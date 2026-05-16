@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/quote/LI/",
+  "title": "Li Auto Inc. Stock Information and Market Data",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Li Auto Inc. (NASDAQ: LI) is a Chinese electric vehicle manufacturer focused on extended-range and battery electric vehicles. The company has transitioned from its historical focus on extended-range EVs (EREVs) to an increasingly diverse portfolio including pure BEVs. Recent market data shows Li Auto stock trading with analyst consensus rating of Hold and an average price target of $19.66. The company has demonstrated strong delivery growth historically, with 2024 achieving 500,508 vehicle deliveries, representing 33.1% year-over-year growth. Key financial metrics include 2025 revenue of 112.31 billion, a decrease of -22.25% compared to the previous year's 144.46 billion. The company's earnings have come under pressure from margin compression and competitive intensity. Li Auto's market position in the premium EREV segment remains strong, though the transition to BEVs and competitive pressures from Tesla, BYD, and emerging competitors like Xiaomi Auto and Aito present ongoing challenges to profitability and valuation.",
+  "topic": "LI",
+  "source_type": "news_scraper.LI"
+}

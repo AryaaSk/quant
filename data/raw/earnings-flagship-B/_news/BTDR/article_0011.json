@@ -1,0 +1,9 @@
+{
+  "url": "https://www.ir.bitdeer.com/news-releases/news-release-details/bitdeer-launches-sealminer-a4-series-bitcoin-mining-rigs",
+  "title": "Bitdeer Launches SEALMINER A4 Series Bitcoin Mining Rigs",
+  "published_at": "2026-04-07T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Bitdeer Technologies Group announced the launch of its SEALMINER A4 series Bitcoin mining rigs, achieving a power efficiency of 9.45 J/TH on the flagship A4 Ultra Hydro model. The SEALMINER A4 series includes three variants: A4 Ultra Hydro with 886 TH/s at 9.45 J/TH, A4 Pro Hydro with 680 TH/s at 10.9 J/TH, and A4 Pro Air with 336 TH/s at 10.9 J/TH. The A4 series maintains up to 97% power supply efficiency, with hydro-cooled models powered by 380-480V three-phase AC input designed to minimize transmission loss. These rigs represent a meaningful reduction in energy consumption per terahash compared to prior generations. The A4 series improves on the A3 series' 12.5 J/TH efficiency, cutting power costs for miners. Product performance may vary by ±5% in power efficiency and ±10% in hashrate and power consumption, with final specifications based on delivered units. The announcement reflects Bitdeer's commitment to advancing mining technology and providing tools for professional mining operations to maintain competitive margins following network halving events.",
+  "topic": "BTDR",
+  "source_type": "news_scraper.BTDR"
+}

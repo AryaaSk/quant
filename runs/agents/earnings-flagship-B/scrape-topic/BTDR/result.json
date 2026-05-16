@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.9386541500000002,
+  "elapsed_s": 267.33843994140625,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 264615,
+    "duration_api_ms": 387434,
+    "ttft_ms": 5348,
+    "num_turns": 72,
+    "result": "Perfect! I've successfully completed the data gathering task for BTDR. Here's a summary of what was accomplished:\n\n## Collection Complete \u2713\n\n**Statistics:**\n- **30 articles** saved to `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/BTDR/`\n- **Coverage period:** Q1 2024 through Q1 2026\n- **Manifest file:** `_done` marker created with count and timestamp\n\n**Article Categories:**\n1. **Earnings Results & Previews** (Q1-Q4 2024, Q1-Q2 2026)\n2. **Operations Updates** (Monthly production metrics, Apr 2025-Aug 2025)\n3. **Hardware Innovation** (SEALMINER A4 launch & efficiency)\n4. **AI Cloud Services** (Rapid ARR growth from $10M to $69M)\n5. **Infrastructure Projects** (Tydal Norway 180MW, Rockdale Texas expansion)\n6. **Analyst Coverage** (Ratings, price targets, earnings analysis)\n7. **Capital Raises** (Convertible notes, financing strategy)\n8. **Strategic Updates** (Tether investment, treasury liquidation)\n\n**Key Topics Covered:**\n- Revenue growth acceleration (169-170% YoY)\n- Bitcoin mining expansion (65+ EH/s capacity)\n- GPU deployment for AI services (4,000+ GPUs)\n- Stock performance & valuation (analyst consensus: Strong Buy)\n- Profitability trajectory & margin recovery outlook\n\nAll articles follow the strict JSON schema with proper timestamps (ISO8601 or null), clean text extraction, and source attribution. The dataset is ready for downstream analysis in your quant trading pipeline.",
+    "stop_reason": "end_turn",
+    "session_id": "5dd648c0-6d92-42b2-92d3-bc3e45212644",
+    "total_cost_usd": 0.9386541500000002,
+    "usage": {
+      "input_tokens": 8747,
+      "cache_creation_input_tokens": 101229,
+      "cache_read_input_tokens": 890759,
+      "output_tokens": 20654,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7895,
+        "ephemeral_5m_input_tokens": 93334
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 8,
+          "output_tokens": 648,
+          "cache_read_input_tokens": 102553,
+          "cache_creation_input_tokens": 280,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 280,
+            "ephemeral_1h_input_tokens": 0
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 385787,
+        "outputTokens": 33451,
+        "cacheReadInputTokens": 890759,
+        "cacheCreationInputTokens": 101229,
+        "webSearchRequests": 17,
+        "costUSD": 0.9386541500000002,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "3e22eaf9-5a90-42f5-98d8-3e0b15db46a2"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":264615,\"duration_api_ms\":387434,\"ttft_ms\":5348,\"num_turns\":72,\"result\":\"Perfect! I've successfully completed the data gathering task for BTDR. Here's a summary of what was accomplished:\\n\\n## Collection Complete \u2713\\n\\n**Statistics:**\\n- **30 articles** saved to `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/BTDR/`\\n- **Coverage period:** Q1 2024 through Q1 2026\\n- **Manifest file:** `_done` marker created with count and timestamp\\n\\n**Article Categories:**\\n1. **Earnings Results & Previews** (Q1-Q4 2024, Q1-Q2 2026)\\n2. **Operations Updates** (Monthly production metrics, Apr 2025-Aug 2025)\\n3. **Hardware Innovation** (SEALMINER A4 launch & efficiency)\\n4. **AI Cloud Services** (Rapid ARR growth from $10M to $69M)\\n5. **Infrastructure Projects** (Tydal Norway 180MW, Rockdale Texas expansion)\\n6. **Analyst Coverage** (Ratings, price targets, earnings analysis)\\n7. **Capital Raises** (Convertible notes, financing strategy)\\n8. **Strategic Updates** (Tether investment, treasury liquidation)\\n\\n**Key Topics Covered:**\\n- Revenue growth acceleration (169-170% YoY)\\n- Bitcoin mining expansion (65+ EH/s capacity)\\n- GPU deployment for AI services (4,000+ GPUs)\\n- Stock performance & valuation (analyst consensus: Strong Buy)\\n- Profitability trajectory & margin recovery outlook\\n\\nAll articles follow the strict JSON schema with proper timestamps (ISO8601 or null), clean text extraction, and source attribution. The dataset is ready for downstream analysis in your quant trading pipeline.\",\"stop_reason\":\"end_turn\",\"session_id\":\"5dd648c0-6d92-42b2-92d3-bc3e45212644\",\"total_cost_usd\":0.9386541500000002,\"usage\":{\"input_tokens\":8747,\"cache_creation_input_tokens\":101229,\"cache_read_input_tokens\":890759,\"output_tokens\":20654,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":7895,\"ephemeral_5m_input_tokens\":93334},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":8,\"output_tokens\":648,\"cache_read_input_tokens\":102553,\"cache_creation_input_tokens\":280,\"cache_creation\":{\"ephemeral_5m_input_tokens\":280,\"ephemeral_1h_input_tokens\":0},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":385787,\"outputTokens\":33451,\"cacheReadInputTokens\":890759,\"cacheCreationInputTokens\":101229,\"webSearchRequests\":17,\"costUSD\":0.9386541500000002,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"3e22eaf9-5a90-42f5-98d8-3e0b15db46a2\"}\n"
+}

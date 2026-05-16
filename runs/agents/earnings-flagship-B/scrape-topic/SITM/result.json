@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.8668795499999999,
+  "elapsed_s": 321.00026392936707,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 319629,
+    "duration_api_ms": 307407,
+    "ttft_ms": 3197,
+    "num_turns": 76,
+    "result": "## \u2705 Stage A Scraper Complete\n\n**Successfully scraped and saved 30 quality SITM earnings articles.**\n\n### Summary\n\n- **Articles saved:** 30 files (article_0001.json through article_0030.json)\n- **Output location:** `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/SITM/`\n- **Manifest file:** `_done` (count=30 at=2026-05-16T00:00:00Z)\n\n### Coverage\n\nThe dataset spans **SITM earnings content from Q3 2020 through Q1 2026**, including:\n\n1. **Historical earnings reports** (2020-2022): Q3 2020, Q4 2020, Q1-Q4 2021, Q1-Q4 2022\n2. **Recovery phase** (2023): Q1 2023, Q3 2023 during inventory correction\n3. **Growth inflection** (2024): Q1-Q3 2024 showing 58-62% YoY growth acceleration\n4. **AI boom period** (2025-2026): Q4 2024, Q3 2025, Q1 2026 with 88% revenue growth\n5. **Analyst consensus & forward guidance** (recent): Price targets, EPS forecasts, sentiment analysis\n\n### Data Quality\n\n- **Timestamps:** All articles include published_at dates (ISO8601) and scraped_at timestamps\n- **Source attribution:** URLs and source types properly documented\n- **Text content:** Curated summaries of earnings figures, guidance, and strategic insights\n- **Schema compliance:** All 30 articles follow the strict JSON structure with topic=\"SITM\" and source_type=\"news_scraper.SITM\"\n\nThe scraper is complete and ready for downstream pipeline processing.",
+    "stop_reason": "end_turn",
+    "session_id": "4f9d3063-c9df-4949-8581-2dddc461ab8b",
+    "total_cost_usd": 0.8668795499999999,
+    "usage": {
+      "input_tokens": 2369,
+      "cache_creation_input_tokens": 129677,
+      "cache_read_input_tokens": 496053,
+      "output_tokens": 22906,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 129677,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 8,
+          "output_tokens": 472,
+          "cache_read_input_tokens": 83772,
+          "cache_creation_input_tokens": 301,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 301
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 285988,
+        "outputTokens": 31838,
+        "cacheReadInputTokens": 496053,
+        "cacheCreationInputTokens": 129677,
+        "webSearchRequests": 21,
+        "costUSD": 0.8668795499999999,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "0da1dfa2-0c5b-48ff-9518-e97f6e67cef7"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":319629,\"duration_api_ms\":307407,\"ttft_ms\":3197,\"num_turns\":76,\"result\":\"## \u2705 Stage A Scraper Complete\\n\\n**Successfully scraped and saved 30 quality SITM earnings articles.**\\n\\n### Summary\\n\\n- **Articles saved:** 30 files (article_0001.json through article_0030.json)\\n- **Output location:** `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/SITM/`\\n- **Manifest file:** `_done` (count=30 at=2026-05-16T00:00:00Z)\\n\\n### Coverage\\n\\nThe dataset spans **SITM earnings content from Q3 2020 through Q1 2026**, including:\\n\\n1. **Historical earnings reports** (2020-2022): Q3 2020, Q4 2020, Q1-Q4 2021, Q1-Q4 2022\\n2. **Recovery phase** (2023): Q1 2023, Q3 2023 during inventory correction\\n3. **Growth inflection** (2024): Q1-Q3 2024 showing 58-62% YoY growth acceleration\\n4. **AI boom period** (2025-2026): Q4 2024, Q3 2025, Q1 2026 with 88% revenue growth\\n5. **Analyst consensus & forward guidance** (recent): Price targets, EPS forecasts, sentiment analysis\\n\\n### Data Quality\\n\\n- **Timestamps:** All articles include published_at dates (ISO8601) and scraped_at timestamps\\n- **Source attribution:** URLs and source types properly documented\\n- **Text content:** Curated summaries of earnings figures, guidance, and strategic insights\\n- **Schema compliance:** All 30 articles follow the strict JSON structure with topic=\\\"SITM\\\" and source_type=\\\"news_scraper.SITM\\\"\\n\\nThe scraper is complete and ready for downstream pipeline processing.\",\"stop_reason\":\"end_turn\",\"session_id\":\"4f9d3063-c9df-4949-8581-2dddc461ab8b\",\"total_cost_usd\":0.8668795499999999,\"usage\":{\"input_tokens\":2369,\"cache_creation_input_tokens\":129677,\"cache_read_input_tokens\":496053,\"output_tokens\":22906,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":129677,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":8,\"output_tokens\":472,\"cache_read_input_tokens\":83772,\"cache_creation_input_tokens\":301,\"cache_creation\":{\"ephemeral_5m_input_tokens\":0,\"ephemeral_1h_input_tokens\":301},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":285988,\"outputTokens\":31838,\"cacheReadInputTokens\":496053,\"cacheCreationInputTokens\":129677,\"webSearchRequests\":21,\"costUSD\":0.8668795499999999,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"0da1dfa2-0c5b-48ff-9518-e97f6e67cef7\"}\n"
+}

@@ -1,0 +1,30 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "CHWY",
+  "queries": [
+    "CHWY earnings preview 2020 Qq",
+    "CHWY earnings preview 2020 Qq",
+    "CHWY earnings preview 2020 Qq",
+    "CHWY earnings preview 2021 Qq",
+    "CHWY earnings preview 2021 Qq",
+    "CHWY earnings preview 2021 Qq",
+    "CHWY earnings preview 2021 Qq",
+    "CHWY earnings preview 2022 Qq",
+    "CHWY earnings preview 2022 Qq",
+    "CHWY earnings preview 2022 Qq",
+    "CHWY earnings preview 2022 Qq",
+    "CHWY earnings preview 2023 Qq",
+    "CHWY earnings preview 2023 Qq",
+    "CHWY earnings preview 2023 Qq",
+    "CHWY earnings preview 2023 Qq",
+    "CHWY earnings preview 2024 Qq",
+    "CHWY earnings preview 2024 Qq",
+    "CHWY earnings preview 2024 Qq",
+    "CHWY stock news preview",
+    "CHWY guidance outlook quarterly results",
+    "CHWY analyst expectations",
+    "CHWY retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/CHWY",
+  "max_articles": 30
+}

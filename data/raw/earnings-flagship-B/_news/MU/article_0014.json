@@ -1,0 +1,9 @@
+{
+  "url": "https://beth-kindig.medium.com/micron-stock-up-120-ytd-what-the-hbm-memory-leader-plans-for-2026-2ba022138136",
+  "title": "Micron Stock Up 120% YTD: What the HBM Memory Leader Plans for 2026",
+  "published_at": "2025-10-24T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Micron's stock has surged 120% year-to-date, significantly outpacing Nvidia's 40% gain. The company has positioned itself as a dominant player in high-bandwidth memory (HBM) supply for AI infrastructure. Key Developments: The article highlights rapid expansion in HBM capacity across GPU generations. Nvidia's B300 chips feature 288GB of HBM3e memory—3.5 times more than the H100—while the GB300 NVL72 rack supports up to 21.7TB total, representing a 34-fold increase from earlier H100 configurations. Micron's financial performance reflects this momentum. The company generated $20.75 billion in data center revenue during fiscal 2025, representing 137% year-over-year growth. The Cloud Memory Business Unit—encompassing HBM and server DRAM solutions—surged over 200% last fiscal year. 2026 Outlook: Management anticipates continued growth through expanded customer relationships and HBM4 adoption. The article notes that Micron has expanded its HBM customer base from four customers in Q3 to six, strengthening its competitive positioning alongside Samsung and SK Hynix. The company expects to sell out its HBM4 capacity for 2026 within months, suggesting sustained demand momentum.",
+  "topic": "MU",
+  "source_type": "news_scraper.MU"
+}

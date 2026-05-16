@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fool.com/earnings/call-transcripts/2022/08/31/mongodb-mdb-q2-2023-earnings-call-transcript/",
+  "title": "MongoDB Q2 FY2023 Earnings Call Transcript",
+  "published_at": "2022-08-31T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "MongoDB Q2 FY2023 generated total revenue of $303.7 million, up 53% year-over-year. Atlas revenue grew 73% YoY, representing 64% of total revenue. Customer count exceeded 37,000, up from 29,000 in the prior year. Gross margin: 73%, up from 72% YoY. Operating loss: $12.4 million with -4% margin. Net loss per share: $0.23. Record direct sales customer additions with strong new business environment and no noticeable change in sales cycles. Over 5,400 direct sales customers versus 3,600 prior year. Net ARR expansion rate above 120%. MongoDB announced product innovations including Queryable Encryption with 60+ Fortune 500 companies in development and Relational Migrator to facilitate database migrations from legacy platforms. Challenges included Atlas consumption growth slower than historical trends due to macro conditions and mid-market digital-native companies experiencing significant slowdown globally. European enterprise consumption affected by macroeconomic pressures. FY2023 guidance: Revenue $1.196-$1.206 billion, Operating loss $(8-13) million, EPS (non-GAAP) $(0.28-0.35).",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

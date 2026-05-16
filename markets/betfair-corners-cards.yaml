@@ -1,0 +1,45 @@
+slug: betfair-corners-cards
+display_name: Betfair corners + cards exotic markets
+platform: betfair
+notes: |
+  Within any of the tier-B leagues, exotic markets (corners, cards, total fouls) attract
+  even less sharp money than main markets. Lower per-event liquidity (£3k-£15k) but
+  wider mispricing relative to true.
+time_grain: daily
+held_out_months: 6
+sequence_length: 16
+model: gbdt
+data_sources:
+  - name: football_data
+    kind: numeric
+    params: {leagues: [E2, E3, BRA2]}
+  - name: sofascore
+    kind: text
+    params: {leagues: [ENG-League-One, ENG-League-Two, BRA-Serie-B]}
+label:
+  kind: binary
+  target_event: total_corners_over_9_5
+state_vector:
+  dim: 192
+  blocks:
+    - name: numeric
+      slots: "0:128"
+      builder: numeric
+      params:
+        series: [home_corners_5avg, away_corners_5avg, home_yellow_5avg, away_yellow_5avg, ref_yellow_per_match, ref_corner_per_match, pitch_quality_score]
+    - name: market_state
+      slots: "128:176"
+      builder: market_state
+      params:
+        series: [over_decimal_odds, under_decimal_odds]
+        velocity_lags: [1, 3]
+    - name: calendar
+      slots: "176:192"
+      builder: calendar
+      params: {}
+backtest:
+  commission_bps: 500
+  base_slippage_bps: 70
+  safety_margin_bps: 200
+  kelly_fraction: 0.20
+  kelly_cap: 0.015

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.ainvest.com/news/cloudflare-developer-platform-emerges-core-growth-engine-ai-infrastructure-shift-2604/",
+  "title": "Cloudflare: Developer Platform Emerges as Core Growth Engine Amid AI Infrastructure Shift",
+  "published_at": "2026-05-16T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Cloudflare reported Q1 2026 revenue growth of 34% year over year to $639.8 million, with demand tied to AI, agentic workloads and its Workers developer platform continuing to accelerate. Cloudflare Workers processed 20 million daily requests per customer, representing 300% year-over-year growth, with sub-100ms latency at scale. The developer platform has become the engine of sustained growth, evolving from a value-added feature into Cloudflare's primary growth engine, fundamentally differentiating the company in the AI infrastructure landscape. Developer counts rose to more than 5.5 million, and AI-related traffic is becoming a major growth driver. However, the continued scale-up of the Workers developer platform currently carries gross margins below the company average. Developer platform products currently carry lower gross margins than the corporate average, though they have a lower cost to book. Remaining Performance Obligations surged 48% year-over-year to $2.79 billion, signaling strong future revenue visibility as enterprises adopt agent-based web architectures.",
+  "topic": "NET",
+  "source_type": "news_scraper.NET"
+}

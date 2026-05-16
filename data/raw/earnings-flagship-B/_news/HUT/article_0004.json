@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/hut-8-q3-earnings-83-204402351.html",
+  "title": "Hut 8 Q3 earnings: $83.5M in revenue, 1.5 GW under development",
+  "published_at": "2025-11-15T00:00:00Z",
+  "scraped_at": "2026-05-16T14:30:00Z",
+  "text": "Hut 8 reported Q3 2025 revenue of $83.5 million, nearly doubling from $43.7 million in Q3 2024. The compute business line generated $70 million, while power generation and managed services contributed $8.4 million, with digital infrastructure accounting for $5.1 million. Profitability Metrics: The company achieved net income of $50.6 million (compared to $0.9 million year-over-year) and adjusted EBITDA of $109 million, up significantly from $6 million in the prior year period. Development Pipeline: Management highlighted 1,530 megawatts of capacity from exclusivity into development across four data center sites in three states. These projects could expand total capacity from the current 1.02 GW to over 2.5 GW. Specific sites include a 300 MW Louisiana facility, plus undisclosed sites totaling 1.22 GW across Texas and Illinois. Financial Position: To support expansion, Hut 8 established a $1 billion at-the-market offering and secured a $200 million credit facility. The company holds 13,696 bitcoin on its balance sheet, with subsidiary American Bitcoin maintaining 3,865 bitcoin.",
+  "topic": "HUT",
+  "source_type": "news_scraper.HUT"
+}

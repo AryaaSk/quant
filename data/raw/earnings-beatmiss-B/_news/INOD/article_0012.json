@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/assessing-innodata-inod-valuation-shield-130933895.html",
+  "title": "Assessing Innodata (INOD) Valuation After New SHIELD Contract And Expanded Palantir AI Work",
+  "published_at": "2026-01-31T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "Innodata recently secured two significant contracts: one providing access to future task orders through the U.S. Missile Defense Agency's SHIELD program, and another expanding its AI data partnership with Palantir Technologies. Despite these positive developments, the stock experienced a sharp 13.19% single-day decline to $55.44, though longer-term performance remains strong with approximately 50% gains over one year and nearly 9x returns over three years. The most popular analyst narrative suggests a fair value of $93.75 per share, implying the stock is approximately 40.9% undervalued. This thesis rests on the premise that increasing adoption of AI across industries requires curated and high-quality datasets, positioning Innodata to command premium pricing as enterprises scale AI initiatives. However, valuation concerns exist. The current P/E ratio of 52.5x substantially exceeds both the Professional Services sector average of 23.3x and the estimated fair-value multiple of 25.7x, presenting meaningful downside risk if market sentiment shifts or spending growth disappoints.",
+  "topic": "INOD",
+  "source_type": "news_scraper.INOD"
+}

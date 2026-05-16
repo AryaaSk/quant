@@ -1,0 +1,13 @@
+<!doctype html>
+<html><head><title>_synthetic backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Synthetic smoke-test market (_synthetic)</h1>
+<p>Deterministic synthetic market used by the E2E smoke test. The label is a noisy logistic
+of the first three numeric features. The market price is a noisy estimate of the truth so
+there is real, recoverable Brier improvement to discover.
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>0.4853617818468151</pre></td></tr><tr><td>brier_market</td><td><pre>0.36935207127407776</pre></td></tr><tr><td>brier_improvement</td><td><pre>-0.11600971057273735</pre></td></tr><tr><td>accuracy_model</td><td><pre>0.45454545454545453</pre></td></tr><tr><td>accuracy_market</td><td><pre>0.45454545454545453</pre></td></tr><tr><td>n_events</td><td><pre>33</pre></td></tr><tr><td>n_trades</td><td><pre>33</pre></td></tr><tr><td>hit_rate</td><td><pre>0.45454545454545453</pre></td></tr><tr><td>gross_return</td><td><pre>1.2727694363501723</pre></td></tr><tr><td>net_return</td><td><pre>1.2727694363501723</pre></td></tr><tr><td>sharpe</td><td><pre>1.9807004630442764</pre></td></tr><tr><td>max_drawdown</td><td><pre>-0.08295734112877005</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

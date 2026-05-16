@@ -1,0 +1,9 @@
+{
+  "url": "https://www.globenewswire.com/news-release/2025/09/10/3147703/0/en/Dave-Introduces-CashAI-v5-5.html",
+  "title": "Dave Introduces CashAI v5.5: Enhanced AI Underwriting Engine",
+  "published_at": "2025-09-10T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Dave Inc. unveiled CashAI v5.5, an enhanced iteration of its AI-powered cash flow underwriting engine. The new version approximately doubles the feature set compared to earlier models and was trained on more than 7 million mature ExtraCash originations.\n\nTechnical Details:\nCashAI v5.5 operates through fully automated analysis of cash flow data from Dave members' primary bank accounts. The system leverages insights from 150 million ExtraCash originations and billions of bank transactions, representing one of the industry's largest cash flow datasets.\n\nExpected Business Benefits:\n- More accurate risk ranking capabilities\n- Higher average approval amounts for members\n- Stronger conversion rates\n- Lower delinquency and loss rates versus Q2 performance\n- Expanded access to ExtraCash for Dave members\n- Improvements to credit performance and gross profit expansion\n\nImplementation Timeline:\nDave fully implemented v5.5 in September 2025, expecting modest third-quarter impact with full benefits materializing in Q4 and beyond. CEO Jason Wilk characterized the advancement as a powerful differentiator, emphasizing how it combines massive datasets with machine learning to improve profitable credit outcomes.",
+  "topic": "DAVE",
+  "source_type": "news_scraper.DAVE"
+}

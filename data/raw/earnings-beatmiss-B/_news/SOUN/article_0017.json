@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/soundhound-exploring-competitive-edge-voice-172924850.html",
+  "title": "SoundHound: Exploring Its Competitive Edge in Voice AI",
+  "published_at": "2024-12-30T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "SoundHound AI distinguishes itself in the conversational AI market by targeting enterprise customers rather than consumers. The company leverages proprietary Speech-to-Meaning technology that derives meaning directly from audio input rather than converting speech to text first, enabling faster and more precise responses to complex queries. Key Competitive Advantages: The company's primary edge stems from its foundational Polaris engine, trained on billions of conversations spanning over a million hours of audio across 25+ languages. This extensive dataset provides capabilities that established tech giants would struggle to replicate, as transitioning their entrenched speech-to-text systems would require substantial re-engineering. SoundHound's white-label business model contrasts sharply with Big Tech's ecosystem-focused approach. Enterprises can customize branding, maintain data privacy, and avoid vendor lock-in critical factors for industries like automotive and healthcare. Market Position: The company has secured partnerships with major automotive manufacturers including Hyundai and Mercedes-Benz, plus restaurant chains implementing voice-ordering solutions. It holds 155 granted patents with 115 additional applications pending. Financial Concerns: Despite impressive 82% year-over-year revenue growth (projected $83.5 million for 2024), the stock trades at an extreme 99x price-to-sales ratio, raising valuation concerns given ongoing negative free cash flow and profitability challenges.",
+  "topic": "SOUN",
+  "source_type": "news_scraper.SOUN"
+}

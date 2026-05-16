@@ -1,0 +1,10 @@
+{
+  "model": "gbdt",
+  "slug": "earnings-flagship-A",
+  "device": "auto",
+  "n_train": 360,
+  "n_val": 63,
+  "n_held_out": 219,
+  "state_dim": 256,
+  "sequence_length": 8
+}

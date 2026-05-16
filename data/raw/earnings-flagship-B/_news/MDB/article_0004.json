@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fool.com/earnings/call-transcripts/2021/03/10/mongodb-inc-mdb-q4-2021-earnings-call-transcript/",
+  "title": "MongoDB Q4 2021 Earnings Call Transcript",
+  "published_at": "2021-03-10T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "MongoDB Q4 2021 earned $171 million in total revenue, representing 38% YoY growth. Subscription revenue reached $163.9 million, up 39% YoY, with Atlas revenue growing 66% YoY and now representing 49% of total revenue. Total customers exceeded 24,800, up from 17,000 in the prior year. Atlas customers totaled 23,300+, up from 15,400. Customers with $100K+ ARR reached 975, up from 751. Customers with $1M+ ARR reached 98, up from 62. Operating margin was -9% in Q4 2021 versus -10% in Q4 2020. Net loss per share was $0.33 compared to $0.25 in Q4 2020. Cash position reached $958.3 million. FY2022 guidance included revenue range of $745-$765 million, non-GAAP operating loss of $74-$84 million, and net loss per share of $1.39-$1.55. CEO Dev Ittycheria emphasized that you cannot buy a competitive advantage, you have to build it using modern data platforms. The company highlighted success with enterprise adoption, noting that customers are pursuing lift and transform strategies rather than simple cloud migrations.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

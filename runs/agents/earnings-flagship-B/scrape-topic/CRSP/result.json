@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.94469695,
+  "elapsed_s": 271.4958620071411,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 269717,
+    "duration_api_ms": 400397,
+    "ttft_ms": 3404,
+    "num_turns": 73,
+    "result": "Perfect! I've successfully completed the CRSP earnings data scraping task.\n\n## Summary\n\n**Status: Complete** \u2713\n\n**Results:**\n- **30 articles collected** and saved to `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/CRSP/`\n- **Manifest file** created at `_done` with timestamp: `2026-05-16T01:06:18Z`\n\n**Article Coverage:**\nThe 30 articles comprehensively cover CRSP (CRISPR Therapeutics) across multiple dimensions:\n\n1. **Earnings Results** (6 articles) - Q1-Q4 2024, Q3 2025 financial results\n2. **Commercial Progress** (3 articles) - CASGEVY sales, adoption metrics, reimbursement\n3. **Clinical Pipeline** (5 articles) - CTX112 CAR-T, CTX310/CTX320 cardiovascular programs, CTX131\n4. **Financial Forecasts** (2 articles) - Analyst price targets, revenue guidance 2025-2027\n5. **Strategic & Risk** (5 articles) - Competitive threats, valuation analysis, long-term viability\n6. **Regulatory & Approvals** (2 articles) - FDA approval timeline, clinical milestones\n7. **Technical & Market** (2 articles) - Stock technical analysis, analyst sentiment\n8. **Business Updates** (4 articles) - Strategic priorities, partnerships, operational updates\n9. **Company Overview** (1 article) - Financial statements and historical trends\n\nAll articles follow the strict JSON schema with proper timestamping and source attribution.\n\nSources:\n- [CRISPR Therapeutics Investor Relations](https://ir.crisprtx.com/)\n- [Yahoo Finance](https://finance.yahoo.com/)\n- [TipRanks](https://www.tipranks.com/)\n- [FDA](https://www.fda.gov/)\n- [Vertex Pharmaceuticals](https://investors.vrtx.com/)",
+    "stop_reason": "end_turn",
+    "session_id": "9509de4d-4089-4ae4-b5de-3cd2e94daae1",
+    "total_cost_usd": 0.94469695,
+    "usage": {
+      "input_tokens": 8661,
+      "cache_creation_input_tokens": 111103,
+      "cache_read_input_tokens": 675602,
+      "output_tokens": 26088,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 111103,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 8,
+          "output_tokens": 720,
+          "cache_read_input_tokens": 88990,
+          "cache_creation_input_tokens": 1425,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1425
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 367453,
+        "outputTokens": 38161,
+        "cacheReadInputTokens": 675602,
+        "cacheCreationInputTokens": 111103,
+        "webSearchRequests": 18,
+        "costUSD": 0.94469695,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "88ed6c7b-4795-44a3-ac57-d3445620fa7b"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":269717,\"duration_api_ms\":400397,\"ttft_ms\":3404,\"num_turns\":73,\"result\":\"Perfect! I've successfully completed the CRSP earnings data scraping task.\\n\\n## Summary\\n\\n**Status: Complete** \u2713\\n\\n**Results:**\\n- **30 articles collected** and saved to `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/CRSP/`\\n- **Manifest file** created at `_done` with timestamp: `2026-05-16T01:06:18Z`\\n\\n**Article Coverage:**\\nThe 30 articles comprehensively cover CRSP (CRISPR Therapeutics) across multiple dimensions:\\n\\n1. **Earnings Results** (6 articles) - Q1-Q4 2024, Q3 2025 financial results\\n2. **Commercial Progress** (3 articles) - CASGEVY sales, adoption metrics, reimbursement\\n3. **Clinical Pipeline** (5 articles) - CTX112 CAR-T, CTX310/CTX320 cardiovascular programs, CTX131\\n4. **Financial Forecasts** (2 articles) - Analyst price targets, revenue guidance 2025-2027\\n5. **Strategic & Risk** (5 articles) - Competitive threats, valuation analysis, long-term viability\\n6. **Regulatory & Approvals** (2 articles) - FDA approval timeline, clinical milestones\\n7. **Technical & Market** (2 articles) - Stock technical analysis, analyst sentiment\\n8. **Business Updates** (4 articles) - Strategic priorities, partnerships, operational updates\\n9. **Company Overview** (1 article) - Financial statements and historical trends\\n\\nAll articles follow the strict JSON schema with proper timestamping and source attribution.\\n\\nSources:\\n- [CRISPR Therapeutics Investor Relations](https://ir.crisprtx.com/)\\n- [Yahoo Finance](https://finance.yahoo.com/)\\n- [TipRanks](https://www.tipranks.com/)\\n- [FDA](https://www.fda.gov/)\\n- [Vertex Pharmaceuticals](https://investors.vrtx.com/)\",\"stop_reason\":\"end_turn\",\"session_id\":\"9509de4d-4089-4ae4-b5de-3cd2e94daae1\",\"total_cost_usd\":0.94469695,\"usage\":{\"input_tokens\":8661,\"cache_creation_input_tokens\":111103,\"cache_read_input_tokens\":675602,\"output_tokens\":26088,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":111103,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":8,\"output_tokens\":720,\"cache_read_input_tokens\":88990,\"cache_creation_input_tokens\":1425,\"cache_creation\":{\"ephemeral_5m_input_tokens\":0,\"ephemeral_1h_input_tokens\":1425},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":367453,\"outputTokens\":38161,\"cacheReadInputTokens\":675602,\"cacheCreationInputTokens\":111103,\"webSearchRequests\":18,\"costUSD\":0.94469695,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"88ed6c7b-4795-44a3-ac57-d3445620fa7b\"}\n"
+}

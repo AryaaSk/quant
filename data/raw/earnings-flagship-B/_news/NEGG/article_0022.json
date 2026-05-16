@@ -1,0 +1,9 @@
+{
+  "url": "https://www.trendforce.com/news/2026/01/05/news-nvidia-amd-reportedly-plan-price-hikes-starting-1q26-geforce-rtx-5090-may-reach-5000",
+  "title": "NVIDIA and AMD Plan Price Hikes in Q1 2026; RTX 5090 May Reach $5,000",
+  "published_at": "2026-01-05T00:00:00Z",
+  "scraped_at": "2026-05-16T18:30:00Z",
+  "text": "GPU Market Analysis - Price Hike Expectations and Market Dynamics for 2026.\n\nPrice Hike Announcements: Both NVIDIA and AMD have reportedly signaled intentions to implement price increases across their GPU product lines starting in Q1 2026. These increases are being driven by rising manufacturing costs, particularly in memory components.\n\nNVIDIA Flagship Pricing: The NVIDIA GeForce RTX 5090, flagship consumer GPU, could see its price climb to as high as $5,000 later in 2026. This represents a significant markup from the original $2,000 MSRP and reflects supply constraints and high demand.\n\nAMD Pricing: AMD has reportedly alerted partners to expect a baseline price increase of at least 10% across its lineup for early 2026.\n\nMarket Drivers: Memory component costs are the primary driver, with GDDR7 and GDDR6 memory prices up several hundred percent due to AI data center demand. Memory now accounts for more than 80% of total GPU bill of materials. Supply constraints expected to reduce H1 2026 supply 30-40% relative to H1 2025.\n\nRetailer Implications: For Newegg, pricing dynamics create both opportunity and risk. Higher manufacturer prices mean higher retail price points and potentially improved margins, but could also impact consumer demand if prices become prohibitive.\n\nMarket Context: The GPU market is experiencing unprecedented pricing power due to AI computing demand, which has fundamentally shifted the supply/demand dynamics in GPU manufacturing.",
+  "topic": "NEGG",
+  "source_type": "news_scraper.NEGG"
+}

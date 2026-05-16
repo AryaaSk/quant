@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "golden-globes-best-motion-picture-animated-winner",
+  "queries": [
+    "golden-globes-best-motion-picture-animated-winner predictions analysis",
+    "golden-globes-best-motion-picture-animated-winner oddsmaker pick analysis",
+    "golden-globes-best-motion-picture-animated-winner critic commentary preview",
+    "golden-globes-best-motion-picture-animated-winner expert forecast roundup",
+    "golden-globes-best-motion-picture-animated-winner variety deadline hollywood reporter",
+    "golden-globes-best-motion-picture-animated-winner indiewire commentary",
+    "golden-globes-best-motion-picture-animated-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/golden-globes-best-motion-picture-animated-winner",
+  "max_articles": 25
+}

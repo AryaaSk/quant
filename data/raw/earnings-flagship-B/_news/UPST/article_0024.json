@@ -1,0 +1,9 @@
+{
+  "url": "https://www.insidermonkey.com/blog/how-upstart-upst-is-using-ai-to-shape-the-future-of-consumer-lending-1668999/",
+  "title": "How Upstart (UPST) Is Using AI to Shape the Future of Consumer Lending",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Upstart Holdings uses advanced AI models to transform consumer lending through underwriting automation and risk assessment. AI Platform Overview: Upstart's platform leverages neural networks to evaluate borrowers using non-traditional variables such as education and employment history, creating more inclusive lending decisions. The company operates three main lending segments: Personal Lending, Auto Lending, and Other (including HELOCs and small dollar loans). Model 22 Performance: The company's flagship AI model, Model 22, initially showed impressive results by driving conversion rates from 19% to 24% in Q2 2025. However, the model later encountered issues where it became overly conservative in response to macroeconomic signals, reducing approvals and impacting revenue. Strategic Response: Following Model 22 challenges, the company reaffirmed its confidence in its AI underwriting approach while implementing refinements to address model behavior. CEO Paul Gu emphasized that improvements in Upstart's AI-powered underwriting models continued to drive originations growth. Market Expansion: The company is using its AI platform to expand into new lending verticals, including auto and home loans, demonstrating the versatility and scalability of its technology. Growth Metrics: Q1 2026 showed 44% revenue growth and 61% origination growth, reflecting strong demand for AI-powered lending solutions among financial institutions.",
+  "topic": "UPST",
+  "source_type": "news_scraper.UPST"
+}

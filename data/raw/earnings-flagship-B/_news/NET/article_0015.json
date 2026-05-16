@@ -1,0 +1,9 @@
+{
+  "url": "https://www.eweek.com/news/cloudflare-ai-layoffs-workforce-cuts/",
+  "title": "Cloudflare Slashes 20% of Workforce Despite Record Revenue",
+  "published_at": "2026-05-07T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Cloudflare announced a significant workforce reduction affecting approximately 20% of its global headcount while simultaneously reporting record quarterly revenue of $639.8 million, up 34% year-over-year. The restructuring, which eliminates 1,100 positions, is part of the company's shift toward an AI-first operating model. CEO Matthew Prince emphasized the strategic nature of the cuts, citing dramatic improvements in internal AI adoption as the primary driver. The company's internal AI usage increased by more than 600% in the past three months, with nearly all R&D staff now leveraging AI coding features through the Workers platform. Autonomous AI agents review 100% of deployed code across the organization. The restructuring charges are expected to total $140-$150 million for full-year 2026, with most of the impact in Q2. The cuts affected all departments and geographies except sales roles, which were explicitly excluded from the reduction. Management plans to increase headcount in 2027 as the company seeks to hire workers who can effectively leverage AI tools for enhanced productivity.",
+  "topic": "NET",
+  "source_type": "news_scraper.NET"
+}

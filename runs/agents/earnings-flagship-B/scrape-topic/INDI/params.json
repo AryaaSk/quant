@@ -1,0 +1,25 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "INDI",
+  "queries": [
+    "INDI earnings preview 2021 Qq",
+    "INDI earnings preview 2021 Qq",
+    "INDI earnings preview 2022 Qq",
+    "INDI earnings preview 2022 Qq",
+    "INDI earnings preview 2022 Qq",
+    "INDI earnings preview 2022 Qq",
+    "INDI earnings preview 2023 Qq",
+    "INDI earnings preview 2023 Qq",
+    "INDI earnings preview 2023 Qq",
+    "INDI earnings preview 2023 Qq",
+    "INDI earnings preview 2024 Qq",
+    "INDI earnings preview 2024 Qq",
+    "INDI earnings preview 2024 Qq",
+    "INDI stock news preview",
+    "INDI guidance outlook quarterly results",
+    "INDI analyst expectations",
+    "INDI retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/INDI",
+  "max_articles": 30
+}

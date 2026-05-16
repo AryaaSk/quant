@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fool.com/earnings/call-transcripts/2026/02/03/amd-amd-q4-2025-earnings-call-transcript/",
+  "title": "AMD Q4 2025 Earnings Call Transcript",
+  "published_at": "2026-02-03T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AMD reported Q4 2025 results showing continued momentum in data center and AI infrastructure. Full-year 2025 revenue reached $22.7 billion with data center representing the largest segment. Management highlighted accelerating AI adoption and strong customer demand for both EPYC processors and Instinct GPUs. CEO Lisa Su emphasized that the company had transitioned to a data-center-first business model, with data center segment driving growth. Q1 2026 guidance signaled continued strong momentum with expectations for sequential revenue growth. The company announced that MI300 GPU shipments had ramped faster than expected, exceeding internal targets. Management provided commentary on competitive positioning against NVIDIA, noting AMD's advantage in offering integrated CPU-GPU solutions and leveraging existing customer relationships. The Q4 call also discussed partnerships with cloud providers and enterprise customers, indicating broad-based demand across the AI infrastructure market. Full-year 2026 revenue guidance was raised to $48.4 billion, implying 34% year-over-year growth.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

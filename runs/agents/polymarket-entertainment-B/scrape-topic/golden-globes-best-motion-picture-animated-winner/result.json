@@ -1,0 +1,69 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": false,
+  "returncode": 1,
+  "cost_usd": 1.0165413,
+  "elapsed_s": 197.541109085083,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "error_max_budget_usd",
+    "duration_ms": 196297,
+    "duration_api_ms": 317999,
+    "is_error": true,
+    "num_turns": 62,
+    "stop_reason": "tool_use",
+    "session_id": "841cf00f-7278-4630-be73-b83f87cc2ae1",
+    "total_cost_usd": 1.0165413,
+    "usage": {
+      "input_tokens": 8086,
+      "cache_creation_input_tokens": 48753,
+      "cache_read_input_tokens": 882681,
+      "output_tokens": 13306,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 48753,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 7,
+          "output_tokens": 222,
+          "cache_read_input_tokens": 76361,
+          "cache_creation_input_tokens": 1766,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 1766
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 493403,
+        "outputTokens": 28888,
+        "cacheReadInputTokens": 960808,
+        "cacheCreationInputTokens": 50094,
+        "webSearchRequests": 22,
+        "costUSD": 1.0165413,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "fast_mode_state": "off",
+    "uuid": "855bc782-9ba0-459c-ab99-5c5bd2ac04c8",
+    "errors": [
+      "Reached maximum budget ($1)"
+    ]
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"error_max_budget_usd\",\"duration_ms\":196297,\"duration_api_ms\":317999,\"is_error\":true,\"num_turns\":62,\"stop_reason\":\"tool_use\",\"session_id\":\"841cf00f-7278-4630-be73-b83f87cc2ae1\",\"total_cost_usd\":1.0165413,\"usage\":{\"input_tokens\":8086,\"cache_creation_input_tokens\":48753,\"cache_read_input_tokens\":882681,\"output_tokens\":13306,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":48753,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":7,\"output_tokens\":222,\"cache_read_input_tokens\":76361,\"cache_creation_input_tokens\":1766,\"cache_creation\":{\"ephemeral_5m_input_tokens\":0,\"ephemeral_1h_input_tokens\":1766},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":493403,\"outputTokens\":28888,\"cacheReadInputTokens\":960808,\"cacheCreationInputTokens\":50094,\"webSearchRequests\":22,\"costUSD\":1.0165413,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"fast_mode_state\":\"off\",\"uuid\":\"855bc782-9ba0-459c-ab99-5c5bd2ac04c8\",\"errors\":[\"Reached maximum budget ($1)\"]}\n"
+}

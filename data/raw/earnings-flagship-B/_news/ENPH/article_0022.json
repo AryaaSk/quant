@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/enphase-energy-strengthens-battery-storage-170700814.html",
+  "title": "Enphase Energy Strengthens Battery Storage Footprint Globally",
+  "published_at": "2025-11-15T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Enphase Energy shipped 190.9 megawatt-hour of IQ Batteries in Q2 2025 reflecting impressive 58.8% year-over-year growth with battery attachment rates in California exceeding 50% in late 2025. Enphase ships third-generation IQ Battery 5P to markets including United States, Australia, New Zealand, Puerto Rico, Mexico, Canada, United Kingdom, Italy, France, Netherlands, Luxembourg, Belgium, Romania and India. As states transition from 1:1 net metering to Net Billing structures, value proposition for selling power back to grid diminished driving massive spike in battery attachment rates with solar projects. In 2025, more than 38 million households globally used residential solar systems integrated with battery storage with over 64% newly installed rooftop solar systems in developed economies including storage integration. By 2030, analysts project one in eight American homes will have solar with vast majority opting for storage to maximize self-consumption and avoid lower utility buy-back rates. In 2025, Enphase integrated AI-powered predictive energy management into residential battery systems reducing household peak electricity consumption by 19%.",
+  "topic": "ENPH",
+  "source_type": "news_scraper.ENPH"
+}

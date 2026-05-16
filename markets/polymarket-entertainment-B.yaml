@@ -1,0 +1,104 @@
+slug: polymarket-entertainment-B
+display_name: Polymarket entertainment unified (Model B — numerical + Voyage commentary)
+platform: polymarket
+notes: |
+  Model B for the dual A vs B PoC. Same data, same model class as polymarket-entertainment-A,
+  PLUS: haiku news_scraper agents scrape entertainment commentary per event_slug
+  (per_entity_mode keyed by Polymarket event_slug, e.g. "oscars-2024", "emmys-2024",
+  "golden-globes-2024", "cannes-2023"). Per-event aggregated commentary is Voyage-embedded
+  (voyage-3-large) into a 256-slot text block alongside the numerical features.
+
+  The A vs B comparison isolates the contribution of agent-scraped + Voyage-embedded
+  commentary. Same train/test split, same model class, only the feature set differs.
+time_grain: daily
+held_out_months: 6
+sequence_length: 8
+model: gbdt
+data_sources:
+  - name: polymarket_contracts
+    kind: numeric
+    params:
+      tag_slugs:
+        - oscars
+        - emmys
+        - golden-globes
+        - grammys
+        - baftas
+        - sag-awards
+        - critics-choice-awards
+        - cannes
+        - venice-film-festival
+        - sundance
+        - movies
+        - tv
+        - streaming
+        - box-office
+      limit_per_tag: 300
+      start_date: 2020-01-01
+      end_date: 2026-04-01
+  - name: news_scraper
+    kind: text
+    params:
+      per_entity_mode: true
+      event_source: polymarket_contracts
+      entity_column: event_slug
+      entity_top_n: 60          # only scrape top-60 events by market count (covers ~70% of data; full 411 would take 5+ hrs)
+      window_days: 60
+      articles_per_entity: 25   # haiku reduces per-agent runtime
+      concurrency: 6
+      query_templates:
+        - "{entity} predictions analysis"
+        - "{entity} oddsmaker pick analysis"
+        - "{entity} critic commentary preview"
+        - "{entity} expert forecast roundup"
+      extra_queries:
+        - "{entity} variety deadline hollywood reporter"
+        - "{entity} indiewire commentary"
+        - "{entity} rotten tomatoes letterboxd"
+label:
+  kind: binary
+  target_event: market_resolves_yes
+state_vector:
+  dim: 384
+  blocks:
+    - name: numeric_features
+      slots: "0:96"
+      builder: numeric
+      params:
+        series:
+          - market_volume
+          - market_liquidity
+          - days_open
+          - yes_price_close
+        rolling_window: 60
+    - name: news_count_numeric
+      slots: "96:112"
+      builder: numeric
+      params:
+        series: [news_article_count]
+        rolling_window: 12
+    - name: market_state
+      slots: "112:128"
+      builder: market_state
+      params:
+        series: [yes_price_close]
+        velocity_lags: [1, 4]
+    - name: text_news
+      slots: "128:368"
+      builder: text
+      params:
+        text_column: text__news
+        mode: voyage
+        window_days: 60
+        encoder_name: voyage-3-large
+        voyage_cache_dir: data/raw/polymarket-entertainment-B/_voyage_cache
+    - name: calendar
+      slots: "368:384"
+      builder: calendar
+      params: {}
+backtest:
+  commission_bps: 75
+  base_slippage_bps: 50
+  safety_margin_bps: 150
+  kelly_fraction: 0.20
+  kelly_cap: 0.02

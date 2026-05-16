@@ -1,0 +1,9 @@
+{
+  "url": "https://www.sciencedirect.com/science/article/pii/S1386418124000478",
+  "title": "Robinhood, Reddit, and the News: The Impact of Traditional and Social Media on Retail Investor Trading",
+  "published_at": "2024-06-01T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Academic research examining the impact of traditional and social media on Robinhood retail investor trading behavior. Research Findings: Reddit posts have significantly greater impact on investors compared to conventional news articles. Positive sentiment appears more prevalent in Reddit posts (49.2%) versus news articles (38.8%). Financial subreddits show overwhelmingly positive sentiment toward trading and market participation. Media Impact Analysis: Traditional financial news influences retail investor behavior but to a lesser extent than social media. Reddit discussions drive trading activity for stocks mentioned in forums. Retail investor sentiment on platforms like Robinhood can be tracked through social media monitoring. Robinhood's Role: As a discount broker, Robinhood has facilitated retail investor participation in market movements driven by social media trends. The platform's user base is particularly active on Reddit, creating feedback loops between platform activity and social sentiment. Trading Behavior: Retail investors on Robinhood exhibit swarm behavior around earnings announcements, showing predictable patterns that differentiate from institutional trading. Earnings-related trading spikes in retail volumes before announcements and pullbacks after results. Market Implications: The democratization of trading through platforms like Robinhood has made retail sentiment an increasingly important market factor. Social media amplification of trading activity can create volatility and bubbles.",
+  "topic": "HOOD",
+  "source_type": "news_scraper.HOOD"
+}

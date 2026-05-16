@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/unity-software-inc-u-reports-014005278.html",
+  "title": "Unity Software Inc. (U) Reports Q3 Loss, Tops Revenue Estimates",
+  "published_at": "2024-11-08T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Q3 2024 Results: Revenue: $447 million, surpassing analyst estimates of $427.6 million. GAAP EPS Loss: -$0.31 per share. Adjusted EBITDA: $92 million, exceeding guidance of $75-80 million. Strategic Revenue: $429 million for strategic portfolio, exceeding guidance of $415-420 million. Performance Highlights: The company beat on both revenue and adjusted EBITDA in Q3, demonstrating consistent execution and cost control. Create Solutions subscription revenue showed strength with 12% YoY growth in total subscription revenue. Key Products: Unity 6 achieved over 500,000 downloads following its launch, indicating strong developer adoption. The new pricing model and removal of runtime fee generated positive developer sentiment. Margins: Adjusted EBITDA margin of 20.6% showed solid operational discipline despite revenue headwinds from macro conditions and ad privacy challenges. Guidance Update: The company raised full-year 2024 revenue guidance, demonstrating confidence in the remainder of the year despite Q4 seasonal patterns.",
+  "topic": "U",
+  "source_type": "news_scraper.U"
+}

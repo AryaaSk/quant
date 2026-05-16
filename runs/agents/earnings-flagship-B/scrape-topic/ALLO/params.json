@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "ALLO",
+  "queries": [
+    "ALLO earnings preview 2020 Q3",
+    "ALLO earnings preview 2020 Q4",
+    "ALLO earnings preview 2021 Q1",
+    "ALLO earnings preview 2021 Q2",
+    "ALLO earnings preview 2021 Q3",
+    "ALLO earnings preview 2021 Q4",
+    "ALLO earnings preview 2022 Q1",
+    "ALLO earnings preview 2022 Q2",
+    "ALLO earnings preview 2022 Q3",
+    "ALLO earnings preview 2022 Q4",
+    "ALLO earnings preview 2023 Q1",
+    "ALLO earnings preview 2023 Q2",
+    "ALLO earnings preview 2023 Q3",
+    "ALLO earnings preview 2023 Q4",
+    "ALLO earnings preview 2024 Q1",
+    "ALLO earnings preview 2024 Q2",
+    "ALLO earnings preview 2024 Q3",
+    "ALLO stock news preview",
+    "ALLO guidance outlook quarterly results",
+    "ALLO analyst expectations",
+    "ALLO retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ALLO",
+  "max_articles": 30
+}

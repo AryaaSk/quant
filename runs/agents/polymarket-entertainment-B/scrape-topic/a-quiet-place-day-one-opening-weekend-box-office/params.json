@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "a-quiet-place-day-one-opening-weekend-box-office",
+  "queries": [
+    "a-quiet-place-day-one-opening-weekend-box-office predictions analysis",
+    "a-quiet-place-day-one-opening-weekend-box-office oddsmaker pick analysis",
+    "a-quiet-place-day-one-opening-weekend-box-office critic commentary preview",
+    "a-quiet-place-day-one-opening-weekend-box-office expert forecast roundup",
+    "a-quiet-place-day-one-opening-weekend-box-office variety deadline hollywood reporter",
+    "a-quiet-place-day-one-opening-weekend-box-office indiewire commentary",
+    "a-quiet-place-day-one-opening-weekend-box-office rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/a-quiet-place-day-one-opening-weekend-box-office",
+  "max_articles": 40
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.businesswire.com/news/home/20240130852929/en/IARPA-Selects-BlackSky-Spectra-Software-Platform",
+  "title": "IARPA Selects BlackSky Spectra Platform for Broad Area Search",
+  "published_at": "2024-01-30T00:00:00Z",
+  "scraped_at": "2026-05-16T18:00:00Z",
+  "text": "BlackSky Technology Inc. advanced to Phase III of the Intelligence Advanced Research Projects Activity (IARPA) Space-based Machine Automated Recognition Technique (SMART) program. This final phase emphasizes transitioning broad area search technologies to other U.S. government initiatives. BlackSky's AI tools have achieved significant operational scale with the platform originally designed to manage the analysis of one million square kilometers of land. The system has evolved, now processing over 30 million square kilometers monthly—representing more than 20 percent of Earth's surface. Using satellite imagery spanning five years from government and commercial sources, BlackSky's AI has detected and classified more than two million change observations across approximately 120,000 distinct locations. The Spectra platform's machine learning operations architecture enables rapid processing and cost-effective scalability for broad area search missions with industry-leading speed and economics.",
+  "topic": "BKSY",
+  "source_type": "news_scraper.BKSY"
+}

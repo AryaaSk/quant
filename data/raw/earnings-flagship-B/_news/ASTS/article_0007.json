@@ -1,0 +1,9 @@
+{
+  "url": "https://www.cnbc.com/2026/04/20/ast-falls-after-bezos-blue-origin-places-satellite-in-wrong-orbit.html",
+  "title": "AST SpaceMobile Shares Drop After BlueBird 7 Satellite Fails in Blue Origin Launch",
+  "published_at": "2026-04-20T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AST SpaceMobile lost its BlueBird 7 satellite following a launch on Blue Origin's New Glenn rocket on April 19, 2026. A problem occurred with the upper stage which failed to fire its engine correctly, resulting in the satellite being stranded in a low orbit that was too far from its intended location. More specifically, the issue occurred during the second burn of the second stage where one of the two BE-3U hydrogen-fueled engines failed to produce sufficient thrust to reach the target insertion orbit. The satellite should have been placed into a circular orbit of 460 kilometers, but instead was left in a highly elliptical orbit of 154 x 494 kilometers, rendering it unusable. The stock fell more than 5% after the satellite placement failure. BlueBird 7 will have to be deliberately destroyed in an atmospheric re-entry. The cost of the satellite loss is expected to be covered by an insurance policy. Despite this setback, AST still expects to launch satellites on average once every one to two months in 2026, with BlueBird satellites 8, 9, and 10 ready to ship in 30 days.",
+  "topic": "ASTS",
+  "source_type": "news_scraper.ASTS"
+}

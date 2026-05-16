@@ -1,0 +1,17 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "PSNY",
+  "queries": [
+    "PSNY earnings preview 2023 Qq",
+    "PSNY earnings preview 2023 Qq",
+    "PSNY earnings preview 2023 Qq",
+    "PSNY earnings preview 2023 Qq",
+    "PSNY earnings preview 2024 Qq",
+    "PSNY stock news preview",
+    "PSNY guidance outlook quarterly results",
+    "PSNY analyst expectations",
+    "PSNY retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/PSNY",
+  "max_articles": 30
+}

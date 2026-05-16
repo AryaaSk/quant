@@ -1,0 +1,23 @@
+{
+  "slug": "kalshi-nfp",
+  "display_name": "Kalshi non-farm payrolls direction",
+  "platform": "kalshi",
+  "notes": "Monthly NFP release. ADP private payrolls report 2 days before the BLS print and\ncorrelate (noisily) with the official number. Information edge: combine ADP, weekly\njobless claims trend, JOLTS openings, regional Fed Beige Book sentiment, and recent\nFed-speaker tone into a transformer that scores BLS surprise direction.\n",
+  "model": "transformer",
+  "state_dim": 1024,
+  "data_sources": [
+    "fred",
+    "kalshi_contracts",
+    "fed_speakers"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "fred": "error: FRED_API_KEY is not set. Get a free key at https://fred.stlouisfed.org/docs/api/api_key.html and add to .env.",
+    "kalshi_contracts": "not_implemented: adapter 'Kalshi' is not implemented yet.\n  Source role: Kalshi event contract closing prices via https://trading-api.readme.io/reference/getmarkets (env KALSHI_EMAIL/PASSWORD) or third-party predictiondata.dev archive.\n  Implement quant/adapters/kalshi.py with class signature `fetch(market, source_params) -> DataFrame`.",
+    "fed_speakers": "not_implemented: adapter 'Fed speakers' is not implemented yet.\n  Source role: Fed speaker transcripts (FOMC, Beige Book, regional Feds) via https://www.federalreserve.gov/.\n  Implement quant/adapters/fed speakers.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 68.3,
+  "verdict": "kill: 3/3 sources unimplemented",
+  "advance": false
+}

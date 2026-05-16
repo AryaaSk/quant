@@ -1,0 +1,27 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "RBLX",
+  "queries": [
+    "RBLX earnings preview 2021 Qq",
+    "RBLX earnings preview 2021 Qq",
+    "RBLX earnings preview 2021 Qq",
+    "RBLX earnings preview 2021 Qq",
+    "RBLX earnings preview 2022 Qq",
+    "RBLX earnings preview 2022 Qq",
+    "RBLX earnings preview 2022 Qq",
+    "RBLX earnings preview 2022 Qq",
+    "RBLX earnings preview 2023 Qq",
+    "RBLX earnings preview 2023 Qq",
+    "RBLX earnings preview 2023 Qq",
+    "RBLX earnings preview 2023 Qq",
+    "RBLX earnings preview 2024 Qq",
+    "RBLX earnings preview 2024 Qq",
+    "RBLX earnings preview 2024 Qq",
+    "RBLX stock news preview",
+    "RBLX guidance outlook quarterly results",
+    "RBLX analyst expectations",
+    "RBLX retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/RBLX",
+  "max_articles": 30
+}

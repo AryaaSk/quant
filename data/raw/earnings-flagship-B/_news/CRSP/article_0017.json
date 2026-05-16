@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapies-treat-patients-sickle-cell-disease",
+  "title": "FDA Approves First Gene Therapies to Treat Patients with Sickle Cell Disease",
+  "published_at": "2023-12-08T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "FDA Approval of CASGEVY (CRISPR/Cas9 Gene Therapy). Historic FDA Approval: The FDA approved CASGEVY (exagamglogene autotemcel), the first FDA-approved therapy utilizing CRISPR/Cas9 gene editing technology for patients with sickle cell disease on December 8, 2023. What is CASGEVY: CASGEVY is a type of genome editing therapy where patients' hematopoietic blood stem cells are modified by genome editing using CRISPR/Cas9 technology. The modified blood stem cells are transplanted back into the patient where they engraft within the bone marrow and increase the production of fetal hemoglobin, which in patients with sickle cell disease, increased levels prevent the sickling of red blood cells. Regulatory Timeline: The U.K. MHRA approved CASGEVY on November 16, 2023, first among major regulatory agencies. The EMA approved CASGEVY for sickle cell disease and transfusion-dependent beta thalassemia on December 15, 2023. The FDA approved CASGEVY for transfusion-dependent Beta Thalassemia on January 16, 2024, less than six weeks after the initial sickle cell disease approval. Regulatory Requirements: The FDA approved CASGEVY with safety postmarketing requirement studies to assess off-target editing risks and the long-term safety of CASGEVY, including risk of malignancy. Geographic Approvals: CASGEVY is now approved in multiple jurisdictions including the U.S., Canada, the U.K., the EU, Switzerland, Saudi Arabia, Bahrain, Qatar, and the UAE for patients 12 years and older.",
+  "topic": "CRSP",
+  "source_type": "news_scraper.CRSP"
+}

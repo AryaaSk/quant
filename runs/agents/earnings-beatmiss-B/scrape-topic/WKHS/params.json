@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "WKHS",
+  "queries": [
+    "WKHS earnings preview 2022 Qq",
+    "WKHS earnings preview 2022 Qq",
+    "WKHS earnings preview 2022 Qq",
+    "WKHS earnings preview 2022 Qq",
+    "WKHS earnings preview 2023 Qq",
+    "WKHS earnings preview 2023 Qq",
+    "WKHS earnings preview 2023 Qq",
+    "WKHS earnings preview 2023 Qq",
+    "WKHS earnings preview 2024 Qq",
+    "WKHS earnings preview 2024 Qq",
+    "WKHS earnings preview 2024 Qq",
+    "WKHS earnings preview 2024 Qq",
+    "WKHS stock news preview",
+    "WKHS guidance outlook quarterly results",
+    "WKHS analyst expectations",
+    "WKHS retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/WKHS",
+  "max_articles": 80
+}

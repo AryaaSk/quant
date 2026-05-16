@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "oscars-2026-best-costume-design-winner",
+  "queries": [
+    "oscars-2026-best-costume-design-winner predictions analysis",
+    "oscars-2026-best-costume-design-winner oddsmaker pick analysis",
+    "oscars-2026-best-costume-design-winner critic commentary preview",
+    "oscars-2026-best-costume-design-winner expert forecast roundup",
+    "oscars-2026-best-costume-design-winner variety deadline hollywood reporter",
+    "oscars-2026-best-costume-design-winner indiewire commentary",
+    "oscars-2026-best-costume-design-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/oscars-2026-best-costume-design-winner",
+  "max_articles": 25
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fierceelectronics.com/ai/amd-mi300-ai-shipments-helped-drive-q1-revenue-growth",
+  "title": "AMD: MI300 AI Shipments Helped Drive Q1 Revenue Growth",
+  "published_at": "2024-05-04T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AMD's MI300 AI GPU shipments were a key driver of the company's exceptional Q1 2024 revenue growth, contributing significantly to the 80% year-over-year increase in data center segment revenue. The MI300 series, which launched in late 2023, achieved over $1 billion in cumulative revenue within the first five months of availability, far exceeding initial company expectations. Strong demand from cloud providers and enterprise customers for MI300A (optimized for training and large language models) and MI300X (focused on inference) variants drove rapid ramp. Management attributed the faster-than-expected MI300 adoption to several factors: strong relationships with hyperscalers, superior price-to-performance characteristics, and AMD's integrated CPU-GPU solution offering. The MI300 success validated AMD's strategy to compete in high-performance AI accelerators despite NVIDIA's market leadership. Continued MI300 shipments into Q2 and Q3 2024 were expected to drive sustained data center growth. The exceptional MI300 performance established momentum for next-generation MI350 and beyond.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

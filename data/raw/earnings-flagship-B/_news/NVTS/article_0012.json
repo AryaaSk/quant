@@ -1,0 +1,9 @@
+{
+  "url": "https://www.tikr.com/blog/gan-and-glory-is-navitas-semiconductors-ai-power-play-worth-the-price",
+  "title": "GaN and Glory: Is Navitas Semiconductor's AI Power Play Worth the Price?",
+  "published_at": "2026-04-28T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Navitas designs power semiconductors using gallium nitride and silicon carbide—materials that handle electricity more efficiently than traditional silicon. The company targets fast chargers, electric vehicles, solar inverters, and increasingly AI data center infrastructure. GaN chips switch on and off far faster than traditional silicon chips, which means less energy is lost as heat. This efficiency advantage creates switching costs once manufacturers qualify components through lengthy validation cycles. Wall Street's caution stems from a significant disconnect between current pricing and financial fundamentals. The analyst consensus assumes 2026 revenue of approximately $38 million, 2027 revenue of approximately $65 million, 2028 revenue of approximately $122 million, and continued losses through 2028. The April rally doubled the stock price but reflected momentum rather than operational improvements. The author concludes that the stock is trading as though the best-case scenario is already fully reflected. Navitas faces entrenched rivals—Infineon, ON Semiconductor, and STMicroelectronics—who possess greater resources and portfolio breadth to compete on GaN and SiC development. The recommendation is to monitor for gross margin recovery toward 40% and concrete AI infrastructure revenue before reconsidering entry.",
+  "topic": "NVTS",
+  "source_type": "news_scraper.NVTS"
+}

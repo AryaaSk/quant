@@ -1,0 +1,9 @@
+{
+  "url": "https://www.barchart.com/stocks/quotes/LCID/earnings-estimates",
+  "title": "LCID Earnings Estimates for Lucid Group Stock",
+  "published_at": "2026-05-15T00:00:00Z",
+  "scraped_at": "2026-05-15T12:00:00Z",
+  "text": "Barchart aggregates analyst earnings estimates for Lucid showing consensus forecasts. Current consensus shows losses continuing through 2027 with EPS of -$8.64 in 2026 and -$5.31 in 2027. Revenue estimates show growth to $2.26B in 2026 and $4.41B in 2027. The gap between revenue growth and losses illustrates the profitability challenge. Earnings estimate revisions show more downgrades than upgrades in recent months following Q1 2026 miss. The estimates will continue revising based on Q2 and later quarter results.",
+  "topic": "LCID",
+  "source_type": "news_scraper.LCID"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.nasdaq.com/articles/does-technology-power-roots-competitive-edge-insurance",
+  "title": "Does Technology Power Root's Competitive Edge in Insurance?",
+  "published_at": null,
+  "scraped_at": "2026-05-15T12:00:00Z",
+  "text": "ROOT Inc. is a technology-driven auto insurer that leverages data science, telematics, and automation to price risk with greater accuracy than traditional carriers. ROOT's telematics-based underwriting platform evaluates individual driving behavior in real time. By directly linking premiums to actual driving performance, ROOT improves loss ratios and sharpens pricing discipline. ROOT's core innovation lies in its behavior-based pricing model, which replaces traditional demographic and credit-based underwriting with real-time telematics data, analyzing over 270 driving metrics such as hard braking, acceleration, and phone usage to assign personalized risk scores to policyholders. ROOT has collected over 31 billion miles of driving data, providing a strong foundation for its data-driven approach to underwriting and customer acquisition. This data-driven approach has driven a 6.2% year-over-year increase in average premium per policy to $1,616, while simultaneously reducing the gross loss ratio to 58.0% in Q2 2025. ROOT's proprietary telematics platform and advanced data science algorithms enable superior underwriting, evidenced by a gross loss ratio of 58.9% in 2024. ROOT's competitive advantage is its proprietary telematics and dynamic pricing infrastructure, which allows it to price risk more accurately and in real-time, unlike legacy insurers. This technology drives the lower loss ratio and is the moat protecting their business model.",
+  "topic": "ROOT",
+  "source_type": "news_scraper.ROOT"
+}

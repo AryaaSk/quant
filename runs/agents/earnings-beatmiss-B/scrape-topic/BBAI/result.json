@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.9149023999999999,
+  "elapsed_s": 337.3720440864563,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 335339,
+    "duration_api_ms": 378190,
+    "ttft_ms": 3589,
+    "num_turns": 47,
+    "result": "Perfect! \u2705 Data collection completed successfully.\n\n**Summary:**\n- **Total articles collected:** 80\n- **Topic:** BBAI (BigBear.ai Holdings)\n- **Date range:** Primarily Q1 2026 and recent (April-May 2026), with some historical context from 2024-2025\n- **Output location:** `/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/BBAI/`\n\n**Articles include:**\n- Q1 2026 earnings results and previews (revenue beat, EPS miss)\n- Backlog growth analysis ($281.9M with 14% growth)\n- Gross margin expansion (34% from 21.3% YoY)\n- Defense AI contract wins (~$75M in Q1)\n- Analyst ratings and price targets ($5.50 consensus)\n- Insider trading activity (director sales)\n- Federal contract opportunities ($900M Air Force vehicle)\n- Ask Sage acquisition impact and margin drivers\n- Institutional ownership (Vanguard +18% stake)\n- Stock reactions to earnings and guidance\n\n**Manifest file created:** `_done` contains `count=80 at=2026-05-15T00:00:00Z`\n\nAll articles follow the strict JSON schema with proper timestamp handling (null for unknown published dates, current timestamp for scraped_at).\n\nSources:\n- [Yahoo Finance BBAI News](https://finance.yahoo.com/quote/BBAI/)\n- [Seeking Alpha BBAI Earnings](https://seekingalpha.com/symbol/BBAI/earnings)\n- [StocksToTrade BBAI News](https://stockstotrade.com/news/bigbearai-inc-bbai-news-2026_05_11/)\n- [Motley Fool BBAI Analysis](https://www.fool.com/investing/2026/04/25/bigbearai-stock-analysis-buy-or-sell-before-the-hu/)",
+    "stop_reason": "end_turn",
+    "session_id": "b67242c1-c4eb-4c3c-8c83-70b7203c9c24",
+    "total_cost_usd": 0.9149023999999999,
+    "usage": {
+      "input_tokens": 4467,
+      "cache_creation_input_tokens": 58182,
+      "cache_read_input_tokens": 1481049,
+      "output_tokens": 27760,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 58182,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 7,
+          "output_tokens": 658,
+          "cache_read_input_tokens": 87183,
+          "cache_creation_input_tokens": 373,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 373
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 343820,
+        "outputTokens": 38050,
+        "cacheReadInputTokens": 1481049,
+        "cacheCreationInputTokens": 58182,
+        "webSearchRequests": 16,
+        "costUSD": 0.9149023999999999,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "bf4d86b8-5eb6-499d-811c-5b29226d470b"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":335339,\"duration_api_ms\":378190,\"ttft_ms\":3589,\"num_turns\":47,\"result\":\"Perfect! \u2705 Data collection completed successfully.\\n\\n**Summary:**\\n- **Total articles collected:** 80\\n- **Topic:** BBAI (BigBear.ai Holdings)\\n- **Date range:** Primarily Q1 2026 and recent (April-May 2026), with some historical context from 2024-2025\\n- **Output location:** `/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/BBAI/`\\n\\n**Articles include:**\\n- Q1 2026 earnings results and previews (revenue beat, EPS miss)\\n- Backlog growth analysis ($281.9M with 14% growth)\\n- Gross margin expansion (34% from 21.3% YoY)\\n- Defense AI contract wins (~$75M in Q1)\\n- Analyst ratings and price targets ($5.50 consensus)\\n- Insider trading activity (director sales)\\n- Federal contract opportunities ($900M Air Force vehicle)\\n- Ask Sage acquisition impact and margin drivers\\n- Institutional ownership (Vanguard +18% stake)\\n- Stock reactions to earnings and guidance\\n\\n**Manifest file created:** `_done` contains `count=80 at=2026-05-15T00:00:00Z`\\n\\nAll articles follow the strict JSON schema with proper timestamp handling (null for unknown published dates, current timestamp for scraped_at).\\n\\nSources:\\n- [Yahoo Finance BBAI News](https://finance.yahoo.com/quote/BBAI/)\\n- [Seeking Alpha BBAI Earnings](https://seekingalpha.com/symbol/BBAI/earnings)\\n- [StocksToTrade BBAI News](https://stockstotrade.com/news/bigbearai-inc-bbai-news-2026_05_11/)\\n- [Motley Fool BBAI Analysis](https://www.fool.com/investing/2026/04/25/bigbearai-stock-analysis-buy-or-sell-before-the-hu/)\",\"stop_reason\":\"end_turn\",\"session_id\":\"b67242c1-c4eb-4c3c-8c83-70b7203c9c24\",\"total_cost_usd\":0.9149023999999999,\"usage\":{\"input_tokens\":4467,\"cache_creation_input_tokens\":58182,\"cache_read_input_tokens\":1481049,\"output_tokens\":27760,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":58182,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":7,\"output_tokens\":658,\"cache_read_input_tokens\":87183,\"cache_creation_input_tokens\":373,\"cache_creation\":{\"ephemeral_5m_input_tokens\":0,\"ephemeral_1h_input_tokens\":373},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":343820,\"outputTokens\":38050,\"cacheReadInputTokens\":1481049,\"cacheCreationInputTokens\":58182,\"webSearchRequests\":16,\"costUSD\":0.9149023999999999,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"bf4d86b8-5eb6-499d-811c-5b29226d470b\"}\n"
+}

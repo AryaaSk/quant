@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "alien-romulus-opening-weekend-box-office",
+  "queries": [
+    "alien-romulus-opening-weekend-box-office predictions analysis",
+    "alien-romulus-opening-weekend-box-office oddsmaker pick analysis",
+    "alien-romulus-opening-weekend-box-office critic commentary preview",
+    "alien-romulus-opening-weekend-box-office expert forecast roundup",
+    "alien-romulus-opening-weekend-box-office variety deadline hollywood reporter",
+    "alien-romulus-opening-weekend-box-office indiewire commentary",
+    "alien-romulus-opening-weekend-box-office rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/alien-romulus-opening-weekend-box-office",
+  "max_articles": 40
+}

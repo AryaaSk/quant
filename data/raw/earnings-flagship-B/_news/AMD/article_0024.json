@@ -1,0 +1,9 @@
+{
+  "url": "https://www.thestreet.com/investing/stocks/amd-and-intel-lead-2026-gains-as-ai-guard-changes",
+  "title": "AMD and Intel Lead 2026 Gains as AI Guard Changes",
+  "published_at": "2026-05-10T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "TheStreet reports that AMD and Intel are leading semiconductor stock gains in 2026 as the AI market structure shifts from GPU-centric to CPU-GPU co-design. AMD has surged 112% year-to-date through May 2026, while Intel gained 240%, significantly outpacing NVIDIA's 15% gain and the broader market. This reversal of fortunes reflects changing investor sentiment about AI infrastructure economics. AMD benefits from structural tailwinds: agentic AI requires more CPU compute, enterprise customers are diversifying GPU sourcing away from sole reliance on NVIDIA, and AMD's integrated solutions offer competitive advantages. The shift toward heterogeneous computing (CPU + GPU orchestration) favors AMD's business model. Analysts note that this rotation may persist as cloud providers and enterprise customers mature their AI deployments. AMD's market share gains in server CPUs (up 9 points to 36% in just one year) demonstrate the company's competitive momentum. Further upside likely depends on continued execution in MI450 launch and Helios adoption.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

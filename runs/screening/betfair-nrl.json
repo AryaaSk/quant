@@ -1,0 +1,19 @@
+{
+  "slug": "betfair-nrl",
+  "display_name": "Betfair NRL Australian rugby league",
+  "platform": "betfair",
+  "notes": "NRL has \u00a310k-\u00a350k per match. Western syndicates rarely model Australian rugby league.\nEdge: Australian press, weather (humid coast vs cold south), injury list timing, ref\ncard tendencies, captain's-challenge dynamics.\n",
+  "model": "transformer",
+  "state_dim": 384,
+  "data_sources": [
+    "sofascore"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "sofascore": "not_implemented: adapter 'Sofascore' is not implemented yet.\n  Source role: Sofascore match details (lineups, stats, injuries) via the public web API. Be polite: rate-limit + cache. Source: https://www.sofascore.com/api/v1/.\n  Implement quant/adapters/sofascore.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 60.0,
+  "verdict": "kill: 1/1 sources unimplemented",
+  "advance": false
+}

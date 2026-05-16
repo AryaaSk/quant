@@ -1,0 +1,9 @@
+{
+  "url": "https://newsroom.enphase.com/news-releases/news-release-details/enphase-energy-begins-shipments-iq9-commercial-microinverters/",
+  "title": "Enphase Energy Begins Shipments of IQ9 Commercial Microinverters",
+  "published_at": "2025-12-15T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Enphase Energy began production shipments of IQ9N-3P Commercial Microinverter across United States in late December 2025. IQ9 is Enphase first microinverter powered by gallium nitride (GaN) technology designed for three-phase 480Y/277 V (wye) grid configurations without external transformers. IQ Battery 10C delivers 10 kWh usable energy with impressive 7.08 kW continuous output at 240 V with peak performance hitting 14.16 kVA and 11.33 kVA making it ideal for whole-home backup. Groundbreaking IQ Bidirectional EV Charger architecture unveiled September 2025 and set for mid-2026 launch will feature vehicle-to-home and vehicle-to-grid capabilities. 11-kilowatt solution powered by three GaN-based microinverters provides whole-home backup and grid services by connecting directly to EV DC port.",
+  "topic": "ENPH",
+  "source_type": "news_scraper.ENPH"
+}

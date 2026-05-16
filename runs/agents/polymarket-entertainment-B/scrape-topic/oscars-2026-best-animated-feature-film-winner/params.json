@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "oscars-2026-best-animated-feature-film-winner",
+  "queries": [
+    "oscars-2026-best-animated-feature-film-winner predictions analysis",
+    "oscars-2026-best-animated-feature-film-winner oddsmaker pick analysis",
+    "oscars-2026-best-animated-feature-film-winner critic commentary preview",
+    "oscars-2026-best-animated-feature-film-winner expert forecast roundup",
+    "oscars-2026-best-animated-feature-film-winner variety deadline hollywood reporter",
+    "oscars-2026-best-animated-feature-film-winner indiewire commentary",
+    "oscars-2026-best-animated-feature-film-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/oscars-2026-best-animated-feature-film-winner",
+  "max_articles": 25
+}

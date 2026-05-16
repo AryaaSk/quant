@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "arthur-the-king-over-15m-opening-weekend",
+  "queries": [
+    "arthur-the-king-over-15m-opening-weekend predictions analysis",
+    "arthur-the-king-over-15m-opening-weekend oddsmaker pick analysis",
+    "arthur-the-king-over-15m-opening-weekend critic commentary preview",
+    "arthur-the-king-over-15m-opening-weekend expert forecast roundup",
+    "arthur-the-king-over-15m-opening-weekend variety deadline hollywood reporter",
+    "arthur-the-king-over-15m-opening-weekend indiewire commentary",
+    "arthur-the-king-over-15m-opening-weekend rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/arthur-the-king-over-15m-opening-weekend",
+  "max_articles": 40
+}

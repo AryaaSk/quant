@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "anaconda-opening-weekend-box-office",
+  "queries": [
+    "anaconda-opening-weekend-box-office predictions analysis",
+    "anaconda-opening-weekend-box-office oddsmaker pick analysis",
+    "anaconda-opening-weekend-box-office critic commentary preview",
+    "anaconda-opening-weekend-box-office expert forecast roundup",
+    "anaconda-opening-weekend-box-office variety deadline hollywood reporter",
+    "anaconda-opening-weekend-box-office indiewire commentary",
+    "anaconda-opening-weekend-box-office rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/anaconda-opening-weekend-box-office",
+  "max_articles": 40
+}

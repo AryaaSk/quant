@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fool.com/earnings/call-transcripts/2023/12/05/mongodb-mdb-q3-2024-earnings-call-transcript/",
+  "title": "MongoDB Q3 FY2024 Earnings Call Transcript",
+  "published_at": "2023-12-05T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "MongoDB Q3 FY2024 generated total revenue of $433 million, up 30% year-over-year. Atlas revenue grew 36% YoY, representing 66% of total revenue. Non-GAAP operating income: $79 million with 18% margin. Net income: $79.1 million with $0.96 per share. Total customers exceeded 46,400, up from 39,100 YoY. Direct sales customers: 6,900+, versus 5,900+ prior year. Customers with $100K+ ARR: 1,972, up from 1,545. Net ARR expansion rate above 120%. MongoDB raised its full-year outlook: Revenue $1.654-$1.658 billion, Non-GAAP operating income $236.3-$239.3 million, Non-GAAP EPS $2.89-$2.91, Operating margin 14% at midpoint. Q4 expectations: Revenue $429-$433 million, Non-GAAP operating income $35-$38 million. CEO Dev Ittycheria emphasized three customer themes: AI integration with Atlas Vector Search receiving the highest net promoter score from developers compared to all other vector databases, modernization with tools like Relational Migrator and query converters, and run anywhere strategy with Enterprise Advanced business exceeding expectations.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

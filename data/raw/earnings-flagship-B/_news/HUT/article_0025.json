@@ -1,0 +1,9 @@
+{
+  "url": "https://www.theblock.co/post/318347/bitcoin-miner-hut-8-expands-ai-push-with-new-gpu-as-a-service-cluster",
+  "title": "Bitcoin miner Hut 8 expands AI push with new GPU-as-a-Service cluster",
+  "published_at": "2024-09-26T00:00:00Z",
+  "scraped_at": "2026-05-16T14:50:00Z",
+  "text": "Bitcoin miner Hut 8 expanded its AI push with the launch of a new GPU-as-a-Service cluster in Chicago. The initiative represents a major diversification effort away from Bitcoin mining and toward high-margin AI infrastructure services. Cluster Details: The Chicago cluster hosts 1,000 NVIDIA H100 GPUs configured on HPE Cray supercomputers. The infrastructure is managed under Hut 8's Highrise AI subsidiary. Partnership Model: Hut 8 partnered with HPE and AdvizeX to design and commission the cluster. The arrangement with the AI cloud developer includes both fixed infrastructure payments and revenue-sharing components. Growth Trajectory: The successful deployment of the inaugural cluster positions Hut 8 to scale GPU-as-a-Service offerings across multiple data centers. The venture addresses the massive demand for GPU compute resources from AI model developers and companies. Market Opportunity: The GPU compute market is experiencing explosive growth, with enterprises and AI companies competing for limited capacity. Hut 8's infrastructure advantages and operational expertise position it to capture significant market share.",
+  "topic": "HUT",
+  "source_type": "news_scraper.HUT"
+}

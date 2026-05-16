@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "NET",
+  "queries": [
+    "NET earnings preview 2020 Qq",
+    "NET earnings preview 2020 Qq",
+    "NET earnings preview 2021 Qq",
+    "NET earnings preview 2021 Qq",
+    "NET earnings preview 2021 Qq",
+    "NET earnings preview 2023 Qq",
+    "NET earnings preview 2023 Qq",
+    "NET earnings preview 2023 Qq",
+    "NET earnings preview 2023 Qq",
+    "NET earnings preview 2024 Qq",
+    "NET earnings preview 2024 Qq",
+    "NET earnings preview 2024 Qq",
+    "NET stock news preview",
+    "NET guidance outlook quarterly results",
+    "NET analyst expectations",
+    "NET retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/NET",
+  "max_articles": 30
+}

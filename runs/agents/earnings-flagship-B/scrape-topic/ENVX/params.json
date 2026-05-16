@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "ENVX",
+  "queries": [
+    "ENVX earnings preview 2021 Q4",
+    "ENVX earnings preview 2022 Q1",
+    "ENVX earnings preview 2022 Q2",
+    "ENVX earnings preview 2022 Q3",
+    "ENVX earnings preview 2022 Q4",
+    "ENVX earnings preview 2023 Q1",
+    "ENVX earnings preview 2023 Q2",
+    "ENVX earnings preview 2023 Q3",
+    "ENVX earnings preview 2023 Q4",
+    "ENVX earnings preview 2024 Q1",
+    "ENVX earnings preview 2024 Q2",
+    "ENVX earnings preview 2024 Q3",
+    "ENVX stock news preview",
+    "ENVX guidance outlook quarterly results",
+    "ENVX analyst expectations",
+    "ENVX retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ENVX",
+  "max_articles": 30
+}

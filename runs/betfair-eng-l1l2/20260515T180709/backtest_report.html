@@ -1,0 +1,33 @@
+<!doctype html>
+<html><head><title>betfair-eng-l1l2 backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Betfair English League One+Two (v3 transformer + Voyage embeddings) (betfair-eng-l1l2)</h1>
+<p>V3: v2's same football_data features (now enriched from 9 -> 27 raw stats per match)
+PLUS agent-scraped news text fed into Voyage AI embeddings (voyage-3-large, 1024-dim
+per article, top-of-MTEB), pooled into per-topic slot ranges of the state vector.
+
+Schema rationale (hand-designed 2026-05-15; codex propose-schema unavailable due to
+daily usage cap on the codex subscription; will revisit when quota resets):
+  - 27 raw football_data numerics get 240 slots in form_numeric (one slot per series,
+    183 slots of headroom for future enrichment)
+  - market_state gets 96 slots (3 closing-odds series x 4 lags = 12 features,
+    plenty of headroom)
+  - 3 text blocks (lineups, injuries, manager) each get 224 slots, fed by Voyage
+    voyage-3-large embeddings. With only ~24 articles scraped, most events return
+    zeros, but the small fraction with articles get full-fidelity 1024-dim embeddings
+    truncated to 224 slots.
+  - agent_feature_extractor block was DROPPED for v3 (codex extraction failed to
+    produce real values; was emitting all 0.0 across the schema). Will revisit when
+    codex quota frees up and a real extractor pass completes.
+
+v1 GBDT result: -7.91% net return, Brier improvement -0.16.
+v2 transformer same features: -10.79% net return, Brier improvement -0.04.
+v3 thesis: Voyage-quality embeddings + enriched football_data should move Brier
+improvement closer to (or past) zero. Net return depends on whether the extra signal
+clears the 5% commission + 50bps slippage + 150bps safety margin threshold.
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>0.28437326718357747</pre></td></tr><tr><td>brier_market</td><td><pre>0.2451664420506288</pre></td></tr><tr><td>brier_improvement</td><td><pre>-0.03920682513294868</pre></td></tr><tr><td>accuracy_model</td><td><pre>0.4642857142857143</pre></td></tr><tr><td>accuracy_market</td><td><pre>0.4642857142857143</pre></td></tr><tr><td>n_events</td><td><pre>28</pre></td></tr><tr><td>n_trades</td><td><pre>13</pre></td></tr><tr><td>hit_rate</td><td><pre>0.23076923076923078</pre></td></tr><tr><td>gross_return</td><td><pre>-0.1079198141321881</pre></td></tr><tr><td>net_return</td><td><pre>-0.1079198141321881</pre></td></tr><tr><td>sharpe</td><td><pre>-1.3241353940370686</pre></td></tr><tr><td>max_drawdown</td><td><pre>-0.13419575410826304</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

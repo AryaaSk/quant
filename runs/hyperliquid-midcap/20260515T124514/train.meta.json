@@ -1,0 +1,10 @@
+{
+  "model": "transformer",
+  "slug": "hyperliquid-midcap",
+  "device": "cuda",
+  "n_train": 3840,
+  "n_val": 426,
+  "n_held_out": 734,
+  "state_dim": 256,
+  "sequence_length": 48
+}

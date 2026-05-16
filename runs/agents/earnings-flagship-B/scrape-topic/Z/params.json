@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "Z",
+  "queries": [
+    "Z earnings preview 2020 Q3",
+    "Z earnings preview 2020 Q4",
+    "Z earnings preview 2021 Q1",
+    "Z earnings preview 2021 Q2",
+    "Z earnings preview 2021 Q3",
+    "Z earnings preview 2021 Q4",
+    "Z earnings preview 2022 Q1",
+    "Z earnings preview 2022 Q2",
+    "Z earnings preview 2022 Q3",
+    "Z earnings preview 2022 Q4",
+    "Z earnings preview 2023 Q1",
+    "Z earnings preview 2023 Q2",
+    "Z earnings preview 2023 Q3",
+    "Z earnings preview 2023 Q4",
+    "Z earnings preview 2024 Q1",
+    "Z earnings preview 2024 Q2",
+    "Z earnings preview 2024 Q3",
+    "Z stock news preview",
+    "Z guidance outlook quarterly results",
+    "Z analyst expectations",
+    "Z retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/Z",
+  "max_articles": 30
+}

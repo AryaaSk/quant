@@ -1,0 +1,21 @@
+{
+  "slug": "polymarket-oscars",
+  "display_name": "Polymarket Oscar category outcomes",
+  "platform": "polymarket",
+  "notes": "Award categories with rich critical and sentiment data. The model fuses Rotten Tomatoes,\nLetterboxd, festival results (Cannes, Venice, Telluride), industry publication tone\n(Variety, Deadline, IndieWire), and voter-bloc demographic priors. Public benchmark is\nBen Zauzmer's model; we measure Brier improvement vs Polymarket closing prices.\n",
+  "model": "gbdt",
+  "state_dim": 384,
+  "data_sources": [
+    "polymarket_contracts",
+    "news_scraper"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "polymarket_contracts": "not_implemented: adapter 'Polymarket' is not implemented yet.\n  Source role: Polymarket on-chain market history via the Polymarket CLOB API + Subgraph (https://docs.polymarket.com).\n  Implement quant/adapters/polymarket.py with class signature `fetch(market, source_params) -> DataFrame`.",
+    "news_scraper": "not_implemented: adapter 'News scraper' is not implemented yet.\n  Source role: generic article scraper used by agent orchestration (Claude/Codex). source_params['urls'] or ['queries']. Outputs (timestamp, text, source_url) rows.\n  Implement quant/adapters/news scraper.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 53.3,
+  "verdict": "kill: 2/2 sources unimplemented",
+  "advance": false
+}

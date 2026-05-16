@@ -1,0 +1,27 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "UPST",
+  "queries": [
+    "UPST earnings preview 2021 Q1",
+    "UPST earnings preview 2021 Q2",
+    "UPST earnings preview 2021 Q3",
+    "UPST earnings preview 2021 Q4",
+    "UPST earnings preview 2022 Q1",
+    "UPST earnings preview 2022 Q2",
+    "UPST earnings preview 2022 Q3",
+    "UPST earnings preview 2022 Q4",
+    "UPST earnings preview 2023 Q1",
+    "UPST earnings preview 2023 Q2",
+    "UPST earnings preview 2023 Q3",
+    "UPST earnings preview 2023 Q4",
+    "UPST earnings preview 2024 Q1",
+    "UPST earnings preview 2024 Q2",
+    "UPST earnings preview 2024 Q3",
+    "UPST stock news preview",
+    "UPST guidance outlook quarterly results",
+    "UPST analyst expectations",
+    "UPST retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/UPST",
+  "max_articles": 30
+}

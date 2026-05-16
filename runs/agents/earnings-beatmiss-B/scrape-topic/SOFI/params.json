@@ -1,0 +1,23 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "SOFI",
+  "queries": [
+    "SOFI earnings preview 2022 Qq",
+    "SOFI earnings preview 2022 Qq",
+    "SOFI earnings preview 2022 Qq",
+    "SOFI earnings preview 2022 Qq",
+    "SOFI earnings preview 2023 Qq",
+    "SOFI earnings preview 2023 Qq",
+    "SOFI earnings preview 2023 Qq",
+    "SOFI earnings preview 2023 Qq",
+    "SOFI earnings preview 2024 Qq",
+    "SOFI earnings preview 2024 Qq",
+    "SOFI earnings preview 2024 Qq",
+    "SOFI stock news preview",
+    "SOFI guidance outlook quarterly results",
+    "SOFI analyst expectations",
+    "SOFI retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/SOFI",
+  "max_articles": 80
+}

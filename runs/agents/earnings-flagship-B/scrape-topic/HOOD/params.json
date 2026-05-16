@@ -1,0 +1,25 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "HOOD",
+  "queries": [
+    "HOOD earnings preview 2021 Qq",
+    "HOOD earnings preview 2021 Qq",
+    "HOOD earnings preview 2022 Qq",
+    "HOOD earnings preview 2022 Qq",
+    "HOOD earnings preview 2022 Qq",
+    "HOOD earnings preview 2022 Qq",
+    "HOOD earnings preview 2023 Qq",
+    "HOOD earnings preview 2023 Qq",
+    "HOOD earnings preview 2023 Qq",
+    "HOOD earnings preview 2023 Qq",
+    "HOOD earnings preview 2024 Qq",
+    "HOOD earnings preview 2024 Qq",
+    "HOOD earnings preview 2024 Qq",
+    "HOOD stock news preview",
+    "HOOD guidance outlook quarterly results",
+    "HOOD analyst expectations",
+    "HOOD retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/HOOD",
+  "max_articles": 30
+}

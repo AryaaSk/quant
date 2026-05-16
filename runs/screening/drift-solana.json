@@ -1,0 +1,21 @@
+{
+  "slug": "drift-solana",
+  "display_name": "Drift Protocol Solana ecosystem perps",
+  "platform": "drift",
+  "notes": "Drift Protocol on Solana. Edge: Solana ecosystem Twitter, airdrop schedule\ndeterminism, governance vote dates. Hourly bars; 6-48h forward window. Lower fees than\nHyperliquid but tighter liquidity on small caps.\n",
+  "model": "transformer",
+  "state_dim": 384,
+  "data_sources": [
+    "hyperliquid",
+    "news_scraper"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "hyperliquid": "not_implemented: adapter 'Hyperliquid' is not implemented yet.\n  Source role: perpetual futures ticks + funding via https://api.hyperliquid.xyz/info (public; rate-limited). source_params['coins'] = list of symbols.\n  Implement quant/adapters/hyperliquid.py with class signature `fetch(market, source_params) -> DataFrame`.",
+    "news_scraper": "not_implemented: adapter 'News scraper' is not implemented yet.\n  Source role: generic article scraper used by agent orchestration (Claude/Codex). source_params['urls'] or ['queries']. Outputs (timestamp, text, source_url) rows.\n  Implement quant/adapters/news scraper.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 68.5,
+  "verdict": "kill: 2/2 sources unimplemented",
+  "advance": false
+}

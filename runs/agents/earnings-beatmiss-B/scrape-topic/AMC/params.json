@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "AMC",
+  "queries": [
+    "AMC earnings preview 2022 Qq",
+    "AMC earnings preview 2022 Qq",
+    "AMC earnings preview 2022 Qq",
+    "AMC earnings preview 2022 Qq",
+    "AMC earnings preview 2023 Qq",
+    "AMC earnings preview 2023 Qq",
+    "AMC earnings preview 2023 Qq",
+    "AMC earnings preview 2023 Qq",
+    "AMC earnings preview 2024 Qq",
+    "AMC earnings preview 2024 Qq",
+    "AMC earnings preview 2024 Qq",
+    "AMC earnings preview 2024 Qq",
+    "AMC stock news preview",
+    "AMC guidance outlook quarterly results",
+    "AMC analyst expectations",
+    "AMC retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/AMC",
+  "max_articles": 80
+}

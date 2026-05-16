@@ -1,0 +1,11 @@
+[
+  "/Users/aryaask/.nvm/versions/node/v24.13.0/bin/codex",
+  "exec",
+  "--json",
+  "--sandbox",
+  "workspace-write",
+  "--skip-git-repo-check",
+  "-C",
+  "/Users/aryaask/Desktop/quant",
+  "-"
+]

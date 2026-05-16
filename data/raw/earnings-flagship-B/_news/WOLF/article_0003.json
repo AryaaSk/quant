@@ -1,0 +1,9 @@
+{
+  "url": "https://www.wolfspeed.com/company/news-events/news/wolfspeed-unveils-foundation-for-next-generation-ai-data-center-advanced-packaging-leveraging-300mm-silicon-carbide-technology/",
+  "title": "Wolfspeed Unveils Foundation for Next Generation AI Data Center Advanced Packaging Leveraging 300mm Silicon Carbide Technology",
+  "published_at": "2026-03-10T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Wolfspeed announced that its 300mm silicon carbide technology platform could serve as a foundational materials enabler for advanced AI and high-performance computing packaging by decade's end. The announcement builds on the company's January 2026 achievement of producing a single-crystal 300mm SiC wafer. The company's Chief Technology Officer emphasized that new materials foundations will be increasingly important to extend advanced packaging roadmaps as AI workloads demand larger packages and greater power density. The 300mm SiC platform combines high thermal conductivity, mechanical robustness, and electrical properties within a scalable manufacturing format aligned to existing semiconductor infrastructure. Wolfspeed is collaborating with foundries, OSATs, system architects, and research institutions through a partner evaluation program to assess technical feasibility, performance benefits, and integration pathways. The 300mm format enables fabrication of larger interposer and heat spreader components, supporting the industry's trajectory toward increasingly large package form factors and complex semiconductor assemblies. The initiative addresses thermal, mechanical, and electrical performance barriers limiting next-generation AI and HPC packaging architectures, leveraging existing 300mm industry toolsets to enable high-volume manufacturability.",
+  "topic": "WOLF",
+  "source_type": "news_scraper.WOLF"
+}

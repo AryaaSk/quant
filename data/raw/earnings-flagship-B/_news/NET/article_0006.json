@@ -1,0 +1,9 @@
+{
+  "url": "https://blog.cloudflare.com/ddos-threat-report-for-2024-q4/",
+  "title": "Record-breaking 5.6 Tbps DDoS attack and global DDoS trends for 2024 Q4",
+  "published_at": "2025-01-15T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Cloudflare mitigated a record-breaking DDoS attack peaking at 5.6 Tbps during the week of Halloween 2024. Cloudflare's autonomous DDoS defense systems successfully detected and blocked a 5.6 Terabit per second (Tbps) DDoS attack, the largest attack ever reported. Cloudflare mitigated 21.3 million DDoS attacks in 2024, representing a 53% increase compared to 2023. Throughout the year, there were significant quarterly increases, with the first quarter of 2024 seeing Cloudflare's autonomous systems mitigate over 4.5 million DDoS attacks, a 50% increase compared to the previous year. Cloudflare mitigated nearly 6 million DDoS attacks in the third quarter of 2024, representing a 49% increase QoQ and 55% increase YoY. The fourth quarter of 2024 saw a surge in hyper-volumetric Layer 3/Layer 4 DDoS attacks. The growing use of powerful botnets, driven by geopolitical factors, has broadened the range of vulnerable targets. Additionally, a rise in Ransom DDoS attacks is also a growing concern for the industry.",
+  "topic": "NET",
+  "source_type": "news_scraper.NET"
+}

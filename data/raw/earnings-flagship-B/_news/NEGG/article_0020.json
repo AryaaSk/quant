@@ -1,0 +1,9 @@
+{
+  "url": "https://www.barchart.com/stocks/quotes/NEGG/earnings-estimates",
+  "title": "NEGG Earnings Estimates and Consensus Forecasts - Barchart Analysis",
+  "published_at": "2026-05-11T00:00:00Z",
+  "scraped_at": "2026-05-16T18:30:00Z",
+  "text": "Newegg Commerce (NEGG) Earnings Estimates and Analyst Consensus Analysis from Barchart.\n\nCurrent Analyst Consensus: The consensus estimates reflect significant uncertainty about future earnings given the company's recent history and transition to profitability.\n\nEarnings Per Share Estimates: FY2025 Actual: -$0.23. FY2026 Estimate: Consensus around breakeven to small profit, with high variance among forecasters reflecting uncertainty.\n\nRevenue Estimates: FY2025 Actual: $1.44B. FY2026 Estimate: $1.35B (midpoint of guidance range of $1.23B-$1.47B).\n\nEstimate Confidence: The high variance in estimates reflects the speculative nature of betting on a turnaround story. Conservative estimates assume slower growth and margin pressure. Bullish estimates assume sustained GPU demand and improved marketplace momentum.\n\nKey Estimate Drivers: GPU market demand sustainability. Success in building marketplace third-party seller business. Competitive dynamics with Amazon and Best Buy. Ability to maintain cost controls while scaling operations.\n\nRevisions Trend: Estimates have been revised upward over the past 2-3 quarters as quarterly results have beaten expectations on profitability metrics, though revenue has been more in-line.\n\nValuation Implications: Trading at approximately 41x forward P/E estimates (if FY2026 earnings estimates materialize) is significantly above the market average and suggests high growth expectations are priced in.",
+  "topic": "NEGG",
+  "source_type": "news_scraper.NEGG"
+}

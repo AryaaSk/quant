@@ -1,0 +1,9 @@
+{
+  "url": "https://www.amd.com/en/newsroom/press-releases/2025-11-11-amd-unveils-strategy-to-lead-the-1-trillion-compu.html",
+  "title": "AMD Unveils Strategy to Lead the $1 Trillion Compute Market",
+  "published_at": "2025-11-11T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AMD announced its strategic vision to lead the $1 trillion compute market, emphasizing the opportunity in AI infrastructure and heterogeneous computing. The strategy centers on three pillars: leadership in server CPUs (EPYC), dominance in AI GPUs (Instinct), and integration across platforms (Helios). Key strategic initiatives: expand EPYC market share from current 36% to 50%+ by 2027, grow Instinct GPU revenue to $20 billion by 2028, and establish Helios rack-level systems as standard for enterprise AI. The $1 trillion market opportunity includes traditional data center compute ($300B) plus emerging AI infrastructure ($500B+) and edge computing. AMD's integrated approach provides competitive advantages versus point-solution providers focused solely on GPUs. The company projects it can capture $100+ billion in revenue by 2030 from this $1 trillion market opportunity. Management confidence is reflected in raised guidance and positive forward commentary. The strategic roadmap provides multi-year visibility and supports analyst bull cases for sustained growth.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

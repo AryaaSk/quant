@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "AFRM",
+  "queries": [
+    "AFRM earnings preview 2022 Qq",
+    "AFRM earnings preview 2022 Qq",
+    "AFRM earnings preview 2022 Qq",
+    "AFRM earnings preview 2022 Qq",
+    "AFRM earnings preview 2023 Qq",
+    "AFRM earnings preview 2023 Qq",
+    "AFRM earnings preview 2023 Qq",
+    "AFRM earnings preview 2023 Qq",
+    "AFRM earnings preview 2024 Qq",
+    "AFRM earnings preview 2024 Qq",
+    "AFRM earnings preview 2024 Qq",
+    "AFRM earnings preview 2024 Qq",
+    "AFRM stock news preview",
+    "AFRM guidance outlook quarterly results",
+    "AFRM analyst expectations",
+    "AFRM retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/AFRM",
+  "max_articles": 80
+}

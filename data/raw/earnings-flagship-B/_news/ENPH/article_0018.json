@@ -1,0 +1,9 @@
+{
+  "url": "https://pv-magazine-usa.com/2026/05/05/enphase-moves-into-ai-data-center-power-with-solid-state-transformer/",
+  "title": "Enphase Moves into AI Data Center Power with Solid-State Transformer",
+  "published_at": "2026-05-05T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Enphase Energy announced development of IQ Solid-State Transformer for AI data center power with distributed semiconductor and software-defined platform for 800 VDC AI data center racks. IQ SST designed to replace traditional centralized power with distributed supercluster architecture with each 1.25 MW rack combining 342 intelligent power modules in series/parallel configuration. Unlike monolithic SST approaches using small number large power blocks, IQ SST uses distributed supercluster of 342 smaller modules operating as coordinated system enabling lower-voltage high-frequency switching. Custom control ASIC Kestrel provides predictive control for single-stage power conversion. GaN-based switching supports power-efficient high-frequency operation with proprietary high-frequency transformer. 1.25 MW rack targets 98.5% efficiency and 99.999% availability with no internal batteries aiming for U.S. addressable opportunity over 11 GW by 2031. Full system demonstrations expected late 2026 with customer pilots in 2027 and volume shipments in 2028.",
+  "topic": "ENPH",
+  "source_type": "news_scraper.ENPH"
+}

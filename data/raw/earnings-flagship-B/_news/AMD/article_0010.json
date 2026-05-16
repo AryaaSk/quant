@@ -1,0 +1,9 @@
+{
+  "url": "https://www.constellationr.com/blog-news/insights/amd-strong-q2-raised-q3-guidance-data-center-revenue-doubles",
+  "title": "AMD Q2 Results and Q3 Guidance: Strong Data Center Performance",
+  "published_at": "2022-08-02T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AMD delivered impressive second quarter financial results, with data center revenue doubling year-over-year to $2.8 billion. The company reported total revenue of $5.8 billion, up 9% annually, and net income of $265 million (16 cents per share). Non-GAAP earnings reached 69 cents per share, exceeding Wall Street expectations of 68 cents on revenue of $5.72 billion. CEO Lisa Su remarked that the company 'saw record data center revenue in the second quarter,' driven by accelerating AI business momentum. The firm raised its Q3 guidance to $6.7 billion in revenue (±$300 million), compared to analyst expectations of $6.61 billion. Beyond data center strength, client revenue surged 49% to $1.5 billion, bolstered by Ryzen processor demand. However, the gaming segment declined 59% to $648 million, while embedded revenue fell 41% to $861 million year-over-year. Su indicated that 'the rapid advances in generative AI are driving demand for more compute in every market,' positioning AMD's Instinct, EPYC, and Ryzen processors for strong second-half growth as the company pursues its competitive challenge against Nvidia in accelerated computing.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

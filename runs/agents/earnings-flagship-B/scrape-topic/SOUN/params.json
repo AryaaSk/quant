@@ -1,0 +1,21 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "SOUN",
+  "queries": [
+    "SOUN earnings preview 2022 Qq",
+    "SOUN earnings preview 2022 Qq",
+    "SOUN earnings preview 2023 Qq",
+    "SOUN earnings preview 2023 Qq",
+    "SOUN earnings preview 2023 Qq",
+    "SOUN earnings preview 2023 Qq",
+    "SOUN earnings preview 2024 Qq",
+    "SOUN earnings preview 2024 Qq",
+    "SOUN earnings preview 2024 Qq",
+    "SOUN stock news preview",
+    "SOUN guidance outlook quarterly results",
+    "SOUN analyst expectations",
+    "SOUN retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/SOUN",
+  "max_articles": 30
+}

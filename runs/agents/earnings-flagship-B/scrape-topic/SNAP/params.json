@@ -1,0 +1,28 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "SNAP",
+  "queries": [
+    "SNAP earnings preview 2020 Qq",
+    "SNAP earnings preview 2020 Qq",
+    "SNAP earnings preview 2021 Qq",
+    "SNAP earnings preview 2021 Qq",
+    "SNAP earnings preview 2021 Qq",
+    "SNAP earnings preview 2022 Qq",
+    "SNAP earnings preview 2022 Qq",
+    "SNAP earnings preview 2022 Qq",
+    "SNAP earnings preview 2022 Qq",
+    "SNAP earnings preview 2023 Qq",
+    "SNAP earnings preview 2023 Qq",
+    "SNAP earnings preview 2023 Qq",
+    "SNAP earnings preview 2023 Qq",
+    "SNAP earnings preview 2024 Qq",
+    "SNAP earnings preview 2024 Qq",
+    "SNAP earnings preview 2024 Qq",
+    "SNAP stock news preview",
+    "SNAP guidance outlook quarterly results",
+    "SNAP analyst expectations",
+    "SNAP retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/SNAP",
+  "max_articles": 30
+}

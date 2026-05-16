@@ -1,0 +1,9 @@
+{
+  "url": "https://www.pocketgamer.biz/unity-revenue-falls-25-in-q4-as-engine-and-ads-business-sales-decline/",
+  "title": "Unity Revenue Falls 25% in Q4 as Engine and Ads Business Sales Decline",
+  "published_at": "2025-02-20T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Revenue Performance: Grow Solutions revenue, which includes its ads business, declined by 5% year-over-year in Q4 2024. Unity claimed revenue for the division was impacted by customer incentives issued by IronSource prior to the merger, which completed in November 2022, and revenue would have risen 2% Y/Y otherwise. For the full year 2024, Grow Solutions experienced a 10% decrease year-over-year, partly due to customer credits issued in 2023; excluding these, the decline would have been 4%. Key Challenges: Mobile privacy shifts (ATT, SKAdNetwork) and cyclical ad demand create revenue swings; delays in measurement recovery could prolong Unity Ads' revenue volatility into 2025. Additionally, the 2022 acquisition of IronSource has yet to yield the expected synergies, and the transition to Vector has increased compute expenses, as Unity runs two ad models in parallel. Response Strategy: To address these challenges, in the first quarter of 2025, Unity announced that it was beginning the roll out of its machine-learning model, Vector. The early and successful migration of its ad network to the AI platform, Unity Vector, is expected to drive substantial improvements in ad performance, with all iOS and Android traffic now running on the new AI platform, projected to result in a 15% to 20% increase in installs and in-app purchases.",
+  "topic": "U",
+  "source_type": "news_scraper.U"
+}

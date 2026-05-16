@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fool.com/earnings/call-transcripts/2021/06/04/mongodb-inc-mdb-q1-2022-earnings-call-transcript/",
+  "title": "MongoDB Q1 FY2022 Earnings Call Transcript",
+  "published_at": "2021-06-04T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "MongoDB delivered strong Q1 FY2022 performance with revenue of $181.6 million, representing 39% year-over-year growth and exceeding guidance. Subscription revenue reached $174.6 million, up 40% YoY, while Atlas revenue surged 73% to become the majority of total revenue at 51%. The company celebrated Atlas reaching a significant milestone: becoming the majority of revenue in just under five years. Atlas now operates as a nearly $400 million revenue run rate business growing over 70% year over year, deployed across over 80 regions around the world across AWS, Azure, and GCP. MongoDB expanded its customer base to over 26,800 total customers, up from 18,400 a year prior. The company saw 1,057 customers with $100,000+ ARR, compared to 780 in the prior year. The net ARR expansion rate remained above 120%. Full-year revenue outlook: $771–$784 million. Operating loss: $76–$68 million (non-GAAP). Net loss per share: $1.38–$1.25 (non-GAAP). Management emphasized that two-thirds of new business won by field sales was Atlas, demonstrating strong enterprise adoption of the cloud offering over traditional Enterprise Advanced licensing.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

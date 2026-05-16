@@ -1,0 +1,9 @@
+{
+  "url": "https://www.datacenterknowledge.com/infrastructure/amd-s-ai-infrastructure-push-drives-57-data-center-growth",
+  "title": "AMD's AI Infrastructure Push Drives 57% Data Center Growth",
+  "published_at": "2026-05-06T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AMD reported exceptional first-quarter results, with data center revenue surging 57% year-over-year to $5.8 billion, driven primarily by strong demand for AI infrastructure. Total company revenue reached $10.3 billion, up 38% annually, while net income nearly doubled to $1.4 billion. Data center now represents more than half of AMD's total revenue, solidifying its position as the company's primary growth engine. CEO Lisa Su stated: 'We delivered an outstanding first quarter, driven by accelerating demand for AI infrastructure.' AMD's growth reflects a strategic shift in AI deployment patterns. As inference and agentic workloads gain prominence, the company is benefiting from expanding opportunities beyond traditional GPU acceleration. Analyst Matt Kimball noted that 'AMD is certainly benefiting from being the second source in this AI GPU market' while making progress as inference becomes central to AI infrastructure investments. Meta plans to deploy up to 6 gigawatts of AMD Instinct GPUs, including a 1 GW cluster using the MI450 platform. Cloud providers AWS, Google Cloud, and Microsoft Azure have also expanded AMD EPYC-based instances. AMD is collaborating with Tata Consultancy Services on 'Helios' rack-scale AI systems targeting enterprise and sovereign AI deployments—a development analysts view as strategically significant for building durable enterprise adoption. AMD projects second-quarter revenue around $11.2 billion, representing approximately 46% year-over-year growth, with customer forecasts for MI450 accelerators and Helios systems already surpassing initial expectations.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

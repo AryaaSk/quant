@@ -1,0 +1,9 @@
+{
+  "url": "https://www.benzinga.com/quote/PATH/analyst-ratings",
+  "title": "UiPath Analyst Ratings and Price Targets",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Benzinga analyst ratings and price targets for UiPath (PATH). Current analyst consensus: 13% Strong Buy, 0% Buy, 80% Hold, 7% Sell, 0% Strong Sell. Consensus price target: $14.27. Range from $12.00 (low) to $19.00 (high). Morgan Stanley: Equal-Weight rating with price target lowered from $19 to $17, citing valuation compression and need for clearer AI monetization signals. Canaccord Genuity: Buy rating with positive outlook on agentic automation opportunity. Recent analyst moves reflect mixed sentiment: Some upgrading based on Q3/Q4 execution and AI progress, others maintaining cautious stance due to macro uncertainty and earnings forecast declines. Key themes in analyst reports: Strong product innovation in agentic automation, solid revenue execution, but concerns about earnings trajectory and valuation multiples. Bullish catalysts: Successful AI monetization acceleration, sustained net new ARR growth, operating margin expansion. Bearish risks: Macro slowdown impact on enterprise spending, slower AI adoption pace, competition from larger platforms. Average price target of $14-15 implies 28% upside from May 2026 levels, suggesting market positioning of \"reasonably valued with meaningful upside but material risks.\"",
+  "topic": "PATH",
+  "source_type": "news_scraper.PATH"
+}

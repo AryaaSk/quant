@@ -1,0 +1,17 @@
+<!doctype html>
+<html><head><title>hyperliquid-midcap backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Hyperliquid mid-cap altcoin perps (4h forward return) (hyperliquid-midcap)</h1>
+<p>Mid-cap altcoin perpetual futures. Edge thesis: hourly bars + funding rate + log-return
+dynamics on tokens that institutional quants ignore. v1 uses ONLY structured OHLCV +
+funding data (no sentiment text), so this is a baseline test: does a transformer on
+raw price/funding beat a naive 50/50 directional prior after commission+slippage?
+Survivorship-bias warning: we restrict to currently-listed coins; the universe is
+curated post-2024 survival, which inflates backtest expectations 30-50% per
+research/03-backtest-hygiene.md.
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>0.2511971623764386</pre></td></tr><tr><td>brier_market</td><td><pre>0.25</pre></td></tr><tr><td>brier_improvement</td><td><pre>-0.0011971623764385764</pre></td></tr><tr><td>accuracy_model</td><td><pre>0.4891008174386921</pre></td></tr><tr><td>accuracy_market</td><td><pre>0.510899182561308</pre></td></tr><tr><td>n_events</td><td><pre>734</pre></td></tr><tr><td>n_trades</td><td><pre>734</pre></td></tr><tr><td>hit_rate</td><td><pre>0.4891008174386921</pre></td></tr><tr><td>gross_return</td><td><pre>-0.14656512549882583</pre></td></tr><tr><td>net_return</td><td><pre>-0.14656512549882583</pre></td></tr><tr><td>sharpe</td><td><pre>-0.7595689519075699</pre></td></tr><tr><td>max_drawdown</td><td><pre>-0.4026057799574112</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

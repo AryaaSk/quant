@@ -1,0 +1,19 @@
+{
+  "slug": "betfair-tt-csl",
+  "display_name": "Betfair Chinese Super League table tennis",
+  "platform": "betfair",
+  "notes": "Chinese Super League table tennis. \u00a32k-\u00a315k per match. Mandarin-only press creates\nasymmetry; ITTF rankings + Sina/Tencent Sports scrape. High variance (upsets common).\n",
+  "model": "gbdt",
+  "state_dim": 192,
+  "data_sources": [
+    "sofascore"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "sofascore": "not_implemented: adapter 'Sofascore' is not implemented yet.\n  Source role: Sofascore match details (lineups, stats, injuries) via the public web API. Be polite: rate-limit + cache. Source: https://www.sofascore.com/api/v1/.\n  Implement quant/adapters/sofascore.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 47.5,
+  "verdict": "kill: 1/1 sources unimplemented",
+  "advance": false
+}

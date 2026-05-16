@@ -1,0 +1,9 @@
+{
+  "url": "https://mlq.ai/stocks/PATH/q1-2026-earnings/",
+  "title": "UiPath (PATH) Q1 2026 Earnings Report Analysis",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "MLQ provides analysis of UiPath Q1 FY2026 earnings performance and financial metrics. Q1 FY2026 earnings per share exceeded expectations with $0.11 actual vs $0.10 forecast. Revenue of $357M represented 6% YoY growth, marking slowdown from prior quarters but stabilization after macro pressures. ARR achieved $1.693B, representing 12% YoY growth with net new ARR additions of $41M during quarter. Profitability: GAAP operating loss improved to $16M vs prior year loss of $49M. Non-GAAP operating income $70M with 20% margin, showing significant improvement of 450 bps. Operating metrics reflect recovery in go-to-market execution following prior reorganization. Product developments: Quarter highlighted launch of agentic automation platform with Medical Record Summarization agent powered by Google Cloud Vertex AI. Customer adoption: Increasing number of customers moving from pilots to production deployments of agentic automation capabilities. Guidance: Management provided full-year revenue guidance of $1.549B-1.554B, with Q2 guidance of $345M-350M revenue.",
+  "topic": "PATH",
+  "source_type": "news_scraper.PATH"
+}

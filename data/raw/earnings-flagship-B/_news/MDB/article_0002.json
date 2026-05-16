@@ -1,0 +1,9 @@
+{
+  "url": "https://www.fool.com/earnings/call-transcripts/2020/03/17/mongodb-inc-mdb-q4-2020-earnings-call-transcript.aspx",
+  "title": "MongoDB Q4 2020 Earnings Call Transcript",
+  "published_at": "2020-03-17T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "MongoDB delivered strong Q4 2020 performance with revenue of $123.5 million, representing 44% year-over-year growth. Full-year fiscal 2020 revenue reached $421.7 million, up 58% annually. Subscription revenue grew 46% YoY in Q4 and 61% for the full year. Atlas revenue surged over 80% YoY, now representing 41% of total revenue. Customer base exceeded 17,000, up from 13,400 year-ago. $1 million+ ARR customers increased to 62 from 39. CEO Dev Ittycheria emphasized MongoDB's positioning in the database market shift to cloud infrastructure, stating the database market is at the very beginning of a profound platform shift toward the cloud. The company highlighted three foundational insights driving growth: document model superiority over inflexible relational databases, automation reducing developer burden through Atlas managed services, and future applications requiring unified data platforms with real-time analytics. Management estimated Q1 2021 revenue impact of $1 million to $2 million and full-year impact of $15 million to $25 million from pandemic-related disruptions. Forward guidance for FY2021: Revenue $510-$530 million, Net loss per share $1.40-$1.23.",
+  "topic": "MDB",
+  "source_type": "news_scraper.MDB"
+}

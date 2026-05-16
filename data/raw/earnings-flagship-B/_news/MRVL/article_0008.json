@@ -1,0 +1,9 @@
+{
+  "url": "https://finviz.com/news/332193/mrvl-q4-deep-dive-data-center-demand-and-ai-networking-fuel-growth",
+  "title": "Marvell Q4 Deep Dive: Data Center Demand and AI Networking Fuel Growth",
+  "published_at": "2026-03-05T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Marvell Technology exceeded Wall Street expectations in Q4 2025, with revenue reaching $2.22 billion, representing 22.1% year-over-year growth. The company's adjusted EPS of $0.80 matched analyst estimates, while forward guidance for Q1 2026 at $2.4 billion surprised investors with a 5.2% upside surprise. The data center segment emerged as the primary growth engine, with CEO Matthew Murphy stating that our data center revenue surpassed $6 billion, growing 46% year-over-year. This expansion was fueled by demand for interconnect, switching, and storage products supporting AI applications. The custom silicon business, which creates specialized chips for major cloud providers, doubled year-over-year. Management highlighted that this segment maintains strong diversification across top U.S. hyperscalers, reducing customer concentration risk. Marvell's 800-gig and 1.6-terabit optical solutions represent critical competitive differentiators. Management expects 1.6T products to experience substantial growth in the coming year, backed by new design wins. Recent acquisitions of Celestial AI and XConn position Marvell to capitalize on emerging scale-up networking markets for AI workloads. Operating margins improved to 18.2% from 12.9% year-over-year.",
+  "topic": "MRVL",
+  "source_type": "news_scraper.MRVL"
+}

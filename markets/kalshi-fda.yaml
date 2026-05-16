@@ -1,0 +1,61 @@
+slug: kalshi-fda
+display_name: Kalshi FDA approval outcomes
+platform: kalshi
+notes: |
+  Highest information asymmetry candidate. Clinical trial results, AdCom briefing
+  documents, company SEC filings, and biotech-Twitter sentiment all leak ahead of
+  decisions. Low event count (a few dozen approval decisions per year on Kalshi) means
+  LightGBM is the right model class, not a transformer.
+time_grain: daily
+held_out_months: 6
+sequence_length: 32
+model: gbdt
+data_sources:
+  - name: kalshi_contracts
+    kind: market
+    params:
+      contracts: [FDA-APPROVAL]
+  - name: clinicaltrials
+    kind: numeric
+    params: {phase_filter: [3]}
+  - name: sec_edgar
+    kind: text
+    params: {form_types: [8-K, 10-Q, 10-K]}
+  - name: news_scraper
+    kind: text
+    params:
+      queries: [FDA AdCom, FDA approval, FDA CRL, drug approval]
+label:
+  kind: binary
+  target_event: fda_decision
+state_vector:
+  dim: 256
+  blocks:
+    - name: trial_numeric
+      slots: "0:96"
+      builder: numeric
+      params:
+        series: [trial_phase, enrollment, primary_endpoint_met, advisory_vote_yes_pct]
+    - name: market_state
+      slots: "96:144"
+      builder: market_state
+      params:
+        series: [contract_yesno_price]
+        velocity_lags: [1, 5, 30]
+    - name: text_features
+      slots: "144:240"
+      builder: text
+      params:
+        mode: handcrafted
+        window_days: 30
+        entity_keywords: [approved, rejected, complete response, deferred, accepted, AdCom, FDA]
+    - name: calendar
+      slots: "240:256"
+      builder: calendar
+      params: {}
+backtest:
+  commission_bps: 20
+  base_slippage_bps: 60
+  safety_margin_bps: 200
+  kelly_fraction: 0.20
+  kelly_cap: 0.01

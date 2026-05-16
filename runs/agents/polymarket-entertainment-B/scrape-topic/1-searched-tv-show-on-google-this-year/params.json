@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "1-searched-tv-show-on-google-this-year",
+  "queries": [
+    "1-searched-tv-show-on-google-this-year predictions analysis",
+    "1-searched-tv-show-on-google-this-year oddsmaker pick analysis",
+    "1-searched-tv-show-on-google-this-year critic commentary preview",
+    "1-searched-tv-show-on-google-this-year expert forecast roundup",
+    "1-searched-tv-show-on-google-this-year variety deadline hollywood reporter",
+    "1-searched-tv-show-on-google-this-year indiewire commentary",
+    "1-searched-tv-show-on-google-this-year rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/1-searched-tv-show-on-google-this-year",
+  "max_articles": 25
+}

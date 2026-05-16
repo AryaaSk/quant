@@ -1,0 +1,9 @@
+{
+  "url": "https://news.bitcoin.com/coinbase-reports-8-6-record-market-share-and-200-million-derivatives-revenue/",
+  "title": "Coinbase Reports Record 8.6% Market Share and $200M Derivatives Revenue",
+  "published_at": "2026-05-10T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Coinbase derivatives trading volume TTM grew 169% year-over-year, driven by increasing consumer and institutional adoption, with retail derivatives surpassing $200 million in annualized revenue, a new all-time high. Derivatives trading volumes hit $1.09 trillion, enabling Coinbase to capture record 8.6% market share across spot and derivatives markets combined. Consumer trading generated $567 million while institutional trading contributed $136 million during latest period. Coinbase acquired the Deribit derivatives platform for $2.9 billion, which added $52 million to institutional revenue tally. Deribit's $60 billion in open interest and $1 trillion in annualized trading volume position Coinbase to capture high-margin derivatives growth. Management noted derivatives and options integration expected to be major growth driver as more institutional and retail users access these products. Company expanding institutional offerings with integration of derivatives to Prime offering first-in-market cross-margining benefits.",
+  "topic": "COIN",
+  "source_type": "news_scraper.COIN"
+}

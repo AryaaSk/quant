@@ -1,0 +1,9 @@
+{
+  "url": "https://news.bitcoin.com/sealminer-a4-series-debuts-as-bitdeer-hits-new-bitcoin-mining-efficiency-record/",
+  "title": "Bitdeer's Sealminer A4 Series Achieves New Mining Efficiency Milestone",
+  "published_at": "2026-04-07T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Bitdeer Technologies Group unveiled the Sealminer A4 series on April 7, 2026, marking a significant advancement in bitcoin mining hardware efficiency. The flagship model, the A4 Ultra Hydro, delivers 886 terahash per second at 8,372.7 watts with a rated efficiency of 9.45 J/TH, representing substantial progress in power optimization. The A4 lineup comprises three models designed for different deployment scenarios: A4 Ultra Hydro with 886 TH/s at 9.45 J/TH, A4 Pro Hydro with 680 TH/s at 10.9 J/TH, and A4 Pro Air with 336 TH/s at 10.9 J/TH. These machines utilize Bitdeer's proprietary SEAL04 chips built on advanced process nodes. The efficiency gains matter considerably given current market conditions. Since the April 2024 halving reduced bitcoin block rewards, margins for miners running older, less efficient hardware have tightened significantly. The A4 Ultra Hydro's 9.45 J/TH rating represents meaningful improvement over the prior A3 series (12.5-14 J/TH). As a vertically integrated manufacturer controlling chip design, production, and data center operations across multiple continents, Bitdeer directly competes with established rivals like Bitmain and MicroBT. The company has signaled future roadmaps targeting approximately 5 J/TH at the chip level. Notably, Bitdeer withheld pricing, pre-order details, and shipment timelines from the announcement.",
+  "topic": "BTDR",
+  "source_type": "news_scraper.BTDR"
+}

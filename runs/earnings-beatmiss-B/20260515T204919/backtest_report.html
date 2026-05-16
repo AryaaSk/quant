@@ -1,0 +1,17 @@
+<!doctype html>
+<html><head><title>earnings-beatmiss-B backtest</title>
+<style>body{font-family:system-ui;margin:2em;max-width:880px}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ddd;padding:6px;text-align:left;font-family:ui-monospace}img{max-width:100%;margin:1em 0;border:1px solid #eee}</style>
+</head><body>
+<h1>Quarterly earnings beat/miss (Model B — numerical + agent-scraped Voyage text) (earnings-beatmiss-B)</h1>
+<p>Model B for the dual A vs B PoC. Same data, same model class as earnings-beatmiss-A,
+PLUS: claude-sonnet news_scraper agents scrape news for each ticker around its
+earnings dates (per_entity_mode); per-event news text is Voyage-embedded into a
+256-slot text block alongside the numerical features.
+
+The A vs B comparison isolates the text-feature contribution. If B beats A on Brier
+improvement + net return, the agent-army + Voyage methodology generalizes.
+</p>
+<table><tr><th>metric</th><th>value</th></tr><tr><td>brier_model</td><td><pre>0.3533761070646009</pre></td></tr><tr><td>brier_market</td><td><pre>0.29218750000000004</pre></td></tr><tr><td>brier_improvement</td><td><pre>-0.06118860706460083</pre></td></tr><tr><td>accuracy_model</td><td><pre>0.59375</pre></td></tr><tr><td>accuracy_market</td><td><pre>0.59375</pre></td></tr><tr><td>n_events</td><td><pre>32</pre></td></tr><tr><td>n_trades</td><td><pre>31</pre></td></tr><tr><td>hit_rate</td><td><pre>0.6129032258064516</pre></td></tr><tr><td>gross_return</td><td><pre>0.3745423436429989</pre></td></tr><tr><td>net_return</td><td><pre>0.3745423436429989</pre></td></tr><tr><td>sharpe</td><td><pre>1.5671684141940467</pre></td></tr><tr><td>max_drawdown</td><td><pre>-0.07605158781884631</pre></td></tr><tr><td>label_shuffle_brier_improvement</td><td><pre>null</pre></td></tr></table>
+<h2>Equity curve</h2><img src="equity.png">
+<h2>Reliability</h2><img src="reliability.png">
+</body></html>

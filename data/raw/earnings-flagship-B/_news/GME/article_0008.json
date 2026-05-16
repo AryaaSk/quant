@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/gamestop-q4-earnings-beat-estimates-145200269.html",
+  "title": "GameStop Q4 Earnings Beat Estimates, Collectibles Sales Rise YoY",
+  "published_at": "2026-03-24T00:00:00Z",
+  "scraped_at": "2026-05-16T12:00:00Z",
+  "text": "GameStop reported adjusted earnings per share of 30 cents, surpassing the consensus estimate of 9 cents. The company achieved adjusted earnings of 22 cents in the prior-year quarter, demonstrating year-over-year improvement in profitability despite revenue challenges. The collectibles segment showed strength, with sales in the collectibles unit increasing 15.8% to $270.6 million from $233.7 million in the year-ago quarter. This was a bright spot as other categories declined significantly. While the earnings beat was positive, net sales of $1.28 billion missed analyst expectations and fell 28.5% year-over-year, primarily due to weakness in hardware, accessories, and software categories. Despite the revenue decline, the company's ability to beat earnings per share estimates while growing the collectibles segment suggests successful cost management and strategic focus on higher-margin product categories.",
+  "topic": "GME",
+  "source_type": "news_scraper.GME"
+}

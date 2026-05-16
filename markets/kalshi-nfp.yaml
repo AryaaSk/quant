@@ -1,0 +1,75 @@
+slug: kalshi-nfp
+display_name: Kalshi non-farm payrolls direction
+platform: kalshi
+notes: |
+  Monthly NFP release. ADP private payrolls report 2 days before the BLS print and
+  correlate (noisily) with the official number. Information edge: combine ADP, weekly
+  jobless claims trend, JOLTS openings, regional Fed Beige Book sentiment, and recent
+  Fed-speaker tone into a transformer that scores BLS surprise direction.
+time_grain: daily
+held_out_months: 6
+sequence_length: 64
+model: transformer
+data_sources:
+  - name: fred
+    kind: numeric
+    params:
+      series: [PAYEMS, USPRIV, UNRATE, U6RATE, CIVPART, EMRATIO, AHETPI, JTSJOL, ICSA, CCSA, ADPMNUSNERSA]
+  - name: kalshi_contracts
+    kind: market
+    params:
+      contracts: [NFP-DIRECTION, UNEMP-RATE]
+  - name: fed_speakers
+    kind: text
+    params:
+      speakers: [Powell, Williams, Daly, Bostic, Mester, Logan]
+label:
+  kind: bucketed
+  target_event: nfp_release
+  buckets: [-.inf, -100, 0, 100, 200, 300, 500, .inf]
+state_vector:
+  dim: 1024
+  blocks:
+    - name: labor_numeric
+      slots: "0:256"
+      builder: numeric
+      params:
+        series: [PAYEMS, USPRIV, UNRATE, U6RATE, CIVPART, EMRATIO, AHETPI, JTSJOL, ICSA, CCSA]
+    - name: market_state
+      slots: "256:448"
+      builder: market_state
+      params:
+        series: [contract_yesno_price, DGS2, DGS10, T10YIE]
+        velocity_lags: [1, 5, 30]
+    - name: alt_data
+      slots: "448:576"
+      builder: numeric
+      params:
+        series: [adp_payrolls, indeed_postings, redbook]
+    - name: text_features
+      slots: "576:1008"
+      builder: text
+      params:
+        mode: handcrafted
+        window_days: 7
+        entity_keywords: [Powell, Williams, hawkish, dovish, payrolls, hiring, layoff, strong, weak]
+    - name: calendar
+      slots: "1008:1024"
+      builder: calendar
+      params:
+        extra_flag_columns: [fomc_week]
+transformer:
+  layers: 12
+  model_dim: 512
+  heads: 8
+  dropout: 0.1
+train:
+  batch_size: 32
+  epochs: 40
+  learning_rate: 3e-4
+backtest:
+  commission_bps: 20
+  base_slippage_bps: 30
+  safety_margin_bps: 150
+  kelly_fraction: 0.25
+  kelly_cap: 0.02

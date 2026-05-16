@@ -1,0 +1,9 @@
+{
+  "url": "https://www.retailtouchpoints.com/features/etsys-head-of-global-merchandising-on-ai-driven-curation/618877",
+  "title": "Etsy's Head of Global Merchandising on AI-Driven Curation",
+  "published_at": null,
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Etsy's leadership has emphasized the role of AI-driven curation in improving buyer experience and driving marketplace GMS recovery. The company employs what it calls algotorial curation, combining human expertise with machine learning and large language models. Human merchandising experts identify initial trend signals and curate approximately 50 starting listings across specific categories. Machine learning algorithms then expand these curations to around 1,000 items, clustering them to capture nonobvious connections and encourage serendipitous discovery. Large language models ensure the expanded collections are visually cohesive, diverse in product type, and meet quality standards. This hybrid approach leverages human creativity and trend expertise while scaling curation through AI. Early results showed strong engagement with personalized homepages yielding nearly double engagement compared to non-personalized versions. The company has also implemented image-based matching in search and smarter search ranking powered by generative AI to improve relevance. These investments in AI-driven personalization and discovery represent Etsy's primary strategy for returning to GMS growth.",
+  "topic": "ETSY",
+  "source_type": "news_scraper.ETSY"
+}

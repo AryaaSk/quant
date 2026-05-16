@@ -1,0 +1,9 @@
+{
+  "url": "https://stocktwits.com/symbol/ARRY/sentiment",
+  "title": "ARRY Retail Investor Sentiment and Stocktwits Analysis",
+  "published_at": "2026-02-26T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Despite sharp pre-market decline of over 26% in Array's stock, retail sentiment flipped to bullish according to Stocktwits data, with message volume surging 400% in 24 hours, reflecting divergent views on company's future potential. This occurred following company's cautious fiscal 2026 guidance announcement in late February 2026. Message volume rose by 400% over previous 24 hours as of Thursday morning, indicating significant engagement from retail trading community discussing stock. One user said EPS guidance for 2026 is on low side. One user said stock is cheap despite earnings. This suggests retail investors view current valuation as attractive despite recent negative earnings news. Earlier sentiment swing showed: Despite souring stance of Wall Street, retail investors on Stocktwits moved sentiment to extremely bullish territory (89/100), jumping to one-year high from bearish zone day before. Overall, data shows retail investors on StockTwits have displayed contrarian behavior, becoming increasingly bullish on ARRY even as stock declined sharply on earnings concerns.",
+  "topic": "ARRY",
+  "source_type": "news_scraper.ARRY"
+}

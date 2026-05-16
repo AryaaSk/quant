@@ -1,0 +1,24 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "GTLB",
+  "queries": [
+    "GTLB earnings preview 2021 Qq",
+    "GTLB earnings preview 2022 Qq",
+    "GTLB earnings preview 2022 Qq",
+    "GTLB earnings preview 2022 Qq",
+    "GTLB earnings preview 2022 Qq",
+    "GTLB earnings preview 2023 Qq",
+    "GTLB earnings preview 2023 Qq",
+    "GTLB earnings preview 2023 Qq",
+    "GTLB earnings preview 2023 Qq",
+    "GTLB earnings preview 2024 Qq",
+    "GTLB earnings preview 2024 Qq",
+    "GTLB earnings preview 2024 Qq",
+    "GTLB stock news preview",
+    "GTLB guidance outlook quarterly results",
+    "GTLB analyst expectations",
+    "GTLB retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/GTLB",
+  "max_articles": 30
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://www.businesswire.com/news/home/20241114869794/en/Elastic-Announces-AI-Ecosystem-to-Accelerate-GenAI-Application-Development",
+  "title": "Elastic Announces AI Ecosystem to Accelerate GenAI Application Development",
+  "published_at": "2024-11-14T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Elastic announced its comprehensive AI ecosystem to help developers accelerate building and deploying generative AI applications. AI Ecosystem Components: Curated set of AI technologies and tools integrated with Elasticsearch vector database. Includes integrations with leading AI platforms and models. Enables rapid development of RAG applications at enterprise scale. Ecosystem Partners: Major partners include Anthropic (Claude), Cohere, Google Cloud, Hugging Face, LangChain, LlamaIndex, Microsoft, OpenAI, and others. Platform Capabilities: Native vector database functionality in Elasticsearch. Inference API for model integration. Multi-model support enabling flexibility in AI application development. Customer Adoption: 2,700+ customers using Elastic Cloud for vector database workloads. 3,000+ customers total using Elastic for AI use cases. Market Opportunity: AI adoption represents significant growth vector for Elastic. Current 28% penetration in $100k+ ACV customer base, with 70%+ untapped opportunity. Higher consumption growth from AI customers (approximately 6% higher than non-AI customers). Strategic Positioning: Elastic positioning itself as essential infrastructure for enterprise generative AI applications. Focus on bridging enterprise data to frontier LLMs.",
+  "topic": "ESTC",
+  "source_type": "news_scraper.ESTC"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://blog.cobaltintelligence.com/post/upstarts-q4-2024-performance-500-banks-adopt-upstart-ai-lending-platform",
+  "title": "Upstart's Q4 2024 Performance: 500+ Banks Adopt Upstart AI Lending Platform",
+  "published_at": "2025-02-12T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "Upstart achieved significant momentum in Q4 2024 with 500+ banks adopting its AI lending platform. The platform's conversion rate improved sharply to 19.3% versus 11.6% in Q4 2023, reflecting enhanced AI-driven underwriting efficiency. Loan automation rate reached 91%, up from 89% year-over-year, reducing manual intervention delays. Upstart introduced the Payment Transition Model (PTM) in Q4 2024, improving accuracy by tracking 6x more delinquency states. The models demonstrated granular risk assessment by analyzing 1,600+ variables, including employment trends, cash flow patterns, and macroeconomic indicators, processing 77 million repayment events for model training, up 12% year-over-year. Upstart's AI models achieved 6x greater risk separation between highest/lowest risk grades compared to FICO scores' 2x differentiation. Prime borrowers in Upstart's riskiest grade had 10.5% default rates versus 8.3% for subprime borrowers in the safest grade, demonstrating superior risk stratification. Q4 2024 revenue surged 56% to $219 million with originations increasing 89% year-over-year and 31% sequentially.",
+  "topic": "UPST",
+  "source_type": "news_scraper.UPST"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "kalshi-cpi",
+  "display_name": "Kalshi CPI MoM direction",
+  "platform": "kalshi",
+  "notes": "Monthly CPI release. The Federal Reserve's own working paper (Kalshi NBER 2026) showed\nKalshi CPI contracts beat Bloomberg consensus surprises on out-of-sample windows.\nInformation edge: synthesize nowcasts (Atlanta Fed GDPNow, Truflation, Redbook, ADP),\nregional Fed surveys, jobless claims trend, and Fed speaker tone in the 3-day window\npreceding release. Median market participant trades on consensus forecast headlines.\n",
+  "model": "transformer",
+  "state_dim": 1024,
+  "data_sources": [
+    "fred",
+    "kalshi_contracts",
+    "fed_speakers"
+  ],
+  "sources_reachable": {},
+  "sources_error": {
+    "fred": "error: FRED_API_KEY is not set. Get a free key at https://fred.stlouisfed.org/docs/api/api_key.html and add to .env.",
+    "kalshi_contracts": "not_implemented: adapter 'Kalshi' is not implemented yet.\n  Source role: Kalshi event contract closing prices via https://trading-api.readme.io/reference/getmarkets (env KALSHI_EMAIL/PASSWORD) or third-party predictiondata.dev archive.\n  Implement quant/adapters/kalshi.py with class signature `fetch(market, source_params) -> DataFrame`.",
+    "fed_speakers": "not_implemented: adapter 'Fed speakers' is not implemented yet.\n  Source role: Fed speaker transcripts (FOMC, Beige Book, regional Feds) via https://www.federalreserve.gov/.\n  Implement quant/adapters/fed speakers.py with class signature `fetch(market, source_params) -> DataFrame`."
+  },
+  "events_per_year": null,
+  "score": 68.3,
+  "verdict": "kill: 3/3 sources unimplemented",
+  "advance": false
+}

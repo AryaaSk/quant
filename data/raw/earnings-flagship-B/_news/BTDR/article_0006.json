@@ -1,0 +1,9 @@
+{
+  "url": "https://en.cryptonomist.ch/2026/04/07/sealminer-a4-mining-efficiency/",
+  "title": "Sealminer A4 Efficiency Summary",
+  "published_at": "2026-04-07T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Bitdeer has unveiled its new A4 mining hardware series designed for professional Bitcoin operations. The lineup features three models optimized for different cooling configurations. The flagship A4 Ultra Hydro achieves a power efficiency as low as 9.45 J/TH, representing one of the most competitive efficiency ratings currently available. Both the A4 Pro Air and A4 Pro Hydro variants deliver a power efficiency of 10.9 J/TH. These devices target industrial-scale miners seeking to maximize profitability following Bitcoin halvings. The company positioned this release to compete directly in the high-efficiency hardware market, where marginal improvements in power consumption translate to substantial long-term cost savings for large operations. The announcement reflects ongoing industry emphasis on optimizing energy consumption as a critical factor in mining economics alongside network difficulty and regional electricity rates.",
+  "topic": "BTDR",
+  "source_type": "news_scraper.BTDR"
+}

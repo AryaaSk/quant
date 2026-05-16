@@ -1,0 +1,9 @@
+{
+  "url": "https://www.benzinga.com/quote/GME/earnings",
+  "title": "GameStop GME Earnings Summary and Recent Performance",
+  "published_at": "2026-03-24T00:00:00Z",
+  "scraped_at": "2026-05-16T12:00:00Z",
+  "text": "GameStop is scheduled to report Q1 2026 earnings on June 9, 2026. Analysts estimate an EPS of $0.11 and quarterly revenue of $766.63M. In the latest reported period (Q4 2025), GameStop delivered stronger-than-expected earnings. The company posted an EPS of $0.49, surpassing the estimate of $0.31 by 58%. However, revenue totaled $1.10B, falling short of the $1.47B projection by approximately 25%. GameStop has demonstrated a notable earnings streak, having beaten EPS estimates in 7 consecutive quarters. Over the past four quarters, the company averaged an EPS surprise of 1.16% and a revenue surprise of 0.15%. The earnings data reveals a dramatic turnaround for GameStop. The company moved from significant losses in Q1 2024 which showed a loss of $0.12 EPS to consistent profitability, with recent quarters showing positive earnings momentum despite revenue challenges that suggest ongoing business headwinds in the gaming retail sector.",
+  "topic": "GME",
+  "source_type": "news_scraper.GME"
+}

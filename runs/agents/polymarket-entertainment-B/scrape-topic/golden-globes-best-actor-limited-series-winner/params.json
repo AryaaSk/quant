@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "golden-globes-best-actor-limited-series-winner",
+  "queries": [
+    "golden-globes-best-actor-limited-series-winner predictions analysis",
+    "golden-globes-best-actor-limited-series-winner oddsmaker pick analysis",
+    "golden-globes-best-actor-limited-series-winner critic commentary preview",
+    "golden-globes-best-actor-limited-series-winner expert forecast roundup",
+    "golden-globes-best-actor-limited-series-winner variety deadline hollywood reporter",
+    "golden-globes-best-actor-limited-series-winner indiewire commentary",
+    "golden-globes-best-actor-limited-series-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/golden-globes-best-actor-limited-series-winner",
+  "max_articles": 25
+}

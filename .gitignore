@@ -1,0 +1,26 @@
+# Python build
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.hypothesis/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets — never commit
+.env
+.env.local
+
+# Files too large for GitHub (>100 MB limit)
+data/state/hyperliquid-midcap/sequences.npy
+
+# Notebooks
+notebooks/
+*.ipynb_checkpoints
+
+# macOS noise
+.DS_Store
+.vscode/
+.idea/

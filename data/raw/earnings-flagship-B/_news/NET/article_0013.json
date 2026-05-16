@@ -1,0 +1,9 @@
+{
+  "url": "https://blog.cloudflare.com/single-vendor-sase-announcement-2024/",
+  "title": "Fulfilling the promise of single-vendor SASE through network modernization",
+  "published_at": "2024-08-15T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "Cloudflare One is an agile, unified SASE platform designed to connect and protect organizations' workforce, AI agents, and infrastructure. Cloudflare One converges core SASE services such as zero trust network access (ZTNA), secure web gateway (SWG), cloud access security broker (CASB), network-as-a-service (NaaS), and firewall-as-a-service (FWaaS). Cloudflare products help organizations secure internal access and web browsing, protect against phishing threats, govern workforce usage of AI tools, simplify corporate networks, and more. Services include granular least privilege access to internal applications, infrastructure, and AI agents, secure and inspect corporate Internet traffic to help prevent phishing and ransomware, and inspect web, SaaS, email, and cloud traffic for sensitive data like PII and IP. Recent updates to the SASE platform, Cloudflare One, further the promise of single-vendor SASE architecture with new WAN-as-a-service (WANaaS) capabilities including high availability, application awareness, virtual machine deployment options, and enhanced visibility and analytics. Cloudflare achieved delivery of the world's first complete Secure Access Service Edge to support modern post-quantum encryption standards.",
+  "topic": "NET",
+  "source_type": "news_scraper.NET"
+}

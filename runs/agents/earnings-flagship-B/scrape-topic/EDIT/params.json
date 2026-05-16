@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "EDIT",
+  "queries": [
+    "EDIT earnings preview 2020 Q3",
+    "EDIT earnings preview 2020 Q4",
+    "EDIT earnings preview 2021 Q1",
+    "EDIT earnings preview 2021 Q2",
+    "EDIT earnings preview 2021 Q3",
+    "EDIT earnings preview 2021 Q4",
+    "EDIT earnings preview 2022 Q1",
+    "EDIT earnings preview 2022 Q2",
+    "EDIT earnings preview 2022 Q3",
+    "EDIT earnings preview 2022 Q4",
+    "EDIT earnings preview 2023 Q1",
+    "EDIT earnings preview 2023 Q2",
+    "EDIT earnings preview 2023 Q3",
+    "EDIT earnings preview 2023 Q4",
+    "EDIT earnings preview 2024 Q1",
+    "EDIT earnings preview 2024 Q2",
+    "EDIT earnings preview 2024 Q3",
+    "EDIT stock news preview",
+    "EDIT guidance outlook quarterly results",
+    "EDIT analyst expectations",
+    "EDIT retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/EDIT",
+  "max_articles": 30
+}

@@ -1,0 +1,54 @@
+slug: drift-solana
+display_name: Drift Protocol Solana ecosystem perps
+platform: drift
+notes: |
+  Drift Protocol on Solana. Edge: Solana ecosystem Twitter, airdrop schedule
+  determinism, governance vote dates. Hourly bars; 6-48h forward window. Lower fees than
+  Hyperliquid but tighter liquidity on small caps.
+time_grain: hourly
+held_out_months: 3
+sequence_length: 96
+model: transformer
+data_sources:
+  - name: hyperliquid    # we reuse the perp adapter; rename when drift adapter is implemented
+    kind: market
+    params: {coins: [JUP, RAY, COPE]}
+  - name: news_scraper
+    kind: text
+    params: {queries: [JUP, RAY, COPE, Drift]}
+label:
+  kind: binary
+  target_event: forward_return_24h_positive
+state_vector:
+  dim: 384
+  blocks:
+    - name: ohlcv_numeric
+      slots: "0:128"
+      builder: numeric
+      params:
+        series: [close_z, volume_z, funding_rate, open_interest_z]
+    - name: market_state
+      slots: "128:208"
+      builder: market_state
+      params:
+        series: [close_z, funding_rate]
+        velocity_lags: [1, 6, 24]
+    - name: text_features
+      slots: "208:368"
+      builder: text
+      params:
+        mode: handcrafted
+        entity_keywords: [airdrop, vote, partnership, Solana, breakpoint]
+    - name: calendar
+      slots: "368:384"
+      builder: calendar
+      params: {}
+transformer:
+  layers: 8
+  model_dim: 256
+backtest:
+  commission_bps: 10
+  base_slippage_bps: 35
+  safety_margin_bps: 150
+  kelly_fraction: 0.15
+  kelly_cap: 0.01

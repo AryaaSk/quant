@@ -1,0 +1,9 @@
+{
+  "url": "https://reruption.com/en/knowledge/industry-cases/upstarts-ai-credit-risk-modeling-revolutionizes-lending",
+  "title": "Upstart's AI Credit Risk Modeling Revolutionizes Lending",
+  "published_at": "2024-12-01T00:00:00Z",
+  "scraped_at": "2026-05-15T00:00:00Z",
+  "text": "Upstart's sophisticated AI and machine learning models demonstrate more accurate creditworthiness assessment than traditional FICO scores, utilizing over 1,600 non-traditional variables. The company's AI platform has enabled 500+ banks and credit unions to approve 44% more loans than traditional FICO-based systems while maintaining or reducing default rates. Upstart's AI models achieve 6x greater risk separation between highest and lowest risk grades compared to FICO scores' 2x differentiation. The Payment Transition Model (PTM) introduced in Q4 2024 improved accuracy by tracking 6x more delinquency states. The models process 77 million repayment events annually for continuous model training and improvement. Prime borrowers in Upstart's riskiest grade had 10.5% default rates versus 8.3% for subprime borrowers in the safest grade, demonstrating superior risk stratification. This technological advantage positions Upstart as a leader in AI-driven credit assessment.",
+  "topic": "UPST",
+  "source_type": "news_scraper.UPST"
+}

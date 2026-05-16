@@ -1,0 +1,9 @@
+{
+  "url": "https://markets.financialcontent.com/stocks/article/marketminute-2025-9-11-teslas-supercharger-network-the-new-standard-driving-the-ev-revolution",
+  "title": "Tesla's Supercharger Network: The New Standard Driving the EV Revolution",
+  "published_at": "2025-09-11T00:00:00Z",
+  "scraped_at": "2026-05-16T18:00:00Z",
+  "text": "Tesla introduced the North American Charging Standard NACS in November 2022 as an open standard based on the physical design of its earlier proprietary connector. Between May 2023 and February 2024, most major automakers announced plans to adopt NACS for their North American EVs beginning with the 2025 model year, replacing the Combined Charging System Combo 1 connector. ChargePoint and other third-party networks face pressure to rapidly deploy NACS connectors at their stations, ensuring they maintain compatibility with both NACS and legacy CCS standards during the transition period. ChargePoint faces the costly imperative of retrofitting existing stations and installing new ones with NACS connectors to remain relevant. What was once a competitive advantage for Tesla—its vast, reliable Supercharger network—is now becoming a cornerstone for the entire North American EV market. Tesla dominates highway fast charging via Superchargers; third-party networks focus on urban and depot charging, specialized fleet offers, and lower-cost coverage.",
+  "topic": "CHPT",
+  "source_type": "news_scraper.CHPT"
+}

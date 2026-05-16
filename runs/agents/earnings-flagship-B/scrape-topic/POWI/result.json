@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.96508375,
+  "elapsed_s": 367.8950479030609,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 365135,
+    "duration_api_ms": 333445,
+    "ttft_ms": 4512,
+    "num_turns": 63,
+    "result": "Excellent! I've completed the POWI earnings data collection. Here's a summary of what was gathered:\n\n## Collection Complete\n\n**Total Articles Saved: 20**  \n**Output Directory:** `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/POWI/`  \n**Manifest:** `_done` file created with timestamp `2026-05-16T00:00:00Z`\n\n### Articles Collected (by topic):\n\n**Q1 2026 Results** (latest):\n- Q1 2026 earnings transcript with $108.3M revenue, $0.25 EPS\n- Strategic announcements: Mike Balow as SVP Sales, TinySwitch-5 and TopSwitch GaN product launches\n- Q2 guidance: $115-120M revenue\n\n**Historical Earnings** (2021-2024):\n- Q1 2021: 58% YoY revenue growth, strong GaN demand\n- Q4 2021 preview: strong earnings expectations\n- 2023 earnings preview: $0.46 EPS estimate\n- 2024 Q1-Q4: Mixed year with revenue decline but EPS beats\n\n**Strategic Growth Areas:**\n- **Automotive:** 17 of top 20 EV makers in design/production, targeting $100M revenue by 2029\n- **Data Center:** NVIDIA collaboration on 800VDC GaN solutions, $1B+ SAM by 2030\n- **Industrial:** 23% YoY growth in Q1 2026, high-power segment growing 40%+\n\n**Key Metrics from Collection:**\n- Analyst consensus: Strong Buy rating, $53-85 price targets\n- Dividend: $0.215/quarter announced with 5% increase\n- Share buybacks: $50M authorization approved\n\nThe articles span earnings previews, call transcripts, earnings results, and forward guidance across multiple quarters, providing comprehensive coverage of POWI's business performance and strategic positioning in emerging markets like EV power supplies and AI data center infrastructure.",
+    "stop_reason": "end_turn",
+    "session_id": "c22c4823-5c2b-452e-bacc-0d692501c485",
+    "total_cost_usd": 0.96508375,
+    "usage": {
+      "input_tokens": 12314,
+      "cache_creation_input_tokens": 87367,
+      "cache_read_input_tokens": 736850,
+      "output_tokens": 15198,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8702,
+        "ephemeral_5m_input_tokens": 78665
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 8,
+          "output_tokens": 558,
+          "cache_read_input_tokens": 93526,
+          "cache_creation_input_tokens": 5462,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 5462,
+            "ephemeral_1h_input_tokens": 0
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 425060,
+        "outputTokens": 27426,
+        "cacheReadInputTokens": 736850,
+        "cacheCreationInputTokens": 87367,
+        "webSearchRequests": 22,
+        "costUSD": 0.96508375,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "b7b3af97-b6c5-4b56-89ea-d686ed9b0a44"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":365135,\"duration_api_ms\":333445,\"ttft_ms\":4512,\"num_turns\":63,\"result\":\"Excellent! I've completed the POWI earnings data collection. Here's a summary of what was gathered:\\n\\n## Collection Complete\\n\\n**Total Articles Saved: 20**  \\n**Output Directory:** `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/POWI/`  \\n**Manifest:** `_done` file created with timestamp `2026-05-16T00:00:00Z`\\n\\n### Articles Collected (by topic):\\n\\n**Q1 2026 Results** (latest):\\n- Q1 2026 earnings transcript with $108.3M revenue, $0.25 EPS\\n- Strategic announcements: Mike Balow as SVP Sales, TinySwitch-5 and TopSwitch GaN product launches\\n- Q2 guidance: $115-120M revenue\\n\\n**Historical Earnings** (2021-2024):\\n- Q1 2021: 58% YoY revenue growth, strong GaN demand\\n- Q4 2021 preview: strong earnings expectations\\n- 2023 earnings preview: $0.46 EPS estimate\\n- 2024 Q1-Q4: Mixed year with revenue decline but EPS beats\\n\\n**Strategic Growth Areas:**\\n- **Automotive:** 17 of top 20 EV makers in design/production, targeting $100M revenue by 2029\\n- **Data Center:** NVIDIA collaboration on 800VDC GaN solutions, $1B+ SAM by 2030\\n- **Industrial:** 23% YoY growth in Q1 2026, high-power segment growing 40%+\\n\\n**Key Metrics from Collection:**\\n- Analyst consensus: Strong Buy rating, $53-85 price targets\\n- Dividend: $0.215/quarter announced with 5% increase\\n- Share buybacks: $50M authorization approved\\n\\nThe articles span earnings previews, call transcripts, earnings results, and forward guidance across multiple quarters, providing comprehensive coverage of POWI's business performance and strategic positioning in emerging markets like EV power supplies and AI data center infrastructure.\",\"stop_reason\":\"end_turn\",\"session_id\":\"c22c4823-5c2b-452e-bacc-0d692501c485\",\"total_cost_usd\":0.96508375,\"usage\":{\"input_tokens\":12314,\"cache_creation_input_tokens\":87367,\"cache_read_input_tokens\":736850,\"output_tokens\":15198,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":8702,\"ephemeral_5m_input_tokens\":78665},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":8,\"output_tokens\":558,\"cache_read_input_tokens\":93526,\"cache_creation_input_tokens\":5462,\"cache_creation\":{\"ephemeral_5m_input_tokens\":5462,\"ephemeral_1h_input_tokens\":0},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":425060,\"outputTokens\":27426,\"cacheReadInputTokens\":736850,\"cacheCreationInputTokens\":87367,\"webSearchRequests\":22,\"costUSD\":0.96508375,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"b7b3af97-b6c5-4b56-89ea-d686ed9b0a44\"}\n"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://finance.yahoo.com/news/gitlab-reports-second-quarter-fiscal-200500698.html",
+  "title": "GitLab Reports Second Quarter Fiscal Year 2024 Financial Results",
+  "published_at": "2023-09-05T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "GitLab reported Q2 FY2024 financial results for the period ending July 31, 2023. Revenue was $139.6 million, up 38% year-over-year from $101.0 million in the prior year quarter. GAAP gross margin was 89%, up 2 points year-over-year. Non-GAAP gross margin was 91%, up 2 points. GAAP operating loss was $(54.1)M, improving from $(65.3)M. Non-GAAP operating loss was $(4.3)M, a significant improvement from $(27.0)M. GAAP net loss per share was $(0.33), improving from $(0.40). Non-GAAP net income per share was $0.01, up from $(0.15). GitLab achieved a Dollar-Based Net Retention Rate of 124% and was recognized as a leader in both the Gartner Magic Quadrant for DevOps Platforms and The Forrester Wave for Integrated Software Delivery Platforms.",
+  "topic": "GTLB",
+  "source_type": "news_scraper.GTLB"
+}

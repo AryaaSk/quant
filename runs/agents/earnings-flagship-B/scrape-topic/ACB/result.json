@@ -1,0 +1,70 @@
+{
+  "skill": "scrape-topic",
+  "backend": "claude",
+  "ok": true,
+  "returncode": 0,
+  "cost_usd": 0.9137586999999999,
+  "elapsed_s": 349.1175727844238,
+  "error": null,
+  "parsed": {
+    "type": "result",
+    "subtype": "success",
+    "is_error": false,
+    "api_error_status": null,
+    "duration_ms": 343496,
+    "duration_api_ms": 365927,
+    "ttft_ms": 7105,
+    "num_turns": 60,
+    "result": "Done! I've successfully gathered and saved **30 quality articles** about ACB (Aurora Cannabis) to the target directory. Here's what was collected:\n\n## Summary\n\n\u2705 **30 articles saved** to `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ACB/`\n\n### Article Coverage:\n\n**Earnings & Financial Results:**\n- Q3 2025, Q4 2024, Q2 2026, Q3 2026 earnings call transcripts\n- Full year FY2025 results (record $244.4M medical revenue, $49.7M adjusted EBITDA)\n- Quarterly earnings beats/misses analysis\n\n**Strategic Developments:**\n- MedReleaf Australia acquisition (Feb 2024)\n- Safari Flower acquisition ($26.5M, April 2026)\n- Product launches across Germany, Poland, Australia, Canada (April 2026)\n\n**Analyst & Market Sentiment:**\n- Analyst price targets ($5-10 CAD range)\n- Consensus ratings (Hold to Buy)\n- Retail investor sentiment from StockTwits\n- Forecast and price target analysis from TipRanks, MarketBeat, Zacks\n\n**Strategic Themes:**\n- International medical cannabis expansion (Germany, Australia, Poland, UK)\n- Germany descheduling opportunity and double-digit patient growth\n- Medical-first strategy (69-74% margins vs. consumer cannabis 26-40%)\n- EU GMP manufacturing competitive advantage\n\n\u2705 **Manifest file written:** `_done` file contains `count=30 at=2026-05-16T23:59:59Z`\n\nAll articles follow the strict JSON schema with properly timestamped `published_at` (null where unknown) and `scraped_at` dates. Focus was on authoritative sources (Motley Fool, PR Newswire, Nasdaq, Yahoo Finance, StratCann) prioritizing recent and contextual content.",
+    "stop_reason": "end_turn",
+    "session_id": "aa40b863-9aa8-47f4-aafa-4cb68ded1edc",
+    "total_cost_usd": 0.9137586999999999,
+    "usage": {
+      "input_tokens": 4777,
+      "cache_creation_input_tokens": 57892,
+      "cache_read_input_tokens": 1386737,
+      "output_tokens": 20808,
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 57892,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "",
+      "iterations": [
+        {
+          "input_tokens": 8,
+          "output_tokens": 800,
+          "cache_read_input_tokens": 96942,
+          "cache_creation_input_tokens": 458,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 458
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    },
+    "modelUsage": {
+      "claude-haiku-4-5-20251001": {
+        "inputTokens": 398360,
+        "outputTokens": 30872,
+        "cacheReadInputTokens": 1386737,
+        "cacheCreationInputTokens": 57892,
+        "webSearchRequests": 15,
+        "costUSD": 0.9137586999999999,
+        "contextWindow": 200000,
+        "maxOutputTokens": 32000
+      }
+    },
+    "permission_denials": [],
+    "terminal_reason": "completed",
+    "fast_mode_state": "off",
+    "uuid": "d45f0d20-d31f-4ae6-b8b4-2e26ab199db8"
+  },
+  "stdout_truncated": "{\"type\":\"result\",\"subtype\":\"success\",\"is_error\":false,\"api_error_status\":null,\"duration_ms\":343496,\"duration_api_ms\":365927,\"ttft_ms\":7105,\"num_turns\":60,\"result\":\"Done! I've successfully gathered and saved **30 quality articles** about ACB (Aurora Cannabis) to the target directory. Here's what was collected:\\n\\n## Summary\\n\\n\u2705 **30 articles saved** to `/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/ACB/`\\n\\n### Article Coverage:\\n\\n**Earnings & Financial Results:**\\n- Q3 2025, Q4 2024, Q2 2026, Q3 2026 earnings call transcripts\\n- Full year FY2025 results (record $244.4M medical revenue, $49.7M adjusted EBITDA)\\n- Quarterly earnings beats/misses analysis\\n\\n**Strategic Developments:**\\n- MedReleaf Australia acquisition (Feb 2024)\\n- Safari Flower acquisition ($26.5M, April 2026)\\n- Product launches across Germany, Poland, Australia, Canada (April 2026)\\n\\n**Analyst & Market Sentiment:**\\n- Analyst price targets ($5-10 CAD range)\\n- Consensus ratings (Hold to Buy)\\n- Retail investor sentiment from StockTwits\\n- Forecast and price target analysis from TipRanks, MarketBeat, Zacks\\n\\n**Strategic Themes:**\\n- International medical cannabis expansion (Germany, Australia, Poland, UK)\\n- Germany descheduling opportunity and double-digit patient growth\\n- Medical-first strategy (69-74% margins vs. consumer cannabis 26-40%)\\n- EU GMP manufacturing competitive advantage\\n\\n\u2705 **Manifest file written:** `_done` file contains `count=30 at=2026-05-16T23:59:59Z`\\n\\nAll articles follow the strict JSON schema with properly timestamped `published_at` (null where unknown) and `scraped_at` dates. Focus was on authoritative sources (Motley Fool, PR Newswire, Nasdaq, Yahoo Finance, StratCann) prioritizing recent and contextual content.\",\"stop_reason\":\"end_turn\",\"session_id\":\"aa40b863-9aa8-47f4-aafa-4cb68ded1edc\",\"total_cost_usd\":0.9137586999999999,\"usage\":{\"input_tokens\":4777,\"cache_creation_input_tokens\":57892,\"cache_read_input_tokens\":1386737,\"output_tokens\":20808,\"server_tool_use\":{\"web_search_requests\":0,\"web_fetch_requests\":0},\"service_tier\":\"standard\",\"cache_creation\":{\"ephemeral_1h_input_tokens\":57892,\"ephemeral_5m_input_tokens\":0},\"inference_geo\":\"\",\"iterations\":[{\"input_tokens\":8,\"output_tokens\":800,\"cache_read_input_tokens\":96942,\"cache_creation_input_tokens\":458,\"cache_creation\":{\"ephemeral_5m_input_tokens\":0,\"ephemeral_1h_input_tokens\":458},\"type\":\"message\"}],\"speed\":\"standard\"},\"modelUsage\":{\"claude-haiku-4-5-20251001\":{\"inputTokens\":398360,\"outputTokens\":30872,\"cacheReadInputTokens\":1386737,\"cacheCreationInputTokens\":57892,\"webSearchRequests\":15,\"costUSD\":0.9137586999999999,\"contextWindow\":200000,\"maxOutputTokens\":32000}},\"permission_denials\":[],\"terminal_reason\":\"completed\",\"fast_mode_state\":\"off\",\"uuid\":\"d45f0d20-d31f-4ae6-b8b4-2e26ab199db8\"}\n"
+}

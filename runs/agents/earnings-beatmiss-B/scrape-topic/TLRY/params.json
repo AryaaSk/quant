@@ -1,0 +1,22 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "TLRY",
+  "queries": [
+    "TLRY earnings preview 2022 Qq",
+    "TLRY earnings preview 2022 Qq",
+    "TLRY earnings preview 2022 Qq",
+    "TLRY earnings preview 2023 Qq",
+    "TLRY earnings preview 2023 Qq",
+    "TLRY earnings preview 2023 Qq",
+    "TLRY earnings preview 2023 Qq",
+    "TLRY earnings preview 2024 Qq",
+    "TLRY earnings preview 2024 Qq",
+    "TLRY earnings preview 2024 Qq",
+    "TLRY stock news preview",
+    "TLRY guidance outlook quarterly results",
+    "TLRY analyst expectations",
+    "TLRY retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/TLRY",
+  "max_articles": 80
+}

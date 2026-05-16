@@ -1,0 +1,13 @@
+{
+  "market_slug": "earnings-beatmiss-B",
+  "topic": "INOD",
+  "queries": [
+    "INOD earnings preview 2024 Qq",
+    "INOD stock news preview",
+    "INOD guidance outlook quarterly results",
+    "INOD analyst expectations",
+    "INOD retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-beatmiss-B/_news/INOD",
+  "max_articles": 80
+}

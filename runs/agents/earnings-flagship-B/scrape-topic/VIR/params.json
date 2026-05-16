@@ -1,0 +1,29 @@
+{
+  "market_slug": "earnings-flagship-B",
+  "topic": "VIR",
+  "queries": [
+    "VIR earnings preview 2020 Qq",
+    "VIR earnings preview 2020 Qq",
+    "VIR earnings preview 2021 Qq",
+    "VIR earnings preview 2021 Qq",
+    "VIR earnings preview 2021 Qq",
+    "VIR earnings preview 2021 Qq",
+    "VIR earnings preview 2022 Qq",
+    "VIR earnings preview 2022 Qq",
+    "VIR earnings preview 2022 Qq",
+    "VIR earnings preview 2022 Qq",
+    "VIR earnings preview 2023 Qq",
+    "VIR earnings preview 2023 Qq",
+    "VIR earnings preview 2023 Qq",
+    "VIR earnings preview 2023 Qq",
+    "VIR earnings preview 2024 Qq",
+    "VIR earnings preview 2024 Qq",
+    "VIR earnings preview 2024 Qq",
+    "VIR stock news preview",
+    "VIR guidance outlook quarterly results",
+    "VIR analyst expectations",
+    "VIR retail investor sentiment"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/earnings-flagship-B/_news/VIR",
+  "max_articles": 30
+}

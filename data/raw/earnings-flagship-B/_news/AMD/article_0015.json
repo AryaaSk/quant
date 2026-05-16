@@ -1,0 +1,9 @@
+{
+  "url": "https://www.datacenterdynamics.com/en/news/amds-mi300-ai-accelerator-sales-drive-80-percent-growth-in-data-center-segment/",
+  "title": "AMD's MI300 AI Accelerator Sales Drive 80 Percent Growth in Data Center Segment",
+  "published_at": "2024-05-04T00:00:00Z",
+  "scraped_at": "2026-05-16T00:00:00Z",
+  "text": "AMD's MI300 AI GPU sales are a major driver of the company's exceptional data center segment growth, which reached 80 percent year-over-year in Q1 2024. The Instinct MI300 series, which launched in late 2023, has quickly become a revenue powerhouse, rivaling the company's entire CPU business in sales. AMD raised its full-year MI300 GPU revenue guidance to $4 billion from $3.5 billion, a $500 million increase due to accelerating customer demand. The MI300A variant, optimized for large language models and inference, has gained particular traction among cloud providers and enterprise customers. The success of the MI300 series underscores AMD's competitive positioning in the AI accelerator market, capturing market share from traditional players and establishing AMD as a credible alternative source for AI infrastructure. The strong MI300 sales also validate AMD's strategy to compete in both CPU and GPU segments for AI workloads, a differentiation from NVIDIA's focus primarily on GPU accelerators.",
+  "topic": "AMD",
+  "source_type": "news_scraper.AMD"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://videocardz.com/newz/nvidia-rumored-to-cut-geforce-rtx-50-supply-in-h1-2026-rtx-5070-ti-and-5060-ti-to-be-affected-first",
+  "title": "NVIDIA Rumored to Cut GeForce RTX 50 Supply in H1 2026 - Supply Chain Implications",
+  "published_at": "2026-02-01T00:00:00Z",
+  "scraped_at": "2026-05-16T18:30:00Z",
+  "text": "GPU Supply Chain Analysis - NVIDIA RTX 50 Series Supply Cuts Expected in H1 2026.\n\nSupply Cut Announcements: NVIDIA is rumored to be planning production cuts for the GeForce RTX 50 Series in the first half of 2026, with mid-range models including the RTX 5070 Ti and RTX 5060 Ti expected to be affected first.\n\nReasons for Cuts: The supply cuts are driven by higher than expected demand for AI data center GPUs, which are being prioritized in manufacturing. Consumer gaming GPUs are taking secondary priority due to the massive margins and demand in the data center segment.\n\nProduct Impact: RTX 5070 Ti expected to have the most significant supply reductions. RTX 5060 Ti also impacted. Higher-end flagship RTX 5080 and RTX 5090 may see slightly better availability given lower demand sensitivity to pricing.\n\nMarket Implications: Constrained supply of consumer GPUs could support higher retail prices and margins for retailers like Newegg. However, reduced product availability could limit overall demand and transaction volume.\n\nNewegg Impact: As a major consumer GPU retailer, Newegg could benefit from selling inventory at higher prices due to scarcity, but faces risk of reduced revenue if overall GPU sales volume declines due to supply constraints.\n\nTimeline: H1 2026 supply expected to be 30-40% below H1 2025 levels, creating a significant supply-demand imbalance.",
+  "topic": "NEGG",
+  "source_type": "news_scraper.NEGG"
+}

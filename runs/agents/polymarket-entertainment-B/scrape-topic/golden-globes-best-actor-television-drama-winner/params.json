@@ -1,0 +1,15 @@
+{
+  "market_slug": "polymarket-entertainment-B",
+  "topic": "golden-globes-best-actor-television-drama-winner",
+  "queries": [
+    "golden-globes-best-actor-television-drama-winner predictions analysis",
+    "golden-globes-best-actor-television-drama-winner oddsmaker pick analysis",
+    "golden-globes-best-actor-television-drama-winner critic commentary preview",
+    "golden-globes-best-actor-television-drama-winner expert forecast roundup",
+    "golden-globes-best-actor-television-drama-winner variety deadline hollywood reporter",
+    "golden-globes-best-actor-television-drama-winner indiewire commentary",
+    "golden-globes-best-actor-television-drama-winner rotten tomatoes letterboxd"
+  ],
+  "output_dir": "/Users/aryaask/Desktop/quant/data/raw/polymarket-entertainment-B/_news/golden-globes-best-actor-television-drama-winner",
+  "max_articles": 25
+}
